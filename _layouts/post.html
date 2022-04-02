@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<article id="post" class="small-container" data-version="{{ page.version }}">
+  <h1 id="game_title">{{ page.title }}</h1>
+  <header>
+  </header>
+  
+  {{ content }}
+
+  <footer>
+    {% if page.footer %}
+    <ul>
+      {% for note in page.footer %}
+        <li>{{ note }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </footer>
+</article>

@@ -1,0 +1,1386 @@
+I"�|<h2 id="towers">Towers</h2>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Hebra Tower</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Woodland Tower</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Eldin Tower</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Akkala Tower</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Tabantha Tower</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Ridgeland Tower</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Central Tower</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Lanayru Tower</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Gerudo Tower</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Great Plateau Tower</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Dueling Peaks Tower</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Hateno Tower</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Wasteland Tower</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Lake Tower</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Faron Tower</li>
+</ul>
+
+<h2 id="great-fairy-fountains">Great Fairy Fountains</h2>
+<ul class="inline">
+  <li>100</li>
+  <li>500</li>
+  <li>1,000</li>
+  <li>10,000</li>
+</ul>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Kaysa’s Great Fairy Fountain - Near Tabantha Tower</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Mija’s Great Fairy Fountain - East of Akkala Tower</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Tera’s Great Fairy Fountain - North of Kakariko Village</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Cotera’s Great Fairy Fountain - Southwest of Gerudo Town</li>
+</ul>
+
+<h3 id="equipment-upgrades">Equipment Upgrades</h3>
+
+<h4 id="ancient-set">Ancient Set</h4>
+<p>Ancient Helm
+Ancient Cuirass
+Ancient Greaves</p>
+
+<h4 id="barbarian-set">Barbarian Set</h4>
+<p>Barbarian Helm
+Barbarian Armor
+Barbarian Leg Wraps</p>
+
+<h4 id="climbers-set">Climber’s Set</h4>
+<p>Climber’s Bandanna
+Climbing Gear
+Climbing Boots</p>
+
+<h4 id="desert-voe-set">Desert Voe Set</h4>
+<p>Desert Voe Headband
+Desert Voe Spaulder
+Desert Voe Trousers</p>
+
+<h4 id="flamebreaker-set">Flamebreaker Set</h4>
+<p>Flamebreaker Helm
+Flamebreaker Armor
+Flamebreaker Boots</p>
+
+<h4 id="gerudo-disguise">Gerudo Disguise</h4>
+<p>Gerudo Veil
+Gerudo Top
+Gerudo Sirwal</p>
+
+<h4 id="hylian-set">Hylian Set</h4>
+<p>Hylian Hood
+Hylian Tunic
+Hylian Trousers</p>
+
+<h4 id="radiant-set">Radiant Set</h4>
+<p>Radiant Mask
+Radiant Shirt
+Radiant Tights</p>
+
+<h4 id="rubber-set">Rubber Set</h4>
+<p>This set is collected from various side quests and shrines.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td><strong>Rubber Helm</strong></td>
+      <td>Given by Cima at Lakeside Stable for completing “Thunder Magnet”</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★</td>
+      <td>3 Lizalfos Horn</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★</td>
+      <td>5 Lizalfos Horn, 5 Hyrule Bass</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★</td>
+      <td>5 Lizalfos Tail, 5 Hearty Bass</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★★</td>
+      <td>10 Lizalfos Tail, 15 Opal</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td><strong>Rubber Armor</strong></td>
+      <td>Given by King Dorephan during Divine Beast Van Ruta quest</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★</td>
+      <td>3 Lizalfos Horn</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★</td>
+      <td>5 Lizalfos Horn, 5 Hyrule Bass</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★</td>
+      <td>5 Lizalfos Tail, 5 Hearty Bass</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★★</td>
+      <td>10 Lizalfos Tail, 15 Opal</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td><strong>Rubber Tights</strong></td>
+      <td>Given by Laflat after completing Lynel Safari quest</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★</td>
+      <td>3 Lizalfos Horn</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★</td>
+      <td>5 Lizalfos Horn, 5 Hyrule Bass</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★</td>
+      <td>5 Lizalfos Tail, 5 Hearty Bass</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★★</td>
+      <td>10 Lizalfos Tail, 15 Opal</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="snowquill-set">Snowquill Set</h4>
+<p>Snowquill Headdress
+Snowquill Tunic
+Snowquill Trousers</p>
+
+<h4 id="soldiers-set">Soldier’s Set</h4>
+<p>Soldier’s Helm
+Soldier’s Armor
+Soldier’s Greaves</p>
+
+<h4 id="special">Special</h4>
+<p>Champion’s Tunic
+Thunder Helm
+Old Shirt
+Well-Worn Trousers
+Warm Doublet
+Sand Boots
+Snow Boots</p>
+
+<h4 id="stealth-set">Stealth Set</h4>
+<p>Stealth Mask
+Stealth Chest Guard
+Stealth Tights</p>
+
+<h4 id="wild-set">Wild Set</h4>
+<p>Cap of the Wild
+Tunic of the Wild</p>
+
+<h4 id="zora-set">Zora Set</h4>
+<p>The Zora set is found in different locations within Zora’s Domain.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td><strong>Zora Helm</strong></td>
+      <td>Found at Toto Lake via Zora Stone Monument quest</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★</td>
+      <td>3 Lizalfos Horn</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★</td>
+      <td>5 Lizalfos Horn, 5 Hyrule Bass</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★</td>
+      <td>5 Lizalfos Tail, 5 Hearty Bass</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★★</td>
+      <td>10 Lizalfos Tail, 15 Opal</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td><strong>Zora Armor</strong></td>
+      <td>Given by King Dorephan during Divine Beast Van Ruta quest</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★</td>
+      <td>3 Lizalfos Horn</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★</td>
+      <td>5 Lizalfos Horn, 5 Hyrule Bass</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★</td>
+      <td>5 Lizalfos Tail, 5 Hearty Bass</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★★</td>
+      <td>10 Lizalfos Tail, 15 Opal</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td><strong>Zora Greaves</strong></td>
+      <td>Given by Laflat after completing Lynel Safari quest</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★</td>
+      <td>3 Lizalfos Horn</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★</td>
+      <td>5 Lizalfos Horn, 5 Hyrule Bass</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★</td>
+      <td>5 Lizalfos Tail, 5 Hearty Bass</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★★</td>
+      <td>10 Lizalfos Tail, 15 Opal</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="jewelery">Jewelery</h4>
+
+<p>Jewelery items are all found in Gerudo Town after completing the side quest “Starlight Memories.”</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>Amber Earrings</td>
+      <td>◆100 + 10 Amber</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★</td>
+      <td>5 Amber, 3 Flint</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★</td>
+      <td>10 Amber, 3 Flint</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★</td>
+      <td>20 Amber, 3 Flint</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★★</td>
+      <td>30 Amber, 3 Flint</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>Diamond Circlet</td>
+      <td>◆100 + 10 Amber</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★</td>
+      <td>5 Amber, 3 Flint</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★</td>
+      <td>10 Amber, 3 Flint</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★</td>
+      <td>20 Amber, 3 Flint</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★★</td>
+      <td>30 Amber, 3 Flint</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>Opal Earrings</td>
+      <td>◆200 + 8 Opal</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★</td>
+      <td>5 Opal, 3 Flint</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★</td>
+      <td>8 Opal, 3 Flint</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★</td>
+      <td>16 Opal, 3 Flint</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★★</td>
+      <td>20 Opal, 3 Flint</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Ruby Circlet
+Sapphire Circlet</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>Topaz Earrings</td>
+      <td>◆500 + 5 Topaz</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★</td>
+      <td>2 Topaz, 3 Flint</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★</td>
+      <td>4 Topaz, 3 Flint</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★</td>
+      <td>6 Topaz, 1 Star Fragment</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>★★★★</td>
+      <td>10 Topaz, 1 Star Fragment</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="kilton-gear">Kilton Gear</h4>
+<p>Bokoblin Mask
+Dark Hood
+Dark Tunic
+Lizalfos Mask
+Lynel Mask
+Moblin Mask</p>
+
+<h4 id="dlc-gear">DLC Gear</h4>
+<p>Korok Mask (via DLC)
+Majora’s Mask (via DLC)
+Midna’s Helmet (via DLC)
+Phantom Ganon Skull (via DLC)
+Phantom Helmet (via DLC)
+Phantom Ganon Greaves (via DLC)
+Phantom Greaves (via DLC)
+Ravio’s Hood (via DLC)
+Royal Guard Cap (via DLC)
+Royal Guard Uniform (via DLC)
+Royal Guard Boots (via DLC)
+Salvager Headwear (via DLC)
+Salvager Trousers (via DLC)
+Tingle’s Hood (via DLC)
+Tingle’s Shirt (via DLC)
+Tingle’s Tights (via DLC)
+Zant’s Helmet (via DLC)
+Island Lobster Shirt (via DLC)
+Nintendo Switch Shirt (via DLC)
+Phantom Armor (via DLC)
+Phantom Ganon Armor (via DLC)</p>
+
+<h4 id="amiibo-gear">Amiibo Gear</h4>
+<p>Cap of Time (via amiibo)
+Cap of Twilight (via amiibo)
+Cap of the Hero (via amiibo)
+Cap of the Sky (via amiibo)
+Cap of the Wind (via amiibo)
+Fierce Deity Mask (via amiibo)
+Sheik’s Mask (via amiibo)
+Vah Medoh Divine Helm (via amiibo)
+Vah Naboris Divine Helm (via amiibo)
+Vah Rudania Divine Helm (via amiibo)
+Vah Ruta Divine Helm (via amiibo)
+Fierce Deity Armor (via amiibo)
+Tunic of Time (via amiibo)
+Tunic of Twilight (via amiibo)
+Tunic of the Hero (via amiibo)
+Tunic of the Sky (via amiibo)
+Tunic of the Wind (via amiibo)
+Fierce Deity Boots (via amiibo)
+Trousers of Time (via amiibo)
+Trousers of Twilight (via amiibo)
+Trousers of the Hero (via amiibo)
+Trousers of the Sky (via amiibo)
+Trousers of the Wild
+Trousers of the Wind (via amiibo)</p>
+
+<p>❍ Shrines
+ 🧩 Puzzle Shrine
+ ✔ Chest &amp; Orb only (Outdoor tasks)
+ ⚔ Test of Strength (Guardian Fight))</p>
+
+<p>❍ The Great Plateau Area
+ 🧩 Ja Baij
+ ❏ S of Great Plateau Tower
+ ❏ Traveler’s Claymore   ❏ Amber
+ 🧩 Keh Namut
+ ❏ SW of Shrine of Resurrection
+ ❏ Traveler’s Spear
+ 🧩 Oman Au
+ ❏ N of Great Plateau Tower
+ ❏ Traveler’s Bow
+ 🧩 Owa Daim
+ ❏ SW of Great Plateau Tower
+ ❏ Traveler’s Shield</p>
+
+<p>❍ Dueling Peaks Tower Area
+ 🧩 Bosh Kala
+ ❏ W of Dueling Peaks Tower
+ ❏ Soldier’s Claymore    ❏ Amber
+ 🧩 Ha Dahamar
+ ❏ W of Dueling Peaks Stable
+ ❏ Purple Rupee
+ 🧩 Hila Rao
+ “Watch out for the flowers”
+ ❏ N of Dueling Peaks Tower
+ ❏ Ice Arrow x5              ❏  Opal
+ ✔ Lakna Rokee
+ “The Stolen Heirloom”
+ ❏ E of Kakariko Village
+ ❏ Edge of Duality
+ 🧩 Ree Dahee
+ ❏ Between Dueling Peaks
+ ❏ Climber’s Bandanna
+ 🧩 Shee Vaneer
+ ❏ S Dueling Peak
+ ❏ Eightfold Longblade
+ 🧩 Shee Venath
+ ❏ N Dueling Peak
+ ❏ Serpentine Spear
+ ❏ Eightfold Longblade
+ ⚔ Ta’loh Naeg
+ ❏ N of Kakariko Village
+ ❏ Shield of the Mind’s Eye  ❏ Opal
+ ❏ Eightfold Blade
+ 🧩 Toto Sah
+ ❏ SE of Dueling Peaks
+ ❏ Shield of the Mind’s Eye</p>
+
+<p>❍ Hateno Tower Area
+ ⚔ Chaas Qeta
+ ❏ Tenoko Island
+ ❏ Climbing Gear
+ 🧩 Dow Na’eh
+ ❏ N of Hateno Tower
+ ❏ Zora Sword     ❏ Amber     ❏ Opal
+ ✔ Jitan Sa’mi
+ “The Spring of Wisdom”
+ ❏ Summit of Mt. Lanayru
+ ❏ Frostspear
+ 🧩 Kam Urog
+ “The Cursed Statue”
+ ❏ N of Hateno Tower
+ ❏ Soldier’s Spear     ❏ Opal
+ 🧩 Mezza Lo
+ “The Crowned Beast”
+ ❏ N of Hateno Tower
+ ❏ Thunderblade
+ 🧩 Myahm Agana
+ ❏ S of Hateno Village
+ ❏ Phrenic Bow
+ ✔ Tahno O’ah
+ “Secret of the Cedars”
+ ❏ NE of Hateno Research
+ ❏ Climbing Boots</p>
+
+<p>❍ Lanayru Tower Area
+ ✔ Dagah Keek
+ “The Ceremonial Song”
+ ❏ SW of Zora’s Domain
+ ❏ Silver Rupee
+ 🧩 Daka Tuss
+ ❏ SW of Lanayru Tower
+ ❏ Silver Longsword
+ 🧩 Kah Mael
+ ❏ E of Akkala Tower
+ ❏ Diamond
+ 🧩 Kaya Wan
+ ❏ W of Lanayru Tower
+ ❏ Knight’s Broadsword     ❏ Ancient Core
+ 🧩 Ne’ez Yohma
+ ❏ Zora’s Domain
+ ❏ Zora Spear
+ 🧩 Rucco Maag
+ ❏ S of Zora’s Domain
+ ❏ Silver Bow                     ❏ Opal
+ ⚔ Soh Kofi
+ ❏ N of Lanayru Tower
+ ❏ Knight’s Bow
+ ✔ Shai Yota
+ “Master of the Wind”
+ ❏ SE of Zora’s Domain
+ ❏ Great Flameblade
+ 🧩 Sheh Rata
+ ❏ W of Lanayru Tower
+ ❏ Giant Boomerang         ❏ Opal</p>
+
+<p>❍ Faron Tower Area
+ 🧩 Kah Yah
+ “A Fragmented Monument”
+ ❏ E of Faron Tower
+ ❏ Knight’s Claymore
+ ✔ Korgu Chideh
+ “Stranded in Eventide”
+ ❏ SE Island
+ ❏ Gold Rupee
+ ⚔ Muwo Jeem
+ ❏ E of Faron Tower
+ ❏ Knight’s Bow
+ ✔ Qukah Nata
+ “A Song of Storms”
+ ❏ E of Faron Tower
+ ❏ Rubber Tights
+ 🧩 Shai Utoh
+ ❏ SE of Faron Tower
+ ❏ Traveller’s Sword         ❏ Ancient Core
+ 🧩 Shoda Sah
+ ❏ NE of Faron Tower
+ ❏ Ice Arrow x5
+ ✔ Tawa Jinn
+ “The Three Giant Brothers”
+ ❏ S of Hateno Tower
+ ❏ Great Thunderblade
+ 🧩 Yah Rin
+ ❏ E of Faron Tower
+ ❏ Knight’s Broadsword    ❏ Opal</p>
+
+<p>❍ Lake Tower Area
+ 🧩 Ishto Soh
+ ❏ SW of Lake Tower
+ ❏ Ancient Core              ❏ Topaz
+ 🧩 Ka’o Makagh
+ ❏ SE of Lake Tower
+ ❏ Traveler’s Bow    ❏ Gold Rupee     ❏ Opal
+ ⚔ Pumaag Nitae
+ ❏ E of Lake Tower
+ ❏ Boomerang
+ ✔ Shae Katha
+ “The Serpent’s Jaws”
+ ❏ SW of Dueling Peaks
+ ❏ Thunderspear
+ ⚔ Shoqa Tatone
+ “Guardian Slideshow”
+ ❏ S of Lake Tower
+ ❏ Royal Broadsword
+ 🧩 Ya Naga
+ ❏ NW of Lake Tower
+ ❏ Eightfold Blade</p>
+
+<p>❍ Wasteland Tower Area
+ 🧩 Dako Tah
+ “The Eye of the Sandstorm”
+ ❏ W of Wasteland Tower
+ ❏ Moonlight Scimitar  ❏ Silver Rupee
+ ❏ Radiant Shield        ❏ Ancient Core
+ 🧩 Daqo Chisay
+ ❏ S of Gerudo Tower
+ ❏ Thunderblade
+ ✔ Dila Maag
+ “The Desert Labyrinth”
+ ❏ SE of Wasteland Tower
+ ❏ Barbarian Armor
+ 🧩 Hawa Koth
+ ❏ SW of Wasteland Tower
+ ❏ Ancient Core             ❏ Gold Rupee
+ ❏ Sapphire
+ 🧩 Jee Noh
+ ❏ E of Wasteland Tower
+ ❏ Opal
+ 🧩 Kay Noh
+ ❏ W of Wasteland Tower
+ ❏ Gerudo Scimitar
+ 🧩 Kema Zoos
+ “The Silent Swordsman”
+ ❏ W of Wasteland Tower
+ ❏ Moonlight Scimitar
+ ✔ Korsh O’hu
+ “The Seven Heroines”
+ ❏ SW of Wasteland Tower
+ ❏ Flamespear
+ ✔ Misae Suma
+ “The Perfect Drink”
+ ❏ SW of Wasteland Tower
+ ❏ Diamond
+ ✔ Raqa Zunzo
+ “The Undefeated Champ”
+ ❏ SW of Wasteland Tower
+ ❏ Radiant Shield
+ ✔ Suma Sahma
+ “Secret of the Snowy Peaks”
+ ❏ SE of Wasteland Tower
+ ❏ Moonlight Scimitar
+ ✔ Tho Kayu
+ ❏ W of Wasteland Tower
+ ❏ Golden Bow</p>
+
+<p>❍ Gerudo Tower Area
+ 🧩 Joloo Nah
+ ❏ E of Gerudo Tower
+ ❏ Golden Claymore   ❏ Gerudo Spear
+ ✔ Keeha Yoog
+ ❏ N of Gerudo Tower
+ ❏ Diamond
+ ⚔ Kema Kosassa
+ ❏ NW of Gerudo Tower
+ ❏ Silver Rupee
+ 🧩 Kuh Takkar
+ ❏ NE of Gerudo Tower
+ ❏ Frostblade
+ ⚔ Sasa Kai
+ ❏ SE of Gerudo Tower
+ ❏ Frostblade
+ 🧩 Sho Dantu
+ ❏ NW of Gerudo Tower
+ ❏ Silver Rupee</p>
+
+<p>❍ Central Tower Area
+ ⚔ Dah Kaso
+ ❏ SW of Central Tower
+ ❏ Ancient Core
+ 🧩 Kaam Ya’tak
+ ❏ SW of Central Tower
+ ❏ Edge of Duality  ❏ Ancient Core      ❏ Diamond
+ ❏ Silver Rupee      ❏ Knight’s Broadsword  <br />
+ ⚔ Katah Chuki
+ ❏ N of Central Tower
+ ❏ Royal Halberd
+ ⚔ Namika Ozz
+ ❏ NE of Central Tower
+ ❏ Frostspear
+ ⚔ Noya Neha
+ ❏ N of Central Tower
+ ❏ Knight Shield
+ 🧩 Rota Ooh
+ ❏ SW of Central Tower
+ ❏ Feathered Edge
+ ⚔ Saas Ko’sah
+ ❏ Hyrule Castle Docks
+ ❏ Flameblade
+ 🧩 Wahgo Katta
+ ❏ E of Central Tower
+ ❏ Amber</p>
+
+<p>❍ Ridgeland Tower Area
+ ✔ Maag No’rah
+ ❏ B of Ridgeland Tower
+ ❏ Silver Rupee
+ ⚔ Mijah Rokee
+ “Under a Red Moon”
+ ❏ SW of Ridgeland Tower
+ ❏ Frostblade
+ 🧩 Mogg Latan
+ ❏ S of Ridgeland Tower
+ ❏ Forest Dweller’s Bow  ❏ Gold Rupee
+ ❏ Forest Dweller’s Spear 
+ 🧩 Shae Loya
+ ❏ SW of Ridgeland Tower
+ ❏ Falcon Bow     ❏ Topaz
+ 🧩 Sheem Dagoze
+ “The Two Rings”
+ ❏ S of Ridgeland Tower
+ ❏ Great Thunderblade
+ 🧩 Toh Yahsa
+ “Trial of Thunder”
+ ❏ W of Ridgeland Tower
+ ❏ Rubber Armor  ❏ Opal
+ 🧩 Zalta Wa
+ ❏ SE of Ridgeland Tower
+ ❏ Knight’s Bow</p>
+
+<p>❍ Tabantha Tower Area
+ 🧩 Akh Va’quot
+ ❏ Rito Village
+ ❏ Ancient Core  ❏ Sapphire
+ ❏ Feathered Spear 
+ 🧩 Bareeda Naag
+ “The Ancient Rito Song”
+ ❏ N of Tabantha Tower
+ ❏ Falcon Bow             ❏ Diamond
+ 🧩 Kah Okeo
+ ❏ SW of Tabantha Tower
+ ❏ Gold Rupee         ❏ Giant Ancient Core
+ ❏ Forest Dweller’s Sword   ❏ Korok Leaf
+ 🧩 Sha Warvo
+ ❏ N of Tabantha Tower
+ ❏ Purple Rupee  ❏ Knight’s Bow
+ ⚔ Tena Ko’sah
+ ❏ S of Tabantha Tower
+ ❏ Knight’s Halberd
+ 🧩 Voo Lota
+ “Recital at Warbler’s Nest”
+ ❏ NW of Tabantha Tower
+ ❏ Flameblade</p>
+
+<p>❍ Hebra Tower Area
+ 🧩 Dunba Taag
+ ❏ SW of Hebra Tower
+ ❏ Great Thunderblade  ❏ Falcon Bow
+ 🧩 Gee Ha’rah
+ ❏ N of Hebra Tower
+ ❏ Diamond
+ ⚔ Hia Miu
+ ❏ NW of Hebra Tower
+ ❏ Sapphire
+ ⚔ Goma Asaagh
+ ❏ N of Hebra Tower
+ ❏ Royal Claymore
+ ✔ Lanno Kooh
+ ❏ W of Hebra Tower
+ ❏ Gold Rupee
+ 🧩 Maka Rah
+ ❏ W of Hebra Tower
+ ❏ Bomb Arrow x10  ❏ Diamond  ❏ Ancient Core
+ ⚔ Mozo Shenno
+ “The Bird in the Mountains”
+ ❏ NW of Hebra Tower
+ ❏ Diamond
+ ✔ Qaza Tokki
+ “Trial on the Cliff”
+ ❏ NE of Hebra Tower
+ ❏ Barbarian Leg Wraps
+ 🧩 Rin Oyaa
+ ❏ NE of Hebra Tower
+ ❏ Ancient Core
+ 🧩 Rok Uwog
+ ❏ N of Hebra Tower
+ ❏ Drillshaft
+ 🧩 Shada Naw
+ ❏ N of Hebra Tower
+ ❏ Great Frostblade
+ 🧩 Sha Gehma
+ ❏ N of Hebra Tower
+ ❏ Royal Broadsword
+ ✔ To Quomo
+ ❏ NW of Hebra Tower
+ ❏ Royal Claymore</p>
+
+<p>❍ Woodland Tower Area
+ ✔ Daag Chokah
+ “The Lost Pilgrimmage”
+ ❏ NW of Woodland Tower
+ ❏ Ancient Core
+ 🧩 Keo Ruug
+ ❏ NW of Woodland Tower
+ ❏ Knight’s Claymore
+ 🧩 Ketoh Wawai
+ “Shrouded Shrine”
+ ❏ N of Woodland Tower
+ ❏ Ancient Core
+ ✔ Kuhn Sidajj
+ “Trial of Second Sight”
+ ❏ NW of Woodland Tower
+ ❏ Giant Ancient Core
+ ✔ Maag Halan
+ “The Test of Wood”
+ ❏ N of Woodland Tower
+ ❏ Giant Ancient Core
+ 🧩 Mirro Shaz
+ ❏ SE of Woodland Tower
+ ❏ Iron Sledgehammer x2  ❏ Giant Ancient Core
+ 🧩 Monya Toma
+ ❏ W of Woodland Tower
+ ❏ Thunderblade
+ 🧩 Rona Kachta
+ ❏ NW of Woodland Tower
+ ❏ Great Flameblade</p>
+
+<p>❍ Eldin Tower Area
+ 🧩 Daqa Koh
+ ❏ N of Eldin Tower
+ ❏ Silver Rupee
+ ✔ Gorae Torr
+ “The Gut Check Challenge”
+ ❏ N of Eldin Tower
+ ❏ Great Frostblade
+ 🧩 Kayra Mah
+ “A Brother’s Roast”
+ ❏ N of Eldin Tower
+ ❏ Bomb Arrow x5    ❏ Ruby
+ 🧩 Mo’a Keet
+ ❏ SE of Eldin Tower
+ ❏ Knight’s Broadsword
+ 🧩 Qua Raym
+ ❏ W of Eldin Tower
+ ❏ Knight’s Claymore
+ 🧩 Sah Dahaj
+ ❏ E of Eldin Tower
+ ❏ Knight’s Bow
+ 🧩 Shae Mo’sah
+ ❏ NW of Eldin Tower
+ ❏ Ice Arrow x10  ❏ Stone Smasher   ❏ Ruby
+ 🧩 Shora Hah
+ ❏ NW of Eldin Tower
+ ❏ Great Flameblade    ❏ Ice Arrow x10
+ ❏ Giant Ancient Core  ❏ Silver Rupee
+ ❏ Forest Dweller’s Sword ❏ Royal Bow<br />
+ 🧩 Tah Muhl
+ “A Landscape of a Stable”
+ ❏ S of Eldin Tower
+ ❏ Cobble Crusher  ❏ Ruby  ❏ Opal</p>
+
+<p>❍ Akkala Tower Area
+ ⚔ Dah Hesho
+ ❏ E of Akkala Tower
+ ❏ Giant Ancient Core
+ 🧩 Katosa Aug
+ ❏ NE of Akkala Tower
+ ❏ Great Frostblade
+ ⚔ Ke’nai Shakah
+ ❏ SE of Akkala Tower
+ ❏ Sapphire
+ ✔ Ritaag Zumo
+ ❏ NE of Akkala Tower
+ ❏ Giant Ancient Core
+ ✔ Tu Ka’loh
+ ❏ NE of Akkala Tower
+ ❏ Barbarian Helm
+ ⚔ Tutsuwa Nima
+ “The Spring of Power”
+ ❏ NE of Akkala Tower
+ ❏ Flamespear
+ 🧩 Ze Kasho
+ ❏ NW of Akkala Tower
+ ❏ Silverscale Spear
+ ✔ Zuna Kai
+ “The Skull’s Eye”
+ ❏ N of Akkala Tower
+ ❏ Flameblade</p>
+
+<p>❍ Sidequests
+❍ Dueling Peaks Tower Area
+ ❏ Misko, The Great Bandit
+ Dueling Peaks Stable
+ ❏ The Priceless Maracas
+ Kakariko Village
+ ❏ Wild Horses
+ Dueling Peaks Stable
+ ❏ Flown the Coop
+ Kakariko Village
+ ❏ Arrows of Burning Heat
+ Kakariko Village
+ ❏ Koko’s Kitchen
+ ❏ Cooking with Koko
+ ❏ Koko Cuisine
+ ❏ Koko’s Specialty
+ Kakariko Village
+ ❏ Playtime with Cottla
+ Kakariko Village
+ ❏ Find the Fairy Fountain
+ Kakariko Village Outskirts
+ ❏ By Firefly’s Light
+ Kakariko Village</p>
+
+<p>❍ Hateno Tower Area
+ ❏ The Statue’s Bargain
+ Hateno Village
+ ❏ The Weapon Connoisseur
+ Hateno Village
+ ❏ A Gift for my Beloved
+ Hateno Village
+ ❏ The Sheep Rustlers
+ Hateno Village
+ ❏ Robbie’s Research
+ Hateno Ancient Tech Lab
+ ❏ Slated for Upgrades
+ Hateno Ancient Tech Lab
+ ❏ Sunshroom Sensing
+ Hateno Ancient Tech Lab
+ ❏ The Hero’s Cache
+ Hateno Village
+ ❏ From the Ground Up
+ Hateno Village</p>
+
+<p>❍ Lanayru Tower Area
+ ❏ Special Delivery
+East of Lanayru Tower
+ ❏ Diving is Beauty!
+ Zora’s Domain
+ ❏ Lynel Safari
+ Zora’s Domain
+ ❏ Frog Catching
+ Zora’s Domain
+ ❏ The Giant of Ralis Pond
+ Zora’s Domain
+ ❏ Luminous Stone Gathering
+ Zora’s Domain
+ ❏ A Wife Washed Away
+ Zora’s Domain
+ ❏ Riverbed Reward
+ Wetland Stable
+ ❏ Zora Stone Monuments
+ Zora’s Domain</p>
+
+<p>❍ Faron Tower Area
+ ❏ What’s For Dinner?
+ Lurelin Village
+ ❏ Sunken Treasure
+ Lurelin Village
+ ❏ Take Back the Sea
+ Lurelin Village
+ ❏ A Gift of Nightshade
+ Yambi Lake
+ ❏ Thunder Magnet
+ Lakeside Stable</p>
+
+<p>❍ Lake Tower Area
+ ❏ Hunt for the Giant Horse
+ South of Lake Tower
+ ❏ The Horseback Hoodlums
+ Highland Stable</p>
+
+<p>❍ Wasteland Tower Area
+ ❏ Good-sized Horse
+ North of Wasteland Tower
+ ❏ Missing in Action
+ Gerudo Canyon Stable
+ ❏ Rushroom Rush!
+ Gerudo Canyon Stable
+ ❏ An Ice Guy
+ Kara Kara Bazaar
+ ❏ Tools of the Trade
+ Gerudo Town
+ ❏ The Secret Club’s Secret
+ Gerudo Town
+ ❏ Medicinal Molduga
+ Gerudo Town
+ ❏ The Eighth Heroine
+ Gerudo Town
+ ❏ The Forgotten Sword
+ Gerudo Town
+ ❏ The Thunder Helm
+ Gerudo Town
+ ❏ The Mystery Polluter
+ Gerudo Town
+ ❏ The Search for Barta
+ Gerudo Town</p>
+
+<p>❍ Tabantha Tower Area
+ ❏ Curry for What Ail’s You
+ Rito Stable
+ ❏ The Apple of My Eye
+ Rito Village
+ ❏ The Spark of Romance
+ Rito Village
+ ❏ Face the Frost Talus
+ Rito Stable
+ ❏ Find Kheel
+ Rito Village</p>
+
+<p>❍ Hebra Tower Area
+ ❏ Stalhorse Pictured
+ Snowfield Stable</p>
+
+<p>❍ Woodland Tower Area
+ ❏ Balloon Flight
+ Woodland Stable
+ ❏ A Freezing Rod
+ Korok Forest
+ ❏ The Korok Trials
+ Korok Forest
+ ❏ Legendary Rabbit Trial
+ Korok Forest
+ ❏ Leviathan Bones
+ Serenne Stable
+ ❏ A Gift from the Monks
+ Rona Kachta Shrine
+ ❏ Riddles of Hyrule
+ Korok Forest</p>
+
+<p>❍ Central &amp; Ridgeland Tower Area
+ ❏ A Gift for the Great Fairy
+ Tabantha Bridge Stable
+ ❏ The Royal Guard’s Gear
+ Riverside Stable
+ ❏ A Rare Find
+ Outskirt Stable
+ ❏ My Hero
+ Outskirt Stable
+ ❏ A Royal Recipe
+ Riverside Stable
+ ❏ The Royal White Stallion
+ Outskirt Stable</p>
+
+<p>❍ Central &amp; Ridgeland Tower Area
+ ❏ A Gift for the Great Fairy
+ Tabantha Bridge Stable
+ ❏ The Royal Guard’s Gear
+ Riverside Stable
+ ❏ A Rare Find
+ Outskirt Stable
+ ❏ My Hero
+ Outskirt Stable
+ ❏ A Royal Recipe
+ Riverside Stable
+ ❏ The Royal White Stallion
+ Outskirt Stable</p>
+
+<p>❍ Eldin Tower Area
+ ❏ Fireproof Lizard Roundup
+ Southern Mine
+ ❏ The Road to Respect
+ Goron City
+ ❏ Death Mountain’s Secret
+ Goron Hot Springs
+ ❏ The Jewel Trade
+ Goron City</p>
+
+<p>❍ Akkala Tower Area
+ ❏ A Parent’s Love
+ Tarrey Town
+ ❏ Hobbies of the Rich
+ Tarrey Town
+ ❏ A Shady Customer
+ East Akkala Stable
+ ❏ Little Sister’s Big Request
+ South Akkala Stable</p>
+
+<p>❍ Compendium
+❍ Bestiary
+❍ Chuchus
+ ❏ [Blue] Chuchu</p>
+
+<p>❏ Fire Chuchu</p>
+
+<p>❏ Ice Chuchu</p>
+
+<p>❏ Electric Chuchu</p>
+
+<p>❍ Keese
+ ❏ Keese</p>
+
+<p>❏ Fire Keese</p>
+
+<p>❏ Ice Keese</p>
+
+<p>❏ Electric Keese</p>
+
+<p>❍ Octoroks
+ ❏ Water Octorok</p>
+
+<p>❏ Forest Octorok</p>
+
+<p>❏ Rock Octorok</p>
+
+<p>❏ Snow Octorok</p>
+
+<p>❏ Treasure Octorok</p>
+
+<p>❍ Wizzrobe
+ ❏ Fire Wizzrobe</p>
+
+<p>❏ Ice Wizzrobe</p>
+
+<p>❏ Electric Wizzrobe</p>
+
+<p>❏ Meteo Wizzrobe</p>
+
+<p>❏ Blizzrobe</p>
+
+<p>❏ Thunder Wizzrobe</p>
+
+<p>❍ Octoroks
+ ❏ Water Octorok</p>
+
+<p>❏ Forest Octorok</p>
+
+<p>❏ Rock Octorok</p>
+
+<p>❏ Snow Octorok</p>
+
+<p>❏ Treasure Octorok</p>
+
+<p>❍ Bokoblins
+ ❏ [Red] Bokoblin</p>
+
+<p>❏ Blue Bokoblin</p>
+
+<p>❏ Black Bokoblin</p>
+
+<p>❏ Stalkoblin</p>
+
+<p>❏ Silver Bokoblin</p>
+
+<p>❏ Gold Bokoblin
+Master Mode</p>
+
+<p>❍ Moblins
+ ❏ [Red] Moblin</p>
+
+<p>❏ Blue Moblin</p>
+
+<p>❏ Black Moblin</p>
+
+<p>❏ Stalmoblin</p>
+
+<p>❏ Silver Moblin</p>
+
+<p>❏ Gold Moblin
+Master Mode</p>
+
+<p>❍ Lizalfos
+ ❏ [Green] Lizalfos</p>
+
+<p>❏ Blue Lizalfos</p>
+
+<p>❏ Black Lizalfos</p>
+
+<p>❏ Stalizalfos</p>
+
+<p>❏ Fire-Breath Lizalfos</p>
+
+<p>❏ Ice-Breath Lizalfos</p>
+
+<p>❏ Silver Lizalfos</p>
+
+<p>❏ Gold Lizalfos
+Master Mode</p>
+
+<p>❍ Yiga Clan
+ ❏ Yiga Footsoldier</p>
+
+<p>❏ Yiga Blademaster</p>
+
+<p>❏ Master Kohiga</p>
+
+<p>❍ Cursed Monsters
+ ❏ Glowing Eyeball</p>
+
+<p>❏ Cursed Bokoblin</p>
+
+<p>❏ Cursed Moblin</p>
+
+<p>❏ Cursed Lizalfos</p>
+
+<p>❍ Guardians
+ ❏ Guardian Stalker</p>
+
+<p>❏ Guardian Skywatcher</p>
+
+<p>❏ Guardian Turret</p>
+
+<p>❏ Decayed Guardian</p>
+
+<p>❏ Sentry</p>
+
+<p>❏ Guardian Scout I</p>
+
+<p>❏ Guardian Scout II</p>
+
+<p>❏ Guardian Scout III</p>
+
+<p>❏ Guardian Scout IV</p>
+
+<p>❍ Talus
+ ❏ Stone Talus
+❏ Great Plateau Stone Talus
+❏ Deya Lake Stone Talus
+❏ West Nabi Lake Stone Talus
+❏ North Dueling Peaks Stone Talus
+❏ Dueling Peaks South Stone Talus
+❏ North Mable Ridge Stone Talus
+❏ Quince Stone Talus
+❏ Ovli Plain Stone Talus
+❏ Lake Floria Stone Talus
+❏ Martha’s Landing Stone Talus
+❏ Gama Cove Stone Talus
+ ❏ [Luminous] Stone Talus
+❏ Lake Hylia North Stone Talus
+❏ Lake Kolomo Stone Talus
+❏ Mapla Point Stone Talus
+❏ East Mount Granajh Stone Talus
+❏ Champion’s Gate North Stone Talus
+❏ South Taafei Hill Stone Talus
+❏ South Koukot Plateau Stone Talus
+❏ Mount Nabooru Stone Talus
+❏ Rutimala Hill Stone Talus
+❏ Lake Hylia North Stone Talus
+❏ Upland Lindor Stone Talus
+❏ Southern Tal Tal Peak Stone Talus
+❏ Crenel Hills Stone Talus
+ ❏ [Rare] Stone Talus
+❏ West Vatorsa Snowfield Stone Talus
+❏ Illumeni Plateau Stone Talus
+❏ Gisa Crater Stone Talus
+❏ Kolami Bridge South Stone Talus
+❏ Hyrule Castle West Stone Talus
+❏ Hyrule Castle Underground Stone Talus
+ ❏ Igneo Talus
+❏ Gorko Lake Igneo Talus
+❏ Darunia Lake Igneo Talus
+❏ Lake Darman Igneo Talus
+❏ Darb Pond Igneo Talus
+❏ Goronbi Lake North Igneo Talus
+ ❏ Frost Talus
+❏ Laproah Mesa Frost Talus
+❏ West Sapphia’s Table Frost Talus
+❏ West Rospro Pass Frost Talus
+❏ Coldsnap Hollow Frost Talus
+❏ Pikida Stonegrove Frost Talus
+ ❏ Stone Pebblit</p>
+
+<p>❏ Igneo Pebblit</p>
+
+<p>❏ Frost Pebblit</p>
+
+<p>❍ Hinox
+ ❏ [Red] Hinox
+❏ Kincean Island Hinox
+❏ Phalian Highlands Hinox
+❏ Purifier Lake Hinox
+❏ West Loshlo Harbor Hinox
+❏ Mount Taran Hinox
+❏ Tibio’s Hollow Hinox
+❏ Kamah Plateau Hinox
+ ❏ Blue Hinox
+❏ Seres Scablands Blue Hinox
+❏ West Hyrule Plains Blue Hinox
+❏ North Hyrule Castle Blue Hinox
+❏ Aldor Foothills Blue Hinox
+❏ Thyphlo Ruins Blue Hinox
+❏ Digdogg Suspension Bridge Blue Hinox
+❏ South Akkala Tower Blue Hinox
+❏ Talus Plateau Blue Hinox
+❏ Ja’Abu Ridge Blue Hinox
+❏ Ralis Pond Blue Hinox
+❏ Applean Forest Blue Hinox
+❏ East Ranch Ruins Blue Hinox
+❏ Trotter’s Downfall Blue Hinox
+❏ Eventide Island Blue Hinox
+❏ Mount Taran in Uten Marsh Blue Hinox
+❏ Herin Lake Blue Hinox
+ ❏ Black Hinox
+❏ Lake Totori South Black Hinox
+❏ Hebra West Summit Black Hinox
+❏ Giant’s Forest Black Hinox
+❏ East Gut Check Rock Black Hinox
+❏ Tempest Gulch Black Hinox
+❏ Tabahi Woods Black Hinox
+❏ Mount Taran in Rabella Wetlands Black Hinox
+ ❏ Stalnox
+❏ Icefall Foothills Stalnox
+❏ Satori Mountain Stalnox
+❏ Rowan Plain Stalnox
+❏ East Akkala Plains Stalnox
+❏ Hickaly Woods Stalnox
+❏ North Aris Beach Stalnox
+❏ Harfin Valley Stalnox
+❏ Eastern Daval Peak Stalnox
+❏ East Hyrule Castle Stalnox
+❏ Hyrule Castle Underground Stalnox</p>
+
+<p>❍ Molduga
+ ❏ Molduga
+❏ Southern Oasis Modulga
+❏ Arbiter’s Grounds Modulga
+❏ Dragon’s Exile Modulga
+❏ Toruma Dunes Modulga</p>
+
+<p>❍ Lynels
+ ❏ [Red] Lynel</p>
+
+<p>❏ Blue Lynel
+ Note: On Master Mode this Lynel will become unavailable
+ ❏ White-Maned Lynel</p>
+
+<p>❏ Silver Lynel</p>
+
+<p>❏ Gold Lynel
+Master Mode</p>
+
+<p>❍ Ganon
+ ❏ Thunderblight Ganon</p>
+
+<p>❏ Fireblight Ganon</p>
+
+<p>❏ Waterblight Ganon</p>
+
+<p>❏ Windblight Ganon</p>
+
+<p>❏ Calamity Ganon</p>
+
+<p>❏ Dark Beast Ganon</p>
+
+<p>❍ Korok Seeds
+ ❏ Stone Talus
+ ❏ Opened
+ Near Tabantha Tower
+ ❏ Mija’s Great Fairy Fountain
+ ❏ Opened
+ East of Akkala Tower
+ ❏ Tera’s Great Fairy Fountain
+ ❏ Opened
+ North of Kakariko Village
+ ❏ Cotera’s Great Fairy Fountain
+ ❏ Opened
+ Southwest of Gerudo Town</p>
+
+:ET

@@ -1,0 +1,31 @@
+---
+layout: default
+# https://jekyllrb.com/docs/datafiles/
+---
+
+<article id="guide" class="small-container" data-version="{{ page.version }}">
+  <h1 id="game_title">{{ page.title }}</h1>
+  <header>
+    {% if page.metadata %}
+      <aside class="metadata">
+        <ul>
+          {% for item in page.metadata %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </aside>
+    {% endif %}
+  </header>
+  
+  {{ content }}
+
+  <footer>
+    {% if page.footer %}
+    <ul>
+      {% for note in page.notes %}
+        <li>{{ note }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </footer>
+</article>

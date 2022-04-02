@@ -1,0 +1,22 @@
+/**
+ * Lists
+ */
+
+article#guide {
+  ul {
+    list-style-type: none;
+
+    li {
+      & > input[type="checkbox"] {
+        margin-right: 1rem;
+      }
+    }
+
+    &.inline {
+      li {
+        display: inline;
+        float: left;
+      }
+    }
+  }
+}

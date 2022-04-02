@@ -1,0 +1,12 @@
+I"W<p><img src="/assets/images/selfie.jpg" alt="Image of meeeeee!" class="w-64 mr-4" /></p>
+
+<h2 id="hello-world">Hello world</h2>
+
+<p>I’m a developer in the northeast US. My background is primarily in FOSS Web Development (PHP, Python, Ruby, PostgreSQL, MariaDB, etc), but the vast majority of stuff I do nowadays is in Ruby and Ruby on Rails 🦁. I’m a big advocate for using technology to reduce cognitive load (particularly in the cases where technology is already increasing it!), in the veins of Krug’s “Don’t Make Me Think” and similar work.</p>
+
+<h2 id="this-site">This Site</h2>
+
+<p>This site will be technical-focused, and include discussion about software design, Rails, DevOps stuff, UX, intended for an informed, but not expert-level, audience.</p>
+
+<p>As an experiment (and to finally force me to learn more of this whole JavaScript thing, as well as practice my DevOps), this site is statically built using <a href="https://bridgetownrb.com">Bridgetown.rb</a>, using <a href="https://tailwindcss.com">TailwindCSS</a> as its framework. It uses JavaScript, but in a state of protest.</p>
+:ET

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Completionist Guides</title>
+  <id>http://localhost:4000</id>
+  <link href="http://localhost:4000" />
+  <link href="http://localhost:4000/atom.xml" rel="self" />
+  <updated>2022-03-28T15:27:41-04:00</updated>
+  <rights>Copyright 2014, Aaron</rights>
+  <author>
+    <name>Aaron</name>
+  </author>
+  
+</feed>
