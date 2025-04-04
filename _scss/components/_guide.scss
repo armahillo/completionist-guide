@@ -1,11 +1,107 @@
 article#guide {
+  .c {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+  }
+
   ol {
     list-style: none;
     margin: 0;
     padding: 0;
+
+    &.collapsed {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
   }
-  label input[type="checkbox"] {
-    padding-right: 2rem;
-   
+
+  label {
+    transition: 0.5s;
+    border: 1px solid var(--cached-color);
+    padding: 0.5rem;
+
+    [type="checkbox"], [type="radio"] {
+      opacity: 0;
+      padding: 0;
+      margin: 0;
+      width: 0;
+      height: 0;
+    }
+  }
+
+  label:has(:checked) {
+    transition: 0.75s;
+    background-color: var(--fresh-color);
+    color: var(--background-color);
+
+    &.cached {
+      background-color: var(--cached-color);
+    }
+  }
+
+  .levels {
+    display: flex;
+    flex-direction: row;
+    //justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    li label:has([type="radio"]) {
+      background-color: var(--fresh-color);
+      color: var(--background-color);
+      border-color: var(--fresh-color);
+      padding: 0.5rem 1.25rem;
+
+      &.cached {
+        background-color: var(--cached-color);
+        border-color: var(--cached-color);
+      }
+
+      .hide-after-complete {
+        display: none;
+      }
+    }
+
+    li:has(> label :checked) ~ li label:has([type="radio"]) {
+      border-color: var(--disallowed-color);
+      color: var(--background-color);
+      background-color: var(--disallowed-color);
+
+      .hide-after-complete {
+        display: none;
+      }
+    }
+
+    li:has(> label [type="radio"]:checked) + li label:has([type="radio"]) {
+      transition: 0.5s;
+      color: var(--text-color);
+      border-color: var(--text-color);
+      background-color: var(--background-color);
+
+      .hide-after-complete {
+        display: inline;
+      }
+    }
+  }
+
+  .gear {
+    margin: 0;
+    padding: 0;
+
+    li ol {
+      li {
+        input {
+          display: none;
+        }
+        ul {
+          font-weight: normal;
+          margin: 0;
+          padding: 0;
+          list-style: none;
+        }
+      }
+    }
   }
 }

@@ -1,0 +1,39 @@
+:root {
+  --color-hunter-green: #536f50;
+  --color-gray-dark: #767676;
+  --color-slate-blue: #86a5a9;
+  --color-mint-green: #92c582;
+  --color-cream: #fdffe0;
+  --color-rust: #b94117;
+  --color-cheese: #ffd372;
+  --color-taupe: #d7d1b9;
+  --color-gray: #959595;
+  --color-dark-slate: #2e3b4b;
+}
+body[data-game="zelda_botw"] {
+  @media (prefers-color-scheme: dark) {
+    --background-color: var(--color-dark-slate);
+    --text-color: var(--color-cheese);
+    --link-color: var(--color-slate-blue);
+    --cached-color: var(--color-gray);
+    --fresh-color: var(--color-mint-green);
+    --disallowed-color: var(--color-rust);
+  }
+  @media (prefers-color-scheme: light) {
+    --background-color: var(--color-cream);
+    --text-color: var(--color-hunter-green);
+    --link-color: var(--color-rust);
+    --cached-color: var(--color-hunter-green);
+    --fresh-color: var(--color-mint-green);
+    --disallowed-color: var(--color-rust);
+  }
+
+  background-color: var(--background-color);
+  color: var(--text-color);
+  h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+  }
+  a {
+    color: var(--link-color);
+  }
+}

@@ -3,98 +3,342 @@ layout: guide
 title: "Zelda: Breath of the Wild"
 game: zelda_botw
 metadata:
-  last_updated: 03-27-2022
+  last_updated: 04-04-2025
 ---
 
+Palette reference:
+
+<span class="c" style="background-color: var(--color-hunter-green)"></span>
+<span class="c" style="background-color: var(--color-gray-dark)"></span>
+<span class="c" style="background-color: var(--color-slate-blue)"></span>
+<span class="c" style="background-color: var(--color-mint-green)"></span>
+<span class="c" style="background-color: var(--color-cream)"></span>
+<span class="c" style="background-color: var(--color-rust)"></span>
+<span class="c" style="background-color: var(--color-cheese)"></span>
+<span class="c" style="background-color: var(--color-taupe)"></span>
+<span class="c" style="background-color: var(--color-gray)"></span>
+<span class="c" style="background-color: var(--color-dark-slate)"></span>
 ## Towers
 
-<ol>
+<ol class="collapsed">
   <li><label for="towers_hebra"><input id="towers_hebra" type="checkbox" name="towers[hebra]" /> Hebra Tower</label></li>
   <li><label for="towers_woodland"><input id="towers_woodland" type="checkbox" name="towers[woodland]" /> Woodland Tower</label></li>
-  <li><label for="towers_eldin"><input id="towers_eldin" type="checkbox" name="towers[eldin]" />Eldin Tower</label></li>
-  <li><label for="towers_akkala"><input id="towers_akkala" type="checkbox" name="towers[akkala]" />Akkala Tower</label></li>
-  <li><label for="towers_tabantha"><input id="towers_tabantha" type="checkbox" name="towers[tabantha]" />Tabantha Tower</label></li>
-  <li><label for="towers_ridgeland"><input id="towers_ridgeland" type="checkbox" name="towers[ridgeland]" />Ridgeland Tower</label></li>
-  <li><label for="towers_central"><input id="towers_central" type="checkbox" name="towers[central]" />Central Tower</label></li>
-  <li><label for="towers_lanaryu"><input id="towers_lanaryu" type="checkbox" name="towers[lanaryu]" />Lanayru Tower</label></li>
-  <li><label for="towers_gerudo"><input id="towers_gerudo" type="checkbox" name="towers[gerudo]" />Gerudo Tower</label></li>
-  <li><label for="towers_great_plateau"><input id="towers_great_plateau" type="checkbox" name="towers[great_plateau]" />Great Plateau Tower</label></li>
-  <li><label for="towers_dueling_peaks"><input id="towers_dueling_peaks" type="checkbox" name="towers[dueling_peaks]" />Dueling Peaks Tower</label></li>
-  <li><label for="towers_hateno"><input id="towers_hateno" type="checkbox" name="towers[hateno]" />Hateno Tower</label></li>
-  <li><label for="towers_wasteland"><input id="towers_wasteland" type="checkbox" name="towers[wasteland]" />Wasteland Tower</label></li>
+  <li><label for="towers_eldin"><input id="towers_eldin" type="checkbox" name="towers[eldin]" /> Eldin Tower</label></li>
+  <li><label for="towers_akkala"><input id="towers_akkala" type="checkbox" name="towers[akkala]" /> Akkala Tower</label></li>
+  <li><label for="towers_tabantha"><input id="towers_tabantha" type="checkbox" name="towers[tabantha]" /> Tabantha Tower</label></li>
+  <li><label for="towers_ridgeland"><input id="towers_ridgeland" type="checkbox" name="towers[ridgeland]" /> Ridgeland Tower</label></li>
+  <li><label for="towers_central"><input id="towers_central" type="checkbox" name="towers[central]" /> Central Tower</label></li>
+  <li><label for="towers_lanaryu"><input id="towers_lanaryu" type="checkbox" name="towers[lanaryu]" /> Lanayru Tower</label></li>
+  <li><label for="towers_gerudo"><input id="towers_gerudo" type="checkbox" name="towers[gerudo]" /> Gerudo Tower</label></li>
+  <li><label for="towers_great_plateau"><input id="towers_great_plateau" type="checkbox" name="towers[great_plateau]" /> Great Plateau Tower</label></li>
+  <li><label for="towers_dueling_peaks"><input id="towers_dueling_peaks" type="checkbox" name="towers[dueling_peaks]" /> Dueling Peaks Tower</label></li>
+  <li><label for="towers_hateno"><input id="towers_hateno" type="checkbox" name="towers[hateno]" /> Hateno Tower</label></li>
+  <li><label for="towers_wasteland"><input id="towers_wasteland" type="checkbox" name="towers[wasteland]" /> Wasteland Tower</label></li>
   <li><label for="towers_lake"><input id="towers_lake" type="checkbox" name="towers[lake]" />Lake Tower</label></li>
-  <li><label for="towers_faron"><input id="towers_faron" type="checkbox" name="towers[faron]" />Faron Tower</label></li>
+  <li><label for="towers_faron"><input id="towers_faron" type="checkbox" name="towers[faron]" /> Faron Tower</label></li>
 </ol>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Great Fairy Fountains
-Activating each fountain costs incrementally more: &#9670;100, &#9670;500, &#9670;1,000, &#9670;10,000
 
-  - [ ] Kaysa's Great Fairy Fountain - Near Tabantha Tower
-  - [ ] Mija's Great Fairy Fountain - East of Akkala Tower
-  - [ ] Tera's Great Fairy Fountain - North of Kakariko Village
-  - [ ] Cotera's Great Fairy Fountain - Southwest of Gerudo Town
-
-### God of Horses
-Activating this fountain is a flat &#9670;1,000 fee, regardless of how many other fountains have been activated.
-
-  - [ ] Malanya's Great (Horse) Fairy Fountain - near Lake Hylia
+<ul>
+  <li>Kaysa's Great Fairy Fountain - Near Tabantha Tower
+    <ol class="levels">
+      <li><label for="great_fairy_fountains_kaysa_0"><input id="great_fairy_fountains_kaysa_0" type="radio" name="great_fairy_fountains[kaysa]" checked="true" />None</label></li>
+      <li><label for="great_fairy_fountains_kaysa_1"><input id="great_fairy_fountains_kaysa_1" type="radio" name="great_fairy_fountains[kaysa]" value="1" /> &#9670; 100</label></li>
+      <li><label for="great_fairy_fountains_kaysa_2"><input id="great_fairy_fountains_kaysa_2" type="radio" name="great_fairy_fountains[kaysa]" value="2" /> &#9670; 500</label></li>
+      <li><label for="great_fairy_fountains_kaysa_3"><input id="great_fairy_fountains_kaysa_3" type="radio" name="great_fairy_fountains[kaysa]" value="3" /> &#9670; 1,000</label></li>
+      <li><label for="great_fairy_fountains_kaysa_4"><input id="great_fairy_fountains_kaysa_4" type="radio" name="great_fairy_fountains[kaysa]" value="4" /> &#9670; 10,000</label></li>
+    </ol>
+  </li>
+  <li>Mija's Great Fairy Fountain - East of Akkala Tower
+    <ol class="levels">
+      <li><label for="great_fairy_fountains_mija_0"><input id="great_fairy_fountains_mija_0" type="radio" name="great_fairy_fountains[mija]" checked="true" />None</label></li>
+      <li><label for="great_fairy_fountains_mija_1"><input id="great_fairy_fountains_mija_1" type="radio" name="great_fairy_fountains[mija]" value="1" /> &#9670; 100</label></li>
+      <li><label for="great_fairy_fountains_mija_2"><input id="great_fairy_fountains_mija_2" type="radio" name="great_fairy_fountains[mija]" value="2" /> &#9670; 500</label></li>
+      <li><label for="great_fairy_fountains_mija_3"><input id="great_fairy_fountains_mija_3" type="radio" name="great_fairy_fountains[mija]" value="3" /> &#9670; 1,000</label></li>
+      <li><label for="great_fairy_fountains_mija_4"><input id="great_fairy_fountains_mija_4" type="radio" name="great_fairy_fountains[mija]" value="4" /> &#9670; 10,000</label></li>
+    </ol>
+  </li>
+  <li>Tera's Great Fairy Fountain - North of Kakariko Village
+    <ol class="levels">
+      <li><label for="great_fairy_fountains_tera_0"><input id="great_fairy_fountains_tera_0" type="radio" name="great_fairy_fountains[tera]" checked="true" />None</label></li>
+      <li><label for="great_fairy_fountains_tera_1"><input id="great_fairy_fountains_tera_1" type="radio" name="great_fairy_fountains[tera]" value="1" /> &#9670; 100</label></li>
+      <li><label for="great_fairy_fountains_tera_2"><input id="great_fairy_fountains_tera_2" type="radio" name="great_fairy_fountains[tera]" value="2" /> &#9670; 500</label></li>
+      <li><label for="great_fairy_fountains_tera_3"><input id="great_fairy_fountains_tera_3" type="radio" name="great_fairy_fountains[tera]" value="3" /> &#9670; 1,000</label></li>
+      <li><label for="great_fairy_fountains_tera_4"><input id="great_fairy_fountains_tera_4" type="radio" name="great_fairy_fountains[tera]" value="4" /> &#9670; 10,000</label></li>
+    </ol>
+  </li>
+  <li>Cotera's Great Fairy Fountain - Southwest of Gerudo Town
+    <ol class="levels">
+      <li><label for="great_fairy_fountains_cotera_0"><input id="great_fairy_fountains_cotera_0" type="radio" name="great_fairy_fountains[cotera]" checked="true" />None</label></li>
+      <li><label for="great_fairy_fountains_cotera_1"><input id="great_fairy_fountains_cotera_1" type="radio" name="great_fairy_fountains[cotera]" value="1" /> &#9670; 100</label></li>
+      <li><label for="great_fairy_fountains_cotera_2"><input id="great_fairy_fountains_cotera_2" type="radio" name="great_fairy_fountains[cotera]" value="2" /> &#9670; 500</label></li>
+      <li><label for="great_fairy_fountains_cotera_3"><input id="great_fairy_fountains_cotera_3" type="radio" name="great_fairy_fountains[cotera]" value="3" /> &#9670; 1,000</label></li>
+      <li><label for="great_fairy_fountains_cotera_4"><input id="great_fairy_fountains_cotera_4" type="radio" name="great_fairy_fountains[cotera]" value="4" /> &#9670; 10,000</label></li>
+    </ol>
+  </li>
+  <li>Malanya's Great (Horse) Fairy Fountain - near Lake Hylia
+    <ol class="levels">
+      <li><label for="great_fairy_fountains_god_of_horses_0"><input id="great_fairy_fountains_god_of_horses_0" type="radio" name="great_fairy_fountains[god_of_horses]" checked="true" />None</label></li>
+      <li><label for="great_fairy_fountains_god_of_horses_1"><input id="great_fairy_fountains_god_of_horses_1" type="radio" name="great_fairy_fountains[god_of_horses]" value="1" /> &#9670; 1,000</label></li>
+    </ol>
+  </li>
+</ul>
 
 ## Equipment Upgrades
 
 ### Ancient Set
+
 These items are purchaseable from Robbie at the Akkala Ancient Tech Lab after completing the "Robbie's Research" quest.
 
-| <input type="checkbox" /> | **Ancient Helm** | &#9670;2,000, 20 Ancient Gear, 5 Ancient Screw, 5 Ancient Core |
-| <input type="checkbox" /> | &#9733;        | 5 Ancient Screw, 5 Ancient Spring |
-| <input type="checkbox" /> | &#9733;&#9733; | 15 Ancient Spring, 10 Ancient Gear |
-| <input type="checkbox" /> | &#9733;&#9733;&#9733; | 15 Ancient Shaft, 5 Ancient Core |
-| <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 1 Star Fragment, 2 Giant Ancient Core |
-
-| <input type="checkbox" /> | **Ancient Cuirass** | &#9670;2,000, 20 Ancient Gear, 5 Ancient Screw, 3 Ancient Core |
-| <input type="checkbox" /> | &#9733;        | 5 Ancient Screw, 5 Ancient Spring |
-| <input type="checkbox" /> | &#9733;&#9733; | 15 Ancient Spring, 10 Ancient Gear |
-| <input type="checkbox" /> | &#9733;&#9733;&#9733; | 15 Ancient Shaft, 5 Ancient Core |
-| <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 3 Star Fragment, 3 Giant Ancient Core |
-
-| <input type="checkbox" /> | **Ancient Greaves** | &#9670;2,000, 20 Ancient Gear, 5 Ancient Screw, 3 Ancient Core |
-| <input type="checkbox" /> | &#9733;        | 5 Ancient Screw, 5 Ancient Spring |
-| <input type="checkbox" /> | &#9733;&#9733; | 15 Ancient Spring, 10 Ancient Gear |
-| <input type="checkbox" /> | &#9733;&#9733;&#9733; | 15 Ancient Shaft, 5 Ancient Core |
-| <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 1 Star Fragment, 2 Giant Ancient Core |
+<ul class="gear">
+  <li>
+    <ol class="levels">
+      <li><label for="equipment_ancient_helm_none"><input id="equipment_ancient_helm_none" type="radio" name="equipment[ancient][helm]" checked="true" />-</label></li>
+      <li><label for="equipment_ancient_helm_0">
+        <input id="equipment_ancient_helm_0" type="radio" name="equipment[ancient][helm]" value="0" />
+        Ancient Helm
+        <ul class="hide-after-complete">
+          <li>&#9670; 2000</li>
+          <li>20 Ancient Gear</li>
+          <li>5 Ancient Screw</li>
+          <li>5 Ancient Core</li>
+        </ul></label></li>
+      <li><label for="equipment_ancient_helm_1">
+        <input id="equipment_ancient_helm_1" type="radio" name="equipment[ancient][helm]" value="1" />
+        &#9733;
+        <ul class="hide-after-complete">
+          <li>5 Ancient Screw</li>
+          <li>5 Ancient Spring</li>
+        </ul></label></li>
+      <li><label for="equipment_ancient_helm_2">
+        <input id="equipment_ancient_helm_2" type="radio" name="equipment[ancient][helm]" value="2" />
+        &#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>15 Ancient Spring</li>
+          <li>10 Ancient Gear</li>
+        </ul></label></li>
+      <li><label for="equipment_ancient_helm_3">
+        <input id="equipment_ancient_helm_3" type="radio" name="equipment[ancient][helm]" value="3" />
+        &#9733;&#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>15 Ancient Shaft</li>
+          <li>5 Ancient Core</li>
+        </ul></label></li>
+      <li><label for="equipment_ancient_helm_4">
+        <input id="equipment_ancient_helm_4" type="radio" name="equipment[ancient][helm]" value="4" />
+        &#9733;&#9733;&#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>1 Star Fragment</li>
+          <li>20 Ancient Gear</li>
+          <li>2 Giant Ancient Core</li>
+        </ul></label></li>
+    </ol>
+  </li>
+  <li>
+    <ol class="levels">
+      <li><label for="equipment_ancient_cuirass_none"><input id="equipment_ancient_cuirass_none" type="radio" name="equipment[ancient][cuirass]" checked="true" />-</label></li>
+      <li><label for="equipment_ancient_cuirass_0">
+        <input id="equipment_ancient_cuirass_0" type="radio" name="equipment[ancient][cuirass]" value="0" />
+        Ancient Cuirass
+        <ul class="hide-after-complete">
+          <li>&#9670; 2000</li>
+          <li>20 Ancient Gear</li>
+          <li>5 Ancient Screw</li>
+          <li>5 Ancient Core</li>
+        </ul></label></li>
+      <li><label for="equipment_ancient_cuirass_1">
+        <input id="equipment_ancient_cuirass_1" type="radio" name="equipment[ancient][cuirass]" value="1" />
+        &#9733;
+        <ul class="hide-after-complete">
+          <li>5 Ancient Screw</li>
+          <li>5 Ancient Spring</li>
+        </ul></label></li>
+      <li><label for="equipment_ancient_cuirass_2">
+        <input id="equipment_ancient_cuirass_2" type="radio" name="equipment[ancient][cuirass]" value="2" />
+        &#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>15 Ancient Spring</li>
+          <li>10 Ancient Gear</li>
+        </ul></label></li>
+      <li><label for="equipment_ancient_cuirass_3">
+        <input id="equipment_ancient_cuirass_3" type="radio" name="equipment[ancient][cuirass]" value="3" />
+        &#9733;&#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>15 Ancient Shaft</li>
+          <li>5 Ancient Core</li>
+        </ul></label></li>
+      <li><label for="equipment_ancient_cuirass_4">
+        <input id="equipment_ancient_cuirass_4" type="radio" name="equipment[ancient][cuirass]" value="4" />
+        &#9733;&#9733;&#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>3 Star Fragment</li>
+          <li>3 Giant Ancient Core</li>
+        </ul></label></li>
+    </ol>
+  </li>
+  <li>
+    <ol class="levels">
+      <li><label for="equipment_ancient_greaves_none"><input id="equipment_ancient_greaves_none" type="radio" name="equipment[ancient][greaves]" checked="true" />-</label></li>
+      <li><label for="equipment_ancient_greaves_0">
+        <input id="equipment_ancient_greaves_0" type="radio" name="equipment[ancient][greaves]" value="0" />
+        Ancient Greaves
+        <ul class="hide-after-complete">
+          <li>&#9670; 2000</li>
+          <li>20 Ancient Gear</li>
+          <li>5 Ancient Screw</li>
+          <li>5 Ancient Core</li>
+        </ul></label></li>
+      <li><label for="equipment_ancient_greaves_1">
+        <input id="equipment_ancient_greaves_1" type="radio" name="equipment[ancient][greaves]" value="1" />
+        &#9733;
+        <ul class="hide-after-complete">
+          <li>5 Ancient Screw</li>
+          <li>5 Ancient Spring</li>
+        </ul></label></li>
+      <li><label for="equipment_ancient_greaves_2">
+        <input id="equipment_ancient_greaves_2" type="radio" name="equipment[ancient][greaves]" value="2" />
+        &#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>15 Ancient Spring</li>
+          <li>10 Ancient Gear</li>
+        </ul></label></li>
+      <li><label for="equipment_ancient_greaves_3">
+        <input id="equipment_ancient_greaves_3" type="radio" name="equipment[ancient][greaves]" value="3" />
+        &#9733;&#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>15 Ancient Shaft</li>
+          <li>5 Ancient Core</li>
+        </ul></label></li>
+      <li><label for="equipment_ancient_greaves_4">
+        <input id="equipment_ancient_greaves_4" type="radio" name="equipment[ancient][greaves]" value="4" />
+        &#9733;&#9733;&#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>1 Star Fragment</li>
+          <li>2 Giant Ancient Core</li>
+        </ul></label></li>
+    </ol>
+  </li>
+</ul>
 
 ### Barbarian Set
-| <input type="checkbox" /> | **Barbarian Helm** | Found in the shrine at the end of Lomei Labyrinth Island (northeast Akkala) |
-| <input type="checkbox" /> | &#9733;        | 1 Lynel Horn |
-| <input type="checkbox" /> | &#9733;&#9733; | 3 Lynel Horn, 2 Lynel Hoof |
-| <input type="checkbox" /> | &#9733;&#9733;&#9733; | 4 Lynel Hoof, 1 Lynel Guts |
-| <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 2 Lynel Guts, 1 Shard of Dinraal's Horn |
 
-| <input type="checkbox" /> | **Barbarian Armor** | Found in the shrine at the end of South Lomei Labyrinth (east of Gerudo Desert) |
-| <input type="checkbox" /> | &#9733;        | 1 Lynel Horn |
-| <input type="checkbox" /> | &#9733;&#9733; | 3 Lynel Horn, 2 Lynel Hoof |
-| <input type="checkbox" /> | &#9733;&#9733;&#9733; | 4 Lynel Hoof, 1 Lynel Guts |
-| <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 2 Lynel Guts, 1 Shard of Farosh's Horn |
-
-| <input type="checkbox" /> | **Barbarian Leg Wraps** | Found in the shrine at the end of North Lomei Labyrinth (northeast of Tabantha Tundra) |
-| <input type="checkbox" /> | &#9733;        | 1 Lynel Horn |
-| <input type="checkbox" /> | &#9733;&#9733; | 3 Lynel Horn, 2 Lynel Hoof |
-| <input type="checkbox" /> | &#9733;&#9733;&#9733; | 4 Lynel Hoof, 1 Lynel Guts |
-| <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 2 Lynel Guts, 1 Shard of Naydra's Horn |
+<ul class="gear">
+  <li>
+    <ol class="levels">
+      <li><label for="equipment_barbarian_helm_none"><input id="equipment_barbarian_helm_none" type="radio" name="equipment[barbarian][helm]" checked="true" />-</label></li>
+      <li><label for="equipment_barbarian_helm_0">
+        <input id="equipment_barbarian_helm_0" type="radio" name="equipment[barbarian][helm]" value="0" />
+        Barbarian Helm
+        <ul class="hide-after-complete">
+          <li>Lomei Labyrinth Island (NE Akkala)</li>
+        </ul></label></li>
+      <li><label for="equipment_barbarian_helm_1">
+        <input id="equipment_barbarian_helm_1" type="radio" name="equipment[barbarian][helm]" value="1" />
+        &#9733;
+        <ul class="hide-after-complete">
+          <li>1 Lynel Horn</li>
+        </ul></label></li>
+      <li><label for="equipment_barbarian_helm_2">
+        <input id="equipment_barbarian_helm_2" type="radio" name="equipment[barbarian][helm]" value="2" />
+        &#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>3 Lynel Horn</li>
+          <li>2 Lynel Hoof</li>
+        </ul></label></li>
+      <li><label for="equipment_barbarian_helm_3">
+        <input id="equipment_barbarian_helm_3" type="radio" name="equipment[barbarian][helm]" value="3" />
+        &#9733;&#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>4 Lynel Hoof</li>
+          <li>1 Lynel Guts</li>
+        </ul></label></li>
+      <li><label for="equipment_barbarian_helm_4">
+        <input id="equipment_barbarian_helm_4" type="radio" name="equipment[barbarian][helm]" value="4" />
+        &#9733;&#9733;&#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>2 Lynel Guts</li>
+          <li>1 Shard of Dinraal's Horn</li>
+        </ul></label></li>
+    </ol>
+  </li>
+  <li>
+    <ol class="levels">
+      <li><label for="equipment_barbarian_armor_none"><input id="equipment_barbarian_armor_none" type="radio" name="equipment[barbarian][armor]" checked="true" />-</label></li>
+      <li><label for="equipment_barbarian_armor_0">
+        <input id="equipment_barbarian_armor_0" type="radio" name="equipment[barbarian][armor]" value="0" />
+        Barbarian Armor
+        <ul class="hide-after-complete">
+          <li>South Lomei Labyrinth (E of Gerudo Desert)</li>
+        </ul></label></li>
+      <li><label for="equipment_barbarian_armor_1">
+        <input id="equipment_barbarian_armor_1" type="radio" name="equipment[barbarian][armor]" value="1" />
+        &#9733;
+        <ul class="hide-after-complete">
+          <li>1 Lynel Horn</li>
+        </ul></label></li>
+      <li><label for="equipment_barbarian_armor_2">
+        <input id="equipment_barbarian_armor_2" type="radio" name="equipment[barbarian][armor]" value="2" />
+        &#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>3 Lynel Horn</li>
+          <li>2 Lynel Hoof</li>
+        </ul></label></li>
+      <li><label for="equipment_barbarian_armor_3">
+        <input id="equipment_barbarian_armor_3" type="radio" name="equipment[barbarian][armor]" value="3" />
+        &#9733;&#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>4 Lynel Hoof</li>
+          <li>1 Lynel Guts</li>
+        </ul></label></li>
+      <li><label for="equipment_barbarian_armor_4">
+        <input id="equipment_barbarian_armor_4" type="radio" name="equipment[barbarian][armor]" value="4" />
+        &#9733;&#9733;&#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>2 Lynel Guts</li>
+          <li>1 Shard of Farosh's Horn</li>
+        </ul></label></li>
+    </ol>
+  </li>
+  <li>
+    <ol class="levels">
+      <li><label for="equipment_barbarian_leg_wraps_none"><input id="equipment_barbarian_leg_wraps_none" type="radio" name="equipment[barbarian][leg_wraps]" checked="true" />-</label></li>
+      <li><label for="equipment_barbarian_leg_wraps_0">
+        <input id="equipment_barbarian_leg_wraps_0" type="radio" name="equipment[barbarian][leg_wraps]" value="0" />
+        Barbarian Leg Wraps
+        <ul class="hide-after-complete">
+          <li>North Lomei Labyrinth (NE of Tabantha Tundra)</li>
+        </ul></label></li>
+      <li><label for="equipment_barbarian_leg_wraps_1">
+        <input id="equipment_barbarian_leg_wraps_1" type="radio" name="equipment[barbarian][leg_wraps]" value="1" />
+        &#9733;
+        <ul class="hide-after-complete">
+          <li>1 Lynel Horn</li>
+        </ul></label></li>
+      <li><label for="equipment_barbarian_leg_wraps_2">
+        <input id="equipment_barbarian_leg_wraps_2" type="radio" name="equipment[barbarian][leg_wraps]" value="2" />
+        &#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>3 Lynel Horn</li>
+          <li>2 Lynel Hoof</li>
+        </ul></label></li>
+      <li><label for="equipment_barbarian_leg_wraps_3">
+        <input id="equipment_barbarian_leg_wraps_3" type="radio" name="equipment[barbarian][leg_wraps]" value="3" />
+        &#9733;&#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>4 Lynel Hoof</li>
+          <li>1 Lynel Guts</li>
+        </ul></label></li>
+      <li><label for="equipment_barbarian_leg_wraps_4">
+        <input id="equipment_barbarian_leg_wraps_4" type="radio" name="equipment[barbarian][leg_wraps]" value="4" />
+        &#9733;&#9733;&#9733;&#9733;
+        <ul class="hide-after-complete">
+          <li>2 Lynel Guts</li>
+          <li>1 Shard of Naydra's Horn</li>
+        </ul></label></li>
+    </ol>
+  </li>
+</ul>
 
 ### Climber's Set
 These items are found in various shrines at different locations.
@@ -119,21 +363,21 @@ These items are found in various shrines at different locations.
 
 
 ### Desert Voe Set
-These items are purchaseable at the Gerudo Secret Club (GSC&#9670;) in Gerudo.
+These items are purchaseable at the Gerudo Secret Club (GSC&#9670; ) in Gerudo.
 
-| <input type="checkbox" /> | **Desert Voe Headband** | &#9670;450 |
+| <input type="checkbox" /> | **Desert Voe Headband** | &#9670; 450 |
 | <input type="checkbox" /> | &#9733;        | 3 White Chuchu Jelly |
 | <input type="checkbox" /> | &#9733;&#9733; | 5 White Chuchu Jelly, 3 Ice Keese Wing |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 8 Ice Keese Wing, 3 Icy Lizalfos Tail |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 10 Icy Lizalfos Tail, 5 Sapphire |
 
-| <input type="checkbox" /> | **Desert Voe Spaulder** | &#9670;1300 |
+| <input type="checkbox" /> | **Desert Voe Spaulder** | &#9670; 1300 |
 | <input type="checkbox" /> | &#9733;        | 3 White Chuchu Jelly |
 | <input type="checkbox" /> | &#9733;&#9733; | 5 White Chuchu Jelly, 3 Ice Keese Wing |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 8 Ice Keese Wing, 3 Icy Lizalfos Tail |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 10 Icy Lizalfos Tail, 5 Sapphire |
 
-| <input type="checkbox" /> | **Desert Voe Trousers** | &#9670;650 |
+| <input type="checkbox" /> | **Desert Voe Trousers** | &#9670; 650 |
 | <input type="checkbox" /> | &#9733;        | 3 White Chuchu Jelly |
 | <input type="checkbox" /> | &#9733;&#9733; | 5 White Chuchu Jelly, 3 Ice Keese Wing |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 8 Ice Keese Wing, 3 Icy Lizalfos Tail |
@@ -142,19 +386,19 @@ These items are purchaseable at the Gerudo Secret Club (GSC&#9670;) in Gerudo.
 ### Flamebreaker Set
 This set can be purchased at the store "Ripped and Shredded" in Goro Village, though the Flamebreaker Armor and Boots can be given as part of a quest.
 
-| <input type="checkbox" /> | **Flamebreaker Helm** | &#9670;2000 |
+| <input type="checkbox" /> | **Flamebreaker Helm** | &#9670; 2000 |
 | <input type="checkbox" /> | &#9733;        | 1 Fireproof Lizard, 2 Moblin Horn |
 | <input type="checkbox" /> | &#9733;&#9733; | 3 Fireproof Lizard, 4 Moblin Fang |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 3 Smotherwing Butterfly, 3 Moblin Guts |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 5 Smotherwing Butterfly, 2 Hinox Guts |
 
-| <input type="checkbox" /> | **Flamebreaker Armor** | &#9670;600 **or** given by Kima in the Southern Mine for completing Fireproof Lizard Roundup |
+| <input type="checkbox" /> | **Flamebreaker Armor** | &#9670; 600 **or** given by Kima in the Southern Mine for completing Fireproof Lizard Roundup |
 | <input type="checkbox" /> | &#9733;        | 1 Fireproof Lizard, 2 Moblin Horn |
 | <input type="checkbox" /> | &#9733;&#9733; | 3 Fireproof Lizard, 4 Moblin Fang |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 3 Smotherwing Butterfly, 3 Moblin Guts |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 5 Smotherwing Butterfly, 2 Hinox Guts |
 
-| <input type="checkbox" /> | **Flamebreaker Boots** | &#9670;700 |
+| <input type="checkbox" /> | **Flamebreaker Boots** | &#9670; 700 |
 | <input type="checkbox" /> | &#9733;        | 1 Fireproof Lizard, 2 Moblin Horn |
 | <input type="checkbox" /> | &#9733;&#9733; | 3 Fireproof Lizard, 4 Moblin Fang |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 3 Smotherwing Butterfly, 3 Moblin Guts |
@@ -165,40 +409,40 @@ This set can be purchased at the store "Ripped and Shredded" in Goro Village, th
 ### Hylian Set
 This set can be purchased at either Enchanted (Kakariko Village) or Ventest (Hateno Village) 
 
-| <input type="checkbox" /> | **Hylian Hood** | &#9670;60 |
+| <input type="checkbox" /> | **Hylian Hood** | &#9670; 60 |
 | <input type="checkbox" /> | &#9733;        | 5 Bokoblin Horn |
 | <input type="checkbox" /> | &#9733;&#9733; | 8 Bokoblin Horn, 5 Bokoblin Fang |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 10 Bokoblin Fang, 5 Bokoblin Guts |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 15 Bokoblin Guts, 15 Amber |
 
-| <input type="checkbox" /> | **Hylian Tunic** | &#9670;120 |
+| <input type="checkbox" /> | **Hylian Tunic** | &#9670; 120 |
 | <input type="checkbox" /> | &#9733;        | 5 Bokoblin Horn |
 | <input type="checkbox" /> | &#9733;&#9733; | 8 Bokoblin Horn, 5 Bokoblin Fang |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 10 Bokoblin Fang, 5 Bokoblin Guts |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 15 Bokoblin Guts, 15 Amber |
 
-| <input type="checkbox" /> | **Hylian Trousers** | &#9670;90 |
+| <input type="checkbox" /> | **Hylian Trousers** | &#9670; 90 |
 | <input type="checkbox" /> | &#9733;        | 5 Bokoblin Horn |
 | <input type="checkbox" /> | &#9733;&#9733; | 8 Bokoblin Horn, 5 Bokoblin Fang |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 10 Bokoblin Fang, 5 Bokoblin Guts |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 15 Bokoblin Guts, 15 Amber |
 
 ### Radiant Set
-These items are purchaseable at the Gerudo Secret Club (GSC&#9670;) in Gerudo.
+These items are purchaseable at the Gerudo Secret Club (GSC&#9670; ) in Gerudo.
 
-| <input type="checkbox" /> | **Radiant Mask** | &#9670;800, 3 Luminous Stone|
+| <input type="checkbox" /> | **Radiant Mask** | &#9670; 800, 3 Luminous Stone|
 | <input type="checkbox" /> | &#9733;        | 5 Luminous Stone, 3 Bokoblin Guts |
 | <input type="checkbox" /> | &#9733;&#9733; | 8 Luminous Stone, 3 Moblin Guts |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 10 Luminous Stone, 2 Moldulga Guts |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 20 Luminous Stone, 1 Lynel Guts |
 
-| <input type="checkbox" /> | **Radiant Shirt** | &#9670;800, 3 Luminous Stone|
+| <input type="checkbox" /> | **Radiant Shirt** | &#9670; 800, 3 Luminous Stone|
 | <input type="checkbox" /> | &#9733;        | 5 Luminous Stone, 3 Bokoblin Guts |
 | <input type="checkbox" /> | &#9733;&#9733; | 8 Luminous Stone, 3 Moblin Guts |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 10 Luminous Stone, 2 Moldulga Guts |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 20 Luminous Stone, 1 Lynel Guts |
 
-| <input type="checkbox" /> | **Radiant Tights** | &#9670;800, 3 Luminous Stone|
+| <input type="checkbox" /> | **Radiant Tights** | &#9670; 800, 3 Luminous Stone|
 | <input type="checkbox" /> | &#9733;        | 5 Luminous Stone, 3 Bokoblin Guts |
 | <input type="checkbox" /> | &#9733;&#9733; | 8 Luminous Stone, 3 Moblin Guts |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 10 Luminous Stone, 2 Moldulga Guts |
@@ -228,19 +472,19 @@ This set is collected from various side quests and shrines.
 ### Snowquill Set
 This set can be purchased at Brazen Beak in Rito Village
 
-| <input type="checkbox" /> | **Snowquill Headdress** | &#9670;1,000 |
+| <input type="checkbox" /> | **Snowquill Headdress** | &#9670; 1,000 |
 | <input type="checkbox" /> | &#9733;        | 3 Red Chuchu Jelly |
 | <input type="checkbox" /> | &#9733;&#9733; | 5 Red Chuchu Jelly, 3 Warm Saffina |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 8 Fire Keese Wing, 5 Sunshroom |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 10 Red Lizalfos Tail, 5 Ruby |
 
-| <input type="checkbox" /> | **Snowquill Tunic** | &#9670;600 |
+| <input type="checkbox" /> | **Snowquill Tunic** | &#9670; 600 |
 | <input type="checkbox" /> | &#9733;        | 3 Red Chuchu Jelly |
 | <input type="checkbox" /> | &#9733;&#9733; | 5 Red Chuchu Jelly, 3 Warm Saffina |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 8 Fire Keese Wing, 5 Sunshroom |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 10 Red Lizalfos Tail, 5 Ruby |
 
-| <input type="checkbox" /> | **Snowquill Trousers** | &#9670;550 |
+| <input type="checkbox" /> | **Snowquill Trousers** | &#9670; 550 |
 | <input type="checkbox" /> | &#9733;        | 3 Red Chuchu Jelly |
 | <input type="checkbox" /> | &#9733;&#9733; | 5 Red Chuchu Jelly, 3 Warm Saffina |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 8 Fire Keese Wing, 5 Sunshroom |
@@ -249,19 +493,19 @@ This set can be purchased at Brazen Beak in Rito Village
 ### Soldier's Set
 This set can be purchased at Ventest in Hateno Village
 
-| <input type="checkbox" /> | **Soldier's Helm** | &#9670;180 |
+| <input type="checkbox" /> | **Soldier's Helm** | &#9670; 180 |
 | <input type="checkbox" /> | &#9733;        | 5 Chuchu Jelly, 3 Bokoblin Guts |
 | <input type="checkbox" /> | &#9733;&#9733; | 3 Keese Eyeball, 3 Moblin Guts |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 2 Lizalfos Tail, 2 Hinox Guts |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 4 Lynel Hoof , 2 Lynel Guts |
 
-| <input type="checkbox" /> | **Soldier's Armor** | &#9670;250 |
+| <input type="checkbox" /> | **Soldier's Armor** | &#9670; 250 |
 | <input type="checkbox" /> | &#9733;        | 5 Chuchu Jelly, 3 Bokoblin Guts |
 | <input type="checkbox" /> | &#9733;&#9733; | 3 Keese Eyeball, 3 Moblin Guts |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 2 Lizalfos Tail, 2 Hinox Guts |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 4 Lynel Hoof , 2 Lynel Guts |
 
-| <input type="checkbox" /> | **Soldier's Greaves** | &#9670;200 |
+| <input type="checkbox" /> | **Soldier's Greaves** | &#9670; 200 |
 | <input type="checkbox" /> | &#9733;        | 5 Chuchu Jelly, 3 Bokoblin Guts |
 | <input type="checkbox" /> | &#9733;&#9733; | 3 Keese Eyeball, 3 Moblin Guts |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 2 Lizalfos Tail, 2 Hinox Guts |
@@ -278,27 +522,27 @@ These items are awarded through quests or found, and are not upgradeable, with t
 
 | <input type="checkbox" /> | **Thunder Helm** | Given by Riju in Gerudo after completing 4 side quests during "The Thunder Helm" quest |
 | <input type="checkbox" /> | **Old Shirt**, **Well-Worn Trousers** | found in Rejuvenation Chamber |
-| <input type="checkbox" /> | **Gerudo Veil, Top, Sirwal** | Buy for &#9670;650 from Vilia in Kara Kara Bazaar during "Forbidden City Entry" |
+| <input type="checkbox" /> | **Gerudo Veil, Top, Sirwal** | Buy for &#9670; 650 from Vilia in Kara Kara Bazaar during "Forbidden City Entry" |
 | <input type="checkbox" /> | **Sand Boots** | Given by Bozai in Gerudo after completing "The Eighth Heroine" quest (permanently after completing "The Forgotten Sword") |
 | <input type="checkbox" /> | **Snow Boots** | Borrowed from Bozai in Gerudo during "The Eighth Heroine" quest (given permanently after completing "The Forgotten Sword") |
-| <input type="checkbox" /> | **Warm Doublet** | Given by the Old Man on Great Plateau in exchange for Spicy Meat &amp; Seafood Fry (Raw Meat, Hyrule Bass, Spicy Pepper), or purchased for &#9670;80 at Ventest in Hateno Village |
+| <input type="checkbox" /> | **Warm Doublet** | Given by the Old Man on Great Plateau in exchange for Spicy Meat &amp; Seafood Fry (Raw Meat, Hyrule Bass, Spicy Pepper), or purchased for &#9670; 80 at Ventest in Hateno Village |
 
 ### Stealth Set
 This set can be purchased at Enchanted in Kakariko Village
 
-| <input type="checkbox" /> | **Stealth Mask** | &#9670;500 |
+| <input type="checkbox" /> | **Stealth Mask** | &#9670; 500 |
 | <input type="checkbox" /> | &#9733;        | 3 Blue Nightshade |
 | <input type="checkbox" /> | &#9733;&#9733; | 5 Blue Nightshade, 5 Sunset Firefly |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 8 Silent Shroom, 5 Sneaky River Snail |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 10 Stealthfin Trout, 5 Silent Princess |
 
-| <input type="checkbox" /> | **Stealth Chest Guard** | &#9670;700 |
+| <input type="checkbox" /> | **Stealth Chest Guard** | &#9670; 700 |
 | <input type="checkbox" /> | &#9733;        | 3 Blue Nightshade |
 | <input type="checkbox" /> | &#9733;&#9733; | 5 Blue Nightshade, 5 Sunset Firefly |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 8 Silent Shroom, 5 Sneaky River Snail |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 10 Stealthfin Trout, 5 Silent Princess |
 
-| <input type="checkbox" /> | **Stealth Tights** | &#9670;600 |
+| <input type="checkbox" /> | **Stealth Tights** | &#9670; 600 |
 | <input type="checkbox" /> | &#9733;        | 3 Blue Nightshade |
 | <input type="checkbox" /> | &#9733;&#9733; | 5 Blue Nightshade, 5 Sunset Firefly |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 8 Silent Shroom, 5 Sneaky River Snail |
@@ -352,37 +596,37 @@ The Zora set is found in different locations within Zora's Domain.
 
 Jewelery items are all found in Gerudo Town after completing the side quest "Starlight Memories."
 
-| <input type="checkbox" /> | Amber Earrings | &#9670;100 + 10 Amber |
+| <input type="checkbox" /> | Amber Earrings | &#9670; 100 + 10 Amber |
 | <input type="checkbox" /> | &#9733;        | 5 Amber, 3 Flint |
 | <input type="checkbox" /> | &#9733;&#9733; | 10 Amber, 3 Flint |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 20 Amber, 3 Flint |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 30 Amber, 3 Flint |
 
-| <input type="checkbox" /> | Diamond Circlet | &#9670;100 + 10 Amber |
+| <input type="checkbox" /> | Diamond Circlet | &#9670; 100 + 10 Amber |
 | <input type="checkbox" /> | &#9733;        | 5 Amber, 3 Flint |
 | <input type="checkbox" /> | &#9733;&#9733; | 10 Amber, 3 Flint |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 20 Amber, 3 Flint |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 30 Amber, 3 Flint |
 
-| <input type="checkbox" /> | Opal Earrings | &#9670;200 + 8 Opal |
+| <input type="checkbox" /> | Opal Earrings | &#9670; 200 + 8 Opal |
 | <input type="checkbox" /> | &#9733;        | 5 Opal, 3 Flint |
 | <input type="checkbox" /> | &#9733;&#9733; | 8 Opal, 3 Flint |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 16 Opal, 3 Flint |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 20 Opal, 3 Flint |
 
-| <input type="checkbox" /> | Ruby Circlet | &#9670;500 + 3 Ruby |
+| <input type="checkbox" /> | Ruby Circlet | &#9670; 500 + 3 Ruby |
 | <input type="checkbox" /> | &#9733;        | 2 Ruby, 3 Flint |
 | <input type="checkbox" /> | &#9733;&#9733; | 4 Ruby, 3 Flint |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 6 Ruby, 1 Star Fragment |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 10 Ruby, 1 Star Fragment |
 
-| <input type="checkbox" /> | Sapphire Circlet | &#9670;800 + 3 Sapphire |
+| <input type="checkbox" /> | Sapphire Circlet | &#9670; 800 + 3 Sapphire |
 | <input type="checkbox" /> | &#9733;        | 2 Sapphire, 3 Flint |
 | <input type="checkbox" /> | &#9733;&#9733; | 4 Sapphire, 3 Flint |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 6 Sapphire, 1 Star Fragment |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733;&#9733; | 10 Sapphire, 1 Star Fragment |
 
-| <input type="checkbox" /> | Topaz Earrings | &#9670;500 + 5 Topaz |
+| <input type="checkbox" /> | Topaz Earrings | &#9670; 500 + 5 Topaz |
 | <input type="checkbox" /> | &#9733;        | 2 Topaz, 3 Flint |
 | <input type="checkbox" /> | &#9733;&#9733; | 4 Topaz, 3 Flint |
 | <input type="checkbox" /> | &#9733;&#9733;&#9733; | 6 Topaz, 1 Star Fragment |

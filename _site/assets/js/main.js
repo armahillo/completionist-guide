@@ -10,26 +10,29 @@ class Guide {
   scrape() {
     var form = document.querySelector('article#guide form');
     var data = new FormData(form);
-    var json = Object.fromEntries(data); //{};
-
-    return json;
+    var entries = Object.fromEntries(data); //{};
+console.log(entries)
+    return entries;
   }
 
   fill(form) {
     var data = JSON.parse(this.data);
 
     for (const[key, value] of Object.entries(data)) {
-      console.log(document.getElementsByName(key));
-      document.getElementsByName(key)[0].checked = true;
+      var nodes = document.getElementsByName(key);
+      nodes.forEach((node) => {
+        if (node.value == value) {
+          node.checked = true;
+          node.parentElement.classList.add("cached");
+        }
+      })
     }
-
-    console.log(data);
   }
 
   loadFromStorage() {
     var data = localStorage.getItem(this.name);
     if (data == undefined) {
-      console.log("Couldn't find it");
+      console.log("Couldn't find " + this.name);
       data = {};
     }
     return data;
@@ -37,6 +40,12 @@ class Guide {
 
   saveToStorage(data) {
     localStorage.setItem(this.name, JSON.stringify(data));
+    document.querySelectorAll(':checked').forEach((node) => {
+      node.parentElement.classList.add("cached");
+    })
+    document.querySelectorAll('.cached input:not(:checked)').forEach((node) => {
+      node.parentElement.classList.remove("cached");
+    })
   }
 }
 
@@ -56,6 +65,12 @@ window.onload = function() {
   const saveButton = document.querySelector('button#save');
   const loadButton = document.querySelector('button#load');
 
+  function load_from_storage() {
+    var data = guide.loadFromStorage();
+    guide.fill(data);
+    statusMessage.innerText = "Loaded!"
+  }
+
   saveButton.addEventListener('click', (e) => {
     var data = guide.scrape();
     guide.saveToStorage(data);
@@ -63,20 +78,13 @@ window.onload = function() {
     return true;
   });
 
-  loadButton.addEventListener('click', (e) => {
-    var data = guide.loadFromStorage();
-    guide.fill(data);
-    statusMessage.innerText = "Loaded!"
-    return true;
-  });
+  loadButton.addEventListener('click', load_from_storage);
 
   article = document.querySelector('article#guide')
   if (article != undefined) {
     gameName = article.dataset.game;
     guide = new Guide(gameName);
 
-    console.log(gameName);
-    console.log(guide.data);
-    console.log(guide.scrape());
+    load_from_storage();
   }
 }
