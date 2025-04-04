@@ -1,28 +1,44 @@
 ---
 layout: guide
 title: "Zelda: Breath of the Wild"
-permalink: /games/zelda_botw
+game: zelda_botw
 metadata:
   last_updated: 03-27-2022
 ---
 
 ## Towers
 
- - [ ] Hebra Tower
- - [ ] Woodland Tower
- - [ ] Eldin Tower
- - [ ] Akkala Tower
- - [ ] Tabantha Tower
- - [ ] Ridgeland Tower
- - [ ] Central Tower
- - [ ] Lanayru Tower
- - [ ] Gerudo Tower
- - [ ] Great Plateau Tower
- - [ ] Dueling Peaks Tower
- - [ ] Hateno Tower
- - [ ] Wasteland Tower
- - [ ] Lake Tower
- - [ ] Faron Tower
+<ol>
+  <li><label for="towers_hebra"><input id="towers_hebra" type="checkbox" name="towers[hebra]" /> Hebra Tower</label></li>
+  <li><label for="towers_woodland"><input id="towers_woodland" type="checkbox" name="towers[woodland]" /> Woodland Tower</label></li>
+  <li><label for="towers_eldin"><input id="towers_eldin" type="checkbox" name="towers[eldin]" />Eldin Tower</label></li>
+  <li><label for="towers_akkala"><input id="towers_akkala" type="checkbox" name="towers[akkala]" />Akkala Tower</label></li>
+  <li><label for="towers_tabantha"><input id="towers_tabantha" type="checkbox" name="towers[tabantha]" />Tabantha Tower</label></li>
+  <li><label for="towers_ridgeland"><input id="towers_ridgeland" type="checkbox" name="towers[ridgeland]" />Ridgeland Tower</label></li>
+  <li><label for="towers_central"><input id="towers_central" type="checkbox" name="towers[central]" />Central Tower</label></li>
+  <li><label for="towers_lanaryu"><input id="towers_lanaryu" type="checkbox" name="towers[lanaryu]" />Lanayru Tower</label></li>
+  <li><label for="towers_gerudo"><input id="towers_gerudo" type="checkbox" name="towers[gerudo]" />Gerudo Tower</label></li>
+  <li><label for="towers_great_plateau"><input id="towers_great_plateau" type="checkbox" name="towers[great_plateau]" />Great Plateau Tower</label></li>
+  <li><label for="towers_dueling_peaks"><input id="towers_dueling_peaks" type="checkbox" name="towers[dueling_peaks]" />Dueling Peaks Tower</label></li>
+  <li><label for="towers_hateno"><input id="towers_hateno" type="checkbox" name="towers[hateno]" />Hateno Tower</label></li>
+  <li><label for="towers_wasteland"><input id="towers_wasteland" type="checkbox" name="towers[wasteland]" />Wasteland Tower</label></li>
+  <li><label for="towers_lake"><input id="towers_lake" type="checkbox" name="towers[lake]" />Lake Tower</label></li>
+  <li><label for="towers_faron"><input id="towers_faron" type="checkbox" name="towers[faron]" />Faron Tower</label></li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Great Fairy Fountains

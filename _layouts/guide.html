@@ -3,7 +3,7 @@ layout: default
 # https://jekyllrb.com/docs/datafiles/
 ---
 
-<article id="guide" class="small-container" data-version="{{ page.version }}">
+<article id="guide" data-game="{{ page.game }}" class="small-container" data-version="{{ page.version }}">
   <h1 id="game_title">{{ page.title }}</h1>
   <header>
     {% if page.metadata %}
@@ -15,9 +15,15 @@ layout: default
         </ul>
       </aside>
     {% endif %}
+    <aside id="status_message"></aside>
+
+    <button id="save">Save</button>
+    <button id="load">Load</button>
   </header>
-  
-  {{ content }}
+
+  <form>
+    {{ content }}
+  </form>
 
   <footer>
     {% if page.footer %}
@@ -29,3 +35,5 @@ layout: default
     {% endif %}
   </footer>
 </article>
+
+<script src="/assets/"
