@@ -1,0 +1,20 @@
+{% capture key_base %}gear_{{ include.set }}_{{ include.part }}{% endcapture %}
+{% capture form_key %}gear[{{ include.set }}][{{ include.part }}]{% endcapture %}
+{% if site.data.zelda_botw['gear'][include.set][include.part]['levels'][include.index]['name'] %}
+{% assign name = site.data.zelda_botw['gear'][include.set][include.part]['levels'][include.index]['name'] %}
+{%  else %}
+{%  assign name = site.data.zelda_botw['gear'][include.set][include.part]['name'] %}
+{% endif %}
+
+
+<label for="{{ key_base }}_{{ include.index }}">
+  <input id="{{ key_base }}_{{ include.index }}" type="radio" name="{{ form_key }}" value="{{ include.index }}" />{{ name }}
+  <span class="show-after-complete"></span>
+  {% if site.data.zelda_botw['gear'][include.set][include.part]['levels'][include.index]['cost'] %}
+  <ul class="hide-after-complete">
+    {% for cost in site.data.zelda_botw['gear'][include.set][include.part]['levels'][include.index]['cost'] %}
+    <li>{{ cost }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</label>

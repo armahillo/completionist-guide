@@ -5,7 +5,7 @@ article#guide {
     height: 1rem;
   }
 
-  ol {
+  ul, ol {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -47,6 +47,33 @@ article#guide {
     flex-direction: row;
     //justify-content: space-evenly;
     flex-wrap: wrap;
+    li:has(label) {
+      flex: auto;
+    }
+    li:has(> label[for*="_none"]) {
+      display: none;
+    }
+    li:has(> label[for*="_none"]):has(~ li > label :checked) {
+      display: inline-block;
+      width: 50px;
+      label {
+        padding-right: 0.2rem;
+        padding-left: 0.2rem;
+        font-weight: normal;
+        background-color: var(--background-color);
+        color: var(--text-color);
+      }
+    }
+    li:has(> label input[value="acquired"]) {
+      width: 100%;
+    }
+    li:has(> label input[value="acquired"]:checked),
+    li:has(> label input[value="acquired"]):has(~ li > label :checked) {
+      width: calc(100% - 50px);
+    }
+    li label {
+      margin: 0;
+    }
 
     li label:has([type="radio"]) {
       background-color: var(--fresh-color);
@@ -62,6 +89,9 @@ article#guide {
       .hide-after-complete {
         display: none;
       }
+      .show-after-complete {
+        display: inline;
+      }
     }
 
     li:has(> label :checked) ~ li label:has([type="radio"]) {
@@ -70,6 +100,9 @@ article#guide {
       background-color: var(--disallowed-color);
 
       .hide-after-complete {
+        display: none;
+      }
+      .show-after-complete {
         display: none;
       }
     }
@@ -83,6 +116,9 @@ article#guide {
       .hide-after-complete {
         display: inline;
       }
+      .show-after-complete {
+        display: none;
+      }
     }
   }
 
@@ -91,6 +127,7 @@ article#guide {
     padding: 0;
 
     li ol {
+      margin-bottom: 1rem;
       li {
         input {
           display: none;

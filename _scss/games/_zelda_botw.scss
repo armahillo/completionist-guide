@@ -11,6 +11,10 @@
   --color-dark-slate: #2e3b4b;
 }
 body[data-game="zelda_botw"] {
+  --background-color: var(--color-cream);
+  --text-color: var(--color-hunter-green);
+  --link-color: var(--color-rust);
+
   @media (prefers-color-scheme: dark) {
     --background-color: var(--color-dark-slate);
     --text-color: var(--color-cheese);
@@ -28,8 +32,11 @@ body[data-game="zelda_botw"] {
     --disallowed-color: var(--color-rust);
   }
 
-  background-color: var(--background-color);
-  color: var(--text-color);
+  & {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
   h1, h2, h3, h4, h5, h6 {
     color: inherit;
   }

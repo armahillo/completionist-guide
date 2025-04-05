@@ -12,35 +12,35 @@
 //==============================================================================
 // Configuration
 //==============================================================================
-
-@import 'base/variables';
-@import 'base/mixins';
+@use "sass:color";
+@use 'base/variables';
+@use 'base/mixins';
 
 //==============================================================================
 // Reset
 //==============================================================================
 
-@import 'base/normalize';
-@import 'base/reset';
+@use 'base/normalize';
+@use 'base/reset';
 
 //==============================================================================
 // Components
 //==============================================================================
 
-@import 'components/scaffolding';
-@import 'components/grid';
-@import 'components/helpers';
-@import 'components/buttons';
-@import 'components/forms';
-@import 'components/lists';
-@import 'components/tables';
-@import 'components/navigation';
-@import 'components/layout';
+@use 'components/scaffolding';
+@use 'components/grid';
+@use 'components/helpers';
+@use 'components/buttons';
+@use 'components/forms';
+@use 'components/lists';
+@use 'components/tables';
+@use 'components/navigation';
+@use 'components/layout';
 
-@import 'components/guide';
+@use 'components/guide';
 
 //==============================================================================
 // Games
 //==============================================================================
-@import 'games/stardew_valley';
-@import 'games/zelda_botw';
+@use 'games/stardew_valley';
+@use 'games/zelda_botw';

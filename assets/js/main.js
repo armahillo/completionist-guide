@@ -15,8 +15,8 @@ console.log(entries)
     return entries;
   }
 
-  fill(form) {
-    var data = JSON.parse(this.data);
+  fill() {
+    const data = JSON.parse(this.data);
 
     for (const[key, value] of Object.entries(data)) {
       var nodes = document.getElementsByName(key);
@@ -33,7 +33,7 @@ console.log(entries)
     var data = localStorage.getItem(this.name);
     if (data == undefined) {
       console.log("Couldn't find " + this.name);
-      data = {};
+      data = JSON.stringify({});
     }
     return data;
   }
@@ -46,6 +46,10 @@ console.log(entries)
     document.querySelectorAll('.cached input:not(:checked)').forEach((node) => {
       node.parentElement.classList.remove("cached");
     })
+  }
+
+  reset() {
+    localStorage.setItem(this.name, JSON.stringify({}));
   }
 }
 
@@ -64,10 +68,10 @@ window.onload = function() {
 
   const saveButton = document.querySelector('button#save');
   const loadButton = document.querySelector('button#load');
+  const resetButton = document.querySelector('button#reset');
 
   function load_from_storage() {
-    var data = guide.loadFromStorage();
-    guide.fill(data);
+    guide.fill();
     statusMessage.innerText = "Loaded!"
   }
 
@@ -79,6 +83,13 @@ window.onload = function() {
   });
 
   loadButton.addEventListener('click', load_from_storage);
+
+  resetButton.addEventListener('click', (e) => {
+    guide.reset();
+    statusMessage.innerText = "Reset!"
+    load_from_storage
+    return true;
+  });
 
   article = document.querySelector('article#guide')
   if (article != undefined) {

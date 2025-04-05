@@ -1,0 +1,665 @@
+---
+towers:
+  hebra:
+    name: Hebra Tower
+  woodland:
+    name: Woodland Tower
+  eldin:
+    name: Eldin Tower
+  akkala:
+    name: Akkala Tower
+  tabantha:
+    name: Tabantha Tower
+  ridgeland:
+    name: Ridgeland Tower
+  central:
+    name: Central Tower
+  lanaryu:
+    name: Lanayru Tower
+  gerudo:
+    name: Gerudo Tower
+  great_plateau:
+    name: Great Plateau Tower
+  dueling_peaks:
+    name: Dueling Peaks Tower
+  hateno:
+    name: Hateno Tower
+  wasteland:
+    name: Wasteland Tower
+  lake:
+    name: Lake Tower
+  faron:
+    name: Faron Tower
+great_fairy_fountains:
+  kaysa:
+    name: Kaysa's Great Fairy Fountain - Near Tabantha Tower
+    levels:
+      "1":
+        cost: ◆ 100
+      "2":
+        cost: ◆ 500
+      "3":
+        cost: ◆ 1000
+      "4":
+        cost: ◆ 10000
+  mija:
+    name: Mija's Great Fairy Fountain - East of Akkala Tower
+    levels:
+      "1":
+        cost: ◆ 100
+      "2":
+        cost: ◆ 500
+      "3":
+        cost: ◆ 1000
+      "4":
+        cost: ◆ 10000
+  tera:
+    name: Tera's Great Fairy Fountain - North of Kakariko Village
+    levels:
+      "1":
+        cost: ◆ 100
+      "2":
+        cost: ◆ 500
+      "3":
+        cost: ◆ 1000
+      "4":
+        cost: ◆ 10000
+  cotera:
+    name: Cotera's Great Fairy Fountain - Southwest of Gerudo Town
+    levels:
+      "1":
+        cost: ◆ 100
+      "2":
+        cost: ◆ 500
+      "3":
+        cost: ◆ 1000
+      "4":
+        cost: ◆ 10000
+  malanya:
+    name: Malanya's Great (Horse) Fairy Fountain - near Lake Hylia
+    levels:
+      "1":
+        cost: ◆ 1000
+gear:
+  ancient:
+    name: Ancient Gear Set
+    location: Akkala Ancient Tech Lab
+    note: Requires completing the "Robbie's Research" quest
+    head:
+      name: Ancient Helm
+      levels:
+        acquired:
+          cost:
+          - ◆ 2000
+          - 20 Ancient Gear
+          - 5 Ancient Screw
+          - 5 Ancient Core
+        "1":
+          name: ★
+          cost:
+          - 5 Ancient Screw
+          - 5 Ancient Spring
+        "2":
+          name: ★★
+          cost:
+          - 15 Ancient Spring
+          - 10 Ancient Gear
+        "3":
+          name: ★★★
+          cost:
+          - 15 Ancient Shaft
+          - 5 Ancient Core
+        "4":
+          name: ★★★★
+          cost:
+          - 1 Star Fragment
+          - 20 Ancient Gear
+          - 2 Giant Ancient Core
+    body:
+      name: Ancient Cuirass
+      levels:
+        acquired:
+          name: ✅
+          cost:
+          - ◆ 2000
+          - 20 Ancient Gear
+          - 5 Ancient Screw
+          - 5 Ancient Core
+        "1":
+          name: ★
+          cost:
+          - 5 Ancient Screw
+          - 5 Ancient Spring
+        "2":
+          name: ★★
+          cost:
+          - 15 Ancient Spring
+          - 10 Ancient Gear
+        "3":
+          name: ★★★
+          cost:
+          - 15 Ancient Shaft
+          - 5 Ancient Core
+        "4":
+          name: ★★★★
+          cost:
+          - 3 Star Fragment
+          - 3 Giant Ancient Core
+    legs:
+      name: Ancient Helm
+      levels:
+        acquired:
+          name: ✅
+          cost:
+          - ◆ 2000
+          - 20 Ancient Gear
+          - 5 Ancient Screw
+          - 5 Ancient Core
+        "1":
+          name: ★
+          cost:
+          - 5 Ancient Screw
+          - 5 Ancient Spring
+        "2":
+          name: ★★
+          cost:
+          - 15 Ancient Spring
+          - 10 Ancient Gear
+        "3":
+          name: ★★★
+          cost:
+          - 15 Ancient Shaft
+          - 5 Ancient Core
+        "4":
+          name: ★★★★
+          cost:
+          - 1 Star Fragment
+          - 2 Giant Ancient Core
+  barbarian:
+    name: Barbarian Set
+    head:
+      name: Barbarian Helm
+      levels:
+        acquired:
+          location: Lomei Labyrinth Island (NE Akkala)
+        "1":
+          name: ★
+          cost:
+          - 1 Lynel Horn
+        "2":
+          name: ★★
+          cost:
+          - 3 Lynel Horn
+          - 2 Lynel Hoof
+        "3":
+          name: ★★★
+          cost:
+          - 4 Lynel Hoof
+          - 1 Lynel Guts
+        "4":
+          name: ★★★★
+          cost:
+          - 2 Lynel Guts
+          - 1 Shard of Dinraal's Horn
+    body:
+      name: Barbarian Armor
+      levels:
+        acquired:
+          name: ✅
+          location: South Lomei Labyrinth (E of Gerudo Desert)
+        "1":
+          name: ★
+          cost:
+          - 1 Lynel Horn
+        "2":
+          name: ★★
+          cost:
+          - 3 Lynel Horn
+          - 2 Lynel Hoof
+        "3":
+          name: ★★★
+          cost:
+          - 4 Lynel Hoof
+          - 1 Lynel Guts
+        "4":
+          name: ★★★★
+          cost:
+          - 2 Lynel Guts
+          - 1 Shard of Farosh's Horn
+    legs:
+      name: Barbarian Leg Wraps
+      levels:
+        acquired:
+          name: ✅
+          location: North Lomei Labyrinth (NE of Tabantha Tundra)
+        "1":
+          name: ★
+          cost:
+          - 1 Lynel Horn
+        "2":
+          name: ★★
+          cost:
+          - 3 Lynel Horn
+          - 2 Lynel Hoof
+        "3":
+          name: ★★★
+          cost:
+          - 4 Lynel Hoof
+          - 1 Lynel Guts
+        "4":
+          name: ★★★★
+          cost:
+          - 2 Lynel Guts
+          - 1 Shard of Naydra's Horn
+  climber:
+    name: Climber's Set
+    head:
+      name: Climber's Bandanna
+      levels:
+        acquired:
+          location: The shrine between the Dueling Peaks
+        "1":
+          name: ★
+          cost:
+          - 3 Keese Wing
+          - 3 Rushroom
+        "2":
+          name: ★★
+          cost:
+          - 5 Electric Keese Wing
+          - 5 Hightail Lizard
+        "3":
+          name: ★★★
+          cost:
+          - 5 Ice Keese Wing
+          - 10 Hot-footed Frog
+        "4":
+          name: ★★★★
+          cost:
+          - 5 Fire Keese Wing
+          - 15 Swift Violet
+    body:
+      name: Climbing Gear
+      levels:
+        acquired:
+          name: ✅
+          location: The shrine on Tenoko Island (S of Hateno Ancient Tech Lab)
+        "1":
+          name: ★
+          cost:
+          - 3 Keese Wing
+          - 3 Rushroom
+        "2":
+          name: ★★
+          cost:
+          - 5 Electric Keese Wing
+          - 5 Hightail Lizard
+        "3":
+          name: ★★★
+          cost:
+          - 5 Ice Keese Wing
+          - 10 Hot-footed Frog
+        "4":
+          name: ★★★★
+          cost:
+          - 5 Fire Keese Wing
+          - 15 Swift Violet
+    legs:
+      name: Climbing Boots
+      levels:
+        acquired:
+          name: ✅
+          location: The shrine on Tenoko Island (S of Hateno Ancient Tech Lab)
+        "1":
+          name: ★
+          cost:
+          - 3 Keese Wing
+          - 3 Rushroom
+        "2":
+          name: ★★
+          cost:
+          - 5 Electric Keese Wing
+          - 5 Hightail Lizard
+        "3":
+          name: ★★★
+          cost:
+          - 5 Ice Keese Wing
+          - 10 Hot-footed Frog
+        "4":
+          name: ★★★★
+          cost:
+          - 5 Fire Keese Wing
+          - 15 Swift Violet
+  desert_voe:
+    name: Desert Voe Set
+    location: Gerudo Secret Club (GSC&#9670;) in Gerudo
+    head:
+      name: Desert Voe Headband
+      levels:
+        acquired:
+          cost:
+          - ◆ 450
+        "1":
+          name: ★
+          cost:
+          - 3 White Chuchu Jelly
+        "2":
+          name: ★★
+          cost:
+          - 5 White Chuchu Jelly
+          - 5 Ice Keese Wing
+        "3":
+          name: ★★★
+          cost:
+          - 8 Ice Keese Wing
+          - 3 Icy Lizalfos Tail
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Icy Lizalfos Tail
+          - 5 Sapphire
+    body:
+      name: Desert Voe Spaulder
+      levels:
+        acquired:
+          name: ✅
+          cost:
+          - ◆ 1300
+        "1":
+          name: ★
+          cost:
+          - 3 White Chuchu Jelly
+        "2":
+          name: ★★
+          cost:
+          - 5 White Chuchu Jelly
+          - 5 Ice Keese Wing
+        "3":
+          name: ★★★
+          cost:
+          - 8 Ice Keese Wing
+          - 3 Icy Lizalfos Tail
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Icy Lizalfos Tail
+          - 5 Sapphire
+    legs:
+      name: Desert Voe Trousers
+      levels:
+        acquired:
+          name: ✅
+          cost:
+          - ◆ 650
+        "1":
+          name: ★
+          cost:
+          - 3 White Chuchu Jelly
+        "2":
+          name: ★★
+          cost:
+          - 5 White Chuchu Jelly
+          - 5 Ice Keese Wing
+        "3":
+          name: ★★★
+          cost:
+          - 8 Ice Keese Wing
+          - 3 Icy Lizalfos Tail
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Icy Lizalfos Tail
+          - 5 Sapphire
+  flamebreaker:
+    name: Flamebreaker Set
+    location: "'Ripped and Shredded' in Goro Village"
+    note: "Flamebreaker Armor can also be received from Kima in the Southern Mine for completing Fireproof Lizard Roundup"
+    head:
+      name: Flamebreaker Helm
+      levels:
+        acquired:
+          name: ✅
+          cost:
+          - ◆ 2000
+        "1":
+          name: ★
+          cost:
+          - 1 Fireproof Lizard
+          - 2 Moblin Horn
+        "2":
+          name: ★★
+          cost:
+          - 3 Fireproof Lizard
+          - 4 Moblin Fang
+        "3":
+          name: ★★★
+          cost:
+          - 3 Smotherwing Butterfly
+          - 3 Moblin Guts
+        "4":
+          name: ★★★★
+          cost:
+          - 5 Smotherwing Butterfly
+          - 2 Hinox Guts
+    body:
+      name: Flamebreaker Armor
+      levels:
+        acquired:
+          name: ✅
+          cost:
+          - ◆ 600
+        "1":
+          name: ★
+          cost:
+          - 1 Fireproof Lizard
+          - 2 Moblin Horn
+        "2":
+          name: ★★
+          cost:
+          - 3 Fireproof Lizard
+          - 4 Moblin Fang
+        "3":
+          name: ★★★
+          cost:
+          - 3 Smotherwing Butterfly
+          - 3 Moblin Guts
+        "4":
+          name: ★★★★
+          cost:
+          - 5 Smotherwing Butterfly
+          - 2 Hinox Guts
+    legs:
+      name: Flamebreaker Boots
+      levels:
+        acquired:
+          name: ✅
+          cost:
+          - ◆ 600
+        "1":
+          name: ★
+          cost:
+          - 1 Fireproof Lizard
+          - 2 Moblin Horn
+        "2":
+          name: ★★
+          cost:
+          - 3 Fireproof Lizard
+          - 4 Moblin Fang
+        "3":
+          name: ★★★
+          cost:
+          - 3 Smotherwing Butterfly
+          - 3 Moblin Guts
+        "4":
+          name: ★★★★
+          cost:
+          - 5 Smotherwing Butterfly
+          - 2 Hinox Guts
+  hylian:
+    name: Hylian Set
+    location: Enchanted (Kakariko Village) or Ventest (Hateno Village)
+    head:
+      name: Hylian Hood
+      levels:
+        acquired:
+          name: ✅
+          cost:
+          - ◆ 60
+        "1":
+          name: ★
+          cost:
+          - 5 Bokoblin Horn
+        "2":
+          name: ★★
+          cost:
+          - 8 Bokoblin Horn
+          - 5 Bokoblin Fang
+        "3":
+          name: ★★★
+          cost:
+          - 10 Bokoblin Fang
+          - 5 Bokoblin Guts
+        "4":
+          name: ★★★★
+          cost:
+          - 15 Bokoblin Guts
+          - 15 Amber
+    body:
+      name: Hylian Tunic
+      levels:
+        acquired:
+          name: ✅
+          cost:
+          - ◆ 120
+        "1":
+          name: ★
+          cost:
+          - 5 Bokoblin Horn
+        "2":
+          name: ★★
+          cost:
+          - 8 Bokoblin Horn
+          - 5 Bokoblin Fang
+        "3":
+          name: ★★★
+          cost:
+          - 10 Bokoblin Fang
+          - 5 Bokoblin Guts
+        "4":
+          name: ★★★★
+          cost:
+          - 15 Bokoblin Guts
+          - 15 Amber
+    legs:
+      name: Hylian Trousers
+      levels:
+        acquired:
+          name: ✅
+          cost:
+          - ◆ 90
+        "1":
+          name: ★
+          cost:
+          - 5 Bokoblin Horn
+        "2":
+          name: ★★
+          cost:
+          - 8 Bokoblin Horn
+          - 5 Bokoblin Fang
+        "3":
+          name: ★★★
+          cost:
+          - 10 Bokoblin Fang
+          - 5 Bokoblin Guts
+        "4":
+          name: ★★★★
+          cost:
+          - 15 Bokoblin Guts
+          - 15 Amber
+  radiant:
+    name: Radiant Set
+    location: Gerudo Secret Club (GSC&#9670; ) in Gerudo
+    head:
+      name: Radiant Mask
+      levels:
+        acquired:
+          name: ✅
+          cost:
+          - ◆ 800
+          - 3 Luminous Stone
+        "1":
+          name: ★
+          cost:
+          - 5 Luminous Stone
+          - 3 Bokoblin Guts
+        "2":
+          name: ★★
+          cost:
+          - 8 Luminous Stone
+          - 3 Moblin Guts
+        "3":
+          name: ★★★
+          cost:
+          - 10 Luminous Stone
+          - 2 Molduga Guts
+        "4":
+          name: ★★★★
+          cost:
+          - 20 Luminous Stone
+          - 1 Lynel Guts
+    body:
+      name: Radiant Shirt
+      levels:
+        acquired:
+          name: ✅
+          cost:
+          - ◆ 800
+          - 3 Luminous Stone
+        "1":
+          name: ★
+          cost:
+          - 5 Luminous Stone
+          - 3 Bokoblin Guts
+        "2":
+          name: ★★
+          cost:
+          - 8 Luminous Stone
+          - 3 Moblin Guts
+        "3":
+          name: ★★★
+          cost:
+          - 10 Luminous Stone
+          - 2 Molduga Guts
+        "4":
+          name: ★★★★
+          cost:
+          - 20 Luminous Stone
+          - 1 Lynel Guts
+    legs:
+      name: Radiant Tights
+      levels:
+        acquired:
+          name: ✅
+          cost:
+          - ◆ 800
+          - 3 Luminous Stone
+        "1":
+          name: ★
+          cost:
+          - 5 Luminous Stone
+          - 3 Bokoblin Guts
+        "2":
+          name: ★★
+          cost:
+          - 8 Luminous Stone
+          - 3 Moblin Guts
+        "3":
+          name: ★★★
+          cost:
+          - 10 Luminous Stone
+          - 2 Molduga Guts
+        "4":
+          name: ★★★★
+          cost:
+          - 20 Luminous Stone
+          - 1 Lynel Guts
