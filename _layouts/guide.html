@@ -3,6 +3,25 @@ layout: default
 # https://jekyllrb.com/docs/datafiles/
 ---
 
+{% assign games = site.games | where: "game", page.game %}
+
+<section id="game-nav">
+  <nav>
+    <ol>
+      <li>
+        <a href="/games/{{ page.game }}">Section Home</a>
+      </li>
+      {% for game in games %}
+        {% if game.name == 'index.html' %}
+          {% continue %}
+        {% endif %}
+        <li>
+          <a href="{{ game.url | relative_url }}">{{ game.title }}</a>
+        </li>
+      {% endfor %}
+    </ol>
+  </nav>
+</section>
 <article id="guide" data-game="{{ page.game }}" data-section="{{ page.section }}" class="small-container" data-version="{{ page.version }}">
   <h1 id="game_title">{{ page.title }}</h1>
   <header>
