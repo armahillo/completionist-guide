@@ -1,0 +1,17 @@
+---
+layout: guide
+title: Towers checklist
+game: zelda_botw
+section: towers
+metadata:
+  last_updated: 04-05-2025
+---
+
+<h2>Towers</h2>
+
+<ol class="collapsed">
+  {% for tower in site.data.zelda_botw.towers %}
+    {% assign key = tower[0] %}
+    <li>{% include zelda/findable.html set="towers" target=key %}</li>
+  {% endfor %}
+</ol>

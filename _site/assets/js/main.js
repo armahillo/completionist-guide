@@ -1,22 +1,34 @@
 class Guide {
-  constructor(name) {
+  constructor(name, section) {
     this.name = name;
+    this.section = section;
   }
 
   get data() {
-    return this.loadFromStorage();
+    var data = JSON.parse(localStorage.getItem(this.name));
+    try {
+      if (this.section != undefined) {
+        data = data[this.section]
+      }
+      return data;
+    } catch(error) {
+      console.log("Couldn't find " + this.name);
+      return {};
+    }
   }
+
 // https://stackoverflow.com/questions/41431322/how-to-convert-formdata-html5-object-to-json
   scrape() {
     var form = document.querySelector('article#guide form');
     var data = new FormData(form);
     var entries = Object.fromEntries(data); //{};
+console.log("scrape(): ");
 console.log(entries)
     return entries;
   }
 
   fill() {
-    const data = JSON.parse(this.data);
+    const data = this.data;
 
     for (const[key, value] of Object.entries(data)) {
       var nodes = document.getElementsByName(key);
@@ -29,17 +41,21 @@ console.log(entries)
     }
   }
 
-  loadFromStorage() {
-    var data = localStorage.getItem(this.name);
-    if (data == undefined) {
-      console.log("Couldn't find " + this.name);
-      data = JSON.stringify({});
-    }
-    return data;
-  }
-
   saveToStorage(data) {
-    localStorage.setItem(this.name, JSON.stringify(data));
+console.log("saveToStorage() (pre): ");
+console.log(data);
+    // Merge into existing storage.
+    var cached = JSON.parse(localStorage.getItem(this.name));
+
+    if (this.section != undefined) {
+      cached[this.section] = data;
+    } else {
+      cached = data;
+    }
+
+console.log("saveToStorage() (sectioned): ");
+console.log(data);
+    localStorage.setItem(this.name, JSON.stringify(cached));
     document.querySelectorAll(':checked').forEach((node) => {
       node.parentElement.classList.add("cached");
     })
@@ -49,12 +65,13 @@ console.log(entries)
   }
 
   reset() {
-    localStorage.setItem(this.name, JSON.stringify({}));
+    this.saveToStorage({});
   }
 }
 
 var article;
 var gameName;
+var gameSection;
 var guide;
 var statusMessage;
 
@@ -94,7 +111,10 @@ window.onload = function() {
   article = document.querySelector('article#guide')
   if (article != undefined) {
     gameName = article.dataset.game;
-    guide = new Guide(gameName);
+    gameSection = article.dataset.section;
+    guide = new Guide(gameName, gameSection);
+
+console.log(guide);
 
     load_from_storage();
   }

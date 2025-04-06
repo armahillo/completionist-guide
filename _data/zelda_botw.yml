@@ -32,7 +32,8 @@ towers:
     name: Faron Tower
 great_fairy_fountains:
   kaysa:
-    name: Kaysa's Great Fairy Fountain - Near Tabantha Tower
+    name: Kaysa's Great Fairy Fountain
+    location: Near Tabantha Tower
     levels:
       "1":
         cost: ◆ 100
@@ -43,7 +44,8 @@ great_fairy_fountains:
       "4":
         cost: ◆ 10000
   mija:
-    name: Mija's Great Fairy Fountain - East of Akkala Tower
+    name: Mija's Great Fairy Fountain
+    location: East of Akkala Tower
     levels:
       "1":
         cost: ◆ 100
@@ -54,7 +56,8 @@ great_fairy_fountains:
       "4":
         cost: ◆ 10000
   tera:
-    name: Tera's Great Fairy Fountain - North of Kakariko Village
+    name: Tera's Great Fairy Fountain
+    location: North of Kakariko Village
     levels:
       "1":
         cost: ◆ 100
@@ -65,7 +68,8 @@ great_fairy_fountains:
       "4":
         cost: ◆ 10000
   cotera:
-    name: Cotera's Great Fairy Fountain - Southwest of Gerudo Town
+    name: Cotera's Great Fairy Fountain
+    location: Southwest of Gerudo Town
     levels:
       "1":
         cost: ◆ 100
@@ -76,7 +80,8 @@ great_fairy_fountains:
       "4":
         cost: ◆ 10000
   malanya:
-    name: Malanya's Great (Horse) Fairy Fountain - near Lake Hylia
+    name: Malanya's Great (Horse) Fairy Fountain
+    location: near Lake Hylia
     levels:
       "1":
         cost: ◆ 1000
@@ -119,7 +124,6 @@ gear:
       name: Ancient Cuirass
       levels:
         acquired:
-          name: ✅
           cost:
           - ◆ 2000
           - 20 Ancient Gear
@@ -149,7 +153,6 @@ gear:
       name: Ancient Helm
       levels:
         acquired:
-          name: ✅
           cost:
           - ◆ 2000
           - 20 Ancient Gear
@@ -205,7 +208,6 @@ gear:
       name: Barbarian Armor
       levels:
         acquired:
-          name: ✅
           location: South Lomei Labyrinth (E of Gerudo Desert)
         "1":
           name: ★
@@ -230,7 +232,6 @@ gear:
       name: Barbarian Leg Wraps
       levels:
         acquired:
-          name: ✅
           location: North Lomei Labyrinth (NE of Tabantha Tundra)
         "1":
           name: ★
@@ -282,7 +283,6 @@ gear:
       name: Climbing Gear
       levels:
         acquired:
-          name: ✅
           location: The shrine on Tenoko Island (S of Hateno Ancient Tech Lab)
         "1":
           name: ★
@@ -308,7 +308,6 @@ gear:
       name: Climbing Boots
       levels:
         acquired:
-          name: ✅
           location: The shrine on Tenoko Island (S of Hateno Ancient Tech Lab)
         "1":
           name: ★
@@ -332,7 +331,7 @@ gear:
           - 15 Swift Violet
   desert_voe:
     name: Desert Voe Set
-    location: Gerudo Secret Club (GSC&#9670;) in Gerudo
+    location: Gerudo Secret Club (GSC◆) in Gerudo
     head:
       name: Desert Voe Headband
       levels:
@@ -362,7 +361,6 @@ gear:
       name: Desert Voe Spaulder
       levels:
         acquired:
-          name: ✅
           cost:
           - ◆ 1300
         "1":
@@ -388,7 +386,6 @@ gear:
       name: Desert Voe Trousers
       levels:
         acquired:
-          name: ✅
           cost:
           - ◆ 650
         "1":
@@ -418,7 +415,6 @@ gear:
       name: Flamebreaker Helm
       levels:
         acquired:
-          name: ✅
           cost:
           - ◆ 2000
         "1":
@@ -445,7 +441,6 @@ gear:
       name: Flamebreaker Armor
       levels:
         acquired:
-          name: ✅
           cost:
           - ◆ 600
         "1":
@@ -472,7 +467,6 @@ gear:
       name: Flamebreaker Boots
       levels:
         acquired:
-          name: ✅
           cost:
           - ◆ 600
         "1":
@@ -502,7 +496,6 @@ gear:
       name: Hylian Hood
       levels:
         acquired:
-          name: ✅
           cost:
           - ◆ 60
         "1":
@@ -528,7 +521,6 @@ gear:
       name: Hylian Tunic
       levels:
         acquired:
-          name: ✅
           cost:
           - ◆ 120
         "1":
@@ -554,7 +546,6 @@ gear:
       name: Hylian Trousers
       levels:
         acquired:
-          name: ✅
           cost:
           - ◆ 90
         "1":
@@ -578,12 +569,11 @@ gear:
           - 15 Amber
   radiant:
     name: Radiant Set
-    location: Gerudo Secret Club (GSC&#9670; ) in Gerudo
+    location: Gerudo Secret Club (GSC◆ ) in Gerudo
     head:
       name: Radiant Mask
       levels:
         acquired:
-          name: ✅
           cost:
           - ◆ 800
           - 3 Luminous Stone
@@ -611,7 +601,6 @@ gear:
       name: Radiant Shirt
       levels:
         acquired:
-          name: ✅
           cost:
           - ◆ 800
           - 3 Luminous Stone
@@ -639,7 +628,6 @@ gear:
       name: Radiant Tights
       levels:
         acquired:
-          name: ✅
           cost:
           - ◆ 800
           - 3 Luminous Stone
@@ -663,3 +651,1031 @@ gear:
           cost:
           - 20 Luminous Stone
           - 1 Lynel Guts
+  rubber:
+    name: Rubber Set
+    head:
+      name: Rubber Helm
+      levels:
+        acquired:
+          location: Lakeside Stable given by Cima for completing "Thunder Magnet"
+        "1":
+          name: ★
+          cost:
+          - 3 Yellow Chuchu Jelly
+        "2":
+          name: ★★
+          cost:
+          - 5 Yellow Chuchu Jelly
+          - 5 Voltfruit
+        "3":
+          name: ★★★
+          cost:
+          - 5 Zapshroom
+          - 5 Yellow Lizalfos Tail
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Yellow Lizalfos Tail
+          - 15 Topaz
+    body:
+      name: Rubber Armor
+      levels:
+        acquired:
+          location: Thundra Plateau after completing "Trial of Thunder"
+        "1":
+          name: ★
+          cost:
+          - 3 Yellow Chuchu Jelly
+        "2":
+          name: ★★
+          cost:
+          - 5 Yellow Chuchu Jelly
+          - 5 Voltfruit
+        "3":
+          name: ★★★
+          cost:
+          - 5 Zapshroom
+          - 5 Yellow Lizalfos Tail
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Yellow Lizalfos Tail
+          - 10 Topaz
+    legs:
+      name: Rubber Tights
+      levels:
+        acquired:
+          location: Calora Lake after completing "Song of Storms"
+        "1":
+          name: ★
+          cost:
+          - 3 Yellow Chuchu Jelly
+        "2":
+          name: ★★
+          cost:
+          - 5 Yellow Chuchu Jelly
+          - 5 Voltfruit
+        "3":
+          name: ★★★
+          cost:
+          - 5 Zapshroom
+          - 5 Yellow Lizalfos Tail
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Yellow Lizalfos Tail
+          - 10 Topaz
+  snowquill:
+    name: Snowquill Set
+    location: Brazen Beak in Rito Village
+    head:
+      name: Snowquill Headdress
+      levels:
+        acquired:
+          cost:
+          - ◆ 1000
+        "1":
+          name: ★
+          cost:
+          - 3 Red Chuchu Jelly
+        "2":
+          name: ★★
+          cost:
+          - 5 Red Chuchu Jelly
+          - 3 Warm Saffina
+        "3":
+          name: ★★★
+          cost:
+          - 8 Fire Keese Wing
+          - 5 Sunshroom
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Red Lizalfos Tail
+          - 5 Ruby
+    body:
+      name: Snowquill Tunic
+      levels:
+        acquired:
+          cost:
+          - ◆ 600
+        "1":
+          name: ★
+          cost:
+          - 3 Red Chuchu Jelly
+        "2":
+          name: ★★
+          cost:
+          - 5 Red Chuchu Jelly
+          - 3 Warm Saffina
+        "3":
+          name: ★★★
+          cost:
+          - 8 Fire Keese Wing
+          - 5 Sunshroom
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Red Lizalfos Tail
+          - 5 Ruby
+    legs:
+      name: Snowquill Trousers
+      levels:
+        acquired:
+          cost:
+          - ◆ 550
+        "1":
+          name: ★
+          cost:
+          - 3 Red Chuchu Jelly
+        "2":
+          name: ★★
+          cost:
+          - 5 Red Chuchu Jelly
+          - 3 Warm Saffina
+        "3":
+          name: ★★★
+          cost:
+          - 8 Fire Keese Wing
+          - 5 Sunshroom
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Red Lizalfos Tail
+          - 5 Ruby
+  soldier:
+    name: Soldier's Set
+    location: Ventest in Hateno Village
+    head:
+      name: Soldier's Helm
+      levels:
+        acquired:
+          cost:
+          - ◆ 180
+        "1":
+          name: ★
+          cost:
+          - 5 Chuchu Jelly
+          - 3 Bokoblin Guts
+        "2":
+          name: ★★
+          cost:
+          - 3 Keese Eyeball
+          - 3 Moblin Guts
+        "3":
+          name: ★★★
+          cost:
+          - 2 Lizalfos Tail
+          - 2 Hinox Guts
+        "4":
+          name: ★★★★
+          cost:
+          - 4 Lynel Hoof
+          - 2 Lynel Guts
+    body:
+      name: Soldier's Armor
+      levels:
+        acquired:
+          cost:
+          - ◆ 250
+        "1":
+          name: ★
+          cost:
+          - 5 Chuchu Jelly
+          - 3 Bokoblin Guts
+        "2":
+          name: ★★
+          cost:
+          - 3 Keese Eyeball
+          - 3 Moblin Guts
+        "3":
+          name: ★★★
+          cost:
+          - 2 Lizalfos Tail
+          - 2 Hinox Guts
+        "4":
+          name: ★★★★
+          cost:
+          - 4 Lynel Hoof
+          - 2 Lynel Guts
+    legs:
+      name: Soldier's Greaves
+      levels:
+        acquired:
+          cost:
+          - ◆ 200
+        "1":
+          name: ★
+          cost:
+          - 5 Chuchu Jelly
+          - 3 Bokoblin Guts
+        "2":
+          name: ★★
+          cost:
+          - 3 Keese Eyeball
+          - 3 Moblin Guts
+        "3":
+          name: ★★★
+          cost:
+          - 2 Lizalfos Tail
+          - 2 Hinox Guts
+        "4":
+          name: ★★★★
+          cost:
+          - 4 Lynel Hoof
+          - 2 Lynel Guts
+  champion:
+    name: Champion
+    body:
+      name: Champion's Tunic
+      levels:
+        acquired:
+          location: From Impa after first memory in "Captured Memories"
+        "1":
+          name: ★
+          cost:
+          - 3 Silent Princess
+        "2":
+          name: ★★
+          cost:
+          - 3 Silent Princess
+          - 2 Shard of Farosh's Horn
+        "3":
+          name: ★★★
+          cost:
+          - 3 Silent Shroom
+          - 2 Shard of Naydra's Horn
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Silent Princess
+          - 2 Shard of Dinraal's Horn
+  stealth:
+    name: Stealth Set
+    location: Enchanted in Kakariko Village
+    head:
+      name: Stealth Mask
+      levels:
+        acquired:
+          cost:
+          - ◆ 500
+        "1":
+          name: ★
+          cost:
+          - 3 Blue Nightshade
+        "2":
+          name: ★★
+          cost:
+          - 5 Blue Nightshade
+          - 5 Sunset Firefly
+        "3":
+          name: ★★★
+          cost:
+          - 8 Silent Shroom
+          - 5 Sneaky River Snail
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Stealthfin Trout
+          - 5 Silent Princess
+    body:
+      name: Stealth Chest Guard
+      levels:
+        acquired:
+          cost:
+          - ◆ 700
+        "1":
+          name: ★
+          cost:
+          - 3 Blue Nightshade
+        "2":
+          name: ★★
+          cost:
+          - 5 Blue Nightshade
+          - 5 Sunset Firefly
+        "3":
+          name: ★★★
+          cost:
+          - 8 Silent Shroom
+          - 5 Sneaky River Snail
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Stealthfin Trout
+          - 5 Silent Princess
+    legs:
+      name: Stealth Tights
+      levels:
+        acquired:
+          cost:
+          - ◆ 600
+        "1":
+          name: ★
+          cost:
+          - 3 Blue Nightshade
+        "2":
+          name: ★★
+          cost:
+          - 5 Blue Nightshade
+          - 5 Sunset Firefly
+        "3":
+          name: ★★★
+          cost:
+          - 8 Silent Shroom
+          - 5 Sneaky River Snail
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Stealthfin Trout
+          - 5 Silent Princess
+  wild:
+    name: Wild Set
+    location: Given after "A Gift from the Monks", after completing all 120 shrines.
+    head:
+      name: Cap of the Wild
+      levels:
+        acquired:
+          location: Forgotten Temple
+        "1":
+          name: ★
+          cost:
+          - 10 Acorn
+          - 2 Farosh's Scale
+        "2":
+          name: ★★
+          cost:
+          - 5 Courser Bee Honey
+          - 2 Farosh's Claw
+        "3":
+          name: ★★★
+          cost:
+          - 5 Energetic Rhino Beetle
+          - 2 Shard of Farosh's Fang
+        "4":
+          name: ★★★★
+          cost:
+          - 1 Star Fragment
+          - 2 Shard of Farosh's Horn
+    body:
+      name: Tunic of the Wild
+      levels:
+        acquired:
+          location: Forgotten Temple
+        "1":
+          name: ★
+          cost:
+          - 10 Acorn
+          - 2 Naydra's Scale
+        "2":
+          name: ★★
+          cost:
+          - 5 Courser Bee Honey
+          - 2 Naydra's Claw
+        "3":
+          name: ★★★
+          cost:
+          - 5 Energetic Rhino Beetle
+          - 2 Shard of Naydra's Fang
+        "4":
+          name: ★★★★
+          cost:
+          - 1 Star Fragment
+          - 2 Shard of Naydra's Horn
+    legs:
+      name: Trousers of the Wild
+      levels:
+        acquired:
+          location: Forgotten Temple
+        "1":
+          name: ★
+          cost:
+          - 10 Acorn
+          - 2 Dinraal's Scale
+        "2":
+          name: ★★
+          cost:
+          - 5 Courser Bee Honey
+          - 2 Dinraal's Claw
+        "3":
+          name: ★★★
+          cost:
+          - 5 Energetic Rhino Beetle
+          - 2 Shard of Dinraal's Fang
+        "4":
+          name: ★★★★
+          cost:
+          - 1 Star Fragment
+          - 2 Shard of Dinraal's Horn
+  zora:
+    name: Zora Set
+    location: Different locations within Zora's Domain.
+    head:
+      name: Zora Helm
+      levels:
+        acquired:
+          location: Toto Lake after "Zora Stone Monument"
+        "1":
+          name: ★
+          cost:
+          - 3 Lizalfos Horn
+        "2":
+          name: ★★
+          cost:
+          - 5 Lizalfos Horn
+          - 5 Hyrule Bass
+        "3":
+          name: ★★★
+          cost:
+          - 5 Lizalfos Tail
+          - 5 Hearty Bass
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Lizalfos Tail
+          - 15 Opal
+    body:
+      name: Zora Armor
+      levels:
+        acquired:
+          location: King Dorephan during "Divine Beast Vah Ruta"
+        "1":
+          name: ★
+          cost:
+          - 3 Lizalfos Horn
+        "2":
+          name: ★★
+          cost:
+          - 5 Lizalfos Horn
+          - 5 Hyrule Bass
+        "3":
+          name: ★★★
+          cost:
+          - 5 Lizalfos Tail
+          - 5 Hearty Bass
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Lizalfos Tail
+          - 15 Opal
+    legs:
+      name: Zora Greaves
+      levels:
+        acquired:
+          location: Laflat after "Lynel Safari"
+        "1":
+          name: ★
+          cost:
+          - 3 Lizalfos Horn
+        "2":
+          name: ★★
+          cost:
+          - 5 Lizalfos Horn
+          - 5 Hyrule Bass
+        "3":
+          name: ★★★
+          cost:
+          - 5 Lizalfos Tail
+          - 5 Hearty Bass
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Lizalfos Tail
+          - 15 Opal
+  jewelry:
+    name: Jewelry
+    location: All found in Gerudo Town after completing "Starlight Memories."
+    amber_earrings:
+      name: Amber Earrings
+      levels:
+        acquired:
+          cost:
+          - ◆ 100
+          - 10 Amber
+        "1":
+          name: ★
+          cost:
+          - 5 Amber
+          - 3 Flint
+        "2":
+          name: ★★
+          cost:
+          - 10 Amber
+          - 3 Flint
+        "3":
+          name: ★★★
+          cost:
+          - 20 Amber
+          - 3 Flint
+        "4":
+          name: ★★★★
+          cost:
+          - 30 Amber
+          - 3 Opal
+    diamond_circlet:
+      name: Diamond Circlet
+      levels:
+        acquired:
+          cost:
+          - ◆ 1500
+          - 3 Diamond
+        "1":
+          name: ★
+          cost:
+          - 2 Diamond
+          - 3 Flint
+        "2":
+          name: ★★
+          cost:
+          - 4 Diamond
+          - 3 Flint
+        "3":
+          name: ★★★
+          cost:
+          - 6 Diamond
+          - 1 Star Fragment
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Diamond
+          - 1 Star Fragment
+    opal_earrings:
+      name: Opal Earrings
+      levels:
+        acquired:
+          cost:
+          - ◆ 200
+          - 8 Opal
+        "1":
+          name: ★
+          cost:
+          - 4 Opal
+          - 3 Flint
+        "2":
+          name: ★★
+          cost:
+          - 8 Opal
+          - 3 Flint
+        "3":
+          name: ★★★
+          cost:
+          - 16 Opal
+          - 3 Flint
+        "4":
+          name: ★★★★
+          cost:
+          - 20 Opal
+          - 3 Flint
+    ruby_circlet:
+      name: Ruby Circlet
+      levels:
+        acquired:
+          cost:
+          - ◆ 500
+          - 3 Ruby
+        "1":
+          name: ★
+          cost:
+          - 2 Ruby
+          - 3 Flint
+        "2":
+          name: ★★
+          cost:
+          - 4 Ruby
+          - 3 Flint
+        "3":
+          name: ★★★
+          cost:
+          - 6 Ruby
+          - 1 Star Fragment
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Ruby
+          - 1 Star Fragment
+    sapphire_circlet:
+      name: Sapphire Circlet
+      levels:
+        acquired:
+          cost:
+          - ◆ 800
+          - 3 Sapphire
+        "1":
+          name: ★
+          cost:
+          - 2 Sapphire
+          - 3 Flint
+        "2":
+          name: ★★
+          cost:
+          - 4 Sapphire
+          - 3 Flint
+        "3":
+          name: ★★★
+          cost:
+          - 6 Sapphire
+          - 1 Star Fragment
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Sapphire
+          - 1 Star Fragment
+    topaz_earrings:
+      name: Topaz Earrings
+      levels:
+        acquired:
+          cost:
+          - ◆ 500
+          - 5 Topaz
+        "1":
+          name: ★
+          cost:
+          - 2 Topaz
+          - 3 Flint
+        "2":
+          name: ★★
+          cost:
+          - 4 Topaz
+          - 3 Flint
+        "3":
+          name: ★★★
+          cost:
+          - 6 Topaz
+          - 1 Star Fragment
+        "4":
+          name: ★★★★
+          cost:
+          - 10 Topaz
+          - 1 Star Fragment
+  divine_beast:
+    name: Divine Beast Gear
+    note: Requires amiibo.
+    vah_medoh_helm:
+      name: Vah Medoh Divine Helm
+      levels:
+        acquired:
+          location: Enabled with Revali amiibo.
+        "1":
+          name: ★
+          cost:
+          - 5 Ancient Spring
+        "2":
+          name: ★★
+          cost:
+          - 10 Ancient Gear
+        "3":
+          name: ★★★
+          cost:
+          - 5 Ancient Core
+        "4":
+          name: ★★★★
+          cost:
+          - 2 Giant Ancient Core
+    vah_naboris_helm:
+      name: Vah Naboris Divine Helm
+      levels:
+        acquired:
+          location: Enabled with the Urbosa amiibo.
+        "1":
+          name: ★
+          cost:
+          - 5 Ancient Spring
+        "2":
+          name: ★★
+          cost:
+          - 10 Ancient Gear
+        "3":
+          name: ★★★
+          cost:
+          - 5 Ancient Core
+        "4":
+          name: ★★★★
+          cost:
+          - 2 Giant Ancient Core
+    vah_rudania_helm:
+      name: Vah Rudania Divine Helm
+      levels:
+        acquired:
+          location: Enabled with the Daruk amiibo.
+        "1":
+          name: ★
+          cost:
+          - 5 Ancient Spring
+        "2":
+          name: ★★
+          cost:
+          - 10 Ancient Gear
+        "3":
+          name: ★★★
+          cost:
+          - 5 Ancient Core
+        "4":
+          name: ★★★★
+          cost:
+          - 2 Giant Ancient Core
+    vah_ruta_helm:
+      name: Vah Ruta Divine  Helm
+      levels:
+        acquired:
+          cost:
+          - ◆ 500
+          - 3 Ruby
+        "1":
+          name: ★
+          cost:
+          - 5 Ancient Spring
+        "2":
+          name: ★★
+          cost:
+          - 10 Ancient Gear
+        "3":
+          name: ★★★
+          cost:
+          - 5 Ancient Core
+        "4":
+          name: ★★★★
+          cost:
+          - 2 Giant Ancient Core
+  special:
+    name: Special
+    note: These items are awarded through quests or found, and are not upgradeable.
+    thunder_helm:
+      name: Thunder Helm
+      levels:
+        acquired:
+          location: Riju in Gerudo after completing 4 side quests of "The Thunder Helm"
+    starter_clothes:
+      name: Old Shirt & Well-worn Trousers
+      levels:
+        acquired:
+          location: Found in Rejuvenation Chamber
+    gerudo_set:
+      name: Gerudo Veil, Top, Sirwal
+      levels:
+        acquired:
+          location: Vilia in Kara Kara Bazaar during "Forbidden City Entry"
+          cost:
+          - ◆ 650
+    sand_boots:
+      name: Sand Boots
+      levels:
+        acquired:
+          location: Bozai in Gerudo after completing "The Eighth Heroine" (permanently after "The Forgotten Sword")
+    snow_boots:
+      name: Snow Boots
+      levels:
+        acquired:
+          location: Bozai in Gerudo after completing "The Eighth Heroine" (permanently after "The Forgotten Sword")
+    warm_doublet:
+      name: Warm Doublet
+      levels:
+        acquired:
+          location: Old Man on Great Plateau in exchange for Spicy Meat & Seafood Fry (Raw Meat, Hyrule Bass, Spicy Pepper), or for ◆ 80 at Ventest in Hateno Village
+  kilton:
+    name: Kilton Gear
+    note: Purchased from Kilton at the Fang and Bone, using his Mon currency. They cannot be upgraded.
+    bokoblin_mask:
+      name: Bokoblin Mask
+      levels:
+        acquired:
+          cost:
+          - ☠ 99
+    dark_hood:
+      name: Dark Hood
+      levels:
+        acquired:
+          cost:
+          - ☠ 1999
+    dark_tunic:
+      name: Dark Tunic
+      levels:
+        acquired:
+          cost:
+          - ☠ 999
+    dark_trousers:
+      name: Dark Trousers
+      levels:
+        acquired:
+          cost:
+          - ☠ 999
+    lizalfos_mask:
+      name: Lizalfos Mask
+      levels:
+        acquired:
+          cost:
+          - ☠ 299
+    lynel_mask:
+      name: Lynel Mask
+      levels:
+        acquired:
+          cost:
+          - ☠ 999
+    moblin_mask:
+      name: Moblin Mask
+      levels:
+        acquired:
+          cost:
+          - ☠ 199
+    monster_bridle:
+      name: Monster Bridle
+      levels:
+        acquired:
+          cost:
+          - ☠ 399
+    monster_saddle:
+      name: Monster Saddle
+      levels:
+        acquired:
+          cost:
+          - ☠ 299
+  amiibo:
+    note: Requires amiibo. They are decorative and cannot be upgraded.
+    time:
+      name: Cap, Tunic, Trousers of Time
+      levels:
+        acquired:
+          location: "Requires Link amiibo"
+    hero:
+      name: Cap, Tunic, Trousers of Hero
+      levels:
+        acquired:
+          location: "Requires 8-bit Link amiibo"
+    twilight:
+      name: Cap, Tunic, Trousers of Twilight
+      levels:
+        acquired:
+          location: "Requires Link amiibo from Twilight Princess"
+    sky:
+      name: Cap, Tunic, Trousers of the Sky
+      levels:
+        acquired:
+          location: "Requires Link amiibo from Skyward Sword"
+    wind:
+      name: Cap, Tunic, Trousers of the Wind
+      levels:
+        acquired:
+          location: "Requires Toon Link amiibo"
+    fierce_deity:
+      name: Fierce Deity Cap, Tunic, Trousers
+      levels:
+        acquired:
+          location: "Requires Majora's Mask Link amiibo"
+    sheik:
+      name: Sheik's Mask
+      levels:
+        acquired:
+          location: "Requires Sheik amiibo"
+  free_dlc:
+    note: Requires free DLC.
+    nintendo_switch_shirt:
+      name: Nintendo Switch Shirt
+      levels:
+        acquired:
+          location: In a chest near Eastern Abbey shrine (Great Plateau)
+    salvager_headwear:
+      name: Salvager Headwear
+      note: Look for a red meteorite at night from the southern edge of the Bridge of Hylia (Hyrule Field)
+      levels:
+        acquired:
+          location: Found in a chest on the eastern shore of Lake Hylia, near the southern pier.
+    salvager_vest:
+      name: Salvager Vest
+      note: Look for red meteorite at night from the left eye of Skull Lake (Akkala)
+      levels:
+        acquired:
+          location: Found in a chest in the Akkala Wilds
+    salvager_trousers:
+      name: Salvager Trousers
+      note: Look for a red meteorite at night from the southeast of Hebra Peak (Hebra Mountains)
+      levels:
+        acquired:
+          location: Found in a chest near an updraft southeast of Hebra Peak
+  master_trials_dlc:
+    note: Requires the Master Trials DLC. Special functional gear that are not upgradeable. Each item requires a triggering action (reading a book) to start the quest.
+    korok_mask:
+      name: Korok Mask
+      note: Read the book at Woodland Stable (Eldin Canyon)
+      levels:
+        acquired:
+          location: Found inside a tree in the Lost Woods outer area
+    travel_medallion:
+      name: Travel Medallion
+      note: Read the book at the South Akkala Stable (Akkala)
+      levels:
+        acquired:
+          location: Found near the middle of the southern wall, in the underground base of Lomei Labyrinth Island
+    majoras_mask:
+      name: Majora's Mask
+      note: Read Misko's EX Journal in the Outpost Ruins (Central Hyrule)
+      levels:
+        acquired:
+          location: Found buried near the largest building in the Kolomo Garrison Ruins (southern Hyrule Field)
+    midnas_helmet:
+      name: Midna's Helmet
+      note: Read Misko's EX Journal in the Outpost Ruins (Central Hyrule)
+      levels:
+        acquired:
+          location: Found buried in the northwestern building of the Sage Temple Ruins (Hyrule Field)
+    phantom_helmet:
+      name: Phantom Helmet
+      note: Read Misko's EX Journal in the Outpost Ruins (Central Hyrule)
+      levels:
+        acquired:
+          location: Found buried in the northwest of Coliseum Ruins (south of Hyrule Castle)
+    phantom_armor:
+      name: Phantom Armor
+      note: Read Misko's EX Journal in the Outpost Ruins (Central Hyrule)
+      levels:
+        acquired:
+          location: Found buried in the southeast of Sacred Ground Ruins (south of Hyrule Castle)
+    phantom_greaves:
+      name: Phantom Greaves
+      note: Read Misko's EX Journal in the Outpost Ruins (Central Hyrule)
+      levels:
+        acquired:
+          location: Found buried in the southeast of Hyrule Garrison Ruins (north of Great Plateau)
+    tingles_hood:
+      name: Tingle's Hood
+      note: Read Misko's EX Journal in the Outpost Ruins (Central Hyrule)
+      levels:
+        acquired:
+          location: Found buried in the middle of the Exchange Ruins in the southern part of Windvane Meadow (Hyrule Field)
+    tingles_shirt:
+      name: Tingle's Shirt
+      note: Read Misko's EX Journal in the Outpost Ruins (Central Hyrule)
+      levels:
+        acquired:
+          location: Found buried in the middle of the Castle Town Prison ruins (west of Hyrule Castle)
+    tingles_tights:
+      name: Tingle's Tights
+      note: Read Misko's EX Journal in the Outpost Ruins (Central Hyrule)
+      levels:
+        acquired:
+          location: Found buried in the southeast of the Mabe Village Ruins near the Ranch Ruins (Hyrule Field)
+  champions_ballad_dlc:
+    note: Requires the Champions Ballad DLC. Special functional gear that are not upgradeable. Each item requires a triggering action (reading a book) to start the quest.
+    ancient_bridle:
+      name: Ancient Bridle
+      note: Reading the book at the Highland Stable (Faron Grasslands)
+      levels:
+        acquired:
+          location: Found in a chest in Satori Mountain (Hyrule Ridge)
+    ancient_saddle:
+      name: Ancient Saddle
+      note: Reading the book at the Highland Stable (Faron Grasslands)
+      levels:
+        acquired:
+          location: Found in a sunken chest behind the fountain in Malanya Spring (Lake Hylia)
+    royal_guard_cap:
+      name: Royal Guard Cap
+      note: Reading the book at the Riverside Stable (Hyrule Field)
+      levels:
+        acquired:
+          location: Found in a chest in front of a knight statue on the second floor of the Sanctum (Hyrule Castle)
+    royal_guard_uniform:
+      name: Royal Guard Uniform
+      note: Reading the book at the Riverside Stable (Hyrule Field)
+      levels:
+        acquired:
+          location: Found in a chest in a secret room hidden by a weak wall in the hallway near the Dining Hall (Hyrule Castle)
+    royal_guard_boots:
+      name: Royal Guard Boots
+      note: Reading the book at the Riverside Stable (Hyrule Field)
+      levels:
+        acquired:
+          location: Found in a chest in the Guards' chamber (Hyrule Castle)
+    island_lobster_shirt:
+      name: Island Lobster Shirt
+      note: Read Misko's EX Journal in the Deya Village Ruins (West Necluda)
+      levels:
+        acquired:
+          location: Found in a chest at Cora Lake (Faron, near coast)
+    phantom_ganon_skull:
+      name: Phantom Ganon Skull
+      note: Read Misko's EX Journal in the Deya Village Ruins (West Necluda)
+      levels:
+        acquired:
+          location: Found in a sunken chest in Corta Lake (Faron forest)
+    phantom_ganon_armor:
+      name: Phantom Ganon Armor
+      note: Read Misko's EX Journal in the Deya Village Ruins (West Necluda)
+      levels:
+        acquired:
+          location: Found in a sunken chest in under Sarjon Bridge (Faron forest)
+    phantom_ganon_greaves:
+      name: Phantom Ganon Greaves
+      note: Read Misko's EX Journal in the Deya Village Ruins (West Necluda)
+      levels:
+        acquired:
+          location: Found in a chest at the broken bird statue in Ebara Forest near Floria Bridge (Faron forest)
+    ravios_hood:
+      name: Ravio's Hood
+      note: Read Misko's EX Journal in the Deya Village Ruins (West Necluda)
+      levels:
+        acquired:
+          location: Found in a buried chest under the right hand of the dragon at the Spring of Courage at Dracozu Lake (Faron forest)
+    zants_helmet:
+      name: Zant's Shirt
+      note: Read Misko's EX Journal in the Deya Village Ruins (West Necluda)
+      levels:
+        acquired:
+          location: Found in a buried chest on a small island between 2 dead trees in the north part of Tobio's Hollow (Dueling Peaks)

@@ -1,0 +1,20 @@
+{% assign fountain = site.data.zelda_botw.great_fairy_fountains[include.fountain] %}
+
+<h3>{{ fountain[1].name }}</h3>
+<p>{{ fountain[1].location }}</p>
+
+<ol class="levels">
+  <li>
+    <label for="great_fairy_fountains_{{ include.fountain }}_0" class="cached">
+      <input id="great_fairy_fountains_{{ include.fountain }}_0" type="radio" name="great_fairy_fountains[{{ include.fountain }}]" value="none" checked="true" />clear
+    </label>
+  </li>
+
+  {% for level in fountain[1].levels %}
+  <li>
+    <label for="great_fairy_fountains_{{ include.fountain }}_{{ level[0] }}">
+      <input id="great_fairy_fountains_{{ include.fountain }}_{{ level [0] }}" type="radio" name="great_fairy_fountains[{{ include.fountain }}]" value="{{ level[0] }}" />{{ level[1].cost }}
+    </label>
+  </li>
+  {% endfor %}
+</ol>

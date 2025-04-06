@@ -1,0 +1,23 @@
+{% assign item_set = site.data.zelda_botw['gear'][include.set] %}
+
+<h3> {{ item_set['name'] }} </h3>
+
+<p class="note">
+{{ item_set['location'] }}
+{% if item_set['location'] %}<br />{% endif %}
+{{ item_set['note'] }}
+</p>
+
+<ul class="gear">
+  {% for item in item_set %}
+  <li><ol class="levels">
+      <li><label for="gear_{{ include.set }}_{{ item[0] }}_none"><input id="gear_{{ include.set }}_{{ item[0] }}_none" type="radio" name="gear[{{ include.set }}][{{ item[0] }}]" checked="true" />clear</label></li>
+      {% assign part = item[0] %}
+      {% for level in item[1].levels %}
+        {% assign index = level[0] %}
+        <li>{% include zelda/gear.html set= include.set part=part index=index %}</li>
+      {% endfor %}
+    </ol>
+  </li>
+  {% endfor %}
+</ul>

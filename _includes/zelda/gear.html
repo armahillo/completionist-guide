@@ -5,14 +5,24 @@
 {%  else %}
 {%  assign name = site.data.zelda_botw['gear'][include.set][include.part]['name'] %}
 {% endif %}
-
+{% assign costs = site.data.zelda_botw['gear'][include.set][include.part]['levels'][include.index]['cost'] %}
+{% assign location = site.data.zelda_botw['gear'][include.set][include.part]['levels'][include.index]['location'] %}
+{% assign gear_count = site.data.zelda_botw['gear'][include.set][include.part]['levels'] | size %}
+{% if gear_count > 1 %}
+{% assign list_type = 'radio' %}
+{% else %}
+{% assign list_type = 'checkbox' %}
+{% endif %}
 
 <label for="{{ key_base }}_{{ include.index }}">
-  <input id="{{ key_base }}_{{ include.index }}" type="radio" name="{{ form_key }}" value="{{ include.index }}" />{{ name }}
+  <input id="{{ key_base }}_{{ include.index }}" type="{{ list_type }}" name="{{ form_key }}" value="{{ include.index }}" />{{ name }}
   <span class="show-after-complete"></span>
-  {% if site.data.zelda_botw['gear'][include.set][include.part]['levels'][include.index]['cost'] %}
+  {% if costs or location %}
   <ul class="hide-after-complete">
-    {% for cost in site.data.zelda_botw['gear'][include.set][include.part]['levels'][include.index]['cost'] %}
+    {% if location %}
+    <li>{{ location }}</li>
+    {% endif %}
+    {% for cost in costs %}
     <li>{{ cost }}</li>
     {% endfor %}
   </ul>

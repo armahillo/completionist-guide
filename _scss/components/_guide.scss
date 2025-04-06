@@ -4,6 +4,9 @@ article#guide {
     width: 1rem;
     height: 1rem;
   }
+  p.note {
+    margin-bottom: 0.5rem;
+  }
 
   ul, ol {
     list-style: none;
@@ -42,11 +45,36 @@ article#guide {
     }
   }
 
+  li label:has([type="radio"]),
+  li label:has([type="checkbox"]) {
+    &.cached {
+      background-color: var(--cached-color);
+      border-color: var(--cached-color);
+    }
+
+    .hide-after-complete {
+      display: inline;
+      font-weight: normal;
+    }
+    .show-after-complete {
+      display: none;
+    }
+    &:has(:checked) {
+     .hide-after-complete {
+       display: none;
+     }
+     .show-after-complete {
+       display: inline;
+     }
+    }
+  }
+
   .levels {
     display: flex;
     flex-direction: row;
-    //justify-content: space-evenly;
     flex-wrap: wrap;
+    background-color: var(--disallowed-color);
+
     li:has(label) {
       flex: auto;
     }
@@ -128,6 +156,8 @@ article#guide {
 
     li ol {
       margin-bottom: 1rem;
+
+
       li {
         input {
           display: none;
