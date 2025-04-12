@@ -18,7 +18,7 @@
   <input id="{{ key_base }}_{{ include.index }}" type="{{ list_type }}" name="{{ form_key }}" value="{{ include.index }}" />{{ name }}
   <span class="show-after-complete"></span>
   {% if costs or location %}
-  <ul class="hide-after-complete">
+  <ul class="hide-until-available">
     {% if location %}
     <li>{{ location }}</li>
     {% endif %}

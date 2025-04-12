@@ -1,6 +1,6 @@
 {% capture key_base %}{{ include.set }}_{{ include.target }}{% endcapture %}
-{% capture form_key %}{{ include.set }}[{{ include.part }}]{% endcapture %}
+{% capture form_key %}{{ include.set }}[{{ include.target }}]{% endcapture %}
 {%  assign name = site.data.zelda_botw[include.set][include.target]['name'] %}
 {% assign location = site.data.zelda_botw[include.set][include.target]['location'] %}
 
-<label for="{{ key_base }}_{{ include.index }}"><input id="{{ key_base }}_{{ include.index }}" type="checkbox" name="{{ form_key }}" /> {{ name }}</label>
+<label for="{{ key_base }}"><input id="{{ key_base }}" type="checkbox" name="{{ form_key }}" /> {{ name }}</label>

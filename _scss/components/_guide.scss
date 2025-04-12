@@ -1,4 +1,5 @@
 article#guide {
+  /* Color swatch */
   .c {
     display: inline-block;
     width: 1rem;
@@ -7,7 +8,6 @@ article#guide {
   p.note {
     margin-bottom: 0.5rem;
   }
-
   ul, ol {
     list-style: none;
     margin: 0;
@@ -69,6 +69,7 @@ article#guide {
     }
   }
 
+  /* Styles for when there are ranks that ascend */
   .levels {
     display: flex;
     flex-direction: row;
@@ -78,13 +79,17 @@ article#guide {
     li:has(label) {
       flex: auto;
     }
+    /* By default, don't display the "clear" option */
     li:has(> label[for*="_none"]) {
       display: none;
     }
+    /* Show the "clear" option when any other option is checked */
     li:has(> label[for*="_none"]):has(~ li > label :checked) {
       display: inline-block;
-      width: 50px;
+      max-width: 50px;
+
       label {
+        text-align: center;
         padding-right: 0.2rem;
         padding-left: 0.2rem;
         font-weight: normal;
@@ -92,6 +97,8 @@ article#guide {
         color: var(--text-color);
       }
     }
+    /* When there's a "discover me" option, like with gear
+       then make that full-width until it's checked */
     li:has(> label input[value="acquired"]) {
       width: 100%;
     }
@@ -113,7 +120,9 @@ article#guide {
         background-color: var(--cached-color);
         border-color: var(--cached-color);
       }
-
+      .hide-until-available {
+        display: none;
+      }
       .hide-after-complete {
         display: none;
       }
@@ -121,14 +130,22 @@ article#guide {
         display: inline;
       }
     }
+    
+    li:has(~ li .cached) label {
+      background-color: var(--cached-color);
+      border-color: var(--cached-color);
+    }
 
     li:has(> label :checked) ~ li label:has([type="radio"]) {
       border-color: var(--disallowed-color);
       color: var(--background-color);
       background-color: var(--disallowed-color);
 
-      .hide-after-complete {
+      .hide-until-available {
         display: none;
+      }
+      .hide-after-complete {
+        display: inline;
       }
       .show-after-complete {
         display: none;
@@ -141,6 +158,9 @@ article#guide {
       border-color: var(--text-color);
       background-color: var(--background-color);
 
+      .hide-until-available {
+        display: inline;
+      }
       .hide-after-complete {
         display: inline;
       }
