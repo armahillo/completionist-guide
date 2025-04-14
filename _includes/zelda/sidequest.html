@@ -1,0 +1,32 @@
+{% capture key_base %}{{ include.set }}_{{ include.target }}{% endcapture %}
+{% capture form_key %}{{ include.set }}[{{ include.target }}]{% endcapture %}
+
+{% assign name = include.sidequest['name'] %}
+{% assign location = include.sidequest['location'] %}
+{% assign levels = include.sidequest['levels'] %}
+
+{% if levels %}
+
+<ol class="levels">
+  <li>
+    <label for="{{ key_base }}_none">
+      <input id="{{ key_base }}_none" type="radio" name="{{ form_key }}" checked="true" />clear
+    </label>
+  </li>
+  {% for level in levels %}
+    {% assign step = level[0] %}
+    <li>
+      <label for="{{ key_base }}_{{ step }}">
+      <input id="{{ key_base }}_{{ step }}" type="radio" name="{{ form_key }}" value="{{ step }}" />{{ level[1] }}
+      </label>
+    </li>
+  {% endfor %}
+  </ol>
+
+{% else %}
+
+<label for="{{ key_base }}"><input id="{{ key_base }}" type="checkbox" name="{{ form_key }}" /> {{ name }} ({{ location }})</label>
+
+{% endif %}
+
+

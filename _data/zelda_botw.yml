@@ -1679,3 +1679,247 @@ gear:
       levels:
         acquired:
           location: Found in a buried chest on a small island between 2 dead trees in the north part of Tobio's Hollow (Dueling Peaks)
+
+sidequests:
+  "Dueling Peaks":
+    misko:
+      name: Misko, The Great Bandit
+      location: Dueling Peaks Stable
+    maracas:
+      name: The Priceless Maracas
+      location: Kakariko Village
+    wild_horses:
+      name: Wild Horses
+      location: Dueling Peaks Stable
+    flown_the_coop:
+      name: Flown the Coop
+      location: Kakariko Village
+    burning_heat:
+      name: Arrows of Burning Heat
+      location: Kakariko Village
+    kokos:
+      name: Koko
+      location: Kakariko Village
+      levels:
+        "1": Koko's Kitchen
+        "2": Cooking with Koko
+        "3": Koko Cuisine
+        "4": Koko's Specialty
+    cottla:
+      name: Playtime with Cottla
+      location: Kakariko Village
+    fairy:
+      name: Find the Fairy Fountain
+      location: Kakariko Village Outskirts
+    firefly:
+      name: By Firefly's Light
+      location: Kakariko Village
+  Hateno:
+    statue:
+      name: The Statue's Bargain
+      location: Hateno Village
+    weapon:
+      name: The Weapon Connoisseur
+      location: Hateno Village
+    gift:
+      name: A Gift for my Beloved
+      location: Hateno Village
+    sheep:
+      name: The Sheep Rustlers
+      location: Hateno Village
+    hero:
+      name: The Hero's Cache
+      location: Hateno Village
+    homeowner:
+      name: Hylian Homeowner
+      location: Hateno Village
+      levels:
+        "1": Hylian Homeowner
+        "2": From the Ground Up
+    robbie:
+      name: Robbie
+      location: Hateno Ancient Tech Lab
+      levels:
+        "1": Robbie's Research
+        "2": Slated for Upgrades
+        "3": Sunshroom Sensing
+  Central:
+    royal_guard:
+      name: The Royal Guard's Gear
+      location: Riverside Stable
+    rare:
+      name: A Rare Find
+      location: Outskirt Stable
+    hero:
+      name: My Hero
+      location: Outskirt Stable
+    royal:
+      name: A Royal Recipe
+      location: Riverside Stable
+    stallion:
+      name: The Royal White Stallion
+      location: Outskirt Stable
+  Lanaryu:
+    riverbed:
+      name: Riverbed Reward
+      location: Wetland Stable
+    diving:
+      name: Diving is Beauty!
+      location: Zora's Domain
+    lynel:
+      name: Lynel Safari
+      location: Zora's Domain
+    special:
+      name: Special Delivery
+      location: East of Lanayru Tower
+    frog:
+      name: Frog Catching
+      location: Zora's Domain
+    giant:
+      name: The Giant of Ralis Pond
+      location: Zora's Domain
+    luminous:
+      name: Luminous Stone Gathering
+      location: Zora's Domain
+    wife:
+      name: A Wife Washed Away
+      location: Zora's Domain
+    monuments:
+      name: Zora Stone Monuments
+      location: Zora's Domain
+  Eldin:
+    fireproof:
+      name: Fireproof Lizard Roundup
+      location: Southern Mine
+    respect:
+      name: The Road to Respect
+      location: Goron City
+    death_mountain:
+      name: Death Mountain's Secret
+      location: Goron Hot Springs
+    jewel:
+      name: The Jewel Trade
+      location: Goron City
+  Wasteland:
+    horse:
+      name: Good-sized Horse
+      location: North of Wasteland Tower
+    missing:
+      name: Missing in Action
+      location: Gerudo Canyon Stable
+    rushroom:
+      name: Rushroom Rush!
+      location: Gerudo Canyon Stable
+    ice:
+      name: An Ice Guy
+      location: Kara Kara Bazaar
+    tools:
+      name: Tools of the Trade
+      location: Gerudo Town
+    secret:
+      name: The Secret Club's Secret
+      location: Gerudo Town
+    molduga:
+      name: Medicinal Molduga
+      location: Gerudo Town
+    heroine:
+      name: The Eighth Heroine
+      location: Gerudo Town
+    forgotten:
+      name: The Forgotten Sword
+      location: Gerudo Town
+    thunder_helm:
+      name: The Thunder Helm
+      location: Gerudo Town
+    mystery:
+      name: The Mystery Polluter
+      location: Gerudo Town
+    barta:
+      name: The Search for Barta
+      location: Gerudo Town
+  Tabantha:
+    curry:
+      name: Curry for What Ail's You
+      location: Rito Stable
+    apple:
+      name: The Apple of My Eye
+      location: Rito Village
+    spark:
+      name: The Spark of Romance
+      location: Rito Village
+    talus:
+      name: Face the Frost Talus
+      location: Rito Stable
+    kheel:
+      name: Find Kheel
+      location: Rito Village
+  Ridgeland:
+    great_fairy:
+      name: A Gift for the Great Fairy
+      location: Tabantha Bridge Stable
+  Lake:
+    giant_horse:
+      name: Hunt for the Giant Horse
+      location: South of Lake Tower
+    hoodlums:
+      name: The Horseback Hoodlums
+      location: Highland Stable
+  Faron:
+    dinner:
+      name: What's For Dinner?
+      location: Lurelin Village
+    sunken:
+      name: Sunken Treasure
+      location: Lurelin Village
+    take_back:
+      name: Take Back the Sea
+      location: Lurelin Village
+    nightshade:
+      name: A Gift of Nightshade
+      location: Yambi Lake
+    thunder:
+      name: Thunder Magnet
+      location: Lakeside Stable
+  Woodland:
+    balloon:
+      name: Balloon Flight
+      location: Woodland Stable
+    leviathan:
+      name: Leviathan Bones
+      location: Serenne Stable
+    freezing:
+      name: A Freezing Rod
+      location: Korok Forest
+    korok_trials:
+      name: The Korok Trials
+      location: Korok Forest
+    riddles:
+      name: Riddles of Hyrule
+      location: Korok Forest
+    rabbit:
+      name: Legendary Rabbit Trial
+      location: Korok Forest
+    gift_monks:
+      name: A Gift from the Monks
+      location: Rona Kachta Shrine
+  Akkala:
+    little_sister:
+      name: Little Sister's Big Request
+      location: South Akkala Stable
+    shady:
+      name: A Shady Customer
+      location: East Akkala Stable
+    parent:
+      name: A Parent's Love
+      location: Tarrey Town
+    hobbies:
+      name: Hobbies of the Rich
+      location: Tarrey Town
+  Hebra:
+    stalhorse:
+      name: Stalhorse Pictured
+      location: Snowfield Stable
+  DLC:
+    xenoblade:
+      name: Xenoblade Chronicles 2 Gear
+      location: Various (see Salvager gear set)
