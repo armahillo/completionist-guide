@@ -36,11 +36,84 @@ body[data-game="zelda_botw"] {
     background-color: var(--background-color);
     color: var(--text-color);
   }
-
+  a {
+    color: var(--link-color);
+  }
   h1, h2, h3, h4, h5, h6 {
     color: inherit;
   }
-  a {
-    color: var(--link-color);
+  article#guide {
+    .shrines {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-content: center;
+
+      ol.levels {
+        li:first-of-type {
+          label {
+            &.puzzle {
+              background-color: var(--color-slate-blue);
+            }
+            &.outdoor {
+              background-color: var(--color-hunter-green);
+              color: var(--color-cream);
+            }
+            &.combat {
+              background-color: var(--color-rust);
+              color: var(--color-taupe);
+            }
+          }
+          &:has(:checked) label .hide-when-checked {
+            display: none;
+          }
+          &:has(~ li :checked) label .hide-when-checked {
+            display: inline;
+          }
+        }
+      }
+      & > li {
+        border-radius: 4px;
+        border: 1px solid var(--text-color);
+        border-left: 2px solid;
+        margin-bottom: 1rem;
+        flex-basis: 49%;
+        margin-right: 1%;
+      }
+      li:has(.puzzle) {
+        border-color: var(--color-slate-blue);
+      }
+      li:has(.outdoor) {
+        border-color: var(--color-hunter-green);
+      }
+      li:has(.combat) {
+        border-color: var(--color-rust);
+      }
+      label {
+        border: none;
+        margin: 0;
+      }
+    }
+    .gear {
+        margin: 0;
+        padding: 0;
+
+        li ol {
+          margin-bottom: 1rem;
+
+
+          li {
+            input {
+              display: none;
+            }
+            ul {
+              font-weight: normal;
+              margin: 0;
+              padding: 0;
+              list-style: none;
+            }
+          }
+        }
+      }
   }
 }

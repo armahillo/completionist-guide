@@ -1679,7 +1679,6 @@ gear:
       levels:
         acquired:
           location: Found in a buried chest on a small island between 2 dead trees in the north part of Tobio's Hollow (Dueling Peaks)
-
 sidequests:
   "Dueling Peaks":
     misko:
@@ -1923,3 +1922,829 @@ sidequests:
     xenoblade:
       name: Xenoblade Chronicles 2 Gear
       location: Various (see Salvager gear set)
+shrines:
+  "The Great Plateau":
+    Ja_Baij:
+      name: Ja Baij
+      type: puzzle
+      location: S of Great Plateau Tower
+      treasure:
+      - Traveler's Claymore
+      - Amber
+    Keh_Namut:
+      name: Keh Namut
+      type: puzzle
+      location: SW of Shrine of Resurrection
+      treasure:
+      - Traveler's Spear
+    Oman_Au:
+      name: Oman Au
+      type: puzzle
+      location: N of Great Plateau Tower
+      treasure:
+      - Traveler's Bow
+    Owa_Daim:
+      name: Owa Daim
+      type: puzzle
+      location: SW of Great Plateau Tower
+      treasure:
+      - Traveler's Shield
+  "Dueling Peaks":
+    Bosh_Kala:
+      name: Bosh Kala
+      type: puzzle
+      location: W of Dueling Peaks Tower
+      treasure:
+      - Soldier's Claymore
+      - Amber
+    Ha_Dahamar:
+      name: Ha Dahamar
+      type: puzzle
+      location: W of Dueling Peaks Stable
+      treasure:
+      - Purple Rupee
+    Hila_Rao:
+      name: Hila Rao
+      type: puzzle
+      quest: "Watch out for the flowers"
+      location: N of Dueling Peaks Tower
+      treasure:
+      - Ice Arrow x5
+      - Opal
+    Lakna_Rokee:
+      name: Lakna Rokee
+      type: outdoor
+      quest: "The Stolen Heirloom"
+      location: E of Kakariko Village
+      treasure:
+      - Edge of Duality
+    Ree_Dahee:
+      name: Ree Dahee
+      type: puzzle
+      location: Between Dueling Peaks
+      treasure:
+      - Climber's Bandanna
+    Shee_Vaneer:
+      name: Shee Vaneer
+      type: puzzle
+      location: S Dueling Peak
+      treasure:
+      - Eightfold Longblade
+    Shee_Venath:
+      name: Shee Venath
+      type: puzzle
+      location: N Dueling Peak
+      treasure:
+      - Serpentine Spear
+      - Eightfold Longblade
+    Ta_loh_Naeg:
+      name: Ta'loh Naeg
+      type: combat
+      location: N of Kakariko Village
+      treasure:
+      - Shield of the Mind's Eye
+      - Opal
+      - Eightfold Blade
+    Toto_Sah:
+      name: Toto Sah
+      type: puzzle
+      location: SE of Dueling Peaks
+      treasure:
+      - Shield of the Mind's Eye
+  Hateno:
+    Chaas_Qeta:
+      name: Chaas Qeta
+      type: combat
+      location: Tenoko Island
+      treasure:
+      - Climbing Gear
+    Dow_Na_eh:
+      name: Dow Na'eh
+      type: puzzle
+      location: N of Hateno Tower
+      treasure:
+      - Zora Sword
+      - Amber
+      - Opal
+    Jitan_Sa_mi:
+      name: Jitan Sa'mi
+      type: outdoor
+      quest: "The Spring of Wisdom"
+      location: Summit of Mt. Lanayru
+      treasure:
+      - Frostspear
+    Kam_Urog:
+      name: Kam Urog
+      type: puzzle
+      quest: "The Cursed Statue"
+      location: N of Hateno Tower
+      treasure:
+      - Soldier's Spear
+      - Opal
+    Mezza_Lo:
+      name: Mezza Lo
+      type: puzzle
+      quest: "The Crowned Beast"
+      location: N of Hateno Tower
+      treasure:
+      - Thunderblade
+    Myahm_Agana:
+      name: Myahm Agana
+      type: puzzle
+      location: S of Hateno Village
+      treasure:
+      - Phrenic Bow
+    Tahno_O_ah:
+      name: Tahno O'ah
+      type: outdoor
+      quest: "Secret of the Cedars"
+      location: NE of Hateno Research
+      treasure:
+      - Climbing Boots
+  Lanaryu:
+    Dagah_Keek:
+      name: Dagah Keek
+      type: outdoor
+      quest: "The Ceremonial Song"
+      location: SW of Zora's Domain
+      treasure:
+      - Silver Rupee
+    Daka_Tuss:
+      name: Daka Tuss
+      type: puzzle
+      location: SW of Lanayru Tower
+      treasure:
+      - Silver Longsword
+    Kah_Mael:
+      name: Kah Mael
+      type: puzzle
+      location: E of Akkala Tower
+      treasure:
+      - Diamond
+    Kaya_Wan:
+      name: Kaya Wan
+      type: puzzle
+      location: W of Lanayru Tower
+      treasure:
+      - Knight's Broadsword
+      - Ancient Core
+    Ne_ez_Yohma:
+      name: Ne'ez Yohma
+      type: puzzle
+      location: Zora's Domain
+      treasure:
+      - Zora Spear
+    Rucco_Maag:
+      name: Rucco Maag
+      type: puzzle
+      location: S of Zora's Domain
+      treasure:
+      - Silver Bow
+      - Opal
+    Soh_Kofi:
+      name: Soh Kofi
+      type: combat
+      location: N of Lanayru Tower
+      treasure:
+      - Knight's Bow
+    Shai_Yota:
+      name: Shai Yota
+      type: outdoor
+      quest: "Master of the Wind"
+      location: SE of Zora's Domain
+      treasure:
+      - Great Flameblade
+    Sheh_Rata:
+      name: Sheh Rata
+      type: puzzle
+      location: W of Lanayru Tower
+      treasure:
+      - Giant Boomerang
+      - Opal
+  Faron:
+    Kah_Yah:
+      name: Kah Yah
+      type: puzzle
+      quest: "A Fragmented Monument"
+      location: E of Faron Tower
+      treasure:
+      - Knight's Claymore
+    Korgu_Chideh:
+      name: Korgu Chideh
+      type: outdoor
+      quest: "Stranded in Eventide"
+      location: SE Island
+      treasure:
+      - Gold Rupee
+    Muwo_Jeem:
+      name: Muwo Jeem
+      type: combat
+      location: E of Faron Tower
+      treasure:
+      - Knight's Bow
+    Qukah_Nata:
+      name: Qukah Nata
+      type: outdoor
+      quest: "A Song of Storms"
+      location: E of Faron Tower
+      treasure:
+      - Rubber Tights
+    Shai_Utoh:
+      name: Shai Utoh
+      type: puzzle
+      location: SE of Faron Tower
+      treasure:
+      - Traveller's Sword
+      - Ancient Core
+    Shoda_Sah:
+      name: Shoda Sah
+      type: puzzle
+      location: NE of Faron Tower
+      treasure:
+      - Ice Arrow x5
+    Tawa_Jinn:
+      name: Tawa Jinn
+      type: outdoor
+      quest: "The Three Giant Brothers"
+      location: S of Hateno Tower
+      treasure:
+      - Great Thunderblade
+    Yah_Rin:
+      name: Yah Rin
+      type: puzzle
+      location: E of Faron Tower
+      treasure:
+      - Knight's Broadsword
+      - Opal
+  Lake:
+    Ishto_Soh:
+      name: Ishto Soh
+      type: puzzle
+      location: SW of Lake Tower
+      treasure:
+      - Ancient Core
+      - Topaz
+    Ka_o_Makagh:
+      name: Ka'o Makagh
+      type: puzzle
+      location: SE of Lake Tower
+      treasure:
+      - Traveler's Bow
+      - Gold Rupee
+      - Opal
+    Pumaag_Nitae:
+      name: Pumaag Nitae
+      type: combat
+      location: E of Lake Tower
+      treasure:
+      - Boomerang
+    Shae_Katha:
+      name: Shae Katha
+      type: outdoor
+      quest: "The Serpent's Jaws"
+      location: SW of Dueling Peaks
+      treasure:
+      - Thunderspear
+    Shoqa_Tatone:
+      name: Shoqa Tatone
+      type: combat
+      quest: "Guardian Slideshow"
+      location: S of Lake Tower
+      treasure:
+      - Royal Broadsword
+    Ya_Naga:
+      name: Ya Naga
+      type: puzzle
+      location: NW of Lake Tower
+      treasure:
+      - Eightfold Blade
+  Wasteland:
+    Dako_Tah:
+      name: Dako Tah
+      type: puzzle
+      quest: "The Eye of the Sandstorm"
+      location: W of Wasteland Tower
+      treasure:
+      - Moonlight Scimitar
+      - Silver Rupee
+      - Radiant Shield
+      - Ancient Core
+    Daqo_Chisay:
+      name: Daqo Chisay
+      type: puzzle
+      location: S of Gerudo Tower
+      treasure:
+      - Thunderblade
+    Dila_Maag:
+      name: Dila Maag
+      type: outdoor
+      quest: "The Desert Labyrinth"
+      location: SE of Wasteland Tower
+      treasure:
+      - Barbarian Armor
+    Hawa_Koth:
+      name: Hawa Koth
+      type: puzzle
+      location: SW of Wasteland Tower
+      treasure:
+      - Ancient Core
+      - Gold Rupee
+      - Sapphire
+    Jee_Noh:
+      name: Jee Noh
+      type: puzzle
+      location: E of Wasteland Tower
+      treasure:
+      - Opal
+    Kay_Noh:
+      name: Kay Noh
+      type: puzzle
+      location: W of Wasteland Tower
+      treasure:
+      - Gerudo Scimitar
+    Kema_Zoos:
+      name: Kema Zoos
+      type: puzzle
+      quest: "The Silent Swordsman"
+      location: W of Wasteland Tower
+      treasure:
+      - Moonlight Scimitar
+    Korsh_O_hu:
+      name: Korsh O'hu
+      type: outdoor
+      quest: "The Seven Heroines"
+      location: SW of Wasteland Tower
+      treasure:
+      - Flamespear
+    Misae_Suma:
+      name: Misae Suma
+      type: outdoor
+      quest: "The Perfect Drink"
+      location: SW of Wasteland Tower
+      treasure:
+      - Diamond
+    Raqa_Zunzo:
+      name: Raqa Zunzo
+      type: outdoor
+      quest: "The Undefeated Champ"
+      location: SW of Wasteland Tower
+      treasure:
+      - Radiant Shield
+    Suma_Sahma:
+      name: Suma Sahma
+      type: outdoor
+      quest: "Secret of the Snowy Peaks"
+      location: SE of Wasteland Tower
+      treasure:
+      - Moonlight Scimitar
+    Tho_Kayu:
+      name: Tho Kayu
+      type: outdoor
+      location: W of Wasteland Tower
+      treasure:
+      - Golden Bow
+  Gerudo:
+    Joloo_Nah:
+      name: Joloo Nah
+      type: puzzle
+      location: E of Gerudo Tower
+      treasure:
+      - Golden Claymore
+      - Gerudo Spear
+    Keeha_Yoog:
+      name: Keeha Yoog
+      type: outdoor
+      location: N of Gerudo Tower
+      treasure:
+      - Diamond
+    Kema_Kosassa:
+      name: Kema Kosassa
+      type: combat
+      location: NW of Gerudo Tower
+      treasure:
+      - Silver Rupee
+    Kuh_Takkar:
+      name: Kuh Takkar
+      type: puzzle
+      location: NE of Gerudo Tower
+      treasure:
+      - Frostblade
+    Sasa_Kai:
+      name: Sasa Kai
+      type: combat
+      location: SE of Gerudo Tower
+      treasure:
+      - Frostblade
+    Sho_Dantu:
+      name: Sho Dantu
+      type: puzzle
+      location: NW of Gerudo Tower
+      treasure:
+      - Silver Rupee
+  Central:
+    Dah_Kaso:
+      name: Dah Kaso
+      type: combat
+      location: SW of Central Tower
+      treasure:
+      - Ancient Core
+    Kaam_Ya_tak:
+      name: Kaam Ya'tak
+      type: puzzle
+      location: SW of Central Tower
+      treasure:
+      - Edge of Duality
+      - Ancient Core
+      - Diamond
+      - Silver Rupee
+      - Knight's Broadsword
+    Katah_Chuki:
+      name: Katah Chuki
+      type: combat
+      location: N of Central Tower
+      treasure:
+      - Royal Halberd
+    Namika_Ozz:
+      name: Namika Ozz
+      type: combat
+      location: NE of Central Tower
+      treasure:
+      - Frostspear
+    Noya_Neha:
+      name: Noya Neha
+      type: combat
+      location: N of Central Tower
+      treasure:
+      - Knight Shield
+    Rota_Ooh:
+      name: Rota Ooh
+      type: puzzle
+      location: SW of Central Tower
+      treasure:
+      - Feathered Edge
+    Saas_Ko_sah:
+      name: Saas Ko'sah
+      type: combat
+      location: Hyrule Castle Docks
+      treasure:
+      - Flameblade
+    Wahgo_Katta:
+      name: Wahgo Katta
+      type: puzzle
+      location: E of Central Tower
+      treasure:
+      - Amber
+  Ridgeland:
+    Maag_No_rah:
+      name: Maag No'rah
+      type: outdoor
+      location: N of Ridgeland Tower
+      treasure:
+      - Silver Rupee
+    Mijah_Rokee:
+      name: Mijah Rokee
+      type: combat
+      quest: "Under a Red Moon"
+      location: SW of Ridgeland Tower
+      treasure:
+      - Frostblade
+    Mogg_Latan:
+      name: Mogg Latan
+      type: puzzle
+      location: S of Ridgeland Tower
+      treasure:
+      - Forest Dweller's Bow
+      - Gold Rupee
+      treasure:
+      - Forest Dweller's Spear
+    Shae_Loya:
+      name: Shae Loya
+      type: puzzle
+      location: SW of Ridgeland Tower
+      treasure:
+      - Falcon Bow
+      - Topaz
+    Sheem_Dagoze:
+      name: Sheem Dagoze
+      type: puzzle
+      quest: "The Two Rings"
+      location: S of Ridgeland Tower
+      treasure:
+      - Great Thunderblade
+    Toh_Yahsa:
+      name: Toh Yahsa
+      type: puzzle
+      quest: "Trial of Thunder"
+      location: W of Ridgeland Tower
+      treasure:
+      - Rubber Armor
+      - Opal
+    Zalta_Wa:
+      name: Zalta Wa
+      type: puzzle
+      location: SE of Ridgeland Tower
+      treasure:
+      - Knight's Bow
+  Tabantha:
+    Akh_Va_quot:
+      name: Akh Va'quot
+      type: puzzle
+      location: Rito Village
+      treasure:
+      - Ancient Core
+      - Sapphire
+      - Feathered Spear
+    Bareeda_Naag:
+      name: Bareeda Naag
+      type: puzzle
+      quest: "The Ancient Rito Song"
+      location: N of Tabantha Tower
+      treasure:
+      - Falcon Bow
+      - Diamond
+    Kah_Okeo:
+      name: Kah Okeo
+      type: puzzle
+      location: SW of Tabantha Tower
+      treasure:
+      - Gold Rupee
+      - Giant Ancient Core
+      - Forest Dweller's Sword
+      - Korok Leaf
+    Sha_Warvo:
+      name: Sha Warvo
+      type: puzzle
+      location: N of Tabantha Tower
+      treasure:
+      - Purple Rupee
+      - Knight's Bow
+    Tena_Ko_sah:
+      name: Tena Ko'sah
+      type: combat
+      location: S of Tabantha Tower
+      treasure:
+      - Knight's Halberd
+    Voo_Lota:
+      name: Voo Lota
+      type: puzzle
+      quest: "Recital at Warbler's Nest"
+      location: NW of Tabantha Tower
+      treasure:
+      - Flameblade
+  Hebra:
+    Dunba_Taag:
+      name: Dunba Taag
+      type: puzzle
+      location: SW of Hebra Tower
+      treasure:
+      - Great Thunderblade
+      - Falcon Bow
+    Gee_Ha_rah:
+      name: Gee Ha'rah
+      type: puzzle
+      location: N of Hebra Tower
+      treasure:
+      - Diamond
+    Hia_Miu:
+      name: Hia Miu
+      type: combat
+      location: NW of Hebra Tower
+      treasure:
+      - Sapphire
+    Goma_Asaagh:
+      name: Goma Asaagh
+      type: combat
+      location: N of Hebra Tower
+      treasure:
+      - Royal Claymore
+    Lanno_Kooh:
+      name: Lanno Kooh
+      type: outdoor
+      location: W of Hebra Tower
+      treasure:
+      - Gold Rupee
+    Maka_Rah:
+      name: Maka Rah
+      type: puzzle
+      location: W of Hebra Tower
+      treasure:
+      - Bomb Arrow x10
+      - Diamond
+      - Ancient Core
+    Mozo_Shenno:
+      name: Mozo Shenno
+      type: combat
+      quest: "The Bird in the Mountains"
+      location: NW of Hebra Tower
+      treasure:
+      - Diamond
+    Qaza_Tokki:
+      name: Qaza Tokki
+      type: outdoor
+      quest: "Trial on the Cliff"
+      location: NE of Hebra Tower
+      treasure:
+      - Barbarian Leg Wraps
+    Rin_Oyaa:
+      name: Rin Oyaa
+      type: puzzle
+      location: NE of Hebra Tower
+      treasure:
+      - Ancient Core
+    Rok_Uwog:
+      name: Rok Uwog
+      type: puzzle
+      location: N of Hebra Tower
+      treasure:
+      - Drillshaft
+    Shada_Naw:
+      name: Shada Naw
+      type: puzzle
+      location: N of Hebra Tower
+      treasure:
+      - Great Frostblade
+    Sha_Gehma:
+      name: Sha Gehma
+      type: puzzle
+      location: N of Hebra Tower
+      treasure:
+      - Royal Broadsword
+    To_Quomo:
+      name: To Quomo
+      type: outdoor
+      location: NW of Hebra Tower
+      treasure:
+      - Royal Claymore
+  Woodland:
+    Daag_Chokah:
+      name: Daag Chokah
+      type: outdoor
+      quest: "The Lost Pilgrimmage"
+      location: NW of Woodland Tower
+      treasure:
+      - Ancient Core
+    Keo_Ruug:
+      name: Keo Ruug
+      type: puzzle
+      location: NW of Woodland Tower
+      treasure:
+      - Knight's Claymore
+    Ketoh_Wawai:
+      name: Ketoh Wawai
+      type: puzzle
+      quest: "Shrouded Shrine"
+      location: N of Woodland Tower
+      treasure:
+      - Ancient Core
+    Kuhn_Sidajj:
+      name: Kuhn Sidajj
+      type: outdoor
+      quest: "Trial of Second Sight"
+      location: NW of Woodland Tower
+      treasure:
+      - Giant Ancient Core
+    Maag_Halan:
+      name: Maag Halan
+      type: outdoor
+      quest: "The Test of Wood"
+      location: N of Woodland Tower
+      treasure:
+      - Giant Ancient Core
+    Mirro_Shaz:
+      name: Mirro Shaz
+      type: puzzle
+      location: SE of Woodland Tower
+      treasure:
+      - Iron Sledgehammer x2
+      - Giant Ancient Core
+    Monya_Toma:
+      name: Monya Toma
+      type: puzzle
+      location: W of Woodland Tower
+      treasure:
+      - Thunderblade
+    Rona_Kachta:
+      name: Rona Kachta
+      type: puzzle
+      location: NW of Woodland Tower
+      treasure:
+      - Great Flameblade
+  Eldin:
+    Daqa_Koh:
+      name: Daqa Koh
+      type: puzzle
+      location: N of Eldin Tower
+      treasure:
+      - Silver Rupee
+    Gorae_Torr:
+      name: Gorae Torr
+      type: outdoor
+      quest: "The Gut Check Challenge"
+      location: N of Eldin Tower
+      treasure:
+      - Great Frostblade
+    Kayra_Mah:
+      name: Kayra Mah
+      type: puzzle
+      quest: "A Brother's Roast"
+      location: N of Eldin Tower
+      treasure:
+      - Bomb Arrow x5
+      - Ruby
+    Mo_a_Keet:
+      name: Mo'a Keet
+      type: puzzle
+      location: SE of Eldin Tower
+      treasure:
+      - Knight's Broadsword
+    Qua_Raym:
+      name: Qua Raym
+      type: puzzle
+      location: W of Eldin Tower
+      treasure:
+      - Knight's Claymore
+    Sah_Dahaj:
+      name: Sah Dahaj
+      type: puzzle
+      location: E of Eldin Tower
+      treasure:
+      - Knight's Bow
+    Shae_Mo_sah:
+      name: Shae Mo'sah
+      type: puzzle
+      location: NW of Eldin Tower
+      treasure:
+      - Ice Arrow x10
+      - Stone Smasher
+      - Ruby
+    Shora_Hah:
+      name: Shora Hah
+      type: puzzle
+      location: NW of Eldin Tower
+      treasure:
+      - Great Flameblade
+      - Ice Arrow x10
+      - Giant Ancient Core
+      - Silver Rupee
+      - Forest Dweller's Sword
+      - Royal Bow
+    Tah_Muhl:
+      name: Tah Muhl
+      type: puzzle
+      quest: "A Landscape of a Stable"
+      location: S of Eldin Tower
+      treasure:
+      - Cobble Crusher
+      - Ruby
+      - Opal
+  Akkala:
+    Dah_Hesho:
+      name: Dah Hesho
+      type: combat
+      location: E of Akkala Tower
+      treasure:
+      - Giant Ancient Core
+    Katosa_Aug:
+      name: Katosa Aug
+      type: puzzle
+      location: NE of Akkala Tower
+      treasure:
+      - Great Frostblade
+    Ke_nai_Shakah:
+      name: Ke'nai Shakah
+      type: combat
+      location: SE of Akkala Tower
+      treasure:
+      - Sapphire
+    Ritaag_Zumo:
+      name: Ritaag Zumo
+      type: outdoor
+      location: NE of Akkala Tower
+      treasure:
+      - Giant Ancient Core
+    Tu_Ka_loh:
+      name: Tu Ka'loh
+      type: outdoor
+      location: NE of Akkala Tower
+      treasure:
+      - Barbarian Helm
+    Tutsuwa_Nima:
+      name: Tutsuwa Nima
+      type: combat
+      quest: "The Spring of Power"
+      location: NE of Akkala Tower
+      treasure:
+      - Flamespear
+    Ze_Kasho:
+      name: Ze Kasho
+      type: puzzle
+      location: NW of Akkala Tower
+      treasure:
+      - Silverscale Spear
+    Zuna_Kai:
+      name: Zuna Kai
+      type: outdoor
+      quest: "The Skull's Eye"
+      location: N of Akkala Tower
+      treasure:
+      - Flameblade

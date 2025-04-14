@@ -99,11 +99,14 @@ article#guide {
     }
     /* When there's a "discover me" option, like with gear
        then make that full-width until it's checked */
-    li:has(> label input[value="acquired"]) {
+    li:has(> label input[value="acquired"]),
+    li:has(> label.full-width) {
       width: 100%;
     }
     li:has(> label input[value="acquired"]:checked),
-    li:has(> label input[value="acquired"]):has(~ li > label :checked) {
+    li:has(> label.full-width :checked),
+    li:has(> label input[value="acquired"]):has(~ li > label :checked),
+    li:has(> label.full-width):has(~ li > label :checked) {
       width: calc(100% - 50px);
     }
     li label {
@@ -138,8 +141,8 @@ article#guide {
 
     li:has(> label :checked) ~ li label:has([type="radio"]) {
       border-color: var(--disallowed-color);
-      color: var(--background-color);
-      background-color: var(--disallowed-color);
+      color: var(--disallowed-color);
+      background-color: var(--background-color);
 
       .hide-until-available {
         display: none;
@@ -149,6 +152,9 @@ article#guide {
       }
       .show-after-complete {
         display: none;
+      }
+      .hide-when-checked {
+        display: inline;
       }
     }
 
@@ -167,27 +173,23 @@ article#guide {
       .show-after-complete {
         display: none;
       }
+      .hide-when-checked {
+        display: none;
+      }
     }
-  }
 
-  .gear {
-    margin: 0;
-    padding: 0;
-
-    li ol {
-      margin-bottom: 1rem;
-
-
-      li {
-        input {
-          display: none;
-        }
-        ul {
-          font-weight: normal;
-          margin: 0;
-          padding: 0;
-          list-style: none;
-        }
+    li:has(label [type="radio"]:checked) {
+      .hide-until-available {
+        display: none;
+      }
+      .hide-after-complete {
+        display: none;
+      }
+      .show-after-complete {
+        display: inline;
+      }
+      .hide-when-checked {
+        display: inline;
       }
     }
   }

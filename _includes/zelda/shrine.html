@@ -1,0 +1,43 @@
+{% capture key_base %}shrines_{{ include.target }}{% endcapture %}
+{% capture form_key %}shrines[{{ include.target }}]{% endcapture %}
+
+{% assign name = include.shrine['name'] %}
+{% assign treasure = include.shrine['treasure'] %}
+{% assign location = include.shrine['location'] %}
+{% assign quest = include.shrine['quest'] %}
+
+<ol class="levels">
+  <li>
+    <label for="{{ key_base }}_status" class="full-width {{ include.shrine['type'] }}">
+      <input id="{{ key_base }}_status" type="radio" name="{{ form_key }}[status]" value="" checked="true" />
+      <span>{{ name }}</span>
+      <span class="hide-when-checked">(Reset)</span>
+    </label>
+  </li>
+  <li>
+    <label for="{{ key_base }}_status_discovered" class="{{ include.shrine['type'] }}">
+      <input id="{{ key_base }}_status_discovered" type="radio" name="{{ form_key }}[status]" value="discovered" />
+      <span class="hide-after-complete">🔲 {{ location }}</span>
+      <span class="show-after-complete">✅ <em>(Discovered)</em></span>
+    </label>
+  </li>
+  <li>
+    <label for="{{ key_base }}_status_completed">
+      <input id="{{ key_base }}_status_completed" type="radio" name="{{ form_key }}[status]" value="completed" />
+      <span class="hide-after-complete">🔲  {{ include.shrine['type'] | capitalize }}</span>
+      <span class="show-after-complete">✅ Completed</span>
+    </label>
+    </li>
+  </ol>
+  <ol>
+    {% for item in treasure %}
+    <li>
+    <label for="{{ key_base }}_treasure_{{ forloop.index }}">
+      <input id="{{ key_base }}_treasure_{{ forloop.index }}" type="checkbox" name="{{ form_key }}[treasure][{{ forloop.index }}]" value="acquired" />
+      <span class="hide-after-complete">🔲 {{ item }}</span>
+      <span class="show-after-complete">✅ <s>{{ item }}</s></span>
+
+    </label>
+    </li>
+    {% endfor %}
+  </ol>

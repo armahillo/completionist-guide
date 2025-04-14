@@ -4,7 +4,7 @@ title: Sidequests checklist
 game: zelda_botw
 section: sidequests
 metadata:
-  last_updated: 04-05-2025
+  last_updated: 04-14-2025
 ---
 
 {% for tower_area in site.data.zelda_botw.sidequests %}
@@ -14,7 +14,6 @@ metadata:
   <li>
     {% assign key = sidequest[0] %}
     {% assign sidequest_data = sidequest[1] %}
-    {{ include.sidequest_data }}
     {% include zelda/sidequest.html set="sidequests" target=key sidequest=sidequest_data %}
   </li>
   {% endfor %}
