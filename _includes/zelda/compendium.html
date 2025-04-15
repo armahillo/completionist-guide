@@ -1,0 +1,8 @@
+{% capture key_base %}compendium_{{ include.set }}_{{ include.index }}{% endcapture %}
+{% capture form_key %}compendium[{{ include.set }}][{{ include.index }}]{% endcapture %}
+{% assign name = include.name %}
+{% assign index = include.index %}
+
+<label for="{{ key_base }}">
+  <input id="{{ key_base }}" type="checkbox" name="{{ form_key }}" value="{{ index }}" /> {{ name }}
+</label>

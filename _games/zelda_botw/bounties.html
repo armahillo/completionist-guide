@@ -1,0 +1,18 @@
+---
+layout: guide
+title: Bounties checklist
+game: zelda_botw
+section: bounties
+metadata:
+  last_updated: 04-15-2025
+---
+
+<h2>Bounties</h2>
+<p>Defeat each beast</p>
+
+{% for beast in site.data.zelda_botw.bounties %}
+  {% assign key = beast[0] %}
+  {% assign locations = beast[1] %}
+  <h3>{{ beast[1]['name'] }}</h3>
+  {% include zelda/bounty.html set=key %}
+{% endfor %}

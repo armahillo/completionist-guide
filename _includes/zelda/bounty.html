@@ -1,0 +1,14 @@
+{% capture key_base %}bounties_{{ include.set }}{% endcapture %}
+{% capture form_key %}bounties[{{ include.set }}]{% endcapture %}
+{%  assign name = site.data.zelda_botw.bounties[include.set]['name'] %}
+{% assign locations = site.data.zelda_botw.bounties[include.set]['locations'] %}
+
+<ol class="bounty collapsed">
+{% for location in locations %}
+<li>
+  <label for="{{ key_base }}_{{ forloop.index }}">
+    <input id="{{ key_base }}_{{ forloop.index }}" type="checkbox" name="{{ form_key }}[]" value="{{ location }}" /> {{ location }}
+  </label>
+</li>
+{% endfor %}
+</ol>

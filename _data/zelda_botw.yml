@@ -1,5 +1,5 @@
 ---
-towers:
+towers: # 15
   hebra:
     name: Hebra Tower
   woodland:
@@ -990,7 +990,7 @@ gear:
           - 5 Silent Princess
   wild:
     name: Wild Set
-    location: Given after "A Gift from the Monks", after completing all 120 shrines.
+    location: "Given after \"A Gift from the Monks\", after completing all \"120\": shrines."
     head:
       name: Cap of the Wild
       levels:
@@ -1679,6 +1679,7 @@ gear:
       levels:
         acquired:
           location: Found in a buried chest on a small island between 2 dead trees in the north part of Tobio's Hollow (Dueling Peaks)
+mainquests:
 sidequests:
   "Dueling Peaks":
     misko:
@@ -1922,7 +1923,7 @@ sidequests:
     xenoblade:
       name: Xenoblade Chronicles 2 Gear
       location: Various (see Salvager gear set)
-shrines:
+shrines: # 120
   "The Great Plateau":
     Ja_Baij:
       name: Ja Baij
@@ -2748,3 +2749,549 @@ shrines:
       location: N of Akkala Tower
       treasure:
       - Flameblade
+locations: # 350
+bounties: # 40 talus, 40 hinox, 4 molduga
+  bosses:
+    name: Bosses
+    locations:
+    - Thunderblight Ganon
+    - Fireblight Ganon
+    - Waterblight Ganon
+    - Windblight Ganon
+    - Calamity Ganon
+    - Dark Beast Ganon
+  stone_talus:
+    name: Stone Talus
+    locations:
+    - Deya Lake
+    - Dueling Peaks South
+    - Gama Cove
+    - Great Plateau
+    - Hyrule Castle Underground
+    - Lake Floria
+    - Martha's Landing
+    - North Dueling Peaks
+    - North Mable Ridge
+    - Ovli Plain
+    - Quince
+    - West Nabi Lake
+  luminous_talus:
+    name: Luminous Talus
+    locations:
+    - Champion's Gate North
+    - Crenel Hills
+    - East Mount Granajh
+    - Lake Hylia North
+    - Lake Kolomo
+    - Mapla Point
+    - Mount Nabooru
+    - Rutimala Hill
+    - South Taafei Hill
+    - South Koukot Plateau
+    - Southern Tal Tal Peak
+    - Upland Lindor
+  rare_talus:
+    name: Rare
+    locations:
+    - Gisa Crater
+    - Hyrule Castle West
+    - Illumeni Plateau
+    - Kolami Bridge South
+    - West Vatorsa Snowfield
+  igneo_talus:
+    name: Igneo Talus
+    locations:
+    - Darb Pond
+    - Darunia Lake
+    - Gorko Lake
+    - Goronbi Lake North
+    - Lake Darman
+  frost_talus:
+    name: Frost Talus
+    locations:
+    - Coldsnap Hollow
+    - Laproah Mesa
+    - Pikida Stonegrove
+    - West Rospro Pass
+    - West Sapphia's Table
+  red_hinox:
+    name: (Red) Hinox
+    locations:
+    - Kamah Plateau
+    - Kincean Island
+    - Mount Taran
+    - Phalian Highlands
+    - Purifier Lake
+    - Tibio's Hollow
+    - West Loshlo Harbor
+  blue_hinox:
+    name: Blue Hinox
+    locations:
+    - Aldor Foothills
+    - Applean Forest
+    - Digdogg Suspension Bridge
+    - East Ranch Ruins
+    - Eventide Island
+    - Herin Lake
+    - Ja'Abu Ridge
+    - Mount Taran in Uten Marsh
+    - North Hyrule Castle
+    - Ralis Pond
+    - Seres Scablands
+    - South Akkala Tower
+    - Talus Plateau
+    - Thyphlo Ruins
+    - Trotter's Downfall
+    - West Hyrule Plains
+  black_hinox:
+    name: Black Hinox
+    locations:
+    - East Gut Check Rock
+    - Hebra West Summit
+    - Giant's Forest
+    - Lake Totori South
+    - Mount Taran in Rabella Wetlands
+    - Tabahi Woods
+    - Tempest Gulch
+  stalnox:
+    name: Stalnox
+    locations:
+    - East Akkala Plains
+    - East Hyrule Castle
+    - Eastern Daval Peak
+    - Harfin Valley
+    - Hickaly Woods
+    - Hyrule Castle Underground
+    - Icefall Foothills
+    - North Aris Beach
+    - Rowan Plain
+    - Satori Mountain
+  molduga:
+    name: Molduga
+    locations:
+    - Arbiter's Grounds
+    - Dragon's Exile
+    - Southern Oasis
+    - Toruma Dunes
+compendium:
+  bestiary:
+    "084": (Blue) Chuchu
+    "085": Fire Chuchu
+    "086": Ice Chuchu
+    "087": Electric Chuchu
+    "088": Keese
+    "089": Fire Keese
+    "090": Ice Keese
+    "091": Electric Keese
+    "092": Water Octorok
+    "093": Forest Octorok
+    "094": Rock Octorok
+    "095": Snow Octorok
+    "096": Treasure Octorok
+    "097": Sky Octorok
+    "098": Fire Wizzrobe
+    "099": Ice Wizzrobe
+    "100": Electric Wizzrobe
+    "101": Meteo Wizzrobe
+    "102": Blizzrobe
+    "103": Thunder Wizzrobe
+    "104": (Red) Bokoblin
+    "105": Blue Bokoblin
+    "106": Black Bokoblin
+    "107": Stalkoblin
+    "108": Silver Bokoblin
+    "109": Golden Bokoblin
+    "110": (Red) Moblin
+    "111": Blue Moblin
+    "112": Black Moblin
+    "113": Stalmoblin
+    "114": Silver Moblin
+    "115": Golden Moblin
+    "116": (Green) Lizalfos
+    "117": Blue Lizalfos
+    "118": Black Lizalfos
+    "119": Stalizalfos
+    "120": Fire-Breath Lizalfos
+    "121": Ice-Breath Lizalfos
+    "122": Electric Lizalfos
+    "123": Silver Lizalfos
+    "124": Golden Lizalfos
+    "125": (Red) Lynel
+    "126": Blue-Maned Lynel
+    "127": White-Maned Lynel
+    "128": Silver Lynel
+    "129": Golden Lynel
+    "130": Guardian Stalker
+    "131": Guardian Skywatcher
+    "132": Guardian Turret
+    "133": Sentry
+    "134": Decayed Guardian
+    "135": Guardian Scout I
+    "136": Guardian Scout II
+    "137": Guardian Scout III
+    "138": Guardian Scout IV
+    "139": Yiga Footsoldier
+    "140": Yiga Blademaster
+    "141": Master Kohga
+    "142": Monk Maz Koshia
+    "143": Stone Talus
+    "144": Stone Talus (Luminous)
+    "145": Stone Talus (Rare)
+    "146": Igneo Talus
+    "147": Frost Talus
+    "148": Stone Pebblit
+    "149": Igneo Pebblit
+    "150": Frost Pebblit
+    "151": Igneo Talus Titan
+    "152": (Red) Hinox
+    "153": Blue Hinox
+    "154": Black Hinox
+    "155": Stalnox
+    "156": Molduga
+    "157": Molduking
+    "158": Dinraal
+    "159": Naydra
+    "160": Farosh
+    "161": Cursed Bokoblin
+    "162": Cursed Moblin
+    "163": Cursed Lizalfos
+    "164": Thunderblight Ganon
+    "165": Fireblight Ganon
+    "166": Waterblight Ganon
+    "167": Windblight Ganon
+    "168": Calamity Ganon
+    "169": Dark Beast Ganon
+  creatures:
+    "001": Horse
+    "002": Giant Horse
+    "003": White Horse
+    "004": Lord of the Mountain
+    "005": Stalhorse
+    "006": Donkey
+    "007": Sand Seal
+    "008": Patricia
+    "009": Bushy-Tailed Squirrel
+    "010": Woodland Boar
+    "011": Red-Tusked Boar
+    "012": Mountain Goat
+    "013": White Goat
+    "014": Mountain Buck
+    "015": Mountain Doe
+    "016": Water Buffalo
+    "017": Hateno Cow
+    "018": Highland Sheep
+    "019": Grassland Fox
+    "020": Snowcoat Fox
+    "021": Maraudo Wolf
+    "022": Wasteland Coyote
+    "023": Cold-Footed Wolf
+    "024": Tabantha Moose
+    "025": Great-Horned Rhinoceros
+    "026": Honeyvore Bear
+    "027": Grizzlemaw Bear
+    "028": Hylian Retriever
+    "029": Blupee
+    "030": Common Sparrow
+    "031": Red Sparrow
+    "032": Blue Sparrow
+    "033": Rainbow Sparrow
+    "034": Sand Sparrow
+    "035": Golden Sparrow
+    "036": Wood Pigeon
+    "037": Rainbow Pigeon
+    "038": Hotfeather Pigeon
+    "039": White Pigeon
+    "040": Mountain Crow
+    "041": Bright-Chested Duck
+    "042": Blue-Winged Heron
+    "043": Pink Heron
+    "044": Islander Hawk
+    "045": Seagull
+    "046": Eldin Ostrich
+    "047": Cucco
+    "048": Hyrule Bass
+    "049": Hearty Bass
+    "050": Staminoka Bass
+    "051": Hearty Salmon
+    "052": Chillfin Trout
+    "053": Sizzlefin Trout
+    "054": Voltfin Trout
+    "055": Stealthfin Trout
+    "056": Mighty Carp
+    "057": Armored Carp
+    "058": Sanke Carp
+    "059": Mighty Porgy
+    "060": Armored Porgy
+    "061": Sneaky River Snail
+    "062": Hearty Blueshell Snail
+    "063": Razorclaw Crab
+    "064": Ironshell Crab
+    "065": Bright-Eyed Crab
+    "066": Fairy
+    "067": Winterwing Butterfly
+    "068": Summerwing Butterfly
+    "069": Thunderwing Butterfly
+    "070": Smotherwing Butterfly
+    "071": Cold Darner
+    "072": Warm Darner
+    "073": Electric Darner
+    "074": Restless Cricket
+    "075": Bladed Rhino Beetle
+    "076": Rugged Rhino Beetle
+    "077": Energetic Rhino Beetle
+    "078": Sunset Firefly
+    "079": Hot-Footed Frog
+    "080": Tireless Frog
+    "081": Hightail Lizard
+    "082": Hearty Lizard
+    "083": Fireproof Lizard
+  materials:
+    "170": Apple
+    "171": Palm Fruit
+    "172": Wildberry
+    "173": Hearty Durian
+    "174": Hydromelon
+    "175": Spicy Pepper
+    "176": Voltfruit
+    "177": Fleet-Lotus Seeds
+    "178": Mighty Bananas
+    "179": Hylian Shroom
+    "180": Endura Shroom
+    "181": Stamella Shroom
+    "182": Hearty Truffle
+    "183": Big Hearty Truffle
+    "184": Chillshroom
+    "185": Sunshroom
+    "186": Zapshroom
+    "187": Rushroom
+    "188": Razorshroom
+    "189": Ironshroom
+    "190": Silent Shroom
+    "191": Hyrule Herb
+    "192": Hearty Radish
+    "193": Big Hearty Radish
+    "194": Cool Safflina
+    "195": Warm Safflina
+    "196": Electric Safflina
+    "197": Swift Carrot
+    "198": Endura Carrot
+    "199": Fortified Pumpkin
+    "200": Swift Violet
+    "201": Mighty Thistle
+    "202": Armoranth
+    "203": Blue Nightshade
+    "204": Silent Princess
+    "205": Courser Bee Honey
+  weapons:
+    "206": Master Sword
+    "207": Tree Branch
+    "208": Torch
+    "209": Soup Ladle
+    "210": Boomerang
+    "211": Spring-Loaded Hammer
+    "212": Traveler's Sword
+    "213": Soldier's Broadsword
+    "214": Knight's Broadsword
+    "215": Royal Broadsword
+    "216": Forest Dweller's Sword
+    "217": Zora Sword
+    "218": Feathered Edge
+    "219": Gerudo Scimitar
+    "220": Moonlight Scimitar
+    "221": Scimitar of the Seven
+    "222": Eightfold Blade
+    "223": Ancient Short Sword
+    "224": Rusty Broadsword
+    "225": Royal Guard's Sword
+    "226": Flameblade
+    "227": Frostblade
+    "228": Thunderblade
+    "229": Boko Club
+    "230": Spiked Boko Club
+    "231": Dragonbone Boko Club
+    "232": Lizal Boomerang
+    "233": Lizal Forked Boomerang
+    "234": Lizal Tri-Boomerang
+    "235": Guardian Sword
+    "236": Guardian Sword+
+    "237": Guardian Sword++
+    "238": Lynel Sword
+    "239": Mighty Lynel Sword
+    "240": Savage Lynel Sword
+    "241": Fire Rod
+    "242": Meteor Rod
+    "243": Ice Rod
+    "244": Blizzard Rod
+    "245": Lightning Rod
+    "246": Thunderstorm Rod
+    "247": Vicious Sickle
+    "248": Demon Carver
+    "249": One-Hit Obliterator
+    "250": Bokoblin Arm
+    "251": Lizalfos Arm
+    "252": Korok Leaf
+    "253": Farming Hoe
+    "254": Boat Oar
+    "255": Woodcutter's Axe
+    "256": Double Axe
+    "257": Iron Sledgehammer
+    "258": Giant Boomerang
+    "259": Traveler's Claymore
+    "260": Soldier's Claymore
+    "261": Knight's Claymore
+    "262": Royal Claymore
+    "263": Silver Longsword
+    "264": Cobble Crusher
+    "265": Stone Smasher
+    "266": Boulder Breaker
+    "267": Golden Claymore
+    "268": Eightfold Longblade
+    "269": Edge of Duality
+    "270": Ancient Bladesaw
+    "271": Rusty Claymore
+    "272": Royal Guard's Claymore
+    "273": Great Flameblade
+    "274": Great Frostblade
+    "275": Great Thunderblade
+    "276": Boko Bat
+    "277": Spiked Boko Bat
+    "278": Dragonbone Boko Bat
+    "279": Moblin Club
+    "280": Spiked Moblin Club
+    "281": Dragonbone Moblin Club
+    "282": Ancient Battle Axe
+    "283": Ancient Battle Axe+
+    "284": Ancient Battle Axe++
+    "285": Lynel Crusher
+    "286": Mighty Lynel Crusher
+    "287": Savage Lynel Crusher
+    "288": Windcleaver
+    "289": Moblin Arm
+    "290": Wooden Mop
+    "291": Farmer's Pitchfork
+    "292": Fishing Harpoon
+    "293": Throwing Spear
+    "294": Traveler's Spear
+    "295": Soldier's Spear
+    "296": Knight's Halberd
+    "297": Royal Halberd
+    "298": Forest Dweller's Spear
+    "299": Zora Spear
+    "300": Silverscale Spear
+    "301": Ceremonial Trident
+    "302": Lightscale Trident
+    "303": Drillshaft
+    "304": Feathered Spear
+    "305": Gerudo Spear
+    "306": Serpentine Spear
+    "307": Ancient Spear
+    "308": Rusty Halberd
+    "309": Royal Guard's Spear
+    "310": Flamespear
+    "311": Frostspear
+    "312": Thunderspear
+    "313": Boko Spear
+    "314": Spiked Boko Spear
+    "315": Dragonbone Boko Spear
+    "316": Moblin Spear
+    "317": Spiked Moblin Spear
+    "318": Dragonbone Moblin Spear
+    "319": Lizal Spear
+    "320": Enhanced Lizal Spear
+    "321": Forked Lizal Spear
+    "322": Guardian Spear
+    "323": Guardian Spear+
+    "324": Guardian Spear++
+    "325": Lynel Spear
+    "326": Mighty Lynel Spear
+    "327": Savage Lynel Spear
+    "328": Bow of Light
+    "329": Wooden Bow
+    "330": Traveler's Bow
+    "331": Soldier's Bow
+    "332": Knight's Bow
+    "333": Royal Bow
+    "334": Forest Dweller's Bow
+    "335": Silver Bow
+    "336": Swallow Bow
+    "337": Falcon Bow
+    "338": Great Eagle Bow
+    "339": Golden Bow
+    "340": Phrenic Bow
+    "341": Ancient Bow
+    "342": Royal Guard's Bow
+    "343": Boko Bow
+    "344": Spiked Boko Bow
+    "345": Dragon Bone Boko Bow
+    "346": Lizal Bow
+    "347": Strengthened Lizal Bow
+    "348": Steel Lizal Bow
+    "349": Lynel Bow
+    "350": Mighty Lynel Bow
+    "351": Savage Lynel Bow
+    "352": Duplex Bow
+    "353": Arrow
+    "354": Fire Arrow
+    "355": Ice Arrow
+    "356": Shock Arrow
+    "357": Bomb Arrow
+    "358": Ancient Arrow
+    "359": Hylian Shield
+    "360": Pot Lid
+    "361": Wooden Shield
+    "362": Emblazoned Shield
+    "363": Hunter's Shield
+    "364": Fisherman's Shield
+    "365": Traveler's Shield
+    "366": Soldier's Shield
+    "367": Knight's Shield
+    "368": Royal Shield
+    "369": Forest Dweller's Shield
+    "370": Silver Shield
+    "371": Kite Shield
+    "372": Gerudo Shield
+    "373": Radiant Shield
+    "374": Daybreaker
+    "375": Shield of the Mind's Eye
+    "376": Ancient Shield
+    "377": Rusty Shield
+    "378": Royal Guard's Shield
+    "379": Boko Shield
+    "380": Spiked Boko Shield
+    "381": Dragonbone Boko Shield
+    "382": Lizal Shield
+    "383": Reinforced Lizal Shield
+    "384": Steel Lizal Shield
+    "385": Guardian Shield
+    "386": Guardian Shield+
+    "387": Guardian Shield++
+    "388": Lynel Shield
+    "389": Mighty Lynel Shield
+    "390": Savage Lynel Shield
+  treasure:
+    "391": Treasure Chest
+    "392": Ore Deposit
+    "393": Rare Ore Deposit
+    "394": Luminous Stone Deposit
+korok: # 900 Total
+  akkala: # 58
+  "1":
+    type: rock
+    location: Under Akkala Span bridge
+  "2":
+    type: stone ring
+    location: On a peak west of South Akkala Plains
+  central: # 113
+  dueling_peaks: # 60
+  eldin: # 44
+  faron: # 58
+  gerudo_highland: # 33
+  gerudo_wasteland: # 71
+  woodland: # 35
+  great_plateau: # 17
+  hateno: # 66
+  hebra: # 74
+  lake: # 92
+  lanaryu: # 63
+  ridgeland: # 81
+  tabantha: # 35
