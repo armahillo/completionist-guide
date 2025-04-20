@@ -4,41 +4,27 @@ layout: default
 ---
 
 {% assign games = site.games | where: "game", page.game %}
+{% assign current_url = page.url %}
 
-<section id="game-nav">
-  <nav>
-    <ol>
-      <li>
-        <a href="/games/{{ page.game }}">Section Home</a>
+<nav id="guide-nav">
+  <ol>
+    <li class="{% if game.name == 'index.html' %}current{% endif %}">
+      <a href="/games/{{ page.game }}">Section Home</a>
+    </li>
+    {% for game in games %}
+      {% if game.name == 'index.html' %}
+        {% continue %}
+      {% endif %}
+      <li class="{% if game.url == page.url %}current{% endif %}">
+        <a href="{{ game.url | relative_url }}#game_title">{{ game.title }}</a>
       </li>
-      {% for game in games %}
-        {% if game.name == 'index.html' %}
-          {% continue %}
-        {% endif %}
-        <li>
-          <a href="{{ game.url | relative_url }}">{{ game.title }}</a>
-        </li>
-      {% endfor %}
-    </ol>
-  </nav>
-</section>
-<article id="guide" data-game="{{ page.game }}" data-section="{{ page.section }}" class="small-container" data-version="{{ page.version }}">
-  <h1 id="game_title">{{ page.title }}</h1>
-  <header>
-    {% if page.metadata %}
-      <aside class="metadata">
-        <ul>
-          {% for item in page.metadata %}
-          <li>{{ item }}</li>
-          {% endfor %}
-        </ul>
-      </aside>
-    {% endif %}
-    <aside id="status_message">Loading...</aside>
+    {% endfor %}
+  </ol>
+</nav>
 
-    <button id="save">Save</button>
-    <button id="load">Load</button>
-    <button id="reset">Reset</button>
+<article id="guide" data-game="{{ page.game }}" data-section="{{ page.section }}" class="" data-version="{{ page.version }}">
+  <header>
+    <h1 id="game_title">{{ page.title }}</h1>
   </header>
 
   <form>
@@ -46,12 +32,28 @@ layout: default
   </form>
 
   <footer>
+    <aside id="status_message">Loading...</aside>
+    <button id="save">Save</button>
+    <button id="load">Load</button>
+    <button id="reset">Reset</button>
+
+    {% if page.metadata %}
+      <aside class="metadata">
+        <dl>
+          {% for item in page.metadata %}
+          <dt>{{ item[0] }}</dt>
+          <dd>{{ item[1] }}</dd>
+          {% endfor %}
+        </dl>
+      </aside>
+    {% endif %}
     {% if page.footer %}
-    <ul>
+    <dl>
       {% for note in page.notes %}
-        <li>{{ note }}</li>
+        <dt>{{ note[0] }}</dt>
+        <dd>{{ note[1] }}</dd>
       {% endfor %}
-    </ul>
+    </dl>
     {% endif %}
   </footer>
 </article>

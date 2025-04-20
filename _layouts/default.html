@@ -49,34 +49,31 @@
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
-
-    <div class="site-wrapper">
+    {% assign games = site.games | where_exp: "game", "game.url contains 'index'" %}
 
       <header>
         <div id="masthead" class="h-wrap">
-          <h1 class="title"><a href="{{ site.baseurl | split:'/' | join:'/' | append:'/'  }}" title="Back to Homepage">{{ site.name }}</a></h1>
+          <h1 class="title">🏆 <a href="{{ site.baseurl | split:'/' | join:'/' | append:'/'  }}" title="Back to Homepage">{{ site.name }}</a></h1>
         </div>
-      </header>
-
-      {% assign games = site.games | where_exp: "game", "game.url contains 'index'" %}
-
-      <main>
-        <nav>
+        <nav id="game-nav">
           <ol>
           {% for game in games %}
-            <li>
+            <li class="{% if game.game == page.game %}current{% endif %}">
               <a href="{{ game.url | relative_url }}">{{ game.title }}</a>
             </li>
           {% endfor %}
           </ol>
         </nav>
+      </header>
+
+      <main>
         {{ content }}
       </main>
 
       <footer>
         <small>&copy; <a href="https://aaronh.me">{{ site.author }}</a></small>
       </footer>
-  </div>
+  
     {% comment %} site-wrapper {% endcomment %}
 </body>
 

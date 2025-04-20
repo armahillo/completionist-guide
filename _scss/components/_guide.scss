@@ -1,10 +1,22 @@
 article#guide {
   /* Color swatch */
-  .c {
-    display: inline-block;
-    width: 1rem;
-    height: 1rem;
+  dl#swatches {
+    dt {
+      display: inline-block;
+      width: 1rem;
+      height: 1rem;  
+      clear: left;
+      float: left;
+      border-top: 1px solid white;
+      border-left: 1px solid gray;
+      border-bottom: 1px solid black;
+      border-right: 1px solid gray;
+    }
+    dd {
+
+    }
   }
+  
   p.note {
     margin-bottom: 0.5rem;
   }
@@ -48,7 +60,6 @@ article#guide {
   li label:has([type="radio"]),
   li label:has([type="checkbox"]) {
     &.cached {
-      background-color: var(--cached-color);
       border-color: var(--cached-color);
     }
 

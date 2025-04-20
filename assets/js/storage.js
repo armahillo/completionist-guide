@@ -7,9 +7,13 @@ class Storage {
   get data() {
     try {
       var data = JSON.parse(localStorage.getItem(this.key));
+      if (data == undefined) {
+        throw TypeError;
+      }
       return data;
     } catch(error) {
       console.log("Couldn't find " + this.key);
+      this.data = {};
       return {};
     }
   }

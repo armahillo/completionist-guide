@@ -2754,125 +2754,125 @@ bounties: # 40 talus, 40 hinox, 4 molduga
   bosses:
     name: Bosses
     locations:
-    - Thunderblight Ganon
-    - Fireblight Ganon
-    - Waterblight Ganon
-    - Windblight Ganon
-    - Calamity Ganon
-    - Dark Beast Ganon
+      calamity: Calamity Ganon
+      dark_beast: Dark Beast Ganon
+      fireblight: Fireblight Ganon
+      thunderblight: Thunderblight Ganon
+      waterblight: Waterblight Ganon
+      windblight: Windblight Ganon
   stone_talus:
     name: Stone Talus
     locations:
-    - Deya Lake
-    - Dueling Peaks South
-    - Gama Cove
-    - Great Plateau
-    - Hyrule Castle Underground
-    - Lake Floria
-    - Martha's Landing
-    - North Dueling Peaks
-    - North Mable Ridge
-    - Ovli Plain
-    - Quince
-    - West Nabi Lake
+      deya_lake: Deya Lake
+      dueling_peaks_north: North Dueling Peaks
+      dueling_peaks_south: Dueling Peaks South
+      gama_ove: Gama Cove
+      great_plateau: Great Plateau
+      hyrule_castle: Hyrule Castle Underground
+      lake_floria: Lake Floria
+      mable_ridge: North Mable Ridge
+      marthas_landing: Martha's Landing
+      nabi_lake: West Nabi Lake
+      ovli_plain: Ovli Plain
+      quince: Quince
   luminous_talus:
     name: Luminous Talus
     locations:
-    - Champion's Gate North
-    - Crenel Hills
-    - East Mount Granajh
-    - Lake Hylia North
-    - Lake Kolomo
-    - Mapla Point
-    - Mount Nabooru
-    - Rutimala Hill
-    - South Taafei Hill
-    - South Koukot Plateau
-    - Southern Tal Tal Peak
-    - Upland Lindor
+      champions_gate: Champion's Gate North
+      crenel_hills: Crenel Hills
+      koukot_plateau: South Koukot Plateau
+      lake_hylia: Lake Hylia North
+      lake_kolomo: Lake Kolomo
+      mapla_point: Mapla Point
+      mount_granajh: East Mount Granajh
+      mount_nabooru: Mount Nabooru
+      rutimala_hill: Rutimala Hill
+      taafei_hill: South Taafei Hill
+      tal_tal_peak: Southern Tal Tal Peak
+      upland_lindor: Upland Lindor
   rare_talus:
     name: Rare
     locations:
-    - Gisa Crater
-    - Hyrule Castle West
-    - Illumeni Plateau
-    - Kolami Bridge South
-    - West Vatorsa Snowfield
+      gisa_crater: Gisa Crater
+      hyrule_castle: Hyrule Castle West
+      illumeni_plateau: Illumeni Plateau
+      kolami_bridge: Kolami Bridge South
+      vatorsa_snowfield: West Vatorsa Snowfield
   igneo_talus:
     name: Igneo Talus
     locations:
-    - Darb Pond
-    - Darunia Lake
-    - Gorko Lake
-    - Goronbi Lake North
-    - Lake Darman
+      darb_pond: Darb Pond
+      darunia_lake: Darunia Lake
+      gorko_lake: Gorko Lake
+      goronbi_lake: Goronbi Lake North
+      lake_darman: Lake Darman
   frost_talus:
     name: Frost Talus
     locations:
-    - Coldsnap Hollow
-    - Laproah Mesa
-    - Pikida Stonegrove
-    - West Rospro Pass
-    - West Sapphia's Table
+      coldsnap_hollow: Coldsnap Hollow
+      laproah_mesa: Laproah Mesa
+      pikida_stonegrove: Pikida Stonegrove
+      rospro_pass: West Rospro Pass
+      sapphias_table: West Sapphia's Table
   red_hinox:
     name: (Red) Hinox
     locations:
-    - Kamah Plateau
-    - Kincean Island
-    - Mount Taran
-    - Phalian Highlands
-    - Purifier Lake
-    - Tibio's Hollow
-    - West Loshlo Harbor
+      kamah_plateau: Kamah Plateau
+      kincean_island: Kincean Island
+      loshlo_harbor: West Loshlo Harbor
+      mount_taran: Mount Taran
+      phalian_highlands: Phalian Highlands
+      purifier_lake: Purifier Lake
+      tibios_hollow: Tibio's Hollow
   blue_hinox:
     name: Blue Hinox
     locations:
-    - Aldor Foothills
-    - Applean Forest
-    - Digdogg Suspension Bridge
-    - East Ranch Ruins
-    - Eventide Island
-    - Herin Lake
-    - Ja'Abu Ridge
-    - Mount Taran in Uten Marsh
-    - North Hyrule Castle
-    - Ralis Pond
-    - Seres Scablands
-    - South Akkala Tower
-    - Talus Plateau
-    - Thyphlo Ruins
-    - Trotter's Downfall
-    - West Hyrule Plains
+      akkala_tower: South Akkala Tower
+      aldor_foothills: Aldor Foothills
+      applean_forest: Applean Forest
+      digdogg_bridge: Digdogg Suspension Bridge
+      eventide_island: Eventide Island
+      herin_lake: Herin Lake
+      hyrule_castle: North Hyrule Castle
+      hyrule_plains: West Hyrule Plains
+      jaabu_ridge: Ja'Abu Ridge
+      mount_taran: Mount Taran in Uten Marsh
+      ralis_pond: Ralis Pond
+      ranch_ruins: East Ranch Ruins      
+      seres_scablands: Seres Scablands
+      talus_plateau: Talus Plateau
+      thyphlo_ruins: Thyphlo Ruins
+      trotters_downfall: Trotter's Downfall
   black_hinox:
     name: Black Hinox
     locations:
-    - East Gut Check Rock
-    - Hebra West Summit
-    - Giant's Forest
-    - Lake Totori South
-    - Mount Taran in Rabella Wetlands
-    - Tabahi Woods
-    - Tempest Gulch
+      east_gut_check_rock: East Gut Check Rock
+      hebra_west_summit: Hebra West Summit
+      giants_forest: Giant's Forest
+      lake_totori_south: Lake Totori South
+      mount_taran: Mount Taran in Rabella Wetlands
+      tabahi_woods: Tabahi Woods
+      tempest_gulch: Tempest Gulch
   stalnox:
     name: Stalnox
     locations:
-    - East Akkala Plains
-    - East Hyrule Castle
-    - Eastern Daval Peak
-    - Harfin Valley
-    - Hickaly Woods
-    - Hyrule Castle Underground
-    - Icefall Foothills
-    - North Aris Beach
-    - Rowan Plain
-    - Satori Mountain
+      east_akkala_plains: East Akkala Plains
+      east_hyrule_castle: East Hyrule Castle
+      eastern_daval_peak: Eastern Daval Peak
+      harfin_valley: Harfin Valley
+      hickaly_woods: Hickaly Woods
+      hyrule_castle_underground: Hyrule Castle Underground
+      icefall_foothills: Icefall Foothills
+      north_aris_beach: North Aris Beach
+      rowan_plain: Rowan Plain
+      satori_mountain: Satori Mountain
   molduga:
     name: Molduga
     locations:
-    - Arbiter's Grounds
-    - Dragon's Exile
-    - Southern Oasis
-    - Toruma Dunes
+      arbiters_grounds: Arbiter's Grounds
+      dragons_exile: Dragon's Exile
+      southern_oasis: Southern Oasis
+      toruma_dunes: Toruma Dunes
 compendium:
   bestiary:
     "084": (Blue) Chuchu

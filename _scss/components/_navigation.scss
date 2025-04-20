@@ -1,3 +1,85 @@
 /*
  * Navigation
  */
+@use "../base/mixins";
+
+nav {
+  width: 100%;
+  margin-bottom: 1rem; 
+  ol {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+
+    @include mixins.small-breakpoint {
+      gap: 0.2rem;
+      flex-direction: row;
+    }
+    @include mixins.medium-breakpoint {
+      
+    }
+    @include mixins.large-breakpoint {
+      flex-direction: row;
+      max-width: 1000px;
+      gap: 0;
+    }
+
+    li {
+      display: inline-block;
+      padding: 0.5rem;
+      margin: 0 1px;
+
+      &.current {
+        background-color: var(--text-color) !important;
+
+        a { 
+          font-weight: bold;
+          color: var(--background-color) !important;
+        }
+      }
+
+      @include mixins.large-breakpoint {
+        &:first-of-type {
+          border-radius: 8px 0 0 8px;
+        }
+        &:last-of-type {
+          border-radius: 0 8px 8px 0;
+        }
+      }
+      a {
+        width: 100%;
+        display: inline-block;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+#game-nav ol {
+  margin: 1px 1rem;
+  padding-bottom: 1rem;
+
+  li {
+    background-color: var(--primary-color);
+
+    &:first-of-type {
+      border-radius: 8px 8px 0 0;
+    }
+    &:last-of-type {
+      border-radius: 0 0 8px 8px;
+    }
+
+    a {
+      width: 100%;
+      display: inline-block;
+      color: var(--color-white);  
+    }
+  }  
+}

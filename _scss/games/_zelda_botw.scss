@@ -42,28 +42,38 @@ body[data-game="zelda_botw"] {
   h1, h2, h3, h4, h5, h6 {
     color: inherit;
   }
+  #guide-nav {
+    margin: 0 auto;
+
+    ol {
+      li {
+        background-color: var(--color-hunter-green);
+
+        &:hover {
+          background-color: var(--color-mint-green);
+        }
+        a {
+          color: var(--color-cream);  
+
+          &:hover {
+            color: var(--color-hunter-green);
+          }
+        }
+        
+      }
+    }
+  }
+
   article#guide {
-    .shrines {
+    ol.shrines {
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
       align-content: center;
-
+    }
+    .shrines {
       ol.levels {
         li:first-of-type {
-          label {
-            &.puzzle {
-              background-color: var(--color-slate-blue);
-            }
-            &.outdoor {
-              background-color: var(--color-hunter-green);
-              color: var(--color-cream);
-            }
-            &.combat {
-              background-color: var(--color-rust);
-              color: var(--color-taupe);
-            }
-          }
           &:has(:checked) label .hide-when-checked {
             display: none;
           }
@@ -71,6 +81,25 @@ body[data-game="zelda_botw"] {
             display: inline;
           }
         }
+        li:has(label [value="completed"]),
+        li:has(label [value="discovered"]) {
+          display: none;
+        }
+        li:has(label [value=""]:checked) + li:has(label [value="discovered"]),
+        li:has(label [value="discovered"]:checked) {
+          display: block;
+        }
+        li:has(label [value="discovered"]:checked) + li:has(label [value="completed"]),
+        li:has(label [value="completed"]:checked) {
+          display: block;
+        }
+      }
+      .treasure {
+        display: none;
+      }
+      ol:has(li label [value="discovered"]:checked) ~ .treasure,
+      ol:has(li label [value="completed"]:checked) ~ .treasure {
+        display: block;
       }
       & > li {
         border-radius: 4px;
@@ -79,6 +108,17 @@ body[data-game="zelda_botw"] {
         margin-bottom: 1rem;
         flex-basis: 49%;
         margin-right: 1%;
+      }
+      .puzzle {
+        background-color: var(--color-slate-blue) !important;
+      }
+      .outdoor {
+        background-color: var(--color-hunter-green) !important;
+        color: var(--color-cream);
+      }
+      .combat {
+        background-color: var(--color-rust) !important;
+        color: var(--color-taupe);
       }
       li:has(.puzzle) {
         border-color: var(--color-slate-blue);
@@ -94,6 +134,7 @@ body[data-game="zelda_botw"] {
         margin: 0;
       }
     }
+
     .gear {
         margin: 0;
         padding: 0;

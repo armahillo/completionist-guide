@@ -15,10 +15,9 @@ html {
 
 // Body base
 body {
-  color: variables.$font-color;
-  background: variables.$background;
+  color: var(--font-color); 
+  background: var(--bg-color);
   font-size: variables.$body-font-size;
-  padding: variables.$padding;
 }
 
 p,

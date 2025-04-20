@@ -40,6 +40,50 @@ $error: #d33c40 !default;
 $success: #29de7d !default;
 $bq-border: 16px solid #f0f0f0 !default;
 
+:root {
+  --color-white: white;
+  --color-off-white: #fafafa;
+  --color-blue: #0366ee;
+  --color-blue-lt: #03b7ee;
+  --color-green: #29de7d;
+  --color-gray-lt: #cdcdcd;
+  --color-gray-dk: #404040;
+  --color-sand: #ffeea8;
+  --color-red: #d33c40;
+  --color-warm-black: #262020;
+
+  @media (prefers-color-scheme: light) {
+    --bg-color: var(--color-white);
+    --font-color: var(--color-warm-black);
+    --primary-color: var(--color-blue);
+    --secondary-color: var(--color-green);
+    --accent-color: var(--color-gray-lt);
+    --bg-alt-color: var(--color-off-white);
+    --alt-color: var(--color-gray-dk);
+    --link-color: var(--primary-color);
+    --link-color-hover: var(--color-blue-lt);
+    --highlight-color: var(--color-sand);
+    --error-color: var(--color-red);
+    --success-color: var(--color-green);
+    --bq-border: 16px solid var(--color-gray-lt);    
+  }
+  @media (prefers-color-scheme: dark) {
+    --bg-color: var(--color-warm-black);
+    --font-color: var(--color-white);
+    --primary-color: var(--color-blue);
+    --secondary-color: var(--color-green);
+    --accent-color: var(--color-gray-lt);
+    --bg-alt-color: var(--color-off-white);
+    --alt-color: var(--color-gray-dk);
+    --link-color: var(--color-blue-lt);
+    --link-color-hover: var(--primary-color);
+    --highlight-color: var(--color-sand);
+    --error-color: var(--color-red);
+    --success-color: var(--color-green);
+    --bq-border: 16px solid var(--color-gray-lt);    
+  }
+}
+
 //==============================================================================
 // Typography
 //==============================================================================

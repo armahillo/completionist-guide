@@ -7,7 +7,7 @@
 {% for location in locations %}
 <li>
   <label for="{{ key_base }}_{{ forloop.index }}">
-    <input id="{{ key_base }}_{{ forloop.index }}" type="checkbox" name="{{ form_key }}[]" value="{{ location }}" /> {{ location }}
+    <input id="{{ key_base }}_{{ forloop.index }}" type="checkbox" name="{{ form_key }}[{{ location[0] }}]" value="defeated" /> {{ location[1] }}
   </label>
 </li>
 {% endfor %}

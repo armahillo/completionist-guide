@@ -1,16 +1,15 @@
 ---
 layout: guide
-title: Compendium checklist
+title: 📸 Compendium
 game: zelda_botw
 section: compendium
 metadata:
   last_updated: 04-15-2025
 ---
 
-<h2>Compendium</h2>
-<p>Take a photo of each entry.</p>
+<p>Take a photo of each entry. You only need to take a single photo.</p>
 
-<h3>Bestiary</h3>
+<h3>Enemies (Bestiary)</h3>
 <ol class="compendium collapsed">
 {% for entry in site.data.zelda_botw.compendium.bestiary %}
   {% assign index = entry[0] %}
@@ -19,7 +18,7 @@ metadata:
 {% endfor %}
 </ol>
 
-<h3>Creatures</h3>
+<h3>Critters / Animals (Creatures)</h3>
 <ol class="compendium collapsed">
 {% for entry in site.data.zelda_botw.compendium.creatures %}
   {% assign index = entry[0] %}
@@ -37,7 +36,7 @@ metadata:
 {% endfor %}
 </ol>
 
-<h3>Weapons</h3>
+<h3>Weapons, Shields, Bows</h3>
 <ol class="compendium collapsed">
 {% for entry in site.data.zelda_botw.compendium.weapons %}
   {% assign index = entry[0] %}

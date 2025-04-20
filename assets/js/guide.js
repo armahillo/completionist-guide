@@ -1,4 +1,5 @@
 console.log("Guide loaded");
+
 class Guide {
   constructor(storage, game, section) {
     this.storage = storage;
@@ -9,10 +10,17 @@ class Guide {
 
   // This feels backwards, but: load() pulls the entries and assigns them to the fields
   load() {
-    var entries = this.storage.data[this.section];
-    if (entries == undefined) {
+    var entries;
+    try {
+      entries = this.storage.data[this.section];
+      if (entries == undefined) {
+        throw TypeError;
+      }
+    }
+    catch(error) {
       entries = {};
     }
+    
     // Repopulate the fields from the known entries
     this.fields = entries;
 
@@ -21,17 +29,19 @@ class Guide {
 
   // And save() combs the entries and then sends them to the storage
   save() {
+    var cachedData;
     // First reload the entire game entry
-    var cachedData = this.storage.data;
-    if (cachedData[this.section] == undefined) {
+    try {
+      cachedData = this.storage.data;
+    }
+    catch(TypeError) {
       cachedData[this.section] = {};
     }
+    
     // Update this one section with the current data
     cachedData[this.section] = this.fields;
     // Then re-save the entire key with the total data
     this.storage.data = cachedData;
-
-    this.updateStale();
   }
 
   // Dole out the entries to the form elements
@@ -51,11 +61,14 @@ class Guide {
     const form = document.querySelector('article#guide form');
     const data = new FormData(form);
     // https://stackoverflow.com/questions/41431322/how-to-convert-formdata-html5-object-to-json
-    const entries = Object.fromEntries(data);
-    if (entries == undefined) {
+
+    try {
+      const entries = Object.fromEntries(data);  
+      return entries;
+    }
+    catch(TypeError) {
       return {}
     }
-    return entries;
   }
 
   // Refres the page to mark anything that is already checked.

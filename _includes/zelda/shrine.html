@@ -15,21 +15,28 @@
     </label>
   </li>
   <li>
-    <label for="{{ key_base }}_status_discovered" class="{{ include.shrine['type'] }}">
+    <label for="{{ key_base }}_status_discovered" class="">
       <input id="{{ key_base }}_status_discovered" type="radio" name="{{ form_key }}[status]" value="discovered" />
       <span class="hide-after-complete">🔲 {{ location }}</span>
-      <span class="show-after-complete">✅ <em>(Discovered)</em></span>
+      <span class="show-after-complete">☑️ <em>Discovered!</em></span>
     </label>
   </li>
   <li>
     <label for="{{ key_base }}_status_completed">
       <input id="{{ key_base }}_status_completed" type="radio" name="{{ form_key }}[status]" value="completed" />
-      <span class="hide-after-complete">🔲  {{ include.shrine['type'] | capitalize }}</span>
-      <span class="show-after-complete">✅ Completed</span>
+      {% if include.shrine['type'] == 'puzzle' %}
+        {% assign action_text = "Solve shrine puzzle" %}
+      {% else if include.shrine['type'] == 'outdoor' %}
+        {% assign action_text = "Solve outdoor puzzle" %}
+      {% else if include.shrine['type'] == 'combat' %}
+        {% assign action_text = "Test of Strength" %}
+      {% endif %}
+      <span class="hide-after-complete">🔲  {{ action_text }}</span>
+      <span class="show-after-complete">✅ Completed!</span>
     </label>
     </li>
   </ol>
-  <ol>
+  <ol class="treasure">
     {% for item in treasure %}
     <li>
     <label for="{{ key_base }}_treasure_{{ forloop.index }}">
