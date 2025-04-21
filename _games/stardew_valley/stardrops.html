@@ -1,0 +1,19 @@
+---
+layout: guide
+title: ⭐️ Stardrops
+game: stardew_valley
+section: stardrops
+metadata:
+  last_updated: 04-21-2025
+---
+
+<p>Completing all yields <strong>🏆 Mystery of the Stardrops</strong></p>
+
+<ol class="collapsed">
+  {% for stardrop in site.data.stardew_valley.stardrops %}
+    {% assign key = stardrop[0] %}
+    {% assign name = stardrop[1]['name'] %}
+    {% assign location = stardrop[1]['location'] %}
+    <li>{% include findable.html set="stardrops" target=key name=name location=location %}</li>
+  {% endfor %}
+</ol>

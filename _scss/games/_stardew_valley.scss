@@ -1,9 +1,50 @@
-:root {
+body[data-game="stardew_valley"] {
+  --color-blue-jeans: #59c9f1;
+  --color-space-cadet: #151152;
+  --color-firebrick: #B52121;
+  --color-philippine-bronze: #6B3710;
+  --color-indian-yellow: #DDA059;
+  --color-banana-yellow: #FFD921;
 
-}
-body[data-game="zelda_botw"] {
-    @media (prefers-color-scheme: dark) {
+  --fresh-color: var(--color-indian-yellow);
+  --cached-color: var(--color-philippine-bronze);
+  --disallowed-color: var(--color-firebrick);
+
+  @media (prefers-color-scheme: dark) {
+    --background-color: var(--color-space-cadet);
+    --text-color: var(--color-blue-jeans);
+    --link-color: var(--color-banana-yellow);
+  }
+  @media (prefers-color-scheme: light) {
+    background-color: var(--color-blue-jeans);
+    text-color: var(--color-space-cadet);
+    link-color: var(--color-firebrick);
+  }
+
+  & {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  a {
+    color: var(--link-color);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--color-blue-jeans);
+  }
+  #guide-nav {
+    margin: 0 auto;
+
+    ol {
+      li {
+        background-color: var(--color-philippine-bronze);
+
+        &:hover {
+          background-color: var(--color-indian-yellow);
+        }
+        a {
+          color: var(--color-banana-yellow);
+        }
+      }
     }
-    @media (prefers-color-scheme: light) {
-    }
+  }
 }

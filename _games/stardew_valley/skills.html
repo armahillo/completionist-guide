@@ -1,0 +1,41 @@
+---
+layout: guide
+title: 📚 Skills
+game: stardew_valley
+section: skills
+metadata:
+  last_updated: 04-21-2025
+---
+
+<ul>
+  <li>Completing 1 skill grants 🏆 Singular Talent</li>
+  <li>Completing all 5 skills grants 🏆 Master of the 5 Ways</li>
+</ul>
+
+{% for skill in site.data.stardew_valley.skills %}
+<h3>{{ skill | capitalize }}</h3>
+<ol class="levels">
+  <li>
+    <label for="skills_{{ skill }}_none" class="cached">
+      <input id="skills_{{ skill }}_none" type="radio" name="skills[{{ skill }}]" value="0" checked="true" />
+      <span class="hide-when-checked">clear</span>
+    </label>
+  </li>
+  {% for i in (1..9) %}
+  <li>
+    <label for="skills_{{ skill }}_{{ i }}">
+      <input id="skills_{{ skill }}_{{ i }}" type="radio" name="skills[{{ skill }}]" value="{{ i }}" />
+      <span class="hide-after-complete">{{ i }}</span>
+      <span class="show-after-complete">☑️</span>
+    </label>
+  </li>
+  {% endfor %}
+  <li>
+    <label for="skills_{{ skill }}_10">
+      <input id="skills_{{ skill }}_10" type="radio" name="skills[{{ skill }}]" value="10" />
+      <span class="hide-after-complete">{{ 10 }}</span>
+      <span class="show-after-complete">✅</span>
+    </label>
+  </li>
+</ol>
+{% endfor %}

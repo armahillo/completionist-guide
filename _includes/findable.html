@@ -1,0 +1,5 @@
+{% capture key_base %}{{ include.set }}_{{ include.target }}{% endcapture %}
+{% capture form_key %}{{ include.set }}[{{ include.target }}]{% endcapture %}
+
+<label for="{{ key_base }}"><input id="{{ key_base }}" type="checkbox" name="{{ form_key }}" /> {{ name }}
+<span class="hide-after-complete"><br />{{ location }}</span></label>

@@ -1,0 +1,476 @@
+---
+# https://docs.google.com/document/d/1txA4D6xCsNr78GJhKlFdwyAppuJnLbCYD3YvcoJexuQ/edit?usp=sharing
+money:
+  greenhorn: 15000
+  cowpoke: 50000
+  homesteader: 250000
+  millionaire: 1000000
+  legend: 10000000
+skills:
+  - farming
+  - mining
+  - foraging
+  - fishing
+  - combat
+joja_mart:
+  bus:
+    name: Enable Bus to the desert
+    location: 40,000g
+  quarry:
+    name: Bridge to the quarry
+    location: 25,000g
+  boulder:
+    name: Removes the glittering boulder, allows panning
+    location: 20,000g
+  minecarts:
+    name: Minecarts
+    location: 15,000g
+  greenhouse:
+    name: Greenhouse
+    location: 35,000g
+stardrops:
+  fair:
+    name: Purchase for 2,000
+    location: Stardew Valley Fair (Fall 16)
+  mines_100:
+    name: Reach floor 100
+    location: The Mines
+  spouse_hearts:
+    name: Reach 12.5 hearts
+    location: spouse/roommate
+  krobus:
+    name: Purchase from Krobus for 20,000g
+    location: The Sewers
+  sweet_gem_berry:
+    name: Give the statue a Sweet Gem Berry
+    location: Secret Woods
+  master_angler:
+    name: Attain the Master Angler Achievement
+    location: Fishing
+  museum_donations:
+    name: Donate all 95 items
+    location: Museum
+
+
+villagers:
+  alex:
+    name: Alex
+    birthday: Summer 13
+    eligible: true
+    loves:
+    - Complete Breakfast
+    - Salmon Dinner
+  elliot:
+    name: Elliot
+    birthday: Fall 5
+    eligible: true
+    loves:
+    - Crab Cakes
+    - Duck Feather
+    - Lobster
+    - Pomegranate
+    - Squid Ink
+    - Tom Kha Soup
+  harvey:
+    name: Harvey
+    birthday: Winter 14
+    eligible: true
+    loves:
+    - Coffee
+    - Pickles
+    - Super Meal
+    - Truffle Oil
+    - Wine
+  sam:
+    name: Sam
+    birthday: Summer 17
+    eligible: true
+    loves:
+    - Cactus Fruit
+    - Maple Bar
+    - Pizza
+    - Tigerseye
+  sebastian:
+    name: Sebastian
+    birthday: Winter 10
+    eligible: true
+    loves:
+    - Frozen Tear
+    - Obsidian
+    - Pumpkin Soup
+    - Sashimi
+    - Void Egg
+  shane:
+    name: Shane
+    birthday: Spring 20
+    eligible: true
+    loves:
+    - Beer
+    - Hot Pepper
+    - Pepper Poppers
+    - Pizza
+  abigail:
+    name: Abigail
+    birthday: Fall 13
+    eligible: true
+    loves:
+    - Amethyst
+    - Banana Pudding
+    - Blackberry Cobbler
+    - Chocolate Cake
+    - Puffer Fish
+    - Pumpkin
+    - Spicy Eel
+  emily:
+    name: Emily
+    birthday: Spring 27
+    eligible: true
+    loves:
+    - Amethyst
+    - Aquamarine
+    - Cloth
+    - Emerald
+    - Jade
+    - Ruby
+    - Survival Burger
+    - Topaz
+    - Wool
+  haley:
+    name: Haley
+    birthday: Spring 14
+    eligible: true
+    loves:
+    - Coconut
+    - Fruit Salad
+    - Pink Cake
+    - Sunflower
+  leah:
+    name: Leah
+    birthday: Winter 23
+    eligible: true
+    loves:
+    - Goat Cheese
+    - Poppyseed Muffin
+    - Salad
+    - Stir Fry
+    - Truffle
+    - Vegetable Medley
+    - Wine
+  maru:
+    name: Maru
+    birthday: Summer 10
+    eligible: true
+    loves:
+    - Battery Pack
+    - Cauliflower
+    - Cheese Cauliflower
+    - Diamond
+    - Gold Bar
+    - Iridium Bar
+    - Miner's Treat
+    - Pepper Poppers
+    - Radioactive Bar
+    - Rhubarb Pie
+    - Strawberry
+  penny:
+    name: Penny
+    birthday: Fall 2
+    eligible: true
+    loves:
+    - Diamond
+    - Emerald
+    - Melon
+    - Poppy
+    - Poppyseed Muffin
+    - Red Plate
+    - Roots Platter
+    - Sandfish
+    - Tom Kha Soup
+  caroline:
+    name: Caroline
+    birthday: Winter 7
+    eligible: false
+    loves:
+    - Fish Taco
+    - Green Tea
+    - Summer Spangle
+    - Tropical Curry
+  clint:
+    name: Clint
+    birthday: Winter 26
+    eligible: false
+    loves:
+    - Amethyst
+    - Aquamarine
+    - Artichoke Dip
+    - Emerald
+    - Fiddlehead Risotto
+    - Gold Bar
+    - Iridium Bar
+    - Jade
+    - Omni Geode
+    - Ruby
+    - Topaz
+  demetrius:
+    name: Demetrius
+    birthday: Summer 19
+    eligible: false
+    loves:
+    - Bean Hotpot
+    - Ice Cream
+    - Rice Pudding
+    - Strawberry
+  dwarf:
+    name: Dwarf
+    birthday: Summer 22
+    eligible: false
+    loves:
+    - Amethyst
+    - Aquamarine
+    - Emerald
+    - Jade
+    - Lemon Stone
+    - Omni Geode
+    - Ruby
+    - Topaz
+  evelyn:
+    name: Evelyn
+    birthday: Winter 20
+    eligible: false
+    loves:
+    - Beet
+    - Chocolate Cake
+    - Diamond
+    - Fairy Rose
+    - Stuffing
+    - Tulip
+  george:
+    name: George
+    birthday: Fall 24
+    eligible: false
+    loves:
+    - Fried Mushroom
+    - Leek
+  gus:
+    name: Gus
+    birthday: Summer 8
+    eligible: false
+    loves:
+    - Diamond
+    - Escargot
+    - Fish Taco
+    - Orange
+    - Tropical Curry
+  jas:
+    name: Jas
+    birthday: Summer 4
+    eligible: false
+    loves:
+    - Fairy Rose
+    - Pink Cake
+    - Plum Pudding
+  jodi:
+    name: Jodi
+    birthday: Fall 11
+    eligible: false
+    loves:
+    - Chocolate Cake
+    - Crispy Bass
+    - Diamond
+    - Eggplant Parmesan
+    - Fried Eel
+    - Pancakes
+    - Rhubarb Pie
+    - Vegetable Medley
+  kent:
+    name: Kent
+    birthday: Spring 4
+    eligible: false
+    loves:
+    - Fiddlehead Risotto
+    - Roasted Hazelnuts
+  krobus:
+    name: Krobus
+    birthday: Winter 1
+    eligible: false
+    loves:
+    - Diamond
+    - Iridium Bar
+    - Pumpkin
+    - Void Egg
+    - Void Mayonnaise
+    - Wild Horseradish
+  leo:
+    name: Leo
+    birthday: Summer 26
+    eligible: false
+    loves:
+    - Duck Feather
+    - Mango
+    - Ostrich Egg
+    - Poi
+  lewis:
+    name: Lewis
+    birthday: Spring 7
+    eligible: false
+    loves:
+    - Autumn's Bounty
+    - Glazed Yams
+    - Green Tea
+    - Hot Pepper
+    - Vegetable Medley
+  linus:
+    name: Linus
+    birthday: Winter 3
+    eligible: false
+    loves:
+    - Blueberry Tart
+    - Cactus Fruit
+    - Coconut
+    - Dish o' the Sea
+    - Yam
+  marnie:
+    name: Marnie
+    birthday: Fall 18
+    eligible: false
+    loves:
+    - Diamond
+    - Farmer's Lunch
+    - Pink Cake
+    - Pumpkin Pie
+  pam:
+    name: Pam
+    birthday: Spring 18
+    eligible: false
+    loves:
+    - Beer
+    - Cactus Fruit
+    - Glazed Yams
+    - Mead
+    - Pale Ale
+    - Parsnip
+    - Parsnip Soup
+    - Pina Colada
+  pierre:
+    name: Pierre
+    birthday: Spring 26
+    eligible: false
+    loves:
+    - Fried Calamari
+  robin:
+    name: Robin
+    birthday: Fall 21
+    eligible: false
+    loves:
+    - Goat Cheese
+    - Peach
+    - Spaghetti
+  sandy:
+    name: Sandy
+    birthday: Fall 15
+    eligible: false
+    loves:
+    - Crocus
+    - Daffodil
+    - Mango Sticky Rice
+    - Sweet Pea
+  vincent:
+    name: Vincent
+    birthday: Spring 10
+    eligible: false
+    loves:
+    - Cranberry Candy
+    - Ginger Ale
+    - Grape
+    - Pink Cake
+    - Snail
+  willy:
+    name: Willy
+    birthday: Summer 24
+    eligible: false
+    loves:
+    - Catfish
+    - Diamond
+    - Iridium Bar
+    - Mead
+    - Octopus
+    - Pumpkin
+    - Sea Cucumber
+    - Sturgeon
+  wizard:
+    name: Rasmodius (Wizard)
+    birthday: Winter 17
+    eligible: false
+    loves:
+    - Purple Mushroom
+    - Solar Essence
+    - Super Cucumber
+    - Void Essence
+
+
+
+tools:
+  hoe: &tool_upgrades
+    copper:
+    - 2,000g
+    - 5 Copper Bar
+    iron:
+    - 5,000g
+    - 5 Iron Bar
+    gold:
+    - 10,000g
+    - 5 Gold Bar
+    iridium:
+    - 25,000g
+    - 5 Iridium Bar
+  pickaxe:
+    <<: *tool_upgrades
+  axe:
+    <<: *tool_upgrades
+  watering_can:
+    <<: *tool_upgrades
+  trash_can:
+    copper:
+    - 1,000g
+    - 5 Copper Bar
+    iron:
+    - 2,500g
+    - 5 Iron Bar
+    gold:
+    - 5,000g
+    - 5 Gold Bar
+    iridium:
+    - 12,500g
+    - 5 Iridium Bar
+  fishing_rod:
+    basic:
+    - 25g
+    level_1:
+    - 500g
+    level_2:
+    - 1,800g
+    iridium:
+    - 7,500g
+  scythe:
+    golden_scythe:
+    - Found in Quarry Mine
+  backpack:
+    level_1:
+    - 2,000g
+    level_2:
+    - 10,000g
+house:
+  kitchen:
+    name: Moving On Up
+    cost:
+    - 10,000g
+    - 450 Wood
+  expanded:
+    name: Living Large
+    cost:
+    - 50,000g
+    - 150 Hardwood
+  cellar:
+    name: Cellar
+    cost:
+    - 100,000g

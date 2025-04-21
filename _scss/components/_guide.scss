@@ -83,9 +83,9 @@ article#guide {
   /* Styles for when there are ranks that ascend */
   .levels {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    background-color: var(--disallowed-color);
+    background-color: var(--background-color);
+    flex-direction: row;
 
     li:has(label) {
       flex: auto;

@@ -1,4 +1,4 @@
-:root {
+body[data-game="zelda_botw"] {
   --color-hunter-green: #536f50;
   --color-gray-dark: #767676;
   --color-slate-blue: #86a5a9;
@@ -9,8 +9,8 @@
   --color-taupe: #d7d1b9;
   --color-gray: #959595;
   --color-dark-slate: #2e3b4b;
-}
-body[data-game="zelda_botw"] {
+
+
   --background-color: var(--color-cream);
   --text-color: var(--color-hunter-green);
   --link-color: var(--color-rust);

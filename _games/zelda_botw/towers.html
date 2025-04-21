@@ -12,6 +12,9 @@ metadata:
 <ol class="collapsed">
   {% for tower in site.data.zelda_botw.towers %}
     {% assign key = tower[0] %}
-    <li>{% include zelda/findable.html set="towers" target=key %}</li>
+    {%  assign name = site.data.zelda_botw['towers'][key]['name'] %}
+    {% assign location = site.data.zelda_botw['towers'][key]['location'] %}
+
+    <li>{% include findable.html set="towers" target=key name=name location=location %}</li>
   {% endfor %}
 </ol>

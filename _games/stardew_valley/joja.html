@@ -1,0 +1,26 @@
+---
+layout: guide
+title: 🏪 Joja Mart
+game: stardew_valley
+section: joja_mart
+metadata:
+  last_updated: 04-21-2025
+---
+
+<h3>Community Development Form</h3>
+<p>
+  Completing all gives:
+<ul>
+  <li>Reward: Soda Machine</li>
+  <li><strong>🏆 Joja Co Member of the Year</strong>
+</li>
+</ul>
+</p>
+<ol class="collapsed">
+  {% for joja_mart in site.data.stardew_valley.joja_mart %}
+    {% assign key = joja_mart[0] %}
+    {% assign name = joja_mart[1]['name'] %}
+    {% assign location = joja_mart[1]['location'] %}
+    <li>{% include findable.html set="joja_mart" target=key name=name location=location %}</li>
+  {% endfor %}
+</ol>

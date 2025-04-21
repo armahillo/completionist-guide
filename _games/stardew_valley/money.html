@@ -1,0 +1,26 @@
+---
+layout: guide
+title: 💰 Money
+game: stardew_valley
+section: money
+metadata:
+  last_updated: 04-21-2025
+---
+
+<ol class="levels">
+  <li>
+    <label for="money_none" class="cached">
+      <input id="money_none" type="radio" name="money" checked="true" /><br />clear
+    </label>
+  </li>
+
+  {% for level in site.data.stardew_valley.money %}
+  <li>
+    <label for="money_{{ level[0] }}">
+      <input id="money_{{ level[0] }}" type="radio" name="money" value="{{ level[0] }}" />
+      <span class="hide-after-complete" style="text-align: center">{{ level[0] | capitalize }}<br/>{{ level[1] }}</span>
+      <span class="show-after-complete"><br/>💰</span>
+    </label>
+  </li>
+  {% endfor %}
+</ol>
