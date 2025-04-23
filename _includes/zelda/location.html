@@ -1,0 +1,5 @@
+{% capture key_base %}locations_{{ include.region }}_{{ include.location }}{% endcapture %}
+{% capture form_key %}locations[{{ include.region }}][{{ include.location }}]{% endcapture %}
+
+<label for="{{ key_base }}"><input id="{{ key_base }}" type="checkbox" name="{{ form_key }}" /> {{ name }}
+</label>

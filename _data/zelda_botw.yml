@@ -14,7 +14,7 @@ towers: # 15
     name: Ridgeland Tower
   central:
     name: Central Tower
-  lanaryu:
+  lanayru:
     name: Lanayru Tower
   gerudo:
     name: Gerudo Tower
@@ -1759,7 +1759,7 @@ sidequests:
     stallion:
       name: The Royal White Stallion
       location: Outskirt Stable
-  Lanaryu:
+  Lanayru:
     riverbed:
       name: Riverbed Reward
       location: Wetland Stable
@@ -2062,7 +2062,7 @@ shrines: # 120
       location: NE of Hateno Research
       treasure:
       - Climbing Boots
-  Lanaryu:
+  Lanayru:
     Dagah_Keek:
       name: Dagah Keek
       type: outdoor
@@ -3273,6 +3273,749 @@ compendium:
     "392": Ore Deposit
     "393": Rare Ore Deposit
     "394": Luminous Stone Deposit
+locations:
+  akkala:
+    "Akkala Highlands":
+      akkala_bridge_ruins: Akkala Bridge Ruins
+      akkala_citadel_ruins: Akkala Citadel Ruins
+      akkala_falls: Akkala Falls
+      akkala_parade_ground_ruins: Akkala Parade Ground Ruins
+      akkala_span: Akkala Span
+      akkala_tower: Akkala Tower
+      dah_hesho_shrine: Dah Hesho Shrine
+      east_akkala_plains: East Akkala Plains
+      east_sokkala_bridge: East Sokkala Bridge
+      great_fairy_fountain: Great Fairy Fountain
+      kaepora_pass: Kaepora Pass
+      kanalet_ridge: Kanalet Ridge
+      kenai_shakah_shrine: Ke'nai Shakah Shrine
+      lake_akkala: Lake Akkala
+      shadow_hamlet_ruins: Shadow Hamlet Ruins
+      shadow_pass: Shadow Pass
+      sokkala_bridge: Sokkala Bridge
+      south_akkala_plains: South Akkala Plains
+      south_akkala_stable: South Akkala Stable
+      south_lake_akkala: South Lake Akkala
+      spring_of_power: Spring of Power
+      ternio_tail: Ternio Trail
+      torin_wetland: Torin Wetland
+      ukuku_plains: Ukuku Plains
+      ulri_mountain: Ulri Mountain
+      ulria_grotto: Ulria Grotto
+      west_sokkala_bridge: West Sokkala Bridge
+      ze_kasho_shrine: Ze Kasho Shrine
+    "Akkala Sea":
+      east_akkala_beach: East Akkala Beach
+      lomei_labyrinth_island: Lomei Labyrinth Island
+      malin_bay: Malin Bay
+      north_akkala_beach: North Akkala Beach
+      rist_peninsula: Rist Peninsula
+      ritaag_zumo_shrine: Ritaag Zumo Shrine
+      tu_kaloh_shrine: Tu Ka'loh Shrine
+    "Deep Akkala":
+      akkala_ancient_tech_lab: Akkala Ancient Tech Lab
+      akkala_wilds: Akkala Wilds
+      bloodleaf_lake: Bloodleaf Lake
+      east_akkala_stable: East Akkala Stable
+      katosa_aug_shrine: Katosa Aug Shrine
+      north_akkala_foothill: North Akkala Foothill
+      north_akkala_valley: North Akkala Valley
+      ordorac_quarry: Ordorac Quarry
+      rok_woods: Rok Woods
+      skull_lake: Skull Lake
+      tempest_gulch: Tempest Gulch
+      tumlea_heights: Tumlea Heights
+      tutsuwa_nima_shrine: Tutsuwa Nima Shrine
+      zuna_kai_shrine: Zuna Kai Shrine
+    "Tarrey Town":
+      inn: Inn
+      ore_and_more: Ore and More
+      rhondson_armor_boutique: Rhondson Armor Boutique
+      slippery_falcon: Slippery Falcon
+  central_hyrule:
+    "Hyrule Field":
+      ancient_tree_stump: Ancient Tree Stump
+      applean_forest: Applean Forest
+      aquame_bridge: Aquame Bridge
+      aquame_lake: Aquame Lake
+      boneyard_bridge: Boneyard Bridge
+      bottomless_swamp: Bottomless Swamp
+      carok_bridge: Carok Bridge
+      castle_town_prison: Castle Town Prison
+      castle_town_watchtower: Castle Town Watchtower
+      central_square: Central Square
+      central_tower: Central Tower
+      coliseum_ruins: Coliseum Ruins
+      crenel_hills: Crenel Hills
+      dah_kaso_shrine: Dah Kaso Shrine
+      digdogg_suspension_bridge: Digdogg Suspension Bridge
+      east_castle_town: East Castle Town
+      east_post_ruins: East Post Ruins
+      exchange_ruins: Exchange Ruins
+      forest_of_time: Forest of Time
+      gatepost_town_ruins: Gatepost Town Ruins
+      giants_forest: Giant's Forest
+      gleeok_bridge: Gleeok Bridge
+      helmhead_bridge: Helmhead Bridge
+      hyrule_castle_moat: Hyrule Castle Moat
+      hyrule_castle_town_ruins: Hyrule Castle Town Ruins
+      hyrule_cathedral: Hyrule Cathedral
+      hyrule_forest_park: Hyrule Forest Park
+      hyrule_garrison_ruins: Hyrule Garrison Ruins
+      kaam_yatak_shrine: Kaam Ya'tak Shrine
+      katah_chuki_shrine: Katah Chuki Shrine
+      kolomo_garrison_ruins: Kolomo Garrison Ruins
+      lake_kolomo: Lake Kolomo
+      mabe_prairie: Mabe Prairie
+      mabe_village_ruins: Mabe Village Ruins
+      manhala_bridge: Manhala Bridge
+      moat_bridge: Moat Bridge
+      mount_daphnes: Mount Daphnes
+      mount_gustaf: Mount Gustaf
+      namika_ozz_shrine: Namika Ozz Shrine
+      noya_neha_shrine: Noya Neha Shrine
+      orsedd_bridge: Orsedd Bridge
+      outskirt_stable: Outskirt Stable
+      passeri_greenbelt: Passeri Greenbelt
+      quarry_ruins: Quarry Ruins
+      ranch_ruins: Ranch Ruins
+      regencia_river: Regencia River
+      riverside_stable: Riverside Stable
+      romani_plains: Romani Plains
+      rota_ooh_shrine: Rota Ooh Shrine
+      sacred_ground_ruins: Sacred Ground Ruins
+      sage_temple_ruins: Sage Temple Ruins
+      wahgo_katta_shrine: Wahgo Katta Shrine
+      water_reservoir: Water Reservoir
+      west_castle_town: West Castle Town
+      whistling_hill: Whistling Hill
+      windvane_meadow: Windvane Meadow
+    "Hyrule Casle":
+      dining_hall: Dining Hall
+      docks: Docks
+      east_passage: East Passage
+      first_gatehouse: First Gatehouse
+      guards_chamber: Guards' Chamber
+      kings_study: King's Study
+      library: Library
+      lockup: Lockup
+      observation_room: Observation Room
+      princess_zeldas_room: Princess Zelda's Room
+      princess_zeldas_study: Princess Zelda's Study
+      sanctum: Sanctum
+      hyrule_castle_underground: Hyrule Castle Underground
+      laboratory: Laboratory
+      saas_kosah_shrine: Saas Ko'sah Shrine
+      second_gatehouse: Second Gatehouse
+      west_passage: West Passage
+  dueling_peaks:
+    "Dueling Peaks":
+      ash_swamp: Ash Swamp
+      batrea_lake: Batrea Lake
+      big_twin_bridge: Big Twin Bridge
+      blatchery_plain: Blatchery Plain
+      bonoorus_stand: Bonooru's Stand
+      bosh_kala_shrine: Bosh Kala Shrine
+      bubinga_forest: Bubinga Forest
+      dueling_peaks_stable: Dueling Peaks Stable
+      dueling_peaks_tower: Dueling Peaks Tower
+      eagus_bridge: Eagus Bridge
+      floret_sandbar: Floret Sandbar
+      great_fairy_fountain: Great Fairy Fountain
+      ha_dahmar_shrine: Ha Dahamar Shrine
+      hickaly_woods: Hickaly Woods
+      hila_rao_shrine: Hila Rao Shrine
+      hills_of_baumer: Hills of Baumer
+      horwell_bridge: Horwell Bridge
+      hylia_river: Hylia River
+      kakariko_bridge: Kakariko Bridge
+      lake_siela: Lake Siela
+      lakna_rokee_shrine: Lakna Rokee Shrine
+      lantern_lake: Lantern Lake
+      little_twin_bridge: Little Twin Bridge
+      mable_ridge: Mable Ridge
+      mount_rozudo: Mount Rozudo
+      nabi_lake: Nabi Lake
+      oakles_navel: Oakle's Navel
+      outpost_ruins: Outpost Ruins
+      owlan_bridge: Owlan Bridge
+      pillars_of_levia: Pillars of Levia
+      proxim_bridge: Proxim Bridge
+      ree_dahee_shrine: Ree Dahee Shrine
+      sahasra_slope: Sahasra Slope
+      scouts_hill: Scout's Hill
+      shee_vaneer_shrine: Shee Vaneer Shrine
+      shee_venath_shrine: Shee Venath Shrine
+      south_nabi_lake: South Nabi Lake
+      squabble_river: Squabble River
+      taloh_naeg_shrine: Ta'loh Naeg Shrine
+      toto_sah_shrine: Toto Sah Shrine
+    "Kakariko Village":
+      enchanted: Enchanted
+      fang_and_bone: Fang and Bone
+      high_spirits_produce: High Spirits Produce
+      shuteye_inn: Shuteye Inn
+      the_curious_river: The Curious Quiver
+  eldin:
+    "Eldin Canyon":
+      abandoned_north_mine: Abandoned North Mine
+      broca_island: Broca Island
+      cephla_lake: Cephla Lake
+      darunia_lake: Darunia Lake
+      eldin_tower: Eldin Tower
+      foothill_stable: Foothill Stable
+      gero_pond: Gero Pond
+      golow_river: Golow River
+      gorae_torr_shrine: Gorae Torr Shrine
+      gorko_tunnel: Gorko Tunnel
+      goronbi_lake: Goronbi Lake
+      goronbi_river: Goronbi River
+      gortram_cliff: Gortram Cliff
+      gut_check_rock: Gut Check Rock
+      isle_of_rabac: Isle of Rabac
+      kayra_mah_shrine: Kayra Mah Shrine
+      lake_ferona: Lake Ferona
+      lake_intenoch: Lake Intenoch
+      maw_of_death_mountain: Maw of Death Mountain
+      medingo_pool: Medingo Pool
+      moa_keet_shrine: Mo'a Keet Shrine
+      qua_raym_shrine: Qua Raym Shrine
+      sah_dahaj_shrine: Sah Dahaj Shrine
+      shora_hah_shrine: Shora Hah Shrine
+      southern_mine: Southern Mine
+      tah_muhl_shrine: Tah Muhl Shrine
+      trilby_valley: Trilby Valley
+    "Death Mountain":
+      bridge_of_eldin: Bridge of Eldin
+      daqa_koh_shrine: Daqa Koh Shrine
+      darb_pond: Darb Pond
+      death_caldera: Death Caldera
+      gorko_lake: Gorko Lake
+      goro_cave: Goro Cove
+      goron_hot_springs: Goron Hot Springs
+      lake_darman: Lake Darman
+      eldin_mountains: Eldin Mountains
+      eldin_great_skeleton: Eldin Great Skeleton
+      eldins_flank: Eldin's Flank
+    "Goron City":
+      goron_gusto_shop: Goron Gusto Shop
+      protein_palace: Protein Palace
+      ripped_and_shredded: Ripped and Shredded
+      rollin_inn: Rollin' Inn
+      shae_mosah_shrine: Shae Mo'sah Shrine
+      stolock_bridge: Stolock Bridge
+  faron:
+    "Faron":
+      angel_peak: Angel Peak
+      aris_beach: Aris Beach
+      atun_valley: Atun Valley
+      breman_peak: Breman Peak
+      bronas_forest: Bronas Forest
+      calora_lake: Calora Lake
+      cape_cales: Cape Cales
+      corta_lake: Corta Lake
+      courage_steppe: Courage Steppe
+      dunsel_plateau: Dunsel Plateau
+      ebara_forest: Ebara Forest
+      faron_tower: Faron Tower
+      floria_bridge: Floria Bridge
+      floria_falls: Floria Falls
+      gama_cove: Gama Cove
+      hanu_pond: Hanu Pond
+      jia_highlands: Jia Highlands
+      kah_yah_shrine: Kah Yah Shrine
+      kamah_plateau: Kamah Plateau
+      keelay_plain: Keelay Plain
+      keya_pond: Keya Pond
+      koto_pond: Koto Pond
+      lake_floria: Lake Floria
+      lakeside_stable: Lakeside Stable
+      meda_mountain: Meda Mountain
+      mount_dunsel: Mount Dunsel
+      mount_floria: Mount Floria
+      mount_taran: Mount Taran
+      muwo_jeem_shrine: Muwo Jeem Shrine
+      palmorae_beach: Palmorae Beach
+      palmorae_ruins: Palmorae Ruins
+      qukah_nata_shrine: Qukah Nata Shrine
+      rabella_wetlands: Rabella Wetlands
+      rassla_lake: Rassla Lake
+      riola_spring: Riola Spring
+      rodai_lake: Rodai Lake
+      sarjon_bridge: Sarjon Bridge
+      sarjon_woods: Sarjon Woods
+      shai_utoh_shrine: Shai Utoh Shrine
+      shoda_sah_shrine: Shoda Sah Shrine
+      stinger_cliffs: Stinger Cliffs
+      taran_pass: Taran Pass
+      tawa_jinn_shrine: Tawa Jinn Shrine
+      temto_hill: Temto Hill
+      tobios_hollow: Tobio's Hollow
+      tuft_mountain: Tuft Mountain
+      ubota_point: Ubota Point
+      uten_marsh: Uten Marsh
+      yah_rin_shrine: Yah Rin Shrine
+      yambi_lake: Yambi Lake
+    "Lurelin Village":
+      general_store: General Store
+      inn: Inn
+    "Necluda Sea":
+      aris_beach: Aris Beach
+      cape_cresia: Cape Cresia
+      clarnet_coast: Clarnet Coast
+      eventide_island: Eventide Island
+      gogobi_shores: Gogobi Shores
+      koholit_rock: Koholit Rock
+      korgu_chideh_shrine: Korgu Chideh Shrine
+      korne_beach: Korne Beach
+      marthas_landing: Martha's Landing
+      rimba_beach: Rimba Beach
+      soka_point: Soka Point
+      toronbo_beach: Toronbo Beach
+  gerudo_highlands:
+    "Gerudo Highlands":
+      birida_lookout: Birida Lookout
+      cliffs_of_ruvara: Cliffs of Ruvara
+      gerudo_summit: Gerudo Summit
+      gerudo_tower: Gerudo Tower
+      hemaars_descent: Hemaar's Descent
+      joloo_nah_shrine: Joloo Nah Shrine
+      keeha_yoog_shrine: Keeha Yoog Shrine
+      kema_kosassa_shrine: Kema Kosassa Shrine
+      kuh_takkar_shrine: Kuh Takkar Shrine
+      laparoh_mesa: Laparoh Mesa
+      meadelas_mantle: Meadela's Mantle
+      mount_agaat: Mount Agaat
+      mystathis_shelf: Mystathi's Shelf
+      nephra_hill: Nephra Hill
+      risoka_snowfield: Risoka Snowfield
+      rutimala_hill: Rutimala Hill
+      sapphias_table: Sapphia's Table
+      sasa_kai_shrine: Sasa Kai Shrine
+      sho_dantu_shrine: Sho Dantu Shrine
+      statue_of_eighth_heroine: Statue of the Eighth Heroine
+      taafei_hill: Taafei Hill
+      vatorsa_snowfield: Vatorsa Snowfield
+      zirco_mesa: Zirco Mesa
+  gerudo_wasteland:
+    "Gerudo Desert":
+      arbiters_grounds: Arbiter's Grounds
+      champions_gate: Champion's Gate
+      dako_tah_shrine: Dako Tah Shrine
+      daqo_chisay_shrine: Daqo Chisay Shrine
+      daval_peak: Daval Peak
+      dila_maag_shrine: Dila Maag Shrine
+      dragons_exile: Dragon's Exile
+      east_barrens: East Barrens
+      east_gerudo_mesa: East Gerudo Mesa
+      east_gerudo_ruins: East Gerudo Ruins
+      gerudo_canyon: Gerudo Canyon
+      gerudo_canyon_pass: Gerudo Canyon Pass
+      gerudo_canyon_stable: Gerudo Canyon Stable
+      gerudo_desert_gateway: Gerudo Desert Gateway
+      gerudo_great_skeleton: Gerudo Great Skeleton
+      great_cliffs: Great Cliffs
+      great_fairy_fountain: Great Fairy Fountain
+      hawa_koth_shrine: Hawa Koth Shrine
+      jee_noh_shrine: Jee Noh Shrine
+      kara_kara_bazaar: Kara Kara Bazaar
+      karusa_valley: Karusa Valley
+      kay_noh_shrine: Kay Noh Shrine
+      kema_zoos_shrine: Kema Zoos Shrine
+      korsh_ohu_shrine: Korsh O'hu Shrine
+      koukokt_plateau: Koukot Plateau
+      misae_suma_shrine: Misae Suma Shrine
+      mount_granajh: Mount Granajh
+      mount_nabooru: Mount Nabooru
+      northern_icehouse: Northern Icehouse
+      palu_wasteland: Palu Wasteland
+      raqa_zunzo_shrine: Raqa Zunzo Shrine
+      sand_seal_rally: Sand-Seal Rally
+      south_lomei_labyrinth: South Lomei Labyrinth
+      southern_oasis: Southern Oasis
+      spectacle_rock: Spectacle Rock
+      stalry_plateau: Stalry Plateau
+      suma_sahma_shrine: Suma Sahma Shrine
+      taafei_hill: Taafei Hill
+      tho_kayu_shrine: Tho Kayu Shrine
+      toruma_dunes: Toruma Dunes
+      wasteland_tower: Wasteland Tower
+      west_barrens: West Barrens
+      west_gerudo_ruins: West Gerudo Ruins
+      yarna_valley: Yarna Valley
+      yiga_clan_hideout: Yiga Clan Hideout
+    "Gerudo Town":
+      arrow_specialty_shop: Arrow Specialty Shop
+      fashion_passion: Fashion Passion
+      hotel_oasis: Hotel Oasis
+      sand_seal_rental_shop: Sand-Seal Rental Shop
+      starlight_memories: Starlight Memories
+      the_noble_canteen: The Noble Canteen
+  woodland:
+    "Woodland":
+      aldor_foothills: Aldor Foothills
+      deplian_badlands: Deplian Badlands
+      drenan_highlands: Drenan Highlands
+      east_deplian_badlands: East Deplian Badlands
+      elma_knolls: Elma Knolls
+      forgotten_temple: Forgotten Temple
+      ketoh_wawai_shrine: Ketoh Wawai Shrine
+      maritta_exchange_ruins: Maritta Exchange Ruins
+      military_training_camp: Military Training Camp
+      minshi_woods: Minshi Woods
+      mirror_shaz_shrine: Mirro Shaz Shrine
+      mount_drena: Mount Drena
+      monya_toma_shrine: Monya Toma Shrine
+      pico_pond: Pico Pond
+      rauru_hillside: Rauru Hillside
+      rauru_settlement_ruins: Rauru Settlement Ruins
+      rona_kachta_shrine: Rona Kachta Shrine
+      rowan_plain: Rowan Plain
+      salari_hill: Salari Hill
+      salari_plain: Salari Plain
+      serenne_stable: Serenne Stable
+      thyphlo_ruins: Thyphlo Ruins
+      trilby_plain: Trilby Plain
+      west_deplian_badlands: West Deplian Badlands
+      woodland_stable: Woodland Stable
+      woodland_tower: Woodland Tower
+    "Great Hyrule Forest":
+      daag_chokah_shrine: Daag Chokah Shrine
+      keo_ruug_shrine: Keo Ruug Shrine
+      korok_forest: Korok Forest
+      general_shoppe: General Shoppe
+      great_deku_trees_navel: Great Deku Tree's Navel
+      spore_store: Spore Store
+      kuhn_sidajj_shrine: Kuhn Sidajj Shrine
+      lake_mekar: Lake Mekar
+      lake_saria: Lake Saria
+      lost_woods: Lost Woods
+      maag_halan_shrine: Maag Halan Shrine
+      mekar_island: Mekar Island
+      mido_swamp: Mido Swamp
+  great_plateau:
+    "Great Plateau":
+      eastern_abbey: Eastern Abbey
+      forest_of_spirits: Forest of Spirits
+      great_plateau_tower: Great Plateau Tower
+      hopper_pond: Hopper Pond
+      ja_baij_shrine: Ja Baij Shrine
+      keh_namut_shrine: Keh Namut Shrine
+      mount_hylia: Mount Hylia
+      oman_au_shrine: Oman Au Shrine
+      owa_daim_shrine: Owa Daim Shrine
+      river_of_the_dead: River of the Dead
+      shrine_of_resurrection: Shrine of Resurrection
+      temple_of_time: Temple of Time
+  hateno:
+    "Mount Lanayru":
+      camphor_pond: Camphor Pond
+      cliffs_of_quince: Cliffs of Quince
+      dow_naeh_shrine: Dow Na'eh Shrine
+      ebon_mountain_pond: Ebon Mountain/Lovers Pond
+      fir_river: Fir River
+      firly_plateau: Firly Plateau
+      firly_pond: Firly Pond
+      fort_hateno: Fort Hateno
+      ginner_woods: Ginner Woods
+      hateno_ancient_tech_lab: Hateno Ancient Tech Lab
+      hateno_tower: Hateno Tower
+      jitan_sami_shrine: Jitan Sa'mi Shrine
+      kam_urog_shrine: Kam Urog Shrine
+      lake_jarrah: Lake Jarrah
+      lake_sumac: Lake Sumac
+      lanayru_bluff: Lanayru Bluff
+      lanayru_heights: Lanayru Heights
+      lanayru_promenade: Lanayru Promenade
+      lanayru_range: Lanayru Range
+      lanayru_road_east: Lanayru Road - East Gate
+      lanayru_road_west: Lanayru Road - West Gate
+      madorna_mountain: Madorna Mountain
+      marblod_plain: Marblod Plain
+      mezza_lo_shrine: Mezza Lo Shrine
+      midla_woods: Midla Woods
+      myahm_agana_shrine: Myahm Agana Shrine
+      naydra_snowfield: Naydra Snowfield
+      nirvata_lake: Nirvata Lake
+      nirvata_plateau: Nirvata Plateau
+      ovli_plain: Ovli Plain
+      peak_of_awakening: Peak of Awakening
+      phalian_highlands: Phalian Highlands
+      pierre_plateau: Pierre Plateau
+      purifier_lake: Purifier Lake
+      quattas_shelf: Quatta's Shelf
+      rabia_plain: Rabia Plain
+      retsam_forest: Retsam Forest
+      robred_dropoff: Robred Dropoff
+      solewood_range: Solewood Range
+      spring_of_wisdom: Spring of Wisdom
+      tahno_oah_shrine: Tahno O'ah Shrine
+      trotters_downfall: Trotter's Downfall
+      walnot_mountain: Walnot Mountain
+      zelkoa_pond: Zelkoa Pond
+    "Hateno Village":
+      east_wind: East Wind
+      kochi_dye_shop: Kochi Dye Shop
+      links_house: Link's House
+      the_great_ton_pu_inn: The Great Ton Pu Inn
+      ventest_clothing_boutique: Ventest Clothing Boutique
+    "Necluda Sea":
+      chaas_qeta_shrine: Chaas Qeta Shrine
+      deepback_bay: Deepback Bay
+      hateno_bay: Hateno Bay
+      hateno_beach: Hateno Beach
+      kitano_bay: Kitano Bay
+      loshlo_harbor: Loshlo Harbor
+      mapla_point: Mapla Point
+      tenoko_island: Tenoko Island
+  hebra:
+    "Hebra Mountains":
+      biron_snowshelf: Biron Snowshelf
+      coldsnap_hollow: Coldsnap Hollow
+      corvash_peak: Corvash Peak
+      goflams_secret_hot_spring: Goflam's Secret Hot Spring
+      goma_asagh_shrine: Goma Asaagh Shrine
+      hebra_east_summit: Hebra East Summit
+      hebra_great_skeleton: Hebra Great Skeleton
+      hebra_north_crest: Hebra North Crest
+      hebra_north_summit: Hebra North Summit
+      hebra_peak: Hebra Peak
+      hebra_south_summit: Hebra South Summit
+      hebra_tundra: Hebra Tundra
+      hebra_west_summit: Hebra West Summit
+      hia_miu_shrine: Hia Miu Shrine
+      icefall_foothills: Icefall Foothills
+      lake_kilsie: Lake Kilsie
+      maka_rah_shrine: Maka Rah Shrine
+      mozo_shenno_shrine: Mozo Shenno Shrine
+      pikida_stonegrove: Pikida Stonegrove
+      rok_uwog_shrine: Rok Uwog Shrine
+      rospro_pass: Rospro Pass
+      selmies_spot: Selmie's Spot
+      shada_naw_shrine: Shada Naw Shrine
+      sherfins_secret_hot_spring: Sherfin's Secret Hot Spring
+      sturnida_basin: Sturnida Basin
+      sturnida_secret_hot_spring: Sturnida Secret Hot Spring
+      talonto_peak: Talonto Peak
+      to_quomo_shrine: To Quomo Shrine
+    "Tabantha Tundra":
+      dunba_taag_shrine: Dunba Taag Shrine
+      gee_harah_shrine: Gee Ha'rah Shrine
+      hebra_falls: Hebra Falls
+      hebra_headspring: Hebra Headspring
+      hebra_tower: Hebra Tower
+      kopeeki_drifts: Kopeeki Drifts
+      lanno_kooh_shrine: Lanno Kooh Shrine
+      n_tabantha_snowfield: N. Tabantha Snowfield
+      north_lomei_labyrinth: North Lomei Labyrinth
+      pondos_lodge: Pondo's Lodge
+      qaza_tokki_shrine: Qaza Tokki Shrine
+      rin_oyaa_shrine: Rin Oyaa Shrine
+      s_tabantha_snowfield: S. Tabantha Snowfield
+      sha_gehma_shrine: Sha Gehma Shrine
+      snowfield_stable: Snowfield Stable
+      tabantha_hills: Tabantha Hills
+      tabantha_village_ruins: Tabantha Village Ruins
+      tama_pond: Tama Pond
+  lake:
+    "Faron Grasslands":
+      barula_plain: Barula Plain
+      bridge_of_hylia: Bridge of Hylia
+      cora_lake: Cora Lake
+      damel_forest: Damel Forest
+      deya_lake: Deya Lake
+      deya_village_ruins: Deya Village Ruins
+      dracozu_lake: Dracozu Lake
+      dracozu_river: Dracozu River
+      faron_woods: Faron Woods
+      farosh_hills: Farosh Hills
+      finra_woods: Finra Woods
+      fural_plain: Fural Plain
+      grinnden_plain: Grinnden Plain
+      guchini_plain: Guchini Plain
+      guchini_plain_barrows: Guchini Plain Barrows
+      haran_lake: Haran Lake
+      harfin_valley: Harfin Valley
+      harker_lake: Harker Lake
+      herin_lake: Herin Lake
+      highland_stable: Highland Stable
+      horse_god_bridge: Horse God Bridge
+      hylia_island: Hylia Island
+      ishto_soh_shrine: Ishto Soh Shrine
+      kao_makagh_shrine: Ka'o Makagh Shrine
+      lake_hylia: Lake Hylia
+      lake_of_the_horse_god: Lake of the Horse God
+      lake_tower: Lake Tower
+      malanya_spring: Malanya Spring
+      menoat_river: Menoat River
+      mount_faloraa: Mount Faloraa
+      mounted_archery_camp: Mounted Archery Camp
+      nautelle_wetlands: Nautelle Wetlands
+      oseira_plains: Oseira Plains
+      pagos_woods: Pagos Woods
+      pappetto_grove: Pappetto Grove
+      parache_plains: Parache Plains
+      popla_foothills: Popla Foothills
+      pumaag_nitae_shrine: Pumaag Nitae Shrine
+      shae_katha_shrine: Shae Katha Shrine
+      shoqa_tatone_shrine: Shoqa Tatone Shrine
+      spring_of_courage: Spring of Courage
+      taobab_grassland: Taobab Grassland
+      ya_naga_shrine: Ya Naga Shrine
+      zokassa_ridge: Zokassa Ridge
+      zonai_ruins: Zonai Ruins
+    "Faron Sea":
+      darybon_plains: Darybon Plains
+      ibara_butte: Ibara Butte
+      komo_shoreline: Komo Shoreline
+      laverra_beach: Laverra Beach
+      nette_plateau: Nette Plateau
+      puffer_beach: Puffer Beach
+  lanayru:
+    "Lanayru Great Spring":
+      bank_of_wishes: Bank of Wishes
+      brynna_plain: Brynna Plain
+      east_reservoir_lake: East Reservoir Lake
+      great_zora_bridge: Great Zora Bridge
+      horon_lagoon: Horon Lagoon
+      inogo_bridge: Inogo Bridge
+      jaabu_ridge: Ja'Abu Ridge
+      lulu_lake: Lulu Lake
+      lutos_crossing: Luto's Crossing
+      oren_bridge: Oren Bridge
+      ploymus_mountain: Ploymus Mountain
+      ralis_pond: Ralis Pond
+      rucco_maag_shrine: Rucco Maag Shrine
+      rutala_dam: Rutala Dam
+      ruto_mountain: Ruto Mountain
+      samasa_plain: Samasa Plain
+      shatterback_point: Shatterback Point
+      tabahl_woods: Tabahl Woods
+      tal_tal_peak: Tal Tal Peak
+      veiled_falls: Veiled Falls
+      zodobon_highlands: Zodobon Highlands
+      zora_river: Zora River
+    "Lanayru Sea":
+      afromisia_coast: Afromsia Coast
+      ankel_island: Ankel Island
+      davdi_island: Davdi Island
+      kah_mael_shrine: Kah Mael Shrine
+      knuckel_island: Knuckel Island
+      lanayru_bay: Lanayru Bay
+      lodrum_headland: Lodrum Headland
+      shai_yota_shrine: Shai Yota Shrine
+      spool_bight: Spool Bight
+      talus_plateau: Talus Plateau
+      tarm_point: Tarm Point
+      tingel_island: Tingel Island
+      wintre_island: Wintre Island
+    "Lanayru Wetlands":
+      bannan_island: Bannan Island
+      bone_pond: Boné Pond
+      crenel_peak: Crenel Peak
+      dagah_keek_shrine: Dagah Keek Shrine
+      daka_tuss_shrine: Daka Tuss Shrine
+      goponga_island: Goponga Island
+      goponga_village_ruins: Goponga Village Ruins
+      kaya_wan_shrine: Kaya Wan Shrine
+      kincean_island: Kincean Island
+      lanayru_tower: Lanayru Tower
+      linebeck_island: Linebeck Island
+      mercay_island: Mercay Island
+      mikau_lake: Mikau Lake
+      millenio_sandbar: Millennio Sandbar
+      molida_island: Molida Island
+      moor_garrison_ruins: Moor Garrison Ruins
+      rebonae_bridge: Rebonae Bridge
+      rikoka_hills: Rikoka Hills
+      rutala_river: Rutala River
+      ruto_lake: Ruto Lake
+      ruto_precipice: Ruto Precipice
+      sheh_rata_shrine: Sheh Rata Shrine
+      shrine_island: Shrine Island
+      soh_kofi_shrine: Soh Kofi Shrine
+      telta_lake: Telta Lake
+      thims_bridge: Thims Bridge
+      toto_lake: Toto Lake
+      upland_zorana: Upland Zorana
+      wes_island: Wes Island
+      wetland_stable: Wetland Stable
+      zauz_island: Zauz Island
+      zelo_pond: Zelo Pond
+    "Zoras Domain":
+      coral_reef: Coral Reef
+      neez_yohma_shrine: Ne'ez Yohma Shrine
+      seabed_inn: Seabed Inn
+  ridgeland:
+    "Hyrule Ridge":
+      breach_of_demise: Breach of Demise
+      dalite_forest: Dalite Forest
+      footrace_check_in: Footrace Check-In
+      illumeni_plateau: Illumeni Plateau
+      irch_plain: Irch Plain
+      jeddo_bridge: Jeddo Bridge
+      lake_illumeni: Lake Illumeni
+      lindors_brow: Lindor's Brow
+      ludfos_bog: Ludfo's Bog
+      maag_norah_shrine: Maag No'rah Shrine
+      mijah_rokee_shrine: Mijah Rokee Shrine
+      mogg_latan_shrine: Mogg Latan Shrine
+      mount_rhoam: Mount Rhoam
+      nima_plain: Nima Plain
+      north_hyrule_plain: North Hyrule Plain
+      ridgeland_tower: Ridgeland Tower
+      royal_ancient_lab_ruins: Royal Ancient Lab Ruins
+      rutile_lake: Rutile Lake
+      safula_hill: Safula Hill
+      sanidin_park_ruins: Sanidin Park Ruins
+      satori_mountain: Satori Mountain
+      seres_scablands: Seres Scablands
+      shae_loya_shrine: Shae Loya Shrine
+      sheem_dagoze_shrine: Sheem Dagoze Shrine
+      tabantha_bridge_stable: Tabantha Bridge Stable
+      tabantha_great_bridge: Tabantha Great Bridge
+      tamio_river: Tamio River
+      tanagar_canyon: Tanagar Canyon
+      tanagar_canyon_course: Tanagar Canyon Course
+      thundra_plateau: Thundra Plateau
+      toh_yahsa_shrine: Toh Yahsa Shrine
+      upland_lindor: Upland Lindor
+      washas_bluff: Washa's Bluff
+      west_hyrule_plains: West Hyrule Plains
+      zalta_wa_shrine: Zalta Wa Shrine
+  tabantha:
+    "Tabantha Frontier":
+      ancient_columns: Ancient Columns
+      bareeda_naag_shrine: Bareeda Naag Shrine
+      cuho_mountain: Cuho Mountain
+      dragon_bone_mire: Dragon Bone Mire
+      dronocs_pass: Dronoc's Pass
+      flight_range: Flight Range
+      gisa_crater: Gisa Crater
+      great_fairy_fountain: Great Fairy Fountain
+      hebra_plunge: Hebra Plunge
+      hebra_trailhead_lodge: Hebra Trailhead Lodge
+      kah_okeo_shrine: Kah Okeo Shrine
+      kolami_bridge: Kolami Bridge
+      lake_totori: Lake Totori
+      nero_hill: Nero Hill
+      passer_hill: Passer Hill
+      piper_ridge: Piper Ridge
+      rayne_highlands: Rayne Highlands
+      rito_stable: Rito Stable
+      rospro_pass: Rospro Pass
+      sha_warvo_shrine: Sha Warvo Shrine
+      strock_lake: Strock Lake
+      tabantha_tower: Tabantha Tower
+      tena_kosah_shrine: Tena Ko'sah Shrine
+      voo_lota_shrine: Voo Lota Shrine
+      warblers_nest: Warbler's Nest
+    "Rito Village":
+      akh_vaquot_shrine: Akh Va'quot Shrine
+      brazen_break: Brazen Beak
+      revalis_landing: Revali's Landing
+      slippery_falcon: Slippery Falcon
+      swallows_roast: Swallow's Roost
 korok: # 900 Total
   akkala: # 58
   "1":
@@ -3292,6 +4035,6 @@ korok: # 900 Total
   hateno: # 66
   hebra: # 74
   lake: # 92
-  lanaryu: # 63
+  lanayru: # 63
   ridgeland: # 81
   tabantha: # 35
