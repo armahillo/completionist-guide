@@ -1,0 +1,18 @@
+---
+layout: guide
+title: 🎒 Items
+game: secret_of_mana
+section: items
+published: true
+metadata:
+  last_updated: 04-21-2025
+---
+
+<ol class="collapsed">
+  {% for item in site.data.secret_of_mana.items %}
+    {% assign key = item[0] %}
+    {%  assign name = site.data.secret_of_mana['items'][key]['name'] %}
+    {% assign location = site.data.secret_of_mana['items'][key]['location'] %}
+    <li>{% include findable.html set="items" target=key name=name location=location %}</li>
+  {% endfor %}
+</ol>

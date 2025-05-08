@@ -1,0 +1,34 @@
+---
+layout: guide
+title: ⚔️ Weapons
+game: secret_of_mana
+section: weapons
+published: true
+metadata:
+  last_updated: 04-21-2025
+---
+
+{% for weapon in site.data.secret_of_mana.weapons %}
+<h3>{{ weapon[0] | capitalize }}</h3>
+{% assign key_base = weapon[0] %}
+<ol class="levels">
+<li><label for="weapons_{{ key_base }}_none"><input id="weapons_{{ key_base }}_none" type="radio" name="weapons[{{ key_base }}]" checked="true" />clear</label></li>
+{% for level in site.data.secret_of_mana.weapons[key_base] %}
+  {% assign location = level[1]['location'] %}
+  {% assign name = level[1]['name'] %}
+  {% assign note = level[1]['note'] %}
+  <li>
+    <label for="{{ key_base }}_{{ level[0] }}">
+      <input id="{{ key_base }}_{{ level[0] }}" type="radio" name="weapons[{{ key_base }}]" value="{{ level[0] }}" />
+      <span class="hide-until-available">{{ name | capitalize }}</span>
+      <span class="show-after-complete">▷</span>
+      <ul class="hide-until-available">
+        <li>{{ location }}</li>
+        <li>{{ note }}</li>
+        <li>{{ site.data.secret_of_mana.forge_costs[level[0]] }}</li>
+      </ul>
+    </label>
+  </li>
+{% endfor %}
+</ol>
+{% endfor %}
