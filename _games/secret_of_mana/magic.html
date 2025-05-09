@@ -8,12 +8,13 @@ metadata:
   last_updated: 04-21-2025
 ---
 
-<p>As you discover each Element, .</p>
+<p>Track your level progress in each. Remember to train in areas where weapons are out, as it gets more magic skill XP.</p>
 
 <h3>Sprite</h3>
 
 {% for magic in site.data.secret_of_mana.magic.sprite %}
-{% assign name = magic[1] %}
+{% assign name = magic[1]['name'] %}
+{% assign symbol = magic[1]['symbol'] %}
 <h4>{{ name | capitalize }}</h4>
 <ol class="levels">
   <li>
@@ -25,16 +26,16 @@ metadata:
   <li>
     <label for="magic_sprite_{{ name }}_level_0">
       <input id="magic_sprite_{{ name }}_level_0" type="radio" name="magic[sprite][{{ name }}]" value="0" />
-      <span class="hide-after-complete">Discovered</span>
-      <span class="show-after-complete">▷</span>
+      <span class="hide-after-complete">{{ symbol }}</span>
+      <span class="show-after-complete">{{ symbol }}</span>
     </label>
   </li>
   {% for i in (1..8) %}
   <li>
     <label for="magic_sprite_{{ name }}_level_{{ i }}">
       <input id="magic_sprite_{{ name }}_level_{{ i }}" type="radio" name="magic[sprite][{{ name }}]" value="{{ i }}" />
-      <span class="hide-after-complete">{{ i }}</span>
-      <span class="show-after-complete">▷</span>
+      <span class="hide-until-available">Next: {{ i }}</span>
+      <span class="show-after-complete">{{ i }}</span>
     </label>
   </li>
   {% endfor %}
@@ -44,7 +45,8 @@ metadata:
 <h3>Girl</h3>
 
 {% for magic in site.data.secret_of_mana.magic.girl %}
-{% assign name = magic[1] %}
+{% assign name = magic[1]['name'] %}
+{% assign symbol = magic[1]['symbol'] %}
 <h4>{{ name | capitalize }}</h4>
 <ol class="levels">
   <li>
@@ -56,16 +58,16 @@ metadata:
   <li>
     <label for="magic_girl_{{ name }}_level_0">
       <input id="magic_girl_{{ name }}_level_0" type="radio" name="magic[girl][{{ name }}]" value="0" />
-      <span class="hide-after-complete">Discovered</span>
-      <span class="show-after-complete">▷</span>
+      <span class="hide-after-complete">{{ symbol }}</span>
+      <span class="show-after-complete">{{ symbol }}</span>
     </label>
   </li>
   {% for i in (1..8) %}
   <li>
     <label for="magic_girl_{{ name }}_level_{{ i }}">
       <input id="magic_girl_{{ name }}_level_{{ i }}" type="radio" name="magic[girl][{{ name }}]" value="{{ i }}" />
-      <span class="hide-after-complete">{{ i }}</span>
-      <span class="show-after-complete">▷</span>
+      <span class="hide-until-available">Next: {{ i }}</span>
+      <span class="show-after-complete">{{ i }}</span>
     </label>
   </li>
   {% endfor %}

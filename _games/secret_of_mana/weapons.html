@@ -8,25 +8,85 @@ metadata:
   last_updated: 04-21-2025
 ---
 
+<h3>Forge costs</h3>
+
+<ol>
+{% for cost in site.data.secret_of_mana.forge_costs %}
+<li>{{ cost[0] | split: "_" | join: " " | capitalize }}: {{ cost[1] }} GP</li>
+{% endfor %}
+</ol>
+
+<h3>Orbs & Forging</h3>
 {% for weapon in site.data.secret_of_mana.weapons %}
-<h3>{{ weapon[0] | capitalize }}</h3>
-{% assign key_base = weapon[0] %}
+<h4>{{ weapon[0] | capitalize }}</h4>
+{% capture key_base %}weapons_forged_{{ weapon[0] }}{% endcapture %}
+{% capture form_key %}weapons[forged][{{ weapon[0] }}]{% endcapture %}
 <ol class="levels">
-<li><label for="weapons_{{ key_base }}_none"><input id="weapons_{{ key_base }}_none" type="radio" name="weapons[{{ key_base }}]" checked="true" />clear</label></li>
-{% for level in site.data.secret_of_mana.weapons[key_base] %}
+<li><label for="{{ key_base }}_none"><input id="{{ key_base }}_none" type="radio" name="{{ form_key }}" checked="true" />clear</label></li>
+{% for level in weapon[1] %}
   {% assign location = level[1]['location'] %}
   {% assign name = level[1]['name'] %}
   {% assign note = level[1]['note'] %}
   <li>
     <label for="{{ key_base }}_{{ level[0] }}">
-      <input id="{{ key_base }}_{{ level[0] }}" type="radio" name="weapons[{{ key_base }}]" value="{{ level[0] }}" />
+      <input id="{{ key_base }}_{{ level[0] }}" type="radio" name="{{ form_key }}" value="{{ level[0] }}" />
       <span class="hide-until-available">{{ name | capitalize }}</span>
       <span class="show-after-complete">▷</span>
       <ul class="hide-until-available">
         <li>{{ location }}</li>
         <li>{{ note }}</li>
-        <li>{{ site.data.secret_of_mana.forge_costs[level[0]] }}</li>
       </ul>
+    </label>
+  </li>
+{% endfor %}
+</ol>
+{% endfor %}
+
+
+<h3>Experience</h3>
+
+{% for weapon in site.data.secret_of_mana.weapons %}
+<h4>{{ weapon[0] | capitalize }}</h4>
+{% capture key_base %}weapons_skill_{{ weapon[0] }}_boy{% endcapture %}
+{% capture form_key %}weapons[skill][{{ weapon[0] }}][boy]{% endcapture %}
+<ol class="levels">
+<li><label for="{{ key_base }}_none"><input id="{{ key_base }}_none" type="radio" name="{{ form_key }}" checked="true" />clear</label></li>
+{% for level in weapon[1] %}
+  <li>
+    <label for="{{ key_base }}_{{ level[0] }}">
+      <input id="{{ key_base }}_{{ level[0] }}" type="radio" name="{{ form_key }}" value="{{ level[0] }}" />
+      <span class="hide-until-available">(Boy) Next: {{ level[0] | split: "_" | join: " " | capitalize }}
+      <span class="show-after-complete">▷</span>
+    </label>
+  </li>
+{% endfor %}
+</ol>
+
+{% capture key_base %}weapons_skill_{{ weapon[0] }}_girl{% endcapture %}
+{% capture form_key %}weapons[skill][{{ weapon[0] }}][girl]{% endcapture %}
+<ol class="levels">
+<li><label for="{{ key_base }}_none"><input id="{{ key_base }}_none" type="radio" name="{{ form_key }}" checked="true" />clear</label></li>
+{% for level in weapon[1] %}
+  <li>
+    <label for="{{ key_base }}_{{ level[0] }}">
+      <input id="{{ key_base }}_{{ level[0] }}" type="radio" name="{{ form_key }}" value="{{ level[0] }}" />
+      <span class="hide-until-available">(Girl) Next: {{ level[0] | split: "_" | join: " " | capitalize }}
+      <span class="show-after-complete">▷</span>
+    </label>
+  </li>
+{% endfor %}
+</ol>
+
+{% capture key_base %}weapons_skill_{{ weapon[0] }}_sprite{% endcapture %}
+{% capture form_key %}weapons[skill][{{ weapon[0] }}][sprite]{% endcapture %}
+<ol class="levels">
+<li><label for="{{ key_base }}_none"><input id="{{ key_base }}_none" type="radio" name="{{ form_key }}" checked="true" />clear</label></li>
+{% for level in weapon[1] %}
+  <li>
+    <label for="{{ key_base }}_{{ level[0] }}">
+      <input id="{{ key_base }}_{{ level[0] }}" type="radio" name="{{ form_key }}" value="{{ level[0] }}" />
+      <span class="hide-until-available">(Sprite) Next: {{ level[0] | split: "_" | join: " " | capitalize }}
+      <span class="show-after-complete">▷</span>
     </label>
   </li>
 {% endfor %}

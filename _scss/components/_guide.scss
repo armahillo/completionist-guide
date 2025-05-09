@@ -1,3 +1,19 @@
+main > #guide-nav {
+  ol {
+    justify-content: center;
+    gap: 0.1rem;
+    li {
+      margin: 0;
+    }
+
+    li:first-of-type {
+      border-radius: 8px 0 0 8px;
+    }
+    li:last-of-type {;
+      border-radius: 0 8px 8px 0;
+    }
+  }
+}
 article#guide {
   /* Color swatch */
   dl#swatches {
@@ -34,7 +50,8 @@ article#guide {
   }
 
   label {
-    transition: 0.5s;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
     border: 1px solid var(--cached-color);
     padding: 0.5rem;
 
@@ -48,7 +65,8 @@ article#guide {
   }
 
   label:has(:checked) {
-    transition: 0.75s;
+    transition: color 0.75s;
+    transition: background-color 0.75s;
     background-color: var(--fresh-color);
     color: var(--background-color);
 
@@ -170,7 +188,8 @@ article#guide {
     }
 
     li:has(> label [type="radio"]:checked) + li label:has([type="radio"]) {
-      transition: 0.5s;
+      transition: color 0.5s;
+      transition: background-color 0.5s;
       color: var(--text-color);
       border-color: var(--text-color);
       background-color: var(--background-color);
