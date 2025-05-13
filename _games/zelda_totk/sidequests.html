@@ -1,0 +1,25 @@
+---
+layout: guide
+title: 📍 Sidequests
+game: zelda_totk
+section: sidequests
+metadata:
+  last_updated: 05-09-2025
+---
+
+<p>A you <em>complete</em> each sidequest, check the box.</p>
+
+<p>This list does not include <strong>Shrine Quests</strong>.</p>
+
+{% for tower_area in site.data.zelda_botw.sidequests %}
+  <h3>{{ tower_area[0] }} Tower Area</h3>
+  <ol>
+  {% for sidequest in tower_area[1] %}
+  <li>
+    {% assign key = sidequest[0] %}
+    {% assign sidequest_data = sidequest[1] %}
+    {% include zelda/sidequest.html set="sidequests" target=key sidequest=sidequest_data %}
+  </li>
+  {% endfor %}
+  </ol>
+{% endfor %}

@@ -1,0 +1,23 @@
+---
+layout: guide
+title: 💡 Lightroots
+game: zelda_totk
+section: lightroots
+metadata:
+  last_updated: 05-09-2025
+---
+
+<p>As you activate each lightroot, mark it on the list.</p>
+
+{% for region in site.data.zelda_totk.lightroots %}
+<h3>{{ region[0] | split: "_" | join: " " | capitalize }} Region</h3>
+<ol class="collapsed">
+  {% for lightroot in region[1] %}
+    {% assign key = lightroot[0] %}
+    {% capture name %}{{ lightroot[1]['name'] }} Lightroot{% endcapture %}
+    {% capture location %}({{ lightroot[1]['coordinates'] | join: ", " }}){% endcapture %}
+
+    <li>{% include findable.html set="lightroots" target=key name=name location=location %}</li>
+  {% endfor %}
+</ol>
+{% endfor %}

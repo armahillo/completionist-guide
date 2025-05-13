@@ -1,0 +1,23 @@
+---
+layout: guide
+title: 🗼 Towers
+game: zelda_totk
+section: towers
+metadata:
+  last_updated: 05-09-2025
+---
+
+<p>As you activate each tower, mark it on the list.</p>
+
+{% for region in site.data.zelda_totk.towers %}
+<h3>{{ region[0] | capitalize }} Hyrule</h3>
+<ol class="collapsed">
+  {% for tower in region[1] %}
+    {% assign key = tower[0] %}
+    {%  assign name = tower[1]['name'] %}
+    {% assign location = tower[1]['location'] %}
+
+    <li>{% include findable.html set="towers" target=key name=name location=location %}</li>
+  {% endfor %}
+</ol>
+{% endfor %}

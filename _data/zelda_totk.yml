@@ -1,0 +1,760 @@
+---
+towers: # 15
+  middle:
+    lookout_landing:
+      name: Lookout Landing
+    hyrule_field:
+      name: Hyrule Field
+    lindors_brow:
+      name: Lindor's Brow
+    upland_zorana:
+      name: Upland Zorana
+    sahasra_slope:
+      name: Sahasra Slope
+  north:
+    rospro_pass:
+      name: Rospro Pass
+    pikida_stonegrove:
+      name: Pikida Stonegrove
+    thyphlo_ruins:
+      name: Thyphlo Ruins
+    eldin_canyon:
+      name: Eldin Canyon
+    ulri_mountains:
+      name: Ulri Mountains
+  south:
+    mount_lanayru:
+      name: Mount Lanayru
+    rabella_wetlands:
+      name: Rabella Wetlands
+    popla_foothills:
+      name: Popla Foothills
+    gerudo_canyon:
+      name: Gerudo Canyon
+    gerudo_highlands:
+      name: Gerudo Highlands
+lightroots:
+  central_hyrule:
+    oyimay:
+      name: Oyimay
+      coordinates:
+      - 0333
+      - 0469
+      - -0479
+    sinonoyk:
+      name: Sinonoyk
+      coordinates:
+      - -0204
+      - 0450
+      - -0472
+    gadohsi:
+      name: Gadohsi
+      coordinates:
+      - -0878
+      - 0423
+      - -0497
+    kawakanis:
+      name: Kawakanis
+      coordinates:
+      - -1415
+      - 0756
+      - -0538
+    nisoij:
+      name: Nisoij
+      coordinates:
+      - -0240
+      - -0372
+      - -0478
+    iayusus:
+      name: Iayusus
+      coordinates:
+      - -0785
+      - -0433
+      - -0469
+    nihcayam:
+      name: Nihcayam
+      coordinates:
+      - -0705
+      - -0867
+      - -0481
+    netinet:
+      name: Netinet
+      coordinates:
+      - -0073
+      - -1115
+      - -0471
+    stakijat:
+      name: Stakijat
+      coordinates:
+      - 0343
+      - -1008
+      - -0468
+    nuzimak:
+      name: Nuzimak
+      coordinates:
+      - -0178
+      - -1559
+      - -0473
+    nogukoyk:
+      name: Nogukoyk
+      coordinates:
+      - -0708
+      - -1551
+      - -0517
+    muustust:
+      name: Mu-ustust
+      coordinates:
+      - -1423
+      - -1351
+      - -0517
+    kogoir:
+      name: Kogoir
+      coordinates:
+      - -1442
+      - -1616
+      - -0538
+    koradat:
+      name: Koradat
+      coordinates:
+      - -1079
+      - -2180
+      - -0562
+    camobatures:
+      name: Camobatures
+      coordinates:
+      - -0178
+      - 1169
+      - -0515
+    apapes:
+      name: Apapes
+      coordinates:
+      - 0221
+      - 1084
+      - -0474
+    ziner:
+      name: Zi-ner
+      coordinates:
+      - 0758
+      - 0824
+      - -0531
+    nojoj:
+      name: Nojoj
+      coordinates:
+      - 1202
+      - 0330
+      - -0574
+  hebra:
+    muihcoro:
+      name: Muihcoro
+      coordinates:
+      - -1637
+      - 2642
+      - -0685
+    aduon:
+      name: Aduon
+      coordinates:
+      - -2317
+      - 2200
+      - -0781
+    kawumoro:
+      name: Kawumoro
+      coordinates:
+      - -3077
+      - 1615
+      - -0687
+    sikatag:
+      name: Sikatag
+      coordinates:
+      - -3652
+      - 1806
+      - -0417
+    sooaw:
+      name: So-oaw
+      - -4057
+      - 1989
+      - -0674
+    worihas:
+      name: Worihas
+      coordinates:
+      - -3353
+      - 2385
+      - -0802
+    nupisoyuat:
+      name: Nupisoyuat
+      coordinates:
+      - -4537
+      - 2879
+      - -0707
+    kato:
+      name: Kato
+      coordinates:
+      - -4389
+      - 3713
+      - -0702
+    muotue:
+      name: Muotue
+      coordinates:
+      - -3507
+      - 3569
+      - -0826
+    muufatuf:
+      name: Mu-ufatuf
+      coordinates:
+      - -2998
+      - 3100
+      - 1006
+    narusis:
+      name: Narusis
+      coordinates:
+      - -2558
+      - 3354
+      - -0690
+    unazohso:
+      name: U-nazohso
+      coordinates:
+      - -1403
+      - 3678
+      - -0712
+    ikatoayam:
+      name: Ikatoayam
+      coordinates:
+      - -0849
+      - 3534
+      - -0636
+  tabantha:
+    yisuayam:
+      name: Yisuayam
+    kataki:
+      name: Kataki
+      coordinates:
+      - -3951
+      - 1139
+      - -0551
+    kawakarut:
+      name: Kawakarut
+      coordinates:
+      - -3485
+      - -0214
+      - -0516
+    koronui:
+      name: Koro-nui
+      coordinates:
+      - -3538
+      - 0851
+      - -0576
+    sasag:
+      name: Sasag
+      coordinates:
+      - -4154
+      - 0097
+      - -0489
+  hyrule_ridge:
+    uoyoyuik:
+      name: Uoyoyuik
+      coordinates:
+      - -1110
+      - 2087
+      - -0554
+    muzasu:
+      name: Muzasu
+      coordinates:
+      - -2138
+      - -0874
+      - -0542
+    napanos:
+      name: Napanos
+      coordinates:
+      - -1921
+      - -0359
+      - -0635
+    sikurukam:
+      name: Sikurukam
+      coordinates:
+      - -2846
+      - 0630
+      - -0621
+    tikanur:
+      name: Tikanur
+      coordinates:
+      - -2529
+      - 1170
+      - -0623
+    nabahiikat:
+      name: Nabahi-ikat
+      coordinates:
+      - -1829
+      - 1196
+      - -0723
+    netamnet:
+      name: Netamnet
+      coordinates:
+      - -0595
+      - 1549
+      - -0599
+  akkala:
+    kimimeg:
+      name: Kimimeg
+      coordinates:
+      - 4512
+      - 2115
+      - -0453
+    uiihcoj:
+      name: Ui-ihcoj
+      coordinates:
+      - 4346
+      - 2877
+      - -0608
+    gedihcayam:
+      name: Gedihcayam
+      coordinates:
+      - 3060
+      - 1825
+      - -0662
+    sikutamak:
+      name: Sikutamak
+      coordinates:
+      - 3227
+      - 3436
+      - -0431
+    akinatanis:
+      name: Akinatanis
+      coordinates:
+      - 3841
+      - 2302
+      - -0488
+    kawikatisar:
+      name: Kawikatisar
+      coordinates:
+      - 4166
+      - 1321
+      - -0673
+    agihiihcoj:
+      name: Agihi-ihcoj
+      coordinates:
+      - 3811
+      - 1219
+      - -0536
+    sisinatag:
+      name: Sisinatag
+      coordinates:
+      - 4497
+      - 0827
+      - -0535
+    kawisar:
+      name: Kawisar
+      coordinates:
+      - 4659
+      - 3249
+      - -0454
+    kuhsagi:
+      name: Kuhsagi
+      coordinates:
+      - 4654
+      - 3732
+      - -0400
+    niuzimod:
+      name: Niuzimod
+      coordinates:
+      - 3302
+      - 1442
+      - -0790
+    tayamik:
+      name: Tayamik
+      coordinates:
+      - 2854
+      - 3639
+      - -0685
+  death_mountain:
+    mustis:
+      name: Mustis
+      coordinates:
+      - 2368
+      - 2576
+      - -0948
+    kisimom:
+      name: Kisomom
+      coordinates:
+      - 2961
+      - 2758
+      - -0963
+    kawamit:
+      name: Kawamit
+      coordinates:
+      - 1799
+      - 1640
+      - -0749
+    cugukaram:
+      name: Cugukaram
+      coordinates:
+      - 1763
+      - 2510
+      - -0719
+    misisi:
+      name: Misisi
+      coordinates:
+      - 1842
+      - 2843
+      - -0838
+  eldin:
+    katoij:
+      name: Katoij
+      coordinates:
+      - 1835
+      - 3181
+      - -0838
+    anonisik:
+      name: Anonisik
+      coordinates:
+      - 3568
+      - 1246
+      - -0600
+    niopahsom:
+      name: Nipahsom
+      coordinates:
+      - 2679
+      - 1903
+      - -0688
+    katijabis:
+      name: Katijabis
+      coordinates:
+      - 2400
+      - 3276
+      - -0844
+    uukukis:
+      name: Uukukis
+      coordinates:
+      - 0697
+      - 2792
+      - -0671
+    katenim:
+      name: Katenim
+      coordinates:
+      - 0394
+      - 3483
+      - -0594
+    kayam:
+      name: Kayam
+      coordinates:
+      - 1269
+      - 3733
+      - -0553
+    nikakik:
+      name: Nikakik
+      coordinates:
+      - -0396
+      - 2729
+      - -0725
+  faron:
+    kohsustu:
+      name: Kohsustu
+      coordinates:
+      - 0670
+      - -3559
+      - -0484
+    muokuij:
+      name: Muokuij
+      coordinates:
+      - 0867
+      - -2267
+      - -0556
+    nikohsi:
+      name: Nikohsi
+      coordinates:
+      - -0564
+      - -3524
+      - -0574
+  gerudo_desert:
+    gonatoyrim:
+      name: Gonatoyrim
+      coordinates:
+      - -4681
+      - -3086
+      - -0503
+    rasinaduk:
+      name: Rasinaduk
+      coordinates:
+      - -4168
+      - -2412
+      - -0487
+    gonatoyros:
+      name: Gonatoyros
+      coordinates:
+      - -3882
+      - -2963
+      - -0434
+    tatayam:
+      name: Tatayam
+      coordinates:
+      - -3291
+      - -2511
+      - -0475
+    amakawis:
+      name: Amakawis
+      coordinates:
+      - -2439
+      - -3343
+      - -0465
+    mihcihc:
+      name: Mihcihc
+      coordinates:
+      - -3211
+      - -3005
+      - -0470
+    kasari:
+      name: Kasari
+      coordinates:
+      - -4158
+      - -3826
+      - -0478
+    gataharak:
+      name: Gataharak
+      coordinates:
+      - -3728
+      - -3624
+      - -0494
+  gerudo_highlands:
+    kawiraus:
+      name: Kawiraus
+    mustuto:
+      name: Mustuto
+      coordinates:
+      - -4469
+      - -0672
+      - -0949
+    stamayam:
+      name: Stamayam
+      coordinates:
+      - -4638
+      - -1512
+      - -0890
+    umamustor:
+      name: Umamustor
+      coordinates:
+      - -3406
+      - -1368
+      - -0770
+    sisustom:
+      name: Sisustom
+      coordinates:
+      - -1795
+      - -3497
+      - -0477
+    kawatik:
+      name: Kawatik
+      coordinates:
+      - -1531
+      - -2928
+      - -0731
+    jadukakar:
+      name: Jadukakar
+      coordinates:
+      - -2037
+      - -1852
+      - -0504
+    kimakarut:
+      name: Kimakarut
+      coordinates:
+      - -2656
+      - -2237
+      - -0488
+  lanayru:
+    korom:
+      name: Korom
+      coordinates:
+      - 1180
+      - -0778
+      - 0500
+    korakut:
+      name: Korakut
+      coordinates:
+      - 0915
+      - -0250
+      - -0481
+    siakij:
+      name: Siakij
+      coordinates:
+      - 4267
+      - -1672
+      - -0628
+    uogoj:
+      name: Uogoj
+      coordinates:
+      - 3345
+      - -1185
+      - -0610
+    usukaz:
+      name: Usukaz
+      coordinates:
+      - 3526
+      - -1482
+      - -0612
+    kawagom:
+      name: Kawagom
+      coordinates:
+      - 3295
+      - 0421
+      - -0749
+    uasnoj:
+      name: Uasnoj
+      coordinates:
+      - 1742
+      - 0018
+      - -0459
+    takaruk:
+      name: Takaruk
+      coordinates:
+      - 2359
+      - -0506
+      - -0589
+    uinoj:
+      name: Uinoj
+      coordinates:
+      - 2918
+      - 0508
+      - -0795
+    anehi:
+      name: A-nehi
+      coordinates:
+      - 3785
+      - 0578
+      - -0926
+    kegopa:
+      name: Kegopa
+      coordinates:
+      - 3887
+      - -0215
+      - -0608
+    kuzimoy:
+      name: Kuzimoy
+      coordinates:
+      - 4414
+      - -0613
+      - -0513
+    sekioam:
+      name: Sekioam
+      coordinates:
+      - 2276
+      - 0148
+      - -0501
+  necluda:
+    amone:
+      name: Amo-ne
+      coordinates:
+      - 0102
+      - -2518
+      - -0414
+    busus:
+      name: Busus
+      coordinates:
+      - 0345
+      - -2053
+      - -0471
+    uisihcoj:
+      name: Uisihcoj
+      coordinates:
+      - 0918
+      - -1900
+      - -0461
+    migoo:
+      name: Migo-o
+      coordinates:
+      - 2755
+      - -1088
+      - -0540
+    kimnaz:
+      name: Kimnaz
+      coordinates:
+      - 3469
+      - -2181
+      - -0594
+    kisihayam:
+      name: Kisihayam
+      coordinates:
+      - 3728
+      - -2059
+      - -0665
+    mimufis:
+      name: Mimufis
+      coordinates:
+      - 2827
+      - -3261
+      - -0527
+    arusakam:
+      name: Arusakam
+      coordinates:
+      - 1739
+      - -1057
+      - -0610
+    uuujoj:
+      name: U-u-ujoj
+      coordinates:
+      - 1514
+      - -3577
+      - -0529
+    sohse:
+      name: Sohse
+      coordinates:
+      - 1563
+      - -1943
+      - -0464
+    sijotu:
+      name: Sijotu
+      coordinates:
+      - 1218
+      - -2543
+      - -0612
+    niiraram:
+      name: Ni-iraram
+      coordinates:
+      - 4630
+      - -3711
+      - -0506
+    yikot:
+      name: Yikot
+      coordinates:
+      - 2303
+      - -2378
+      - -0617
+    kimimadena:
+      name: Kimimadena
+      coordinates:
+      - 4234
+      - -2176
+      - -0521
+    kotimab:
+      name: Kotimab
+      coordinates:
+      - 3469
+      - -2181
+      - -0594
+  great_hyrule_forest:
+    rikonasum:
+      name: Rikonasum
+      coordinates:
+      - 0406
+      - 2134
+      - -0592
+    uihcoke:
+      name: Uihcoke
+      coordinates:
+      - 1063
+      - 1281
+      - -0495
+    eknupup:
+      name: Eknupup
+      coordinates:
+      - 0622
+      - 2211
+      - -0611
+    sijnin:
+      name: Sijnin
+      coordinates:
+      - 0355
+      - 1892
+      - -0625
+    ramobnukas:
+      name: Ramobnukas
+      coordinates:
+      - 0166
+      - 2321
+      - -0625

@@ -1,0 +1,13 @@
+---
+layout: guide
+title: 🧚‍♀️ Great Fairy Fountains
+game: zelda_totk
+section: great_fairy_fountains
+metadata:
+  last_updated: 05-09-2025
+---
+
+{% for fountain in site.data.zelda_botw.great_fairy_fountains %}
+  {% assign fountain_name = fountain[0] %}
+  {% include zelda/fountain.html fountain=fountain_name %}
+{% endfor %}

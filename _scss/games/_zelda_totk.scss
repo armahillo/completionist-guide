@@ -1,0 +1,155 @@
+body[data-game="zelda_totk"] {
+  --color-cal-poly-green: #18592e;
+  --color-harvest-gold: #ce9019;
+  --color-moonstone: #61abb8;
+  --color-moonstone-dark: #264d54;
+  --color-saffron: #e9c03e;
+  --color-vanilla: #e0d091;
+  --color-taupe: #d7d1b9;
+  --color-gray: #959595;
+  --color-dark-slate: #2e3b4b;
+
+  @media (prefers-color-scheme: dark) {
+    --background-color: var(--color-cal-poly-green);
+    --text-color: var(--color-vanilla);
+    --link-color: var(--color-saffron);
+    --cached-color: var(--color-vanilla);
+    --fresh-color: var(--color-mint-harvest-gold);
+    --disallowed-color: var(--color-moonstone);
+  }
+  @media (prefers-color-scheme: light) {
+    --background-color: var(--color-vanilla);
+    --text-color: var(--color-cal-poly-green);
+    --link-color: var(--color-moonstone-dark);
+    --cached-color: var(--color-vanilla);
+    --fresh-color: var(--color-harvest-gold);
+    --disallowed-color: var(--color-moonstone);
+  }
+
+  & {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  a {
+    color: var(--link-color);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+  }
+  #guide-nav {
+    margin: 0 auto;
+
+    ol {
+      li {
+        background-color: var(--color-cal-poly-green);
+
+        &:hover {
+          background-color: var(--color-moonstone);
+        }
+        a {
+          color: var(--color-vanilla);
+
+          &:hover {
+            color: var(--color-saffron);
+          }
+        }
+
+      }
+    }
+  }
+
+  article#guide {
+    ol.shrines {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-content: center;
+    }
+    .shrines {
+      ol.levels {
+        li:first-of-type {
+          &:has(:checked) label .hide-when-checked {
+            display: none;
+          }
+          &:has(~ li :checked) label .hide-when-checked {
+            display: inline;
+          }
+        }
+        li:has(label [value="completed"]),
+        li:has(label [value="discovered"]) {
+          display: none;
+        }
+        li:has(label [value=""]:checked) + li:has(label [value="discovered"]),
+        li:has(label [value="discovered"]:checked) {
+          display: block;
+        }
+        li:has(label [value="discovered"]:checked) + li:has(label [value="completed"]),
+        li:has(label [value="completed"]:checked) {
+          display: block;
+        }
+      }
+      .treasure {
+        display: none;
+      }
+      ol:has(li label [value="discovered"]:checked) ~ .treasure,
+      ol:has(li label [value="completed"]:checked) ~ .treasure {
+        display: block;
+      }
+      & > li {
+        border-radius: 4px;
+        border: 1px solid var(--text-color);
+        border-left: 2px solid;
+        margin-bottom: 1rem;
+        flex-basis: 49%;
+        margin-right: 1%;
+      }
+      .puzzle {
+        background-color: var(--color-moonstone-dark) !important;
+        color: var(--color-moonstone) !important;
+      }
+      .outdoor {
+        background-color: var(--color-cal-poly-green) !important;
+        color: var(--color-vanilla);
+      }
+      .combat {
+        background-color: var(--color-harvest-gold) !important;
+        color: var(--color-vanilla);
+      }
+      li:has(.puzzle) {
+        border-color: var(--color-moonstone-dark);
+      }
+      li:has(.outdoor) {
+        border-color: var(--color-cal-poly-green);
+      }
+      li:has(.combat) {
+        border-color: var(--color-harvest-gold);
+      }
+      label {
+        border: none;
+        margin: 0;
+      }
+    }
+
+    .gear {
+      margin: 0;
+      padding: 0;
+
+      li ol {
+        margin-bottom: 1rem;
+
+
+        li {
+          input {
+            display: none;
+          }
+          ul {
+            font-weight: normal;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+          }
+        }
+      }
+    }
+  }
+}

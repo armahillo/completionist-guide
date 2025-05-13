@@ -1,0 +1,30 @@
+---
+layout: guide
+title: 📍 Locations
+game: zelda_totk
+section: locations
+metadata:
+  last_updated: 05-09-2025
+---
+
+<p>As you discover each location, mark it on the list. (You may need to back fill if you've already started</p>
+
+{% assign locations = site.data.zelda_botw.locations %}
+
+{% for tower_region in locations %}
+<h3>{{ tower_region[0] | replace: "_", " " | capitalize }} Region</h3>
+
+{% for segment in tower_region[1] %}
+<h4>{{ segment[0] }}</h4>
+  <ol class="collapsed">
+  {% for location in segment[1] %}
+    {% assign region = tower_region[0] %}
+    {% assign location = location[0] %}
+    {% assign name = location[1] %}
+
+    <li>{% include zelda/location.html region=region location=location name=name %}</li>
+  {% endfor %}
+</ol>
+{% endfor %}
+{% endfor %}
+
