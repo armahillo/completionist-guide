@@ -33,6 +33,837 @@ towers: # 15
       name: Gerudo Canyon
     gerudo_highlands:
       name: Gerudo Highlands
+shrines:
+  surface:
+    central_hyrule:
+      yamiyo:
+        name: Yamiyo
+      kyoonis:
+        name: Kyononis
+      ishodag:
+        name: Ishodag
+        location: East of Carok Bridge
+        treasure:
+        - Opal
+        type: puzzle
+        coordinates:
+        - -0883
+        - 0416
+        - 0048
+      sinakawak:
+        name: Sinakawak
+      jiosin:
+        name: Jiosin
+      susuyai:
+        name: Susuyai
+      mayachin:
+        name: Mayachin
+      teniten:
+        name: Teniten
+      tajikats:
+        name: Tajikats
+      kamizun:
+        name: Kamizun
+      kyokugon:
+        name: Kyokugon
+      tsutsu-um:
+        name: Tsutsu-um
+      riogok:
+        name: Riogok
+      tadarok:
+        name: Tadarok
+      serutabomac:
+        name: Serutabomac
+      sepapa:
+        name: Sepapa
+      ren-iz:
+        name: Ren-iz
+      jojon:
+        name: Jojon
+    hebra:
+      orochium:
+        name: Orochium
+        type: puzzle
+        location: Snowfield Stable
+        coordinates:
+        - -1637
+        - 2642
+        - 0253
+        treasure:
+        - Arrows
+      nouda:
+        name: Nouda
+        type: combat
+        location: Kopeeki Drifts Cave
+        coordinates:
+        - -2318
+        - 2201
+        - 0188
+        treasure:
+        - Hearty Elixir
+      oromuwak:
+        name: Oromuwak
+        type: puzzle
+        location: near Lucky Clover Gazette
+        coordinates:
+        - -3079
+        - 1617
+        - 0257
+        treasure:
+        - Ruby
+      gatakis:
+        name: Gatakis
+        type: puzzle
+        location: Rito Village
+        coordinates:
+        - -3652
+        - 1806
+        - 0183
+        treasure:
+        - Strong Construct Bow
+      waoos:
+        name: Wao-os
+        type: puzzle
+        location: West Lake Totori Cave
+        coordinates:
+        - -4058
+        - 1990
+        - 0197
+        treasure:
+        - Spicy Elixir
+      sahirow:
+        name: Sahirow
+        type: puzzle
+        location: east of Rospro Pass Skyview Tower
+        coordinates:
+        - -3354
+        - 2386
+        - 0375
+        treasure:
+        - Spicy Elixir
+      tauyosipun:
+        name: Tauyosipun
+        type: puzzle
+        location: NW of Rospro Pass Skyview Tower
+        coordinates:
+        - -4539
+        - 2880
+        - 0277
+        treasure:
+        - Strong Construct Bow
+      otak:
+        name: Otak
+        type: combat
+        location: Icefall Foothills Cave
+        coordinates:
+        - -4391
+        - 3714
+        - 0227
+        treasure:
+        - Mighty Construct Bow
+      eutoum:
+        name: Eutoum
+        type: combat
+        location: Goflam's Secret Hot Spring
+        coordinates:
+        - -3507
+        - 3570
+        - 0401
+        treasure:
+        - Sapphire
+      rutafuum:
+        name: Rutafu-um
+        type: crystal
+        location: Hebra Mountains Northwest Cave
+        coordinates:
+        - -2998
+        - 3102
+        - 0529
+        treasure:
+        - Topaz
+      sisuran:
+        name: Sisuran
+        type: crystal
+        location: NE of Pikida Stonegrove Northwest Cave
+        coordinates:
+        - -2559
+        - 3354
+        - 0259
+        treasure:
+        - Sapphire
+      oshozanu:
+        name: Oshozan-u
+        type: puzzle
+        location: northeast end of North Tabantha Snowfield
+        coordinates:
+        - -1404
+        - 3678
+        - 0302
+        treasure:
+        - Zonaite Bow
+      mayaotaki:
+        name: Mayaotaki
+        type: outdoor
+        location: North Lomei Labyrinth
+        coordinates:
+        - -0825
+        - 3535
+        - 0249
+        treasure:
+        - Diamond
+    tabantha:
+      mayausiy:
+        name: Mayausiy
+        type: puzzle
+        location: Forgotten Temple
+        coordinates:
+        - -1167
+        - 2602
+        - -0070
+        treasure:
+        - Large Zonai Charge
+      ikatak:
+        name: Ikatak
+        type: crystal
+        location: Gisa Crater
+        coordinates:
+        - -3951
+        - 1139
+        - 0126
+        treasure:
+        - Big Battery
+      turakawak:
+        name: Turakawak
+        type: puzzle
+        location: Lake Illumeni
+        coordinates:
+        - -3498
+        - -0197
+        - 0080
+        treasure:
+        - Magic Rod
+      iunorok:
+        name: Iun-orok
+        type: puzzle
+        location: Tanagar Canyon West Cave
+        coordinates:
+        - -3539
+        - 0851
+        - -0119
+        treasure:
+        - Arrows
+      gasas:
+        name: Gasas
+        type: puzzle
+        location: Tanagar Canyon
+        coordinates:
+        - -4153
+        - 0098
+        - 0055
+        treasure:
+        - Large Zonai Charge
+    hyrule_ridge:
+      kiuyoyou:
+        name: Kiuyoyou
+      usazum:
+        name: Usazum
+      sonapan:
+        name: Sonapan
+      makurukis:
+        name: Makurukis
+      runakit:
+        name: Runakit
+      takiihaban:
+        name: Taki-ihaban
+      tenmaten:
+        name: Tenmaten
+    akkala:
+      gemimik:
+        name: Gemimik
+      jochiiu:
+        name: Jochi-iu
+      mayachideg:
+        name: Mayachideg
+      kamatukis:
+        name: Kamatukis
+      sinatanika:
+        name: Sinatanika
+      rasitakiwak:
+        name: Rasitakiwak
+      jochiihiga:
+        name: Jochi-ihiga
+      gatanisis:
+        name: Gatanisis
+      rasiwak:
+        name: Rasiwak
+      igashuk:
+        name: Igashuk
+      domizuin:
+        name: Domizuin
+      kimayat:
+        name: Kimayat
+    death_mountain:
+      sitsum:
+        name: Sitsum
+      momosik:
+        name: Momosik
+      timawak:
+        name: Timawak
+      marakuguc:
+        name: Marakuguc
+      isisim:
+        name: Isisim
+    eldin:
+      jiotak:
+        name: Jiotak
+      kisinona:
+        name: Kisinona
+      moshapin:
+        name: Moshapin
+      sibajitak:
+        name: Sibajitak
+      sikukuu:
+        name: Sikukuu
+      minetak:
+        name: Minetak
+      mayak:
+        name: Mayak
+      kikakin:
+        name: Kikakin
+    faron:
+      utsushok:
+        name: Utsushok
+      jiukoum:
+        name: Jiukoum
+        type: puzzle
+        location: southeast of Popla Foothills Skyview Tower
+        coordinates:
+        - 0868
+        - -2278
+        - 0155
+        treasure:
+        - Sticky Elixir
+      ishokin:
+        name: Ishokin
+    gerudo_desert:
+      miryotanog:
+        name: Miryotanog
+      kudanisar:
+        name: Kudanisar
+      soryotanog:
+        name: Soryotanog
+      mayatat:
+        name: Mayatat
+      siwakama:
+        name: Siwakama
+      chichim:
+        name: Chichim
+      irasak:
+        name: Irasak
+      karahatag:
+        name: Karahatag
+    gerudo_highlands:
+      suariwak:
+        name: Suariwak
+      otutsum:
+        name: Otutsum
+      mayamats:
+        name: Mayamats
+      rotsumamu:
+        name: Rotsumamu
+      motsusis:
+        name: Motsusis
+      kitawak:
+        name: Kitawak
+      rakakudaj:
+        name: Rakakudaj
+      turakamik:
+        name: Turakamik
+    lanayru:
+      morok:
+        name: Morok
+      tukarok:
+        name: Tukarok
+      jikais:
+        name: Jikais
+      jogou:
+        name: Jogou
+      zakusu:
+        name: Zakusu
+      mogawak:
+        name: Mogawak
+      jonsau:
+        name: Jonsau
+      kurakat:
+        name: Kurakat
+      joniu:
+        name: Joniu
+      ihena:
+        name: Ihen-a
+      apogek:
+        name: Apogek
+      yomizuk:
+        name: Yomizuk
+      maoikes:
+        name: Maoikes
+    necluda:
+      enoma:
+        name: En-oma
+        location: Lake Hylia Whirlpool Cave
+        type: crystal
+        treasure:
+        - Mighty Zonaite Sword
+        coordinates:
+        - 0103
+        - -2518
+        - -0074
+      susub:
+        name: Susub
+        type: outdoor
+        location: beneath Deya Village Ruins
+        coordinates:
+        - 0349
+        - -2052
+        - -0013
+        treasure:
+        - Magic Staff
+      jochisiu:
+        name: Jochisiu
+        type: puzzle
+        location: Southern bank of Squabble River
+        coordinates:
+        - 0931
+        - -1903
+        - 0044
+        treasure:
+        - Big Battery+
+      oogim:
+        name: O-ogim
+      zanmik:
+        name: Zanmik
+        type: puzzle
+        location: Hateno Village
+        coordinates:
+        - 3470
+        - -2181
+        - 0162
+        treasure:
+        - Zonaite Longsword
+      mayahisik:
+        name: Mayahisik
+        type: outdoor
+        location: Retsam Forest Cave
+        coordinates:
+        - 3729
+        - -2059
+        - 0203
+        treasure:
+        - Magic Scepter
+      sifumim:
+        name: Sifumim
+      makasura:
+        name: Makasura
+        type: puzzle
+        location: south of Kakariko Village
+        coordinates:
+        - 1770
+        - -1052
+        - 0180
+        treasure:
+        - Fairy Tonic
+      jojuuu:
+        name: Joju-u-u
+      eshos:
+        name: Eshos
+        type: combat
+        location: west of Dueling Peaks Stable
+        coordinates:
+        - 1566
+        - -1945
+        - 0172
+        treasure:
+        - Mighty Zonaite Shield
+      utojis:
+        name: Utojis
+      marariin:
+        name: Marari-in
+        type: outdoor
+        location: Eventide Island
+        coordinates:
+        - 4631
+        - -3712
+        - 0032
+        treasure:
+        - Ruby
+      tokiy:
+        name: Tokiy
+        type: crystal
+        location: Oakle's Navel Cave
+        coordinates:
+        - 2304
+        - -2378
+        - -0015
+        treasure:
+        - Large Zonai Charge
+      anedamimik:
+        name: Anedamimik
+        type: puzzle
+        location: Deepback Bay Cave
+        coordinates:
+        - 4232
+        - -2178
+        - 0002
+        treasure:
+        - Large Zonai Charge
+      bamitok:
+        name: Bamitok
+    great_hyrule_forest:
+      musanokir:
+        name: Musanokir
+      ekochiu:
+        name: Ekochiu
+        location: North of Woodland Stable
+        type: puzzle
+        treasure:
+        - Zonaite Shield
+        coordinates:
+        - 1057
+        - 1271
+        - 0044
+      pupunke:
+        name: Pupunke
+      ninjis:
+        name: Ninjis
+      sakunbomar:
+        name: Sakunbomar
+  sky:
+    great_sky_island:
+      ukouh:
+        name: Ukouh
+        type: puzzle
+        location: Great Sky Island
+        coordinates:
+        - 0275
+        - -0913
+        - 1474
+        treasure:
+        - Ultrahand ability
+      inisa:
+        name: In-isa
+        type: puzzle
+        location: Great Sky Island
+        coordinates:
+        - 0026
+        - -1504
+        - 1423
+        treasure:
+        - Fuse ability
+      gutanbac:
+        name: Gutanbac
+        location: Great Sky Island
+        coordinates:
+        - 0709
+        - -1383
+        - 1599
+        type: puzzle
+        treasure:
+        - Ascend ability
+      nachoyah:
+        name: Nachoyah
+        type: puzzle
+        location: Great Sky Island
+        coordinates:
+        - 0390
+        - -1661
+        - 2313
+        treasure:
+        - Rewind ability
+    central_hyrule:
+      jinodok:
+        name: Jinodok
+        type: crystal
+        location: South Hyrule Sky Archipelago
+        coordinates:
+        - -1257
+        - -1487
+        - 1022
+        treasure: Diamond
+      taunhiy:
+        name: Taunhiy
+        type: outdoor
+        location: Courage Island
+        coordinates:
+        - -2402
+        - 0825
+        - 0629
+        treasure:
+        - Strong Construct Bow
+      simosiwak:
+        name: Simosiwak
+        type: outdoor
+        location: Bravery Island
+        coordinates:
+        - 0162
+        - 1972
+        - 0773
+        treasure:
+        - Bright Elixir
+      mayam:
+        name: Mayam
+        type: crystal
+        location: North Hyrule Sky Archipelago
+        coordinates:
+        - 0340
+        - 2815
+        - 1835
+        treasure:
+        - Magic Rod
+    hebra_tabantha:
+      ganos:
+        name: Ganos
+        type: crystal
+        location: Tabantha Sky Archipelago
+        coordinates:
+        - -3370
+        - 0467
+        - 1709
+        treasure:
+        - Diamond
+      gaahisas:
+        name: Ga-ahisas
+        location: Lightcast Island, North Tabantha Sky Archipelago
+        treasure:
+        - Star Fragment
+        type: outdoor
+        coordinates:
+        - -3596
+        - 0961
+        - 1713
+      ijoo:
+        name: Ijo-o
+        location: West Hebra Sky Archipelago
+        coordinates:
+        - -3861
+        - 2682
+        - 0717
+        type: combat
+        treasure:
+        - arrows
+      kahatanaum:
+        name: Kahatanaum
+        type: outdoor
+        location: Rising Island Chain
+        coordinates:
+        - -3296
+        - 3432
+        - 1362
+        treasure:
+        - Large Zonai Charge
+      mayaumekis:
+        name: Mayaumekis
+        type: puzzle
+        location: Rising Island Chain
+        coordinates:
+        - -2948
+        - 3051
+        - 0911
+        treasure:
+        - 10 Arrows
+      taninoud:
+        name: Taninoud
+        type: crystal
+        location: East Hebra Sky Archipelago
+        coordinates:
+        - -1802
+        - 3407
+        - 0963
+        treasure:
+        - Topaz
+      tenbez:
+        name: Tenbez
+        type: puzzle
+        location: North Lomei Castle Top Floor
+        coordinates:
+        - -0970
+        - 3535
+        - 1026
+        treasure:
+        - Large Zonai Charge
+    akkala:
+      natak:
+        name: Natak
+        type: crystal
+        location: Sokkala Sky Archipelago
+        coordinates:
+        - 3671
+        - 1484
+        - 1172
+        treasure:
+        - Enduring Elixir
+      gikaku:
+        name: Gikaku
+        location: Sky Mine
+        type: outdoor
+        treasure:
+        - ??
+        coordinates:
+        - 4506
+        - 2166
+        - 1169
+      mogisari:
+        name: Mogisari
+        type: combat
+        locaiton: Lomei Sky Labyrinth
+        coordinates:
+        - 4655
+        - 3500
+        - 1025
+        treasure:
+        - Mighty Zonaite Shield
+    eldin:
+      kadaunar:
+        name: Kadaunar
+        type: puzzle
+        location: South Eldin Sky Archipelago
+        coordinates:
+        - 1882
+        - 1203
+        - 1265
+        treasure:
+        - Strong Construct Bow
+    faron:
+      jokuusin:
+        name: Joku-Usin
+        location: Thunderhead Isles
+        type: combat
+        coordinates:
+        - 1075
+        - -3348
+        - 0800
+        treasure:
+        - Electro Elixir
+      jokuu:
+        name: Joku-u
+        type: outdoor
+        location: Dragonhead Island
+        coordinates:
+        - 1376
+        - -3340
+        - 0443
+        treasure:
+        - Diamond
+    gerudo:
+      rakashog:
+        name: Rakashog
+        type: puzzle
+        location: East Gerudo Sky Archipelago
+        coordinates:
+        - -1715
+        - -2119
+        - 1163
+        treasure:
+        - Large Zonai Charge
+      mayasiar:
+        name: Mayasiar
+        type: outdoor
+        location: Starview Island
+        coordinates:
+        - -3547
+        - -0321
+        - 1979
+        treasure:
+        - Star-Fragment Staff
+      siyamotsus:
+        name: Siyamotsus
+        type: puzzle
+        location: South Lomei Castle Top Floor
+        coordinates:
+        - -1795
+        - -3295
+        - 1025
+        treasure:
+        - Construct Bow
+    lanayru:
+      sihajog:
+        name: Sihajog
+        type: outdoor
+        location: Valor Island
+        coordinates:
+        - 4546
+        - -0846
+        - 1135
+        treasure:
+        - Diamond
+      jirutagumac:
+        name: Jirutagumac
+        type: puzzle
+        treasure: Large Zonaite
+        location: West of Wellspring Island
+        coordinates:
+        - 2916
+        - 0534
+        - 0965
+      igoshon:
+        name: Igoshon
+        type: puzzle
+        location: Wellspring Island
+        coordinates:
+        - 3481
+        - 0666
+        - 1340
+        treasure:
+        - Large Zonaite Charge
+      mayanas:
+        name: Mayanas
+        type: puzzle
+        location: South Lanayru Sky Archipelago
+        coordinates:
+        - 4613
+        - -0947
+        - 1804
+        treasure:
+        - Mighty Zonaite Shield
+    necluda:
+      josiu:
+        name: Josiu
+        type: crystal
+        location: North Necluda Sky Archipelago
+        coordinates:
+        - 1758
+        - -1208
+        - 0938
+        treasure:
+        - Large Zonai Charge
+      ukoojisi:
+        name: Ukoojisi
+        type: outdoor
+        location: West Necluda Sky Archipelago
+        coordinates:
+        - 1469
+        - -2169
+        - 0600
+        treasure:
+        - Mighty Zonaite Shield
+      kumamayn:
+        name: Kumamayn
+        type: crystal
+        location: Necluda Sky Archipelgao
+        coordinates:
+        - 2857
+        - -2856
+        - 1226
+        treasure:
+        - Zonaite Bow
+      yansamin:
+        name: Yansamin
+        type: combat
+        location: Zonaite Forge Island
+        coordinates:
+        - 2351
+        - -1783
+        - 1490
+        treasure:
+        - Large Zonaite
 lightroots:
   central_hyrule:
     oyimay:
@@ -170,6 +1001,7 @@ lightroots:
       - -0417
     sooaw:
       name: So-oaw
+      coordinates:
       - -4057
       - 1989
       - -0674
@@ -224,6 +1056,10 @@ lightroots:
   tabantha:
     yisuayam:
       name: Yisuayam
+      coordinates:
+      - -1167
+      - 2602
+      - -0350
     kataki:
       name: Kataki
       coordinates:
@@ -515,6 +1351,10 @@ lightroots:
   gerudo_highlands:
     kawiraus:
       name: Kawiraus
+      coordinates:
+      - 4659
+      - 3249
+      - -0454
     mustuto:
       name: Mustuto
       coordinates:
@@ -758,3 +1598,1985 @@ lightroots:
       - 0166
       - 2321
       - -0625
+great_fairy_fountains:
+  tera:
+    name: Tera's Great Fairy Fountain
+    location: Eldin
+    coordinates:
+    - 0916
+    - 1386
+    - 0082
+  mija:
+    name: Mija's Great Fairy Fountain
+    location: Tabantha
+    coordinates:
+    - -1460
+    - 2995
+    - 0302
+  cotera:
+    name: Cotera's Great Fairy Fountain
+    location: West Necluda
+    coordinates:
+    - 1768
+    - -2180
+    - 0001
+  kaysa:
+    name: Kaysa's Great Fairy Fountain
+    location: South Hyrule Field
+    coordinates:
+    - -1557
+    - -1231
+    - 0077
+    malanya:
+      name: Malanya Spring
+      location: East Akkala
+      coordinates:
+      - 4296
+      - 3219
+      - 0150
+caves:
+  great_sky_island:
+    pondside:
+      name: Pondside Cave
+      coordinates:
+    mining:
+      name: Mining Cave
+      coordinates:
+    pit:
+      name: Pit Cave
+      coordinates:
+    bottomless:
+      name: Bottomless
+      coordinates:
+  central_hyrule_field:
+    royal_hidden_passage:
+      name: Royal Hidden Passage
+    passeri_greenbelt:
+      name: Passeri Greenbelt
+    ranch_ruins:
+      name: Ranch Ruins
+    sage_temple:
+      name: Sage Temple
+    ancient_tree_stump:
+      name: Ancient Tree Stump
+    rebonae_bridge:
+      name: Rebonae Bridge
+    crenel_peak:
+      name: Crenel Peak
+    crenel_hills:
+      name: Crenel Hills
+    whistling_hill:
+      name: Whistling Hill
+    coliseum_ruins:
+      name: Coliseum Ruins
+    great_plateau_foothill:
+      name: Great Plateau Foothill
+    shrine_of_resurrection:
+      name: Shrine of Resurrection
+    river_of_the_dead_waterfall:
+      name: River of the Dead Waterfall
+  hebra_tabantha_ridge:
+    north_hyrule_plain:
+      name: North Hyrule Plain
+    lindors_brow:
+      name: Lindor's Brow
+    thundra_plateau:
+      name: Thundra Plateau
+    tanagar_canyon_east:
+      name: Tanagar Canyon East
+    satori_mountain:
+      name: Satori Mountain
+    satori_mountain_foothill:
+      name: Satori Mountain Foothill
+    tamio_river_downstream:
+      name: Tamio River Downstream
+    ancient_columns:
+      name: Ancient Columns
+    tanagar_canyon_west:
+      name: Tanagar Canyon West
+    gisa_crater:
+      name: Gisa Crater
+    brightcap:
+      name: Brightcap
+    tabantha_hills:
+      name: Tabantha Hills
+    kopeeki_drifts:
+      name: Kopeeki Drifts
+    hebra_headspring:
+      name: Hebra Headspring
+    talonto_peak:
+      name: Talonto Peak
+    hebra_south_summit:
+      name: Hebra South Summit
+    rospro_pass:
+      name: Rospro Pass
+    west_lake_totori:
+      name: West Lake Totori
+    sturnida_springs:
+      name: Sturnida Springs
+    lake_kilsie:
+      name: Lake Kilsie
+    north_biron_snowshelf:
+      name: North Biron Snowshelf
+    east_biron_snowshelf:
+      name: East Biron Snowshelf
+    hebra_great_skeleton:
+      name: Hebra Great Skeleton
+    icefall_foothills:
+      name: Icefall Foothills
+    hebra_mountains_northwest:
+      name: Hebra Mountains Northwest
+    pikida_stonegrove_northwest:
+      name: Pikida Stonegrove Northwest
+    mount_drena_foothill:
+      name: Mount Drena Foothill
+  gerudo_highlands_desert:
+    stalry_plateau:
+      name: Stalry Plateau
+    mount_nabooru_south:
+      name: Mount Nabooru South
+    lower_spectacle_rock:
+      name: Lower Spectacle Rock
+    mount_nabooru:
+      name: Mount Nabooru
+    koukot_plateau:
+      name: Koukot Plateau
+    yiga_blademaster_station:
+      name: Yiga Blademaster Station
+    taafei_hill:
+      name: Taafei Hill
+    spectacle_rock:
+      name: Spectacle Rock
+    gerudo_canyon:
+      name: Gerudo Canyon
+    east_gerudo_ruin:
+      name: East Gerudo Ruin
+    source_of_the_oasis:
+      name: Source of the Oasis
+    quicksand_lake:
+      name: Quicksand Lake
+    ancient_prison :
+      name: Ancient Prison
+    gerudo_sanc:
+      name: Gerudo Sanc
+    valley_of_silent_st:
+      name: Valley of Silent St
+    central_gerudo:
+      name: Central Gerudo
+    south_gerudo:
+      name: South Gerudo
+    ancient_altar :
+      name: Ancient Altar
+    gerudo_great_skeleton:
+      name: Gerudo Great Skeleton
+    west_gerudo_underground_ruins:
+      name: West Gerudo Underground Ruins
+    meadelas_mantle:
+      name: Meadela's Mantle
+    mystathis_shelf:
+      name: Mystathi’s Shelf
+    statue_of_the_eighth_heroine:
+      name: Statue of the Eighth Heroine
+  faron:
+    lake_hylia_whirlpool:
+      name: Lake Hylia Whirlpool
+    cora_lakefront:
+      name: Cora Lakefront
+    finra_woods_excavation:
+      name: Finra Woods Excavation Site
+    pagos_woods_excavation:
+      name: Pagos Woods Excavation Site
+    floria_river_upstream_excavation:
+      name: Floria River Upstream Excavation
+    puffer_beach_overhead:
+      name: Puffer Beach Overhead
+    komo_shoreline:
+      name: Komo Shoreline
+    sarjon_woods:
+      name: Sarjon Woods
+    ubota_point:
+      name: Ubota Point
+    rassla_lake:
+      name: Rassla Lake
+    corta_lake:
+      name: Corta Lake
+    mount_floria:
+      name: Mount Floria
+    rodai_lakefront_tunnel:
+      name: Rodai Lakefront Tunnel
+    calora_lake:
+      name: Calora Lake
+  east_west_necluda_mount_lanayru:
+    popla_foothills_excavation_site:
+      name: Popla Foothills Excavation Site
+    tobios_hollow:
+      name: Tobio's Hollow
+    dueling_peaks_south:
+      name: Dueling Peaks South
+    dueling_peaks_north:
+      name: Dueling Peaks North
+    sahasra_slope:
+      name: Sahasra Slope
+    byroad_to_lanayru_wetlands:
+      name: Byroad to Lanayru Wetlands
+    kakariko_village:
+      name: Kakariko Village
+    cucco_hideout:
+      name: Cucco Hideout
+    lanayru_road_east:
+      name: Lanayru Road East
+    lanayru_road_south:
+      name: Lanayru Road South
+    robred_dropoff:
+      name: Robred Dropoff
+    fort_hateno:
+      name: Fort Hateno
+    oakles_navel:
+      name: Oakle's Navel
+    retsam_forest:
+      name: Retsam Forest
+    walnot_mountain:
+      name: Walnot Mountain
+    deepback_bay:
+      name: Deepback Bay
+    mapla_point:
+      name: Mapla Point
+    atun_valley:
+      name: Atun Valley
+    mount_dunsel:
+      name: Mount Dunsel
+    cape_cales_cliffbase:
+      name: Cape Cales Cliffbase
+    eventide_island:
+      name: Eventide Island
+  lanayru_great_spring:
+    bone_pond_east:
+      name: Bone Pond East
+    tabahl_woods:
+      name: Tabahl Woods
+    upland_zorana_mountainside:
+      name: Upland Zorana Mountainside
+    upland_zorana_summit:
+      name: Upland Zorana Summit
+    upland_zorana_byroad:
+      name: Upland Zorana Byroad
+    ralis_channel:
+      name: Ralis Channel
+    oren_bridge:
+      name: Oren Bridge
+    lutos_channel:
+      name: Luto's Channel
+    cave_under_zoras_domain:
+      name: Cave Under Zora's Domain
+    upland_zorana_foothill:
+      name: Upland Zorana Foothill
+    pristine_sanctum:
+      name: Pristine Sanctum
+    ploymus_mountain:
+      name: Ploymus Mountain
+    reservoir_lakefront_cavern:
+      name: Reservoir Lakefront Cavern
+    ancient_zora_water:
+      name: Ancient Zora Water
+    ulria_grotto_south:
+      name: Ulria Grotto South
+    ulria_grotto_east:
+      name: Ulria Grotto East
+    horon_lagoon:
+      name: Horon Lagoon
+    tarm_point:
+      name: Tarm Point
+  akkala_eldin:
+    pico_pond:
+      name: Pico Pond
+    lake_ferona:
+      name: Lake Ferona
+    west_restaurant:
+      name: West Restaurant
+    east_restaurant:
+      name: East Restaurant
+    gorko_tunnel:
+      name: Gorko Tunnel
+    southern_mine:
+      name: Southern Mine
+    goronbi_river:
+      name: Goronbi River
+    death_mountain_foothill:
+      name: Death Mountain Foothill
+    yunoboco_hq_south:
+      name: YunoboCo HQ South
+    yunoboco_hq_east:
+      name: YunoboCo HQ East
+    isle_of_rabac_gallery:
+      name: Isle of Rabac Gallery
+    deplian_badlands:
+      name: Deplian Badlands
+    lizards_burrow:
+      name: Lizard's Burrow
+    lake_darman_monster_den:
+      name: Lake Darman Monster Den
+    death_mountain_west_tunnel:
+      name: Death Mountain West Tunnel
+    death_mountain_east_tunnel:
+      name: Death Mountain East Tunnel
+    lake_intenoch:
+      name: Lake Intenoch
+    foothill_monster_den:
+      name: Foothill Monster Den
+    cephla_lake:
+      name: Cephla Lake
+    akkala_citadel_ruins:
+      name: Akkala Citadel Ruins
+    akkala_citadel_ruins_summit:
+      name: Akkala Citadel Ruins Summit
+    construction_site:
+      name: Construction Site
+    tarrey_town_tunnel:
+      name: Tarrey Town Tunnel
+    skull_lake:
+      name: Skull Lake
+    north_akkala_beach:
+      name: North Akkala Beach
+  great_hyrule_forest:
+    yiga_clan_maritta_branch:
+      name: Yiga Clan Maritta Branch
+    raru_hillside:
+      name: Raru Hillside Cave
+sages_will:
+  south_hyrule_sky_archipelago:
+    name: South Hyrule Sky Archipelago
+    type: puzzle
+  south_eldin_sky_archipelago:
+    name: South Eldin Sky Archipelago
+    type: puzzle
+  eldin_sky_archipelago:
+    name: Eldin Sky Archipelago
+    type: puzzle
+  wellspring_island:
+    name: Wellspring Island
+    type: combat
+    note: Flux Construct II
+  sokkala_sky_archipelago:
+    name: Sokkala Sky Archipelago
+    type: puzzle
+  south_hebra_sky_archipelago:
+    name: South Hebra Sky Archipelago
+    type: puzzle
+  thunderhead_isles:
+    name: Thunderhead Isles
+    type: puzzle
+    coordinates:
+    - 0967
+    - -3306
+    - 0846
+  dragonhead_island:
+    name: Dragonhead Island
+    type: puzzle
+    coordinates:
+    - 1309
+    - -3210
+    - 0459
+  north_necluda_sky_archipelago:
+    name: North Necluda Sky Archipelago
+    coordinates:
+    - 1934
+    - -1063
+    - 0961
+  lanayru_sky_archipelago:
+    name: Lanayru Sky Archipelago
+    type: combat
+    note: Flux Construct
+    coordinates:
+    - 2999
+    - -0251
+    - 0894
+  west_hebra_sky_archipelago:
+    name: West Hebra Sky Archipelago
+    type: combat
+    note: King Gleeok
+    coordinates:
+    - -4470
+    - 2171
+    - 1253
+  north_tabantha_sky_archipelago:
+    name: North Tabantha Sky Archipelago
+    type: puzzle
+    coordinates:
+    - -3780
+    - 1572
+    - 1237
+  starview_island:
+    name: Starview Island
+    type: puzzle
+    coordinates:
+    - -3457
+    - -0264
+    - 1938
+  west_gerudo_sky:
+    name: West Gerudo Sky
+    type: puzzle
+    note: King Gleeok
+    coordinates:
+    - -4447
+    - -2731
+    - 1419
+  faron_sky_archipelago:
+    name: Faron Sky Archipelago
+    type: combat
+    note: Flux Construct III
+    coordinates:
+    - -0324
+    - -2591
+    - 0894
+  southeast_necluda_sky:
+    name: Southeast Necluda Sky
+    type: combat
+    note: King Gleeok
+    coordinates:
+    - 4652
+    - -3828
+    - 1065
+  south_necluda_sky_archipelago:
+    name: South Necluda Sky Archipelago
+    type: combat
+    note: Flux Construct III
+    coordinates:
+    - 2559
+    - -3601
+    - 0894
+  lanayru_great_spring_sky:
+    name: Lanayru Great Spring Sky
+    type: puzzle
+    coordinates:
+    - 2911
+    - 0525
+    - 0929
+  east_gerudo_sky_archipelago:
+    name: East Gerudo Sky Archipelago
+    type: puzzle
+    coordinates:
+    - -1958
+    - -1812
+    - 1140
+  west_hyrule_sky_archipelago:
+    name: West Hyrule Sky Archipelago
+    type: combat
+    note: Flux Construct III
+    coordinates:
+    - -2290
+    - -0411
+    - 0894
+schema_stones:
+  fanplane:
+    name: Fan plane
+    location: Great Abandoned Central Mine
+  launch_pad:
+    name: Launch Pad
+    location: Abandoned Kakariko Mine
+  instant_scaffold:
+    name: Instant Scaffold
+    location: Abandoned Kara Kara Mine
+  hovercraft:
+    name: Hovercraft
+    location: Abandoned Gerudo Mine
+  bridge:
+    name: Bridge
+    location: Abandoned Hateno Mine
+  dirigible:
+    name: Dirigible
+    location: Abandoned Lurelin Mine
+  rocket_platform:
+    name: Rocket Platform
+    location: Abandoned Hebra Mine
+  automated_ally:
+    name: Automated Ally
+    location: Abandoned Eldin Mine
+  instant_cannon:
+    name: Instant Cannon
+    location: Abandoned Tarry Mine
+  bolt_boat:
+    name: Bolt Boat
+    location: Abandoned Lanayru Mine
+  hot_air_balloon:
+    name: Hot Air Balloon
+    location: Great Abandoned Central Mine
+  beam_cycle:
+    name: Beam Cycle
+    location: Shrine of Resurrection cave
+yiga_schematics:
+  monocycle:
+    name: Monocycle
+    ordinal: 1
+    coordinates:
+    - -1227
+    - -2616
+    - -0480
+  shock_trap:
+    name: Shock Trap
+    ordinal: 2
+    coordinates:
+    - -2695
+    - -2882
+    - -0467
+  beam_turret:
+    name: Beam Turret
+    ordinal: 3
+    coordinates:
+    - -2409
+    - -3489
+    - -0394
+  vertical_escape:
+    name: Vertical Escape
+    ordinal: 4
+    coordinates:
+    - -3266
+    - -3789
+    - -0494
+  raiding_plane:
+    name: Raiding Plane
+    ordinal: 5
+    coordinates:
+    - -4542
+    - -2171
+    - -0488
+  fan_boat:
+    name: Fan Boat
+    ordinal: 6
+    coordinates:
+    - -3077
+    - -1577
+    - -0908
+  smoke_rocket:
+    name: Smoke Rocket
+    ordinal: 7
+    coordinates:
+    - -4458
+    - -0994
+    - -0861
+  instant_scaffold:
+    name: Instant Scaffold
+    ordinal: 8
+    coordinates:
+    - -3397
+    - -0222
+    - -0482
+  three_wheeler:
+    name: Three Wheeler
+    ordinal: 9
+    coordinates:
+    - -1858
+    - -0732
+    - -0527
+  bomb_bouquet:
+    name: Bomb Bouquet
+    ordinal: 10
+    coordinates:
+    - -1616
+    - 0246
+    - -0482
+  all_purpose_raft:
+    name: All-Purpose Raft
+    ordinal: 11
+    coordinates:
+    - -3381
+    - 0664
+    - 0619
+  flamethrower_balloon:
+    name: Flamethrower Balloon
+    ordinal: 12
+    coordinates:
+    - -2846
+    - 0630
+    - -0621
+  cargo_carrier:
+    name: Cargo Carrier
+    ordinal: 13
+    coordinates:
+    - -2823
+    - 0901
+    - -0565
+  sprinkler_system:
+    name: Sprinkler System
+    ordinal: 14
+    coordinates:
+    - -1332
+    - 1496
+    - -0597
+  excavator:
+    name: Excavator
+    ordinal: 15
+    coordinates:
+    - -1902
+    - 2096
+    - -0682
+  floodlights:
+    name: Floodlights
+    ordinal: 16
+    coordinates:
+    - -3708
+    - 3099
+    - -0782
+  whirling_basher:
+    name: Whirling Basher
+    ordinal: 17
+    coordinates:
+    - -2865
+    - 2918
+    - -0931
+  fishing_wrawler:
+    name: Fishing Trawler
+    ordinal: 18
+    coordinates:
+    - -1751
+    - 3107
+    - -0679
+  aerial_cannon:
+    name: Aerial Cannon
+    ordinal: 19
+    coordinates:
+    - -0397
+    - 1776
+    - -0623
+  charged_charger:
+    name: Charged Charger
+    ordinal: 20
+    coordinates:
+    - 0083
+    - 2813
+    - -0631
+  assault_cart:
+    name: Assault Cart
+    ordinal: 21
+    coordinates:
+    - 3133
+    - 3643
+    - -0661
+  headlight_raft:
+    name: Headlight Raft
+    ordinal: 22
+    coordinates:
+    - 3273
+    - 3696
+    - -0660
+  wagon:
+    name: Wagon
+    ordinal: 23
+    coordinates:
+    - 4112
+    - 3215
+    - -0611
+  big_rig:
+    name: Big Rig
+    ordinal: 24
+    coordinates:
+    - 3606
+    - 2281
+    - -0478
+  rainmaker:
+    name: Rainmaker
+    ordinal: 25
+    coordinates:
+    - 2667
+    - 1578
+    - -0591
+  instant_kitchen:
+    name: Instant Kitchen
+    ordinal: 26
+    coordinates:
+    - 1539
+    - 0692
+    - -0439
+  triple_cannon:
+    name: Triple Cannon
+    ordinal: 27
+    coordinates:
+    - 1168
+    - 0600
+    - -0408
+  icebreaker:
+    name: Icebreaker
+    ordinal: 28
+    coordinates:
+    - 3651
+    - -0534
+    - -0455
+  super_spring:
+    name: Super Spring
+    ordinal: 29
+    coordinates:
+    - 3618
+    - -0569
+    - -0455
+  tank:
+    name: Tank
+    ordinal: 30
+    coordinates:
+    - 2542
+    - -0544
+    - -0476
+  scatter_trap:
+    name: Scatter Trap
+    ordinal: 31
+    coordinates:
+    - 3262
+    - -1445
+    - -0657
+  liftoff_glider:
+    name: Liftoff Glider
+    ordinal: 32
+    coordinates:
+    - 2077
+    - -1652
+    - -0464
+  water_freezer:
+    name: Water Freezer
+    ordinal: 33
+    coordinates:
+    - 2856
+    - -2858
+    - 1212
+  beam_spinner:
+    name: Beam Spinner
+    ordinal: 34
+    coordinates:
+    - 0417
+    - -3673
+    - -0498
+ancient_tablets:
+  west_hebra:
+    name: West Hebra
+    coordinates:
+    - -4045
+    - 3205
+    - 0444
+  east_hebra:
+    name: East Hebra
+    coordinates:
+    - -1369
+    - 3576
+    - 0904
+  north_hyrule:
+    name: North Hyrule
+    coordinates:
+    - -0048
+    - 2951
+    - 1330
+  sokkala:
+    name: Sokkala
+    coordinates:
+    - 3555
+    - 1776
+    - 0884
+  south_eldin:
+    name: South Eldin
+    coordinates:
+    - 2214
+    - 0990
+    - 1142
+  lanayru:
+    name: Lanayru
+    coordinates:
+    - 2918
+    - 0220
+    - 0797
+  south_lanayru:
+    name: South Lanayru
+    coordinates:
+    - 3917
+    - -2468
+    - 0009
+  necluda:
+    name: Necluda
+    coordinates:
+    - 2084
+    - -2730
+    - 0317
+  west_necluda:
+    name: West Necluda
+    coordinates:
+    - 0476
+    - -2249
+    - 0394
+  south_hyrule:
+    name: South Hyrule
+    coordinates:
+    - -1241
+    - -1934
+    - 0979
+  east_gerudo:
+    name: East Gerudo
+    coordinates:
+    - -2449
+    - -3264
+    - 0047
+  north_gerudo:
+    name: North Gerudo
+    coordinates:
+    - -3604
+    - -0934
+    - 0495
+memories:
+  master_swords_power:
+    name: Master Sword's Power
+    note: Defeat the Scourge of the Deku Tree
+    location:
+    coordinates:
+  awakening:
+    name: The Awakening
+    note: "Complete 'Beneath Hyrule Castle' quest"
+    location:
+    coordinates:
+  where_am_i:
+    name: Where Am I?
+    location: Rauru geoglyph
+    coordinates:
+  unfamiliar_world:
+    name: An Unfamiliar World
+    location: Forgotten Temple geoglyph
+    coordinates:
+  minerus_counsel:
+    name: Mineru's Counsel
+    location: Purah Pad geoglyph
+    coordinates:
+  gerudo_assault:
+    name: The Gerudo Assault
+    location: Molduga geoglyph
+    coordinates:
+  show_of_fealty:
+    name: A Show of Fealty
+    location: Ganondorf geoglyph
+    coordinates:
+  zelda_and_sonia:
+    name: Zelda and Sonia
+    location: Queen Sonia geoglyph
+    coordinates:
+  sonia_is_caught_by_treachery:
+    name: Sonia is Caught by Treachery
+    location: Scimitar geoglyph
+    coordinates:
+  birth_of_demon_king:
+    name: Birth of the Demon King
+    location: Demon King geoglyph
+    coordinates:
+  demon_kings_army:
+    name: The Demon King's Army
+    note: "Complete 'Crisis at Hyrule Castle' quest at The Floating Castle'"
+    location:
+    coordinates:
+  sages_vow:
+    name: The Sage's Vow
+    location: Sacred Stone geoglyph
+    coordinates:
+  kings_duty:
+    name: A King's Duty
+    location: Memorial Stone geoglyph
+    coordinates:
+  imprisoning_war:
+    name: The Imprisoning War
+    note: "Complete 'Guidance from Ages Past' quest"
+    location:
+    coordinates:
+  master_sword_in_time:
+    name: A Master Sword in Time
+    location: Master Sword geoglyph
+    coordinates:
+  critical_decisions:
+    name: Critical Decisions
+    note: "Complete 'Guidance from Ages Past' quest"
+    location:
+    coordinates:
+  tears_of_the_dragon:
+    name: Tears of the Dragon
+    note: Find all other dragon tears first
+    location: Rist Peninsula
+    coordinates:
+dragons_tears:
+  rauru:
+    name: Rauru geoglyph
+    coordinates:
+    - -1417
+    - 0967
+    - 0125
+  forgotten_temple:
+    name: Forgotten Temple geoglyph
+    coordinates:
+    - 1236
+    - 1713
+    - 0128
+  purah_pad:
+    name: Purah Pad geoglyph
+    coordinates:
+    - 1699
+    - 1016
+    - 0125
+  fish:
+    name: Fish geoglyph
+    coordinates:
+    - 0676
+    - -1800
+    - 0125
+  ganondorf:
+    name: Ganondorf geoglyph
+    coordinates:
+    - -3502
+    - -1771
+    - 0125
+  queen:
+    name: Queen geoglyph
+    coordinates:
+    - -2743
+    - 0441
+    - 0520
+  scimitar:
+    name: Scimitar geoglyph
+    coordinates:
+    - 2819
+    - 3122
+    - 0125
+  demon_king:
+    name: Demon King geoglyph
+    coordinates:
+    - -1865
+    - 3616
+    - 0237
+  sacred_stone:
+    name: Sacred Stone geoglyph
+    coordinates:
+    - 4430
+    - -0276
+    - 0125
+  memorial_stone:
+    name: Memorial Stone geoglyph
+    coordinates:
+    - -0348
+    - -2118
+    - 0677
+  master_sword:
+    name: Master Sword geoglyph
+    coordinates:
+    - 0438
+    - 3078
+    - 1277
+  final:
+    name: Final geoglyph
+    coordinates:
+    - 4097
+    - 1875
+    - 0557
+bargainer_statues:
+  great_abandoned_central_mine:
+    name: Great Abandoned Central Mine
+    location: Central Hyrule Depths
+    coordinates:
+    - -0822
+    - -1941
+    - -0523
+  lookout_landing:
+    name: Lookout Landing
+    location: Hyrule Field
+  plains_bargainer_statue:
+    name: Plains Bargainer Statue
+    location: Central Hyrule Depths
+  wellspring_of_courage:
+    name: Wellspring of Courage
+    location: Faron Grassland Depths
+  wellspring_of_power:
+    name: Wellspring of Power
+    location: Akkala Highlands Depths
+  wellspring_of_wisdom:
+    name: Wellspring of Wisdom
+    location: Mount Lanayru Depths
+  cliff_bargainer_statue:
+    name: Cliff Bargainer Statue
+    location: Tabantha Fields Depths
+gear:
+  ancient_hero:
+    note: Requires completing all 152 shrines.
+    body:
+      name: Ancient Hero's Aspect
+      location: Temple of Time, Great Sky Island
+      level_1:
+        "Silver Bokoblin Horn": 9
+        "Hinox Guts": 9
+        "Zonaite": 15
+      level_2:
+        "Silver Moblin Horn": 9
+        "Frox Guts": 9
+        "Large Zonaite": 10
+      level_3:
+        "Silver Lizalfos Horn": 9
+        "Molduga Guts": 9
+        "Large Zonaite": 15
+      level_4:
+        "Silver Lynel Saber Horn": 9
+        "Silver Lynel Mace Horn": 9
+        "Gleeok Guts": 9
+  archaic_set:
+    body:
+      name: Archaic Tunic
+      location: Pondside cave in Great Sky Island
+      coordinates:
+      - -1335
+      - -1499
+      - 0125
+    legs:
+      name: Archaic Legwear
+      location: Room of Awakening, Great Sky Island
+      coordinates:
+      - -1335
+      - -1499
+      - 0125
+  armor_of_awakening:
+  armor_of_the_hero:
+  armor_of_the_sky:
+  armor_of_the_wild:
+  armor_of_the_wind:
+  armor_of_time:
+  armor_of_twilight:
+  barbarian:
+    head:
+      name: Barbarian Helm
+      location: Robred Dropoff Cave
+      coordinates:
+      - 2543
+      - -1543
+      - -0023
+      level_1:
+        "Mighty Thistle": 3
+      level_2:
+        "Lynel Saber Horn": 2
+        "Lynel Mace Horn": 2
+        "Razorshroom": 5
+      level_3:
+        "Blue-Maned Lynel Saber Horn": 3
+        "Blue-Maned Lynel Mace Horn": 3
+        "Razorclaw Crab": 3
+      level_4:
+        "White-Maned Lynel Saber Horn": 3
+        "White-Maned Lynel Mace Horn": 3
+        "Bladed Rhino Beetle": 3
+    body:
+      name: Barbarian Armor
+      location: Crenel Hills Cave
+      coordinates:
+      - 0632
+      - 0820
+      - 0028
+      level_1:
+        "Mighty Thistle": 3
+      level_2:
+        "Lynel Saber Horn": 2
+        "Lynel Mace Horn": 2
+        "Razorshroom": 5
+      level_3:
+        "Blue-Maned Lynel Saber Horn": 3
+        "Blue-Maned Lynel Mace Horn": 3
+        "Razorclaw Crab": 3
+      level_4:
+        "White-Maned Lynel Saber Horn": 3
+        "White-Maned Lynel Mace Horn": 3
+        "Bladed Rhino Beetle": 3
+    legs:
+      name: Barbarian Leg Wraps
+      location: Walnot Mountain Cave
+      coordinates:
+      - 4050
+      - -1875
+      - 0157
+      level_1:
+        "Mighty Thistle": 3
+      level_2:
+        "Lynel Saber Horn": 2
+        "Lynel Mace Horn": 2
+        "Razorshroom": 5
+      level_3:
+        "Blue-Maned Lynel Saber Horn": 3
+        "Blue-Maned Lynel Mace Horn": 3
+        "Razorclaw Crab": 3
+      level_4:
+        "White-Maned Lynel Saber Horn": 3
+        "White-Maned Lynel Mace Horn": 3
+        "Bladed Rhino Beetle": 3
+  charged:
+  climbers:
+    head:
+      name: Climber's Bandanna
+      location: Ploymus Mountain Cave
+      level_1:
+        "Keese Wing": 3
+        "Rushroom": 3
+      level_2:
+        "Electric Keese Wing": 5
+        "Hightail Lizard": 5
+      level_3:
+        "Ice Keese Wing": 8
+        "Hot-Footed Frog": 10
+      level_4:
+        "Fire Keese Wing": 10
+        "Swift Violet": 20
+    body:
+      name: Climbing Gear
+      location: North Hyrule Plain Cave
+      level_1:
+        "Keese Wing": 3
+        "Rushroom": 3
+      level_2:
+        "Electric Keese Wing": 5
+        "Hightail Lizard": 5
+      level_3:
+        "Ice Keese Wing": 8
+        "Hot-Footed Frog": 10
+      level_4:
+        "Fire Keese Wing": 10
+        "Swift Violet": 20
+    legs:
+      name: Climbing Boots
+      location: Upland Zora Byroad
+      level_1:
+        "Keese Wing": 3
+        "Rushroom": 3
+      level_2:
+        "Electric Keese Wing": 5
+        "Hightail Lizard": 5
+      level_3:
+        "Ice Keese Wing": 8
+        "Hot-Footed Frog": 10
+      level_4:
+        "Fire Keese Wing": 10
+        "Swift Violet": 20
+  dark:
+  depths:
+    head:
+      name: Hood of the Depths
+      note: Requires activating all 6 Bargainer Statues
+      cost: 300 Poe
+      level_1:
+        "Deep Firefly": 3
+      level_2:
+        "Frox Fang": 3
+        "Dark Clump": 5
+      level_3:
+        "Frox Fang": 3
+        "Zonaite": 20
+        "Frox Fingernail": 3
+      level_4:
+        "Blue-White Frox Fang": 5
+        "Large Zonaite": 10
+        "Frox Guts": 3
+    body:
+      name: Tunic of the Depths
+      note: Requires activating 2 Bargainer Statues
+      cost: 150 Poe
+      level_1:
+        "Deep Firefly": 3
+      level_2:
+        "Frox Fang": 3
+        "Dark Clump": 5
+      level_3:
+        "Frox Fang": 3
+        "Zonaite": 20
+        "Frox Fingernail": 3
+      level_4:
+        "Blue-White Frox Fang": 5
+        "Large Zonaite": 10
+        "Frox Guts": 3
+    legs:
+      name: Gaiters of the Depths
+      note: Requires activating 4 Bargainer Statues
+      cost: 200 Poe
+      level_1:
+        "Deep Firefly": 3
+      level_2:
+        "Frox Fang": 3
+        "Dark Clump": 5
+      level_3:
+        "Frox Fang": 3
+        "Zonaite": 20
+        "Frox Fingernail": 3
+      level_4:
+        "Blue-White Frox Fang": 5
+        "Large Zonaite": 10
+        "Frox Guts": 3
+  desert_voe:
+    head:
+      name: Desert Voe Headband
+      location: Kara Kara Bazaar
+      coordinates:
+      - -3273
+      - -2549
+      - 0023
+      cost: 450
+      level_1:
+        "White Chuchu Jelly": 3
+      level_2:
+        "White Chuchu Jelly": 5
+        "Cool Saffina": 5
+      level_3:
+        "Chillshroom": 5
+        "Ice Keese Wing": 5
+        "Ice-Breath Lizalfos Tail": 3
+      level_4:
+        "Sapphire": 5
+        "Ice-Breath Lizalfos Horn": 5
+        "Ice-Breath Lizalfos Tail": 10
+    body:
+      name: Desert Voe Spaulder
+      location: Gerudo Secret Club
+      coordinates:
+      - -3794
+      - -2923
+      - 0044
+      note: Additionally requires Ancient Arowana to repair
+      cost: 1300
+      level_1:
+        "White Chuchu Jelly": 3
+      level_2:
+        "White Chuchu Jelly": 5
+        "Cool Saffina": 5
+      level_3:
+        "Chillshroom": 5
+        "Ice Keese Wing": 5
+        "Ice-Breath Lizalfos Tail": 3
+      level_4:
+        "Sapphire": 5
+        "Ice-Breath Lizalfos Horn": 5
+        "Ice-Breath Lizalfos Tail": 10
+    legs:
+      name: Desert Voe Trousers
+      location: Gerudo Secret Club
+      coordinates:
+      - -3794
+      - -2923
+      - 0044
+      note: Speak to Yuna after completing Sidon of the Zora
+      cost: 650
+      level_1:
+        "White Chuchu Jelly": 3
+      level_2:
+        "White Chuchu Jelly": 5
+        "Cool Saffina": 5
+      level_3:
+        "Chillshroom": 5
+        "Ice Keese Wing": 5
+        "Ice-Breath Lizalfos Tail": 3
+      level_4:
+        "Sapphire": 5
+        "Ice-Breath Lizalfos Horn": 5
+        "Ice-Breath Lizalfos Tail": 10
+  ember:
+    head:
+      name: Ember Headdress
+      location: YunoboCo HQ South Cave
+      level_1:
+        "Fire Fruit": 3
+      level_2:
+        "Fire-Breath Lizalfos Horn": 5
+        "Summerwing Butterfly": 5
+      level_3:
+        "Fire Like Stone": 5
+        "Warm Darner": 5
+        "Large Zonai Charge": 5
+      level_4:
+        "Gleek Flame Horn": 5
+        "Sizzlefin Trout": 10
+        "Large Zonai Charge": 10
+    body:
+      name: Ember Shirt
+      location: Goronbi River Cave
+      level_1:
+        "Fire Fruit": 3
+      level_2:
+        "Fire-Breath Lizalfos Horn": 5
+        "Summerwing Butterfly": 5
+      level_3:
+        "Fire Like Stone": 5
+        "Warm Darner": 5
+        "Large Zonai Charge": 5
+      level_4:
+        "Gleek Flame Horn": 5
+        "Sizzlefin Trout": 10
+        "Large Zonai Charge": 10
+    legs:
+      name: Ember Trousers
+      location: Cephla Lake Cave
+      level_1:
+        "Fire Fruit": 3
+      level_2:
+        "Fire-Breath Lizalfos Horn": 5
+        "Summerwing Butterfly": 5
+      level_3:
+        "Fire Like Stone": 5
+        "Warm Darner": 5
+        "Large Zonai Charge": 5
+      level_4:
+        "Gleek Flame Horn": 5
+        "Sizzlefin Trout": 10
+        "Large Zonai Charge": 10
+  evil_spirit:
+  fierce_deity:
+  flamebreaker:
+    head:
+      name: Flamebreaker Helm
+      location: Armor shop, Goron City
+      cost: 1400
+      level_1:
+        "Moblin Horn": 3
+      level_2:
+        "Moblin Fang": 5
+        "Fireproof Lizard": 5
+      level_3:
+        "Blue Moblin Horn": 5
+        "Smotherwing Butterfly": 3
+        "Flint": 15
+      level_4:
+        "Black Moblin Horn": 5
+        "Smotherwing Butterfly": 10
+        "Flint": 30
+    body:
+      name: Flamebreaker Armor
+      location: Armor shop, Goron City
+      cost: 700
+      level_1:
+        "Moblin Horn": 3
+      level_2:
+        "Moblin Fang": 5
+        "Fireproof Lizard": 5
+      level_3:
+        "Blue Moblin Horn": 5
+        "Smotherwing Butterfly": 3
+        "Flint": 15
+      level_4:
+        "Black Moblin Horn": 5
+        "Smotherwing Butterfly": 10
+        "Flint": 30
+    legs:
+      name: Flamebreaker Boots
+      location: Armor shop, Goron City
+      cost: 1200
+      level_1:
+        "Moblin Horn": 3
+      level_2:
+        "Moblin Fang": 5
+        "Fireproof Lizard": 5
+      level_3:
+        "Blue Moblin Horn": 5
+        "Smotherwing Butterfly": 3
+        "Flint": 15
+      level_4:
+        "Black Moblin Horn": 5
+        "Smotherwing Butterfly": 10
+        "Flint": 30
+  froggy:
+    head:
+      name: Froggy Hood
+      location: Lucky Clover Gazette
+      note: Must complete all 12 jobs
+      level_1:
+        "Sticky Lizard": 3
+      level_2:
+        "Horriblin Horn": 5
+        "Sticky Lizard": 5
+      level_3:
+        "Blue Horriblin Horn": 5
+        "Sticky Frog": 5
+      level_4:
+        "Black Horriblin Horn": 5
+        "Horriblin Guts": 10
+        "Opal": 10
+    body:
+      name: Froggy Sleeve
+      location: Lucky Clover Gazette
+      note: Must complete 4 jobs
+      level_1:
+        "Sticky Lizard": 3
+      level_2:
+        "Horriblin Horn": 5
+        "Sticky Lizard": 5
+      level_3:
+        "Blue Horriblin Horn": 5
+        "Sticky Frog": 5
+      level_4:
+        "Black Horriblin Horn": 5
+        "Horriblin Guts": 10
+        "Opal": 10
+    legs:
+      name: Froggy Leggings
+      location: Lucky Clover Gazette
+      note: Must complete 9 jobs
+      level_1:
+        "Sticky Lizard": 3
+      level_2:
+        "Horriblin Horn": 5
+        "Sticky Lizard": 5
+      level_3:
+        "Blue Horriblin Horn": 5
+        "Sticky Frog": 5
+      level_4:
+        "Black Horriblin Horn": 5
+        "Horriblin Guts": 10
+        "Opal": 10
+  frostbite:
+  glider:
+    note: Each requires a sky island dive challenge
+    glide_mask:
+      location: Valor Island
+      level_1:
+        "Keese Wing": 3
+      level_2:
+        "Aerocuda Eyeball": 6
+        "Keese Wing": 5
+      level_3:
+        "Aerocuda Wing": 6
+        "Aerocuda Eyeball": 8
+      level_4:
+        "Gleeok Wing": 12
+        "Aerocuda Wing": 10
+        "Gibdo Wing": 8
+    glide_shirt:
+      location: Courage Island
+      coordinates:
+      - -2308
+      - 0865
+      - 0701
+      level_1:
+        "Keese Wing": 3
+      level_2:
+        "Aerocuda Eyeball": 6
+        "Keese Wing": 5
+      level_3:
+        "Aerocuda Wing": 6
+        "Aerocuda Eyeball": 8
+      level_4:
+        "Gleeok Wing": 12
+        "Aerocuda Wing": 10
+        "Gibdo Wing": 8
+    glide_tights:
+      location: Bravery Island
+      level_1:
+        "Keese Wing": 3
+      level_2:
+        "Aerocuda Eyeball": 6
+        "Keese Wing": 5
+      level_3:
+        "Aerocuda Wing": 6
+        "Aerocuda Eyeball": 8
+      level_4:
+        "Gleeok Wing": 12
+        "Aerocuda Wing": 10
+        "Gibdo Wing": 8
+  hylian:
+    head:
+      name: Hylian Hood
+      location: Lookout Landing armor shop
+      cost: 70
+      level_1:
+        "Bokoblin Horn": 5
+      level_2:
+        "Blue Bokoblin Horn": 5
+        "Bokoblin Fang": 3
+      level_3:
+        "Black Bokoblin Horn": 5
+        "Bokoblin Guts": 3
+        "Amber": 20
+      level_4:
+        "Silver Bokoblin Horn": 5
+        "Bokoblin Guts": 5
+        "Amber": 30
+    body:
+      name: Hylian Tunic
+      location: Lookout Landing armor shop
+      cost: 130
+      level_1:
+        "Bokoblin Horn": 5
+      level_2:
+        "Blue Bokoblin Horn": 5
+        "Bokoblin Fang": 3
+      level_3:
+        "Black Bokoblin Horn": 5
+        "Bokoblin Guts": 3
+        "Amber": 20
+      level_4:
+        "Silver Bokoblin Horn": 5
+        "Bokoblin Guts": 5
+        "Amber": 30
+    legs:
+      name: Hylian Trousers
+      location: Lookout Landing armor shop
+      cost: 120
+      level_1:
+        "Bokoblin Horn": 5
+      level_2:
+        "Blue Bokoblin Horn": 5
+        "Bokoblin Fang": 3
+      level_3:
+        "Black Bokoblin Horn": 5
+        "Bokoblin Guts": 3
+        "Amber": 20
+      level_4:
+        "Silver Bokoblin Horn": 5
+        "Bokoblin Guts": 5
+        "Amber": 30
+  miners:
+    head:
+      name: Miner's Mask
+      location: Abandoned Kara Kara Mine
+      coordinates:
+      - -3213
+      - -2473
+      - -0453
+      level_1:
+        "Brightbloom Seed": 10
+      level_2:
+        "Brightbloom Seed": 20
+        "Brightcap": 5
+      level_3:
+        "Giant Brightbloom Seed": 15
+        "Glowing Cave Fish": 5
+        "Deep Firefly": 10
+      level_4:
+        "Giant Brightbloom Seed": 20
+        "Diamond": 3
+        "Large Zonaite": 10
+    body:
+      name: Miner's Top
+      location: Daphnes Canyon Mine
+      level_1:
+        "Brightbloom Seed": 10
+      level_2:
+        "Brightbloom Seed": 20
+        "Brightcap": 5
+      level_3:
+        "Giant Brightbloom Seed": 15
+        "Glowing Cave Fish": 5
+        "Deep Firefly": 10
+      level_4:
+        "Giant Brightbloom Seed": 20
+        "Diamond": 3
+        "Large Zonaite": 10
+    legs:
+      name: Miner's Trousers
+      location: Hylia Canyon Mine
+      level_1:
+        "Brightbloom Seed": 10
+      level_2:
+        "Brightbloom Seed": 20
+        "Brightcap": 5
+      level_3:
+        "Giant Brightbloom Seed": 15
+        "Glowing Cave Fish": 5
+        "Deep Firefly": 10
+      level_4:
+        "Giant Brightbloom Seed": 20
+        "Diamond": 3
+        "Large Zonaite": 10
+  mystic:
+    note: Complete "The Hunt for Bubbul Gems!" quest
+    head:
+      name: Mystic Headpiece
+      location: Ulri Mountain at night
+      cost: 47 Bubbul Gems
+    body:
+      name: Mystic Robe
+      location: Ulri Mountain at night
+      cost: 9 Bubbul Gems
+    legs:
+      name: Mystic Trousers
+      location: Ulri Mountain at night
+      cost: 22 Bubbul Gems
+  phantom:
+  radiant:
+    note: Completing the Gloom-Borne Illness sidequest, the cost is reduced from 5000
+    head:
+      name: Radiant Mask
+      location: Enchanted armor shop, Kakariko Village
+      cost: 800
+      level_1:
+        "Luminous Stone": 10
+        "Bokoblin Guts": 1
+      level_2:
+        "Luminous Stone": 15
+        "Moblin Guts": 2
+      level_3:
+        "Luminous Stone": 20
+        "Horriblin Guts": 3
+        "Gibdo Bone": 10
+      level_4:
+        "Luminous Stone": 30
+        "Lynel Guts": 3
+        "Molduga Jaw": 3
+    body:
+      name: Radiant Shirt
+      location: Enchanted armor shop, Kakariko Village
+      cost: 800
+      level_1:
+        "Luminous Stone": 10
+        "Bokoblin Guts": 1
+      level_2:
+        "Luminous Stone": 15
+        "Moblin Guts": 2
+      level_3:
+        "Luminous Stone": 20
+        "Horriblin Guts": 3
+        "Gibdo Bone": 10
+      level_4:
+        "Luminous Stone": 30
+        "Lynel Guts": 3
+        "Molduga Jaw": 3
+    legs:
+      name: Radiant Tights
+      location: Enchanted armor shop, Kakariko Village
+      cost: 800
+      level_1:
+        "Luminous Stone": 10
+        "Bokoblin Guts": 1
+      level_2:
+        "Luminous Stone": 15
+        "Moblin Guts": 2
+      level_3:
+        "Luminous Stone": 20
+        "Horriblin Guts": 3
+        "Gibdo Bone": 10
+      level_4:
+        "Luminous Stone": 30
+        "Lynel Guts": 3
+        "Molduga Jaw": 3
+  royal_guard:
+    head:
+      name: Royal Guard Cap
+      location: Princess Zelda's Room
+      level_1:
+        "Boss Bokoblin Horn": 3
+        "Bokoblin Guts": 3
+      level_2:
+        "Blue Boss Bokoblin Horn": 3
+        "Boss Bokoblin Guts": 3
+      level_3:
+        "Black Boss Bokoblin Horn": 3
+        "Hinox Guts": 3
+      level_4:
+        "Silver Boss Bokoblin Horn": 3
+        "Molduga Guts": 3
+        "Gleeok Guts": 3
+    body:
+      name: Royal Guard Uniform
+      location: Before "The Mayoral Election" is complete, it's in Guard's Chamber under Hyrule Castle. Afterwards it's in Hateno's Ventest Clothing Boutique
+      level_1:
+        "Boss Bokoblin Horn": 3
+        "Bokoblin Guts": 3
+      level_2:
+        "Blue Boss Bokoblin Horn": 3
+        "Boss Bokoblin Guts": 3
+      level_3:
+        "Black Boss Bokoblin Horn": 3
+        "Hinox Guts": 3
+      level_4:
+        "Silver Boss Bokoblin Horn": 3
+        "Molduga Guts": 3
+        "Gleeok Guts": 3
+    legs:
+      name: Royal Guard Boots
+      location: King's Study, Hyrule Castle
+      level_1:
+        "Boss Bokoblin Horn": 3
+        "Bokoblin Guts": 3
+      level_2:
+        "Blue Boss Bokoblin Horn": 3
+        "Boss Bokoblin Guts": 3
+      level_3:
+        "Black Boss Bokoblin Horn": 3
+        "Hinox Guts": 3
+      level_4:
+        "Silver Boss Bokoblin Horn": 3
+        "Molduga Guts": 3
+        "Gleeok Guts": 3
+  rubber:
+    head:
+      name: Rubber Helm
+      location: Sarjon Woods, Faron
+      coordinates:
+      - 1593
+      - -2946
+      - -0023
+      level_1:
+        "Yellow Chuchu Jelly": 3
+      level_2:
+        "Yellow Chuchu Jelly": 5
+        "Voltfruit": 5
+      level_3:
+        "Zapshroom": 5
+        "Yellow Lizalfos Tail": 5
+      level_4:
+        "Yellow Lizalfos Tail": 10
+        "Topaz": 10
+    body:
+      name: Rubber Armor
+      location: Whistling Hill Cave, Hyrule Field
+      coordinates:
+      - -0070
+      - -1117
+      - -0004
+      level_1:
+        "Yellow Chuchu Jelly": 3
+      level_2:
+        "Yellow Chuchu Jelly": 5
+        "Voltfruit": 5
+      level_3:
+        "Zapshroom": 5
+        "Yellow Lizalfos Tail": 5
+      level_4:
+        "Yellow Lizalfos Tail": 10
+        "Topaz": 10
+    legs:
+      name: Rubber Tights
+      location: Lagoon Cave, Lanayru Great Spring
+      coordinates:
+      - 4276
+      - -0378
+      - -0021
+      level_1:
+        "Yellow Chuchu Jelly": 3
+      level_2:
+        "Yellow Chuchu Jelly": 5
+        "Voltfruit": 5
+      level_3:
+        "Zapshroom": 5
+        "Yellow Lizalfos Tail": 5
+      level_4:
+        "Yellow Lizalfos Tail": 10
+        "Topaz": 10
+  snowquill:
+    head:
+      name: Snowquill Headdress
+      location: Brazen Beak shop, Rito Village
+      cost: 650
+      level_1:
+        "Red Chuchu Jelly": 3
+      level_2:
+        "Red Chuchu Jelly": 5
+        "Warm Saffina": 3
+      level_3:
+        "Fire Keese Wing": 5
+        "Fire-Breath Lizalfos Tail": 3
+        "Sunshroom": 5
+      level_4:
+        "Fire-Breath Lizalfos Horn": 5
+        "Fire-Breath Lizalfos Tail": 10
+        "Ruby": 5
+    body:
+      name: Snowquill Tunic
+      location: Brazen Beak shop, Rito Village
+      cost: 500
+      level_1:
+        "Red Chuchu Jelly": 3
+      level_2:
+        "Red Chuchu Jelly": 5
+        "Warm Saffina": 3
+      level_3:
+        "Fire Keese Wing": 5
+        "Fire-Breath Lizalfos Tail": 3
+        "Sunshroom": 5
+      level_4:
+        "Fire-Breath Lizalfos Horn": 5
+        "Fire-Breath Lizalfos Tail": 10
+        "Ruby": 5
+    legs:
+      name: Snowquill Trousers
+      location: Brazen Beak shop, Rito Village
+      cost: 1000
+      level_1:
+        "Red Chuchu Jelly": 3
+      level_2:
+        "Red Chuchu Jelly": 5
+        "Warm Saffina": 3
+      level_3:
+        "Fire Keese Wing": 5
+        "Fire-Breath Lizalfos Tail": 3
+        "Sunshroom": 5
+      level_4:
+        "Fire-Breath Lizalfos Horn": 5
+        "Fire-Breath Lizalfos Tail": 10
+        "Ruby": 5
+  soldiers:
+    head:
+      name: Soldier's Helm
+      location: Royal Hidden Passage cave, Hyrule Castle
+      coordinates:
+      - -0232
+      - 0468
+      - -0039
+      level_1:
+        "Chuchu Jelly": 5
+        "Bokoblin Guts": 3
+      level_2:
+        "Keese Eyeballs": 5
+        "Moblin Guts": 3
+      level_3:
+        "Lizalfos Tail": 3
+        "Hinox Guts": 3
+        "Flint": 30
+      level_4:
+        "Lynel Hoof": 5
+        "Lynel Guts": 5
+        "Amber": 30
+    body:
+      name: Soldier's Armor
+      location: Royal Hidden Passage cave, Hyrule Castle
+      coordinates:
+      - -0268
+      - 0637
+      - -0035
+      level_1:
+        "Chuchu Jelly": 5
+        "Bokoblin Guts": 3
+      level_2:
+        "Keese Eyeballs": 5
+        "Moblin Guts": 3
+      level_3:
+        "Lizalfos Tail": 3
+        "Hinox Guts": 3
+        "Flint": 30
+      level_4:
+        "Lynel Hoof": 5
+        "Lynel Guts": 5
+        "Amber": 30
+    legs:
+      name: Soldier's Greaves
+      location: Royal Hidden Passage cave, Hyrule Castle
+      coordinates:
+      - -0306
+      - 0281
+      - -0006
+      level_1:
+        "Chuchu Jelly": 5
+        "Bokoblin Guts": 3
+      level_2:
+        "Keese Eyeballs": 5
+        "Moblin Guts": 3
+      level_3:
+        "Lizalfos Tail": 3
+        "Hinox Guts": 3
+        "Flint": 30
+      level_4:
+        "Lynel Hoof": 5
+        "Lynel Guts": 5
+        "Amber": 30
+  stealth:
+    note: Completing the Gloom-Borne Illness sidequest, the cost is reduced from 5000
+    head:
+      name: Stealth Mask
+      location: Enchanted armor shop, Kakariko Village
+      cost: 500
+      level_1:
+        "Blue Nightshade": 3
+      level_2:
+        "Blue Nightshade": 5
+        "Sunset Firefly": 5
+      level_3:
+        "Silent Shroom": 8
+        "Sneaky River Snail": 5
+        "Sticky Frog": 5
+      level_4:
+        "Stealthfin Trout": 10
+        "Silent Princess": 5
+        "Sundelion": 10
+    body:
+      name: Stealth Chest Guard
+      location: Enchanted armor shop, Kakariko Village
+      cost: 700
+      level_1:
+        "Blue Nightshade": 3
+      level_2:
+        "Blue Nightshade": 5
+        "Sunset Firefly": 5
+      level_3:
+        "Silent Shroom": 8
+        "Sneaky River Snail": 5
+        "Sticky Frog": 5
+      level_4:
+        "Stealthfin Trout": 10
+        "Silent Princess": 5
+        "Sundelion": 10
+    legs:
+      name: Stealth Tights
+      location: Enchanted armor shop, Kakariko Village
+      cost: 600
+      level_1:
+        "Blue Nightshade": 3
+      level_2:
+        "Blue Nightshade": 5
+        "Sunset Firefly": 5
+      level_3:
+        "Silent Shroom": 8
+        "Sneaky River Snail": 5
+        "Sticky Frog": 5
+      level_4:
+        "Stealthfin Trout": 10
+        "Silent Princess": 5
+        "Sundelion": 10
+  tingle:
+  yiga_armor:
+  zonaite:
+  zora:
+    head:
+      name: Zora Helm
+      location: Floating Scales Island
+      note: After completing Sidon of the Zora
+      coordinates:
+      - 4129
+      - 0517
+      - 0585
+      cost: 1400
+      level_1:
+        "Lizalfos Horn": 3
+      level_2:
+        "Hyrule Bass": 5
+        "Lizalfos Horn": 5
+      level_3:
+        "Hearty Bass": 5
+        "Lizalfos Tail": 3
+        "Blue Lizalfos Horn": 15
+      level_4:
+        "Black Lizalfos Horn": 5
+        "Blue Lizalfos Tail": 10
+        "Opal": 20
+    body:
+      name: Zora Armor
+      location: Sludge-covered Statue
+      note: Additionally requires Ancient Arowana to repair
+      cost: 700
+      level_1:
+        "Lizalfos Horn": 3
+      level_2:
+        "Hyrule Bass": 5
+        "Lizalfos Horn": 5
+      level_3:
+        "Hearty Bass": 5
+        "Lizalfos Tail": 3
+        "Blue Lizalfos Horn": 15
+      level_4:
+        "Black Lizalfos Horn": 5
+        "Blue Lizalfos Tail": 10
+        "Opal": 20
+    legs:
+      name: Zora Greaves
+      location: Ancient Zora Waterworks
+      coordinates:
+      - 3586
+      - 0247
+      - -0103
+      note: Speak to Yuna after completing Sidon of the Zora
+      cost: 1200
+      level_1:
+        "Lizalfos Horn": 3
+      level_2:
+        "Hyrule Bass": 5
+        "Lizalfos Horn": 5
+      level_3:
+        "Hearty Bass": 5
+        "Lizalfos Tail": 3
+        "Blue Lizalfos Horn": 15
+      level_4:
+        "Black Lizalfos Horn": 5
+        "Blue Lizalfos Tail": 10
+        "Opal": 20
+  unique:

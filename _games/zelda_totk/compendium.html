@@ -5,13 +5,14 @@ game: zelda_totk
 section: compendium
 metadata:
   last_updated: 05-09-2025
+published: false
 ---
 
 <p>Take a photo of each entry. You only need to take a single photo.</p>
 
 <h3>Enemies (Bestiary)</h3>
 <ol class="compendium collapsed">
-{% for entry in site.data.zelda_botw.compendium.bestiary %}
+{% for entry in site.data.zelda_totk.compendium.bestiary %}
   {% assign index = entry[0] %}
   {% assign name = entry[1] %}
   <li>{% include zelda/compendium.html set="bestiary" name=name index=index %}</li>
@@ -20,7 +21,7 @@ metadata:
 
 <h3>Critters / Animals (Creatures)</h3>
 <ol class="compendium collapsed">
-{% for entry in site.data.zelda_botw.compendium.creatures %}
+{% for entry in site.data.zelda_totk.compendium.creatures %}
   {% assign index = entry[0] %}
   {% assign name = entry[1] %}
   <li>{% include zelda/compendium.html set="bestiary" name=name index=index %}</li>
@@ -29,7 +30,7 @@ metadata:
 
 <h3>Materials</h3>
 <ol class="compendium collapsed">
-{% for entry in site.data.zelda_botw.compendium.materials %}
+{% for entry in site.data.zelda_totk.compendium.materials %}
   {% assign index = entry[0] %}
   {% assign name = entry[1] %}
   <li>{% include zelda/compendium.html set="bestiary" name=name index=index %}</li>
@@ -38,7 +39,7 @@ metadata:
 
 <h3>Weapons, Shields, Bows</h3>
 <ol class="compendium collapsed">
-{% for entry in site.data.zelda_botw.compendium.weapons %}
+{% for entry in site.data.zelda_totk.compendium.weapons %}
   {% assign index = entry[0] %}
   {% assign name = entry[1] %}
   <li>{% include zelda/compendium.html set="bestiary" name=name index=index %}</li>
@@ -47,7 +48,7 @@ metadata:
 
 <h3>Treasure</h3>
 <ol class="compendium collapsed">
-{% for entry in site.data.zelda_botw.compendium.treasure %}
+{% for entry in site.data.zelda_totk.compendium.treasure %}
   {% assign index = entry[0] %}
   {% assign name = entry[1] %}
   <li>{% include zelda/compendium.html set="bestiary" name=name index=index %}</li>

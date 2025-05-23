@@ -5,13 +5,14 @@ game: zelda_totk
 section: bounties
 metadata:
   last_updated: 05-09-2025
+published: false
 ---
 
 <p>After you've defeated each beast, tap the entry.</p>
 
 <small>Don't forget to take pictures for the compendium!</small>
 
-{% for beast in site.data.zelda_botw.bounties %}
+{% for beast in site.data.zelda_totk.bounties %}
   {% assign key = beast[0] %}
   {% assign locations = beast[1] %}
   <h3>{{ beast[1]['name'] }}</h3>

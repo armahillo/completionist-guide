@@ -5,6 +5,11 @@
 {% assign treasure = include.shrine['treasure'] %}
 {% assign location = include.shrine['location'] %}
 {% assign quest = include.shrine['quest'] %}
+{% if include.shrine['coordinates'] %}
+{% capture coords %}({{include.shrine['coordinates'] | join: ', ' }}){% endcapture %}
+{% else %}
+{% assign coords = '' %}
+{% endif %}
 
 <ol class="levels">
   <li>
@@ -17,7 +22,7 @@
   <li>
     <label for="{{ key_base }}_status_discovered" class="">
       <input id="{{ key_base }}_status_discovered" type="radio" name="{{ form_key }}[status]" value="discovered" />
-      <span class="hide-after-complete">🔲 {{ location }}</span>
+      <span class="hide-after-complete">🔲 {{ location }} {{ coords }}</span>
       <span class="show-after-complete">☑️ <em>Discovered!</em></span>
     </label>
   </li>
@@ -28,8 +33,10 @@
         {% assign action_text = "Solve shrine puzzle" %}
       {% else if include.shrine['type'] == 'outdoor' %}
         {% assign action_text = "Solve outdoor puzzle" %}
+      {% else if include.shrine['type'] == 'crystal' %}
+        {% assign action_text = "Carry crystal to shrine" %}
       {% else if include.shrine['type'] == 'combat' %}
-        {% assign action_text = "Test of Strength" %}
+        {% assign action_text = "Proving grounds" %}
       {% endif %}
       <span class="hide-after-complete">🔲  {{ action_text }}</span>
       <span class="show-after-complete">✅ Completed!</span>

@@ -1,5 +1,23 @@
-{% capture key_base %}locations_{{ include.region }}_{{ include.location }}{% endcapture %}
-{% capture form_key %}locations[{{ include.region }}][{{ include.location }}]{% endcapture %}
+{% if include.type %}
+{% assign type = include.type %}
+{% else %}
+{% assign type = 'locations' %}
+{% endif %}
+{% if include.region %}
+{% capture region_base %}_{{ include.region }}{% endcapture %}
+{% capture region_key %}[{{ include.region }}]{% endcapture %}
+{% endif %}
+{% capture key_base %}{{ type }}{{ region_base }}_{{ include.location }}{% endcapture %}
+{% capture form_key %}{{ type }}{{ region_key }}[{{ include.location }}]{% endcapture %}
+{% if include.data['coordinates'] %}
+{% capture coords %}({{include.data['coordinates'] | join: ', ' }}){% endcapture %}
+{% else %}
+{% assign coords = '' %}
+{% endif %}
+{% if include.description %}
+{% capture description %}({{ include.description }}){% endcapture %}
+{% endif %}
 
-<label for="{{ key_base }}"><input id="{{ key_base }}" type="checkbox" name="{{ form_key }}" /> {{ name }}
+
+<label for="{{ key_base }}"><input id="{{ key_base }}" type="checkbox" name="{{ form_key }}" /> {{ include.name }} {{ description }} {{ coords }}
 </label>

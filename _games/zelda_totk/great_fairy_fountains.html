@@ -7,7 +7,9 @@ metadata:
   last_updated: 05-09-2025
 ---
 
-{% for fountain in site.data.zelda_botw.great_fairy_fountains %}
-  {% assign fountain_name = fountain[0] %}
-  {% include zelda/fountain.html fountain=fountain_name %}
+{% for fountain in site.data.zelda_totk.great_fairy_fountains %}
+  {% assign name = fountain[1].name %}
+  {% assign key = fountain[0] %}
+  {% assign data = fountain[1] %}
+  {% include zelda/location.html  location=key data=data name=name type="fountains" %}
 {% endfor %}

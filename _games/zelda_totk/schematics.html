@@ -1,0 +1,26 @@
+---
+layout: guide
+title: 🗺️ Schematics
+game: zelda_totk
+section: schematics
+metadata:
+  last_updated: 05-09-2025
+---
+
+<h3>Schema Stones</h3>
+{% for schematic in site.data.zelda_totk.schema_stones %}
+  {% assign name = schematic[1].name %}
+  {% assign key = schematic[0] %}
+  {% assign data = schematic[1] %}
+  {% assign description = schematic[1]['location'] %}
+  {% include zelda/location.html description=description location=key data=data name=name type="schematics" %}
+{% endfor %}
+
+<h3>Yiga Schematics</h3>
+{% for schematic in site.data.zelda_totk.yiga_schematics %}
+  {% assign name = schematic[1].name %}
+  {% assign key = schematic[0] %}
+  {% assign data = schematic[1] %}
+  {% assign description = schematic[1]['location'] %}
+  {% include zelda/location.html description=description location=key data=data name=name type="schematics" %}
+{% endfor %}
