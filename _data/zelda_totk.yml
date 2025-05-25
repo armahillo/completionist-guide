@@ -3457,9 +3457,9 @@ yiga_schematics:
     ordinal: 25
     location: Uihcoke, Eldin Canyon Depths
     coordinates:
-    - "2667"
-    - "1578"
-    - "-0591"
+    - "1540"
+    - "0693"
+    - "-0439"
   instant_kitchen:
     name: Instant Kitchen
     ordinal: 26
@@ -4781,15 +4781,27 @@ bounties:
     northwest_3:
       name: Blue-White Frox
       location: SW of Koro-nui
+      coordinates:
+      - "-3929"
+      - "0506"
+      - "-0573"
     northwest_4:
       name: Blue-White Frox
       location: SW of Hebra Canyon Mine, NE of Worihas
+      coordinates:
+      - "-3215"
+      - "2674"
+      - "-0887"
     northwest_5:
       name: Blue-White Frox
       location: S of Aduon, E of Abandoned Hebra Mine
     northwest_6:
       name: Blue-White Frox
       location: SW of Muihcoro
+      coordinates:
+      - "-1818"
+      - "2370"
+      - "-0676"
     northwest_7:
       name: Blue-White Frox
       location: W of U-nazohso, W of North Lomei Depths Labyrinth
@@ -4813,7 +4825,7 @@ bounties:
       location: E of Akinatanis, NE of Ulri Canyon Mine
     eldin_akkala_6:
       name: Obsidian Frox
-      location: S of Kawikatisar, N of Ploymous Canyon Mine
+      location: S of Kawikatisar, N of Ploymus Canyon Mine
     hyrule_1:
       name: Obsidian Frox
       location: E of Rhoam Canyon Mine, E of Sikurukam
@@ -4923,7 +4935,7 @@ bounties:
       - "0239"
     frost_gleeok_biron_snowshelf:
       name: Frost Gleeok
-      location: Biron Snowshelf, Gerudo Highlands
+      location: Biron Snowshelf, Hebra Mountains
       coordinates:
       - "-3727"
       - "2951"
@@ -5091,9 +5103,9 @@ bounties:
       name: Stone Talus
       location: Piper Ridge
       coordinates:
-      - "-3298"
-      - "0649"
-      - "0198"
+      - "-3304"
+      - "0654"
+      - "0194"
     stone_great_hyrule:
       name: Stone Talus 
       location: Great Hyrule Forest
@@ -5107,42 +5119,42 @@ bounties:
       coordinates:
       - "4063"
       - "2973"
-      - "2973"
+      - "~0100"
     luminous_tamio_river:
       name: Stone Talus (Luminous)
       location: Tamio River
       coordinates:
       - "-2860"
       - "-0521"
-      - "-0521"
+      - "~0100"
     luminous_satori_mountain:
       name: Stone Talus (Luminous)
       location: Satori Mountain
       coordinates:
       - "-2221"
       - "-0585"
-      - "-0585"
+      - "-0267"
     luminous_deplian_badlands:
       name: Stone Talus (Luminous)
       location: Deplian Badlands
       coordinates:
       - "0703"
       - "3692"
-      - "3692"
+      - "~0100"
     luminous_gut_check:
       name: Stone Talus (Luminous)
       location: Gut Check Rock
       coordinates:
       - "2710"
       - "3303"
-      - "3303"
+      - "~0100"
     luminous_trilby_valley:
       name: Stone Talus (Luminous)
       location: Trilby Valley
       coordinates:
       - "2483"
       - "0908"
-      - "0908"
+      - "~0100"
     luminous_ovli_plain:
       name: Stone Talus (Luminous)  
       location: Ovli Plain
@@ -5159,28 +5171,28 @@ bounties:
       - "0077"
     luminous_tal_tal_peak:
       name: Stone Talus (Luminous)
-      location: Tal Tal Peak (plateau)
+      location: Tal Tal Peak
       coordinates:
       - "4191"
       - "0518"
-      - "0518"
+      - "0350"
     luminous_tal_tal_peak_bottom:
       name: Stone Talus (Luminous)
-      location: Tal Tal Peak (bottom)
+      location: Ulria Grotto South Cave
       coordinates:
-      - "4141"
-      - "0543"
-      - "0543"
+      - "4136"
+      - "0537"
+      - "0186"
     luminous_crenel_hills:
       name: Stone Talus (Luminous)
-      location: Crenel Hills
+      location: Crenel Hills Cave
       coordinates:
       - "0575"
       - "0766"
-      - "0766"
+      - "~0010"
     luminous_east_reservoir:
       name: Stone Talus (Luminous)  
-      location: East Reservoir Lake
+      location: Ancient Zora Waterworks, East Reservoir Lake
       coordinates: 
       - "3628"
       - "0274"
@@ -5240,7 +5252,7 @@ bounties:
       coordinates:
       - "-1364"
       - "-0789"
-      - "-0789"
+      - "-0010"
     battle_forest_spirits:
       name: Battle Talus 
       location: Forest of Spirits
@@ -5296,7 +5308,7 @@ bounties:
       coordinates:
       - "1256"
       - "-1165"
-      - "-1165"
+      - "0108"
     battle_akkala_span:
       name: Battle Talus 
       location: Akkala Span
@@ -5535,9 +5547,9 @@ bounties:
       - "4678"
       - "2998"
       - "2998"
-    depths_luminous_ploymous_mine:
+    depths_luminous_Ploymus_mine:
       name: Stone Talus (Luminous)
-      location: E of Ploymous Canyon Mine  
+      location: E of Ploymus Canyon Mine  
       coordinates:
       - "4191"
       - "0518"
