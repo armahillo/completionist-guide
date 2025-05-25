@@ -5,125 +5,125 @@ towers: # 15
       name: Lookout Landing
       location: Central Hyrule
       coordinates:
-      - -0293
-      - 0137
-      - 0025
+      - "-0293"
+      - "0137"
+      - "0025"
     hyrule_field:
       name: Hyrule Field
       location: Hyrule Field
       coordinates:
-      - -0753
-      - -1019
-      - 0064
+      - "-0753"
+      - "-1019"
+      - "0064"
     lindors_brow:
       name: Lindor's Brow
       location: Hyrule Ridge
       coordinates:
-      - -1901
-      - 1243
-      - 0297
+      - "-1901"
+      - "1243"
+      - "0297"
     upland_zorana:
       name: Upland Zorana
       location: Lanayru
       coordinates:
-      - 2858
-      - 0582
-      - 0379
+      - "2858"
+      - "0582"
+      - "0379"
     sahasra_slope:
       name: Sahasra Slope
       location: West Necluda
       coordinates:
-      - 1344
-      - -1170
-      - 0166
+      - "1344"
+      - "-1170"
+      - "0166"
   north:
     rospro_pass:
       name: Rospro Pass
       location: Hebra Mountains
       coordinates:
-      - -3686
-      - 2342
-      - 0233
+      - "-3686"
+      - "2342"
+      - "0233"
     pikida_stonegrove:
       name: Pikida Stonegrove
       location: Tabantha Tundra
       coordinates:
-      - -2318
-      - 3066
-      - 0443
+      - "-2318"
+      - "3066"
+      - "0443"
     thyphlo_ruins:
       name: Thyphlo Ruins
       location: Great Hyrule Forest
       coordinates:
-      - 0343
-      - 3133
-      - 0180
+      - "0343"
+      - "3133"
+      - "0180"
     eldin_canyon:
       name: Eldin Canyon
       location: Eldin
       coordinates:
-      - 1637
-      - 1183
-      - 0225
+      - "1637"
+      - "1183"
+      - "0225"
     ulri_mountains:
       name: Ulri Mountains
       location: Akkala
       coordinates:
-      - 3493
-      - 2019
-      - 0188
+      - "3493"
+      - "2019"
+      - "0188"
   south:
     mount_lanayru:
       name: Mount Lanayru
       location: Mount Lanayru
       coordinates:
-      - 3846
-      - -1307
-      - 0539
+      - "3846"
+      - "-1307"
+      - "0539"
     rabella_wetlands:
       name: Rabella Wetlands
       location: East Necluda
       coordinates:
-      - 2419
-      - -2762
-      - 0222
+      - "2419"
+      - "-2762"
+      - "0222"
     popla_foothills:
       name: Popla Foothills
       location: West Necluda
       coordinates:
-      - 0602
-      - -2119
-      - 0098
+      - "0602"
+      - "-2119"
+      - "0098"
     gerudo_canyon:
       name: Gerudo Canyon
       location: Gerudo Desert
       coordinates:
-      - -2432
-      - -2178
-      - 0307
+      - "-2432"
+      - "-2178"
+      - "0307"
     gerudo_highlands:
       name: Gerudo Highlands
       location: Gerudo Highlands
       coordinates:
-      - -3959
-      - -1313
-      - 0422
+      - "-3959"
+      - "-1313"
+      - "0422"
 shrines:
   surface:
     central_hyrule:
       yamiyo:
         name: Yamiyo
         coordinates:
-        - 0342
-        - 0481
-        - 0029
+        - "0342"
+        - "0481"
+        - "0029"
       kyoonis:
         name: Kyononis
         location: Central Square of Hyrule Castle Town Ruins
         coordinates:
-        - -0205
-        - 0451
-        - 0021
+        - "-0205"
+        - "0451"
+        - "0021"
       ishodag:
         name: Ishodag
         location: East of Carok Bridge
@@ -131,123 +131,123 @@ shrines:
         - Opal
         type: puzzle
         coordinates:
-        - -0883
-        - 0416
-        - 0048
+        - "-0883"
+        - "0416"
+        - "0048"
       sinakawak:
         name: Sinakawak
         location: North Hyrule Plain
         coordinates:
-        - -1413
-        - 0756
-        - 0089
+        - "-1413"
+        - "0756"
+        - "0089"
       jiosin:
         name: Jiosin
         location: Hyrule Field
         coordinates:
-        - -0240
-        - -0370
-        - 0027
+        - "-0240"
+        - "-0370"
+        - "0027"
       susuyai:
         name: Susuyai
         location: SW of Lookout Landing
         coordinates:
-        - -0785
-        - -0434
-        - 0018
+        - "-0785"
+        - "-0434"
+        - "0018"
       mayachin:
         name: Mayachin
         location: near Exchange Ruins, Hyrule Field
         coordinates:
-        - -0705
-        - -0868
-        - 0031
+        - "-0705"
+        - "-0868"
+        - "0031"
       teniten:
         name: Teniten
         location: Hyrule Field
         coordinates:
-        - -0075
-        - 1115
-        - 0021
+        - "-0075"
+        - "1115"
+        - "0021"
       tajikats:
         name: Tajikats
         location: Riverside Stable, Hyrule Field
         coordinates:
-        - 0344
-        - -1009
-        - 0016
+        - "0344"
+        - "-1009"
+        - "0016"
       kamizun:
         name: Kamizun
         location: Hyrule Field
         coordinates:
-        - -0177
-        - -1557
-        - 0023
+        - "-0177"
+        - "-1557"
+        - "0023"
       kyokugon:
         name: Kyokugon
         location: Hyrule Field
         coordinates:
-        - -0716
-        - -1548
-        - 0006
+        - "-0716"
+        - "-1548"
+        - "0006"
       tsutsu-um:
         name: Tsutsu-um
         location: Outskirt Stable, Hyrule Field
         coordinates:
-        - -1423
-        - -1349
-        - 0068
+        - "-1423"
+        - "-1349"
+        - "0068"
       riogok:
         name: Riogok
         location: Hyrule Field
         coordinates:
-        - -1440
-        - -1616
-        - 0089
+        - "-1440"
+        - "-1616"
+        - "0089"
       tadarok:
         name: Tadarok
         location: Hyrule Field
         coordinates:
-        - -1085
-        - -2188
-        - 0128
+        - "-1085"
+        - "-2188"
+        - "0128"
       serutabomac:
         name: Serutabomac
         location: Hyrule Castle, Hyrule Field
         coordinates:
-        - -0180
-        - 1170
-        - 0280
+        - "-0180"
+        - "1170"
+        - "0280"
       sepapa:
         name: Sepapa
         location: Hyrule Field
         coordinates:
-        - 0222
-        - 1097
-        - 0026
+        - "0222"
+        - "1097"
+        - "0026"
       ren-iz:
         name: Ren-iz
         location: Hyrule Field
         coordinates:
-        - 0747
-        - 0823
-        - 0081
+        - "0747"
+        - "0823"
+        - "0081"
       jojon:
         name: Jojon
         location: Hyrule Field
         coordinates:
-        - 1202
-        - 0329
-        - 0029
+        - "1202"
+        - "0329"
+        - "0029"
     hebra:
       orochium:
         name: Orochium
         type: puzzle
         location: Snowfield Stable
         coordinates:
-        - -1637
-        - 2642
-        - 0253
+        - "-1637"
+        - "2642"
+        - "0253"
         treasure:
         - Arrows
       nouda:
@@ -255,9 +255,9 @@ shrines:
         type: combat
         location: Kopeeki Drifts Cave
         coordinates:
-        - -2318
-        - 2201
-        - 0188
+        - "-2318"
+        - "2201"
+        - "0188"
         treasure:
         - Hearty Elixir
       oromuwak:
@@ -265,9 +265,9 @@ shrines:
         type: puzzle
         location: near Lucky Clover Gazette
         coordinates:
-        - -3079
-        - 1617
-        - 0257
+        - "-3079"
+        - "1617"
+        - "0257"
         treasure:
         - Ruby
       gatakis:
@@ -275,9 +275,9 @@ shrines:
         type: puzzle
         location: Rito Village
         coordinates:
-        - -3652
-        - 1806
-        - 0183
+        - "-3652"
+        - "1806"
+        - "0183"
         treasure:
         - Strong Construct Bow
       waoos:
@@ -285,9 +285,9 @@ shrines:
         type: puzzle
         location: West Lake Totori Cave
         coordinates:
-        - -4058
-        - 1990
-        - 0197
+        - "-4058"
+        - "1990"
+        - "0197"
         treasure:
         - Spicy Elixir
       sahirow:
@@ -295,9 +295,9 @@ shrines:
         type: puzzle
         location: east of Rospro Pass Skyview Tower
         coordinates:
-        - -3354
-        - 2386
-        - 0375
+        - "-3354"
+        - "2386"
+        - "0375"
         treasure:
         - Spicy Elixir
       tauyosipun:
@@ -305,9 +305,9 @@ shrines:
         type: puzzle
         location: NW of Rospro Pass Skyview Tower
         coordinates:
-        - -4539
-        - 2880
-        - 0277
+        - "-4539"
+        - "2880"
+        - "0277"
         treasure:
         - Strong Construct Bow
       otak:
@@ -315,9 +315,9 @@ shrines:
         type: combat
         location: Icefall Foothills Cave
         coordinates:
-        - -4391
-        - 3714
-        - 0227
+        - "-4391"
+        - "3714"
+        - "0227"
         treasure:
         - Mighty Construct Bow
       eutoum:
@@ -325,9 +325,9 @@ shrines:
         type: combat
         location: Goflam's Secret Hot Spring
         coordinates:
-        - -3507
-        - 3570
-        - 0401
+        - "-3507"
+        - "3570"
+        - "0401"
         treasure:
         - Sapphire
       rutafuum:
@@ -335,9 +335,9 @@ shrines:
         type: crystal
         location: Hebra Mountains Northwest Cave
         coordinates:
-        - -2998
-        - 3102
-        - 0529
+        - "-2998"
+        - "3102"
+        - "0529"
         treasure:
         - Topaz
       sisuran:
@@ -345,9 +345,9 @@ shrines:
         type: crystal
         location: NE of Pikida Stonegrove Northwest Cave
         coordinates:
-        - -2559
-        - 3354
-        - 0259
+        - "-2559"
+        - "3354"
+        - "0259"
         treasure:
         - Sapphire
       oshozanu:
@@ -355,9 +355,9 @@ shrines:
         type: puzzle
         location: northeast end of North Tabantha Snowfield
         coordinates:
-        - -1404
-        - 3678
-        - 0302
+        - "-1404"
+        - "3678"
+        - "0302"
         treasure:
         - Zonaite Bow
       mayaotaki:
@@ -365,9 +365,9 @@ shrines:
         type: outdoor
         location: North Lomei Labyrinth
         coordinates:
-        - -0825
-        - 3535
-        - 0249
+        - "-0825"
+        - "3535"
+        - "0249"
         treasure:
         - Diamond
     tabantha:
@@ -376,9 +376,9 @@ shrines:
         type: puzzle
         location: Forgotten Temple
         coordinates:
-        - -1167
-        - 2602
-        - -0070
+        - "-1167"
+        - "2602"
+        - "-0070"
         treasure:
         - Large Zonai Charge
       ikatak:
@@ -386,9 +386,9 @@ shrines:
         type: crystal
         location: Gisa Crater
         coordinates:
-        - -3951
-        - 1139
-        - 0126
+        - "-3951"
+        - "1139"
+        - "0126"
         treasure:
         - Big Battery
       turakawak:
@@ -396,9 +396,9 @@ shrines:
         type: puzzle
         location: Lake Illumeni
         coordinates:
-        - -3498
-        - -0197
-        - 0080
+        - "-3498"
+        - "-0197"
+        - "0080"
         treasure:
         - Magic Rod
       iunorok:
@@ -406,9 +406,9 @@ shrines:
         type: puzzle
         location: Tanagar Canyon West Cave
         coordinates:
-        - -3539
-        - 0851
-        - -0119
+        - "-3539"
+        - "0851"
+        - "-0119"
         treasure:
         - Arrows
       gasas:
@@ -416,9 +416,9 @@ shrines:
         type: puzzle
         location: Tanagar Canyon
         coordinates:
-        - -4153
-        - 0098
-        - 0055
+        - "-4153"
+        - "0098"
+        - "0055"
         treasure:
         - Large Zonai Charge
     hyrule_ridge:
@@ -426,462 +426,462 @@ shrines:
         name: Kiuyoyou
         location: Great Hyrule Forest
         coordinates:
-        - -1106
-        - 2089
-        - 0104
+        - "-1106"
+        - "2089"
+        - "0104"
       usazum:
         name: Usazum
         location: bottom of Satori Mountain
         coordinates: 
-        - -2139
-        - -0874
-        - 0093
+        - "-2139"
+        - "-0874"
+        - "0093"
       sonapan:
         name: Sonapan
         coordinates:
-        - -1921
-        - -0357
-        - 0228
+        - "-1921"
+        - "-0357"
+        - "0228"
       makurukis:
         name: Makurukis
         location: Tabantha Ridge Stable
         coordinates:
-        - -2847
-        - 0629
-        - 0233
+        - "-2847"
+        - "0629"
+        - "0233"
       runakit:
         name: Runakit
         coordinates:
-        - -2532
-        - 1172
-        - 0177
+        - "-2532"
+        - "1172"
+        - "0177"
       takiihaban:
         name: Taki-ihaban
         coordinates:
-        - 1830
-        - 1194
-        - 0147
+        - "1830"
+        - "1194"
+        - "0147"
       tenmaten:
         name: Tenmaten
         location: Under Elma Knolls Well
         coordinates: 
-        - -0594
-        - 1551
-        - -0014
+        - "-0594"
+        - "1551"
+        - "-0014"
     akkala:
       gemimik:
         name: Gemimik
         location: Rist Peninsula, Akkala Sea
         coordinates:
-        - 4521
-        - 2126
-        - 0001
+        - "4521"
+        - "2126"
+        - "0001"
       jochiiu:
         name: Jochi-iu
         location: Deep Akkala
         coordinates:
-        - 4350
-        - 2972
-        - 0164
+        - "4350"
+        - "2972"
+        - "0164"
       mayachideg:
         name: Mayachideg
         location: Eldin Canyon
         coordinates:
-        - 3062
-        - 1817
-        - 0216
+        - "3062"
+        - "1817"
+        - "0216"
       kamatukis:
         name: Kamatukis
         location: Deep Akkala
         coordinates: 
-        - 3427
-        - 3345
-        - 0070
+        - "3427"
+        - "3345"
+        - "0070"
       sinatanika:
         name: Sinatanika
         location: Akkala Highlands
         coordinates:
-        - 3842
-        - 2299
-        - 0048
+        - "3842"
+        - "2299"
+        - "0048"
       rasitakiwak:
         name: Rasitakiwak
         location: Akkala Highlands
         coordinates: 
-        - 4161
-        - 1324
-        - 0229
+        - "4161"
+        - "1324"
+        - "0229"
       jochiihiga:
         name: Jochi-ihiga
         type: crystal
         location: Akkala Highlands
         coordinates:
-        - 3813
-        - 1218
-        - 0090
+        - "3813"
+        - "1218"
+        - "0090"
       gatanisis:
         name: Gatanisis
         location: Akkala Highlands
         coordinates:
-        - 4501
-        - 0826
-        - 0095
+        - "4501"
+        - "0826"
+        - "0095"
       rasiwak:
         name: Rasiwak
         location: Deep Akkala
         coordinates:
-        - 4663
-        - 3263
-        - 0002
+        - "4663"
+        - "3263"
+        - "0002"
       igashuk:
         name: Igashuk
         location: Lomei Labyrinth Island, Akkala Sea
         coordinates:
-        - 4655
-        - 3712
-        - 0131
+        - "4655"
+        - "3712"
+        - "0131"
       domizuin:
         name: Domizuin
         location: Akkala Citadel Ruins
         coordinates:
-        - 3305
-        - 1443
-        - 0426
+        - "3305"
+        - "1443"
+        - "0426"
       kimayat:
         name: Kimayat
         location: Eldin Canyon
         coordinates:
-        - 2871
-        - 3625
-        - 0239
+        - "2871"
+        - "3625"
+        - "0239"
     death_mountain:
       sitsum:
         name: Sitsum
         location: near Death Mountain Summit
         coordinates:
-        - 2358
-        - 2602
-        - 0790
+        - "2358"
+        - "2602"
+        - "0790"
       momosik:
         name: Momosik
         type: crystal
         location: E of Death Mountain
         coordinates:
-        - 2957
-        - 2759
-        - 0524
+        - "2957"
+        - "2759"
+        - "0524"
       timawak:
         name: Timawak
         location: N of Goron Lake
         coordinates:
-        - 1798
-        - 1635
-        - 0311
+        - "1798"
+        - "1635"
+        - "0311"
       marakuguc:
         name: Marakuguc
         location: Above Goron City
         coordinates:
-        - 1761
-        - 2508
-        - 0437
+        - "1761"
+        - "2508"
+        - "0437"
       isisim:
         name: Isisim
         location: Eldin Canyon
         coordinates:
-        - 1841
-        - 2841
-        - 0363
+        - "1841"
+        - "2841"
+        - "0363"
     eldin:
       jiotak:
         name: Jiotak
         location: Eldin Canyon
         coordinates:
-        - 1833
-        - 3179
-        - 0257
+        - "1833"
+        - "3179"
+        - "0257"
       kisinona:
         name: Kisinona
         location: North of Foothill Stable
         coordinates:
-        - 2568
-        - 1245
-        - 0173
+        - "2568"
+        - "1245"
+        - "0173"
       moshapin:
         name: Moshapin
         location: Eldin Canyon
         coordinates:
-        - 2678
-        - 1905
-        - 0131
+        - "2678"
+        - "1905"
+        - "0131"
       sibajitak:
         name: Sibajitak
         location: Eldin Canyon
         coordinates:
-        - 2399
-        - 3269
-        - 0402
+        - "2399"
+        - "3269"
+        - "0402"
       sikukuu:
         name: Sikukuu
         location: Eldin Mountains
         coordinates:
-        - 0696
-        - 2792
-        - 0225
+        - "0696"
+        - "2792"
+        - "0225"
       minetak:
         name: Minetak
         location: Eldin Mountains
         coordinates:
-        - 0394
-        - 3485
-        - 0068
+        - "0394"
+        - "3485"
+        - "0068"
       mayak:
         name: Mayak
         location: Eldin Canyon
         coordinates:
-        - 1270
-        - 3733
-        - 0106
+        - "1270"
+        - "3733"
+        - "0106"
       kikakin:
         name: Kikakin
         location: Great Hyrule Forest
         coordinates:
-        - -0389
-        - 2740
-        - 0287
+        - "-0389"
+        - "2740"
+        - "0287"
     faron:
       utsushok:
         name: Utsushok
         location: Faron Grasslands
         coordinates:
-        - 0669
-        - -3357
-        - 0072
+        - "0669"
+        - "-3357"
+        - "0072"
       jiukoum:
         name: Jiukoum
         type: puzzle
         location: southeast of Popla Foothills Skyview Tower
         coordinates:
-        - 0868
-        - -2278
-        - 0155
+        - "0868"
+        - "-2278"
+        - "0155"
         treasure:
         - Sticky Elixir
       ishokin:
         name: Ishokin
         location: Faron Grasslands
         coordinates:
-        - -0563
-        - -3523
-        - 0129
+        - "-0563"
+        - "-3523"
+        - "0129"
     gerudo_desert:
       miryotanog:
         name: Miryotanog
         location: Gerudo Desert
         coordinates:
-        - -4676
-        - -3066
-        - 0056
+        - "-4676"
+        - "-3066"
+        - "0056"
       kudanisar:
         name: Kudanisar
         location: Gerudo Desert
         coordinates:
-        - -4170
-        - -2146
-        - 0050
+        - "-4170"
+        - "-2146"
+        - "0050"
       soryotanog:
         name: Soryotanog
         location: above Gerudo Town
         coordinates:
-        - -3887
-        - -2956
-        - 0125
+        - "-3887"
+        - "-2956"
+        - "0125"
       mayatat:
         name: Mayatat
         location: Kara Kara Bazaar
         coordinates:
-        - -3283
-        - -2517
-        - 0023
+        - "-3283"
+        - "-2517"
+        - "0023"
       siwakama:
         name: Siwakama
         location: Gerudo Desert
         coordinates:
-        - -2446
-        - -2245
-        - 0041
+        - "-2446"
+        - "-2245"
+        - "0041"
       chichim:
         name: Chichim
         location: Palu Wasteland quicksand
         coordinates:
-        - -3210
-        - -3005
-        - -0049
+        - "-3210"
+        - "-3005"
+        - "-0049"
       irasak:
         name: Irasak
         location: Arbiter's Grounds
         coordinates:
-        - -4159
-        - -3823
-        - 0028
+        - "-4159"
+        - "-3823"
+        - "0028"
       karahatag:
         name: Karahatag
         location: Southern Oasis
         coordinates:
-        - -3722
-        - -3623
-        - 0043
+        - "-3722"
+        - "-3623"
+        - "0043"
     gerudo_highlands:
       suariwak:
         name: Suariwak
         location: Blademaster Station
         type: outdoor
         coordinates:
-        - -2517
-        - -1772
-        - 0132
+        - "-2517"
+        - "-1772"
+        - "0132"
       otutsum:
         name: Otutsum
         location: Gerudo Highlands
         coordinates:
-        - -4470
-        - -0069
-        - 0509
+        - "-4470"
+        - "-0069"
+        - "0509"
       mayamats:
         name: Mayamats
         location: Gerudo Highlands
         coordinates:
-        - -4636
-        - -1513
-        - 0452
+        - "-4636"
+        - "-1513"
+        - "0452"
       rotsumamu:
         name: Rotsumamu
         location: Gerudo Highlands
         coordinates:
-        - -3407
-        - -3162
-        - 0035
+        - "-3407"
+        - "-3162"
+        - "0035"
       motsusis:
         name: Motsusis
         location: South Lomei Labyrinth
         coordinates:
-        - -1795
-        - -3489
-        - 0045
+        - "-1795"
+        - "-3489"
+        - "0045"
       kitawak:
         name: Kitawak
         location: Gerudo Highlands
         coordinates:
-        - -1531
-        - -2928
-        - 0321
+        - "-1531"
+        - "-2928"
+        - "0321"
       rakakudaj:
         name: Rakakudaj
         type: crystal
         location: Gerudo Canyon Path
         coordinates:
-        - -2031
-        - -1847
-        - 0064
+        - "-2031"
+        - "-1847"
+        - "0064"
       turakamik:
         name: Turakamik
         location: Gerudo Highlands
         coordinates:
-        - -2517
-        - -1772
-        - 0132
+        - "-2517"
+        - "-1772"
+        - "0132"
     lanayru:
       morok:
         name: Morok
         location: Lanayru Wetlands
         coordinates:
-        - 1182
-        - -0779
-        - 0133
+        - "1182"
+        - "-0779"
+        - "0133"
       tukarok:
         name: Tukarok
         location: Lanayru Wetlands
         coordinates:
-        - 0915
-        - -0250
-        - 0034
+        - "0915"
+        - "-0250"
+        - "0034"
       jikais:
         name: Jikais
         location: Mount Lanayru
         coordinates:
-        - 4262
-        - -1674
-        - 0181
+        - "4262"
+        - "-1674"
+        - "0181"
       jogou:
         name: Jogou
         location: East Necluda
         coordinates:
-        - 3346
-        - -1187
-        - 0057
+        - "3346"
+        - "-1187"
+        - "0057"
       zakusu:
         name: Zakusu
         location: Mount Lanayru
         coordinates:
-        - 3536
-        - -1482
-        - 0167
+        - "3536"
+        - "-1482"
+        - "0167"
       mogawak:
         name: Mogawak
         location: Lanayru Great Spring
         coordinates:
-        - 3299
-        - 0424
-        - 0112
+        - "3299"
+        - "0424"
+        - "0112"
       jonsau:
         name: Jonsau
         location: Mercay Island, Lanayru Wetlands
         coordinates:
-        - 1736
-        - 0015
-        - 0025
+        - "1736"
+        - "0015"
+        - "0025"
       kurakat:
         name: Kurakat
         location: Lanayru Great Spring
         coordinates:
-        - 2365
-        - -0515
-        - 0155
+        - "2365"
+        - "-0515"
+        - "0155"
       joniu:
         name: Joniu
         type: crystal
         location: Ralis Channel, Zora's Domain
         coordinates:
-        - 2918
-        - 0505
-        - 0155
+        - "2918"
+        - "0505"
+        - "0155"
       ihena:
         name: Ihen-a
         location: Ploymus Mountain
         coordinates:
-        - 3787
-        - 0577
-        - 0486
+        - "3787"
+        - "0577"
+        - "0486"
       apogek:
         name: Apogek
         location: Lanayru Great Spring
         coordinates:
-        - 3886
-        - -0220
-        - 0163
+        - "3886"
+        - "-0220"
+        - "0163"
       yomizuk:
         name: Yomizuk
         location: Lanayru Great Spring
         coordinates:
-        - 4412
-        - -0610
-        - 0034
+        - "4412"
+        - "-0610"
+        - "0034"
       maoikes:
         name: Maoikes
         location: Lanayru Wetlands
         coordinates:
-        - 2365
-        - -0515
-        - 0155
+        - "2365"
+        - "-0515"
+        - "0155"
     necluda:
       enoma:
         name: En-oma
@@ -890,17 +890,17 @@ shrines:
         treasure:
         - Mighty Zonaite Sword
         coordinates:
-        - 0103
-        - -2518
-        - -0074
+        - "0103"
+        - "-2518"
+        - "-0074"
       susub:
         name: Susub
         type: outdoor
         location: beneath Deya Village Ruins
         coordinates:
-        - 0349
-        - -2052
-        - -0013
+        - "0349"
+        - "-2052"
+        - "-0013"
         treasure:
         - Magic Staff
       jochisiu:
@@ -908,26 +908,26 @@ shrines:
         type: puzzle
         location: Southern bank of Squabble River
         coordinates:
-        - 0931
-        - -1903
-        - 0044
+        - "0931"
+        - "-1903"
+        - "0044"
         treasure:
         - Big Battery+
       oogim:
         name: O-ogim
         location: Lanayru Great Spring
         coordinates:
-        - 2755
-        - -1089
-        - 0100
+        - "2755"
+        - "-1089"
+        - "0100"
       zanmik:
         name: Zanmik
         type: puzzle
         location: Hateno Village
         coordinates:
-        - 3470
-        - -2181
-        - 0162
+        - "3470"
+        - "-2181"
+        - "0162"
         treasure:
         - Zonaite Longsword
       mayahisik:
@@ -935,60 +935,60 @@ shrines:
         type: outdoor
         location: Retsam Forest Cave
         coordinates:
-        - 3729
-        - -2059
-        - 0203
+        - "3729"
+        - "-2059"
+        - "0203"
         treasure:
         - Magic Scepter
       sifumim:
         name: Sifumim
         location: East Necluda
         coordinates:
-        - 2824
-        - -3272
-        - 0078
+        - "2824"
+        - "-3272"
+        - "0078"
       makasura:
         name: Makasura
         type: puzzle
         location: south of Kakariko Village
         coordinates:
-        - 1770
-        - -1052
-        - 0180
+        - "1770"
+        - "-1052"
+        - "0180"
         treasure:
         - Fairy Tonic
       jojuuu:
         name: Joju-u-u
         location: West Necluda
         coordinates:
-        - 1516
-        - -3576
-        - 0142
+        - "1516"
+        - "-3576"
+        - "0142"
       eshos:
         name: Eshos
         type: combat
         location: west of Dueling Peaks Stable
         coordinates:
-        - 1566
-        - -1945
-        - 0172
+        - "1566"
+        - "-1945"
+        - "0172"
         treasure:
         - Mighty Zonaite Shield
       utojis:
         name: Utojis
         location: East Necluda
         coordinates:
-        - 1219
-        - -2543
-        - 0096
+        - "1219"
+        - "-2543"
+        - "0096"
       marariin:
         name: Marari-in
         type: outdoor
         location: Eventide Island
         coordinates:
-        - 4631
-        - -3712
-        - 0032
+        - "4631"
+        - "-3712"
+        - "0032"
         treasure:
         - Ruby
       tokiy:
@@ -996,9 +996,9 @@ shrines:
         type: crystal
         location: Oakle's Navel Cave
         coordinates:
-        - 2304
-        - -2378
-        - -0015
+        - "2304"
+        - "-2378"
+        - "-0015"
         treasure:
         - Large Zonai Charge
       anedamimik:
@@ -1006,26 +1006,26 @@ shrines:
         type: puzzle
         location: Deepback Bay Cave
         coordinates:
-        - 4232
-        - -2178
-        - 0002
+        - "4232"
+        - "-2178"
+        - "0002"
         treasure:
         - Large Zonai Charge
       bamitok:
         name: Bamitok
         location: East Necluda
         coordinates:
-        - 3097
-        - -3204
-        - 0081
+        - "3097"
+        - "-3204"
+        - "0081"
     great_hyrule_forest:
       musanokir:
         name: Musanokir
         location: Korok Forest, via sky
         coordinates:
-        - 0409
-        - 2129
-        - 0143
+        - "0409"
+        - "2129"
+        - "0143"
       ekochiu:
         name: Ekochiu
         location: North of Woodland Stable
@@ -1033,30 +1033,30 @@ shrines:
         treasure:
         - Zonaite Shield
         coordinates:
-        - 1057
-        - 1271
-        - 0044
+        - "1057"
+        - "1271"
+        - "0044"
       pupunke:
         name: Pupunke
         location: Great Hyrule Forest
         coordinates:
-        - 0616
-        - 2212
-        - 0164
+        - "0616"
+        - "2212"
+        - "0164"
       ninjis:
         name: Ninjis
         location: Great Hyrule Forest
         coordinates:
-        - 0352
-        - 1900
-        - 0178
+        - "0352"
+        - "1900"
+        - "0178"
       sakunbomar:
         name: Sakunbomar
         location: Great Hyrule Forest
         coordinates:
-        - 0165
-        - 2313
-        - 0178
+        - "0165"
+        - "2313"
+        - "0178"
   sky:
     great_sky_island:
       ukouh:
@@ -1064,9 +1064,9 @@ shrines:
         type: puzzle
         location: Great Sky Island
         coordinates:
-        - 0275
-        - -0913
-        - 1474
+        - "0275"
+        - "-0913"
+        - "1474"
         treasure:
         - Ultrahand ability
       inisa:
@@ -1074,18 +1074,18 @@ shrines:
         type: puzzle
         location: Great Sky Island
         coordinates:
-        - 0026
-        - -1504
-        - 1423
+        - "0026"
+        - "-1504"
+        - "1423"
         treasure:
         - Fuse ability
       gutanbac:
         name: Gutanbac
         location: Great Sky Island
         coordinates:
-        - 0709
-        - -1383
-        - 1599
+        - "0709"
+        - "-1383"
+        - "1599"
         type: puzzle
         treasure:
         - Ascend ability
@@ -1094,9 +1094,9 @@ shrines:
         type: puzzle
         location: Great Sky Island
         coordinates:
-        - 0390
-        - -1661
-        - 2313
+        - "0390"
+        - "-1661"
+        - "2313"
         treasure:
         - Rewind ability
     central_hyrule:
@@ -1105,18 +1105,18 @@ shrines:
         type: crystal
         location: South Hyrule Sky Archipelago
         coordinates:
-        - -1257
-        - -1487
-        - 1022
+        - "-1257"
+        - "-1487"
+        - "1022"
         treasure: Diamond
       taunhiy:
         name: Taunhiy
         type: outdoor
         location: Courage Island
         coordinates:
-        - -2402
-        - 0825
-        - 0629
+        - "-2402"
+        - "0825"
+        - "0629"
         treasure:
         - Strong Construct Bow
       simosiwak:
@@ -1124,9 +1124,9 @@ shrines:
         type: outdoor
         location: Bravery Island
         coordinates:
-        - 0162
-        - 1972
-        - 0773
+        - "0162"
+        - "1972"
+        - "0773"
         treasure:
         - Bright Elixir
       mayam:
@@ -1134,9 +1134,9 @@ shrines:
         type: crystal
         location: North Hyrule Sky Archipelago
         coordinates:
-        - 0340
-        - 2815
-        - 1835
+        - "0340"
+        - "2815"
+        - "1835"
         treasure:
         - Magic Rod
     hebra_tabantha:
@@ -1145,9 +1145,9 @@ shrines:
         type: crystal
         location: Tabantha Sky Archipelago
         coordinates:
-        - -3370
-        - 0467
-        - 1709
+        - "-3370"
+        - "0467"
+        - "1709"
         treasure:
         - Diamond
       gaahisas:
@@ -1157,16 +1157,16 @@ shrines:
         - Star Fragment
         type: outdoor
         coordinates:
-        - -3596
-        - 0961
-        - 1713
+        - "-3596"
+        - "0961"
+        - "1713"
       ijoo:
         name: Ijo-o
         location: West Hebra Sky Archipelago
         coordinates:
-        - -3861
-        - 2682
-        - 0717
+        - "-3861"
+        - "2682"
+        - "0717"
         type: combat
         treasure:
         - arrows
@@ -1175,9 +1175,9 @@ shrines:
         type: outdoor
         location: Rising Island Chain
         coordinates:
-        - -3296
-        - 3432
-        - 1362
+        - "-3296"
+        - "3432"
+        - "1362"
         treasure:
         - Large Zonai Charge
       mayaumekis:
@@ -1185,9 +1185,9 @@ shrines:
         type: puzzle
         location: Rising Island Chain
         coordinates:
-        - -2948
-        - 3051
-        - 0911
+        - "-2948"
+        - "3051"
+        - "0911"
         treasure:
         - 10 Arrows
       taninoud:
@@ -1195,9 +1195,9 @@ shrines:
         type: crystal
         location: East Hebra Sky Archipelago
         coordinates:
-        - -1802
-        - 3407
-        - 0963
+        - "-1802"
+        - "3407"
+        - "0963"
         treasure:
         - Topaz
       tenbez:
@@ -1205,9 +1205,9 @@ shrines:
         type: puzzle
         location: North Lomei Castle Top Floor
         coordinates:
-        - -0970
-        - 3535
-        - 1026
+        - "-0970"
+        - "3535"
+        - "1026"
         treasure:
         - Large Zonai Charge
     akkala:
@@ -1216,9 +1216,9 @@ shrines:
         type: crystal
         location: Sokkala Sky Archipelago
         coordinates:
-        - 3671
-        - 1484
-        - 1172
+        - "3671"
+        - "1484"
+        - "1172"
         treasure:
         - Enduring Elixir
       gikaku:
@@ -1228,17 +1228,17 @@ shrines:
         treasure:
         - ??
         coordinates:
-        - 4506
-        - 2166
-        - 1169
+        - "4506"
+        - "2166"
+        - "1169"
       mogisari:
         name: Mogisari
         type: combat
         locaiton: Lomei Sky Labyrinth
         coordinates:
-        - 4655
-        - 3500
-        - 1025
+        - "4655"
+        - "3500"
+        - "1025"
         treasure:
         - Mighty Zonaite Shield
     eldin:
@@ -1247,9 +1247,9 @@ shrines:
         type: puzzle
         location: South Eldin Sky Archipelago
         coordinates:
-        - 1882
-        - 1203
-        - 1265
+        - "1882"
+        - "1203"
+        - "1265"
         treasure:
         - Strong Construct Bow
     faron:
@@ -1258,9 +1258,9 @@ shrines:
         location: Thunderhead Isles
         type: combat
         coordinates:
-        - 1075
-        - -3348
-        - 0800
+        - "1075"
+        - "-3348"
+        - "0800"
         treasure:
         - Electro Elixir
       jokuu:
@@ -1268,9 +1268,9 @@ shrines:
         type: outdoor
         location: Dragonhead Island
         coordinates:
-        - 1376
-        - -3340
-        - 0443
+        - "1376"
+        - "-3340"
+        - "0443"
         treasure:
         - Diamond
     gerudo:
@@ -1279,9 +1279,9 @@ shrines:
         type: puzzle
         location: East Gerudo Sky Archipelago
         coordinates:
-        - -1715
-        - -2119
-        - 1163
+        - "-1715"
+        - "-2119"
+        - "1163"
         treasure:
         - Large Zonai Charge
       mayasiar:
@@ -1289,9 +1289,9 @@ shrines:
         type: outdoor
         location: Starview Island
         coordinates:
-        - -3547
-        - -0321
-        - 1979
+        - "-3547"
+        - "-0321"
+        - "1979"
         treasure:
         - Star-Fragment Staff
       siyamotsus:
@@ -1299,9 +1299,9 @@ shrines:
         type: puzzle
         location: South Lomei Castle Top Floor
         coordinates:
-        - -1795
-        - -3295
-        - 1025
+        - "-1795"
+        - "-3295"
+        - "1025"
         treasure:
         - Construct Bow
     lanayru:
@@ -1310,9 +1310,9 @@ shrines:
         type: outdoor
         location: Valor Island
         coordinates:
-        - 4546
-        - -0846
-        - 1135
+        - "4546"
+        - "-0846"
+        - "1135"
         treasure:
         - Diamond
       jirutagumac:
@@ -1321,17 +1321,17 @@ shrines:
         treasure: Large Zonaite
         location: West of Wellspring Island
         coordinates:
-        - 2916
-        - 0534
-        - 0965
+        - "2916"
+        - "0534"
+        - "0965"
       igoshon:
         name: Igoshon
         type: puzzle
         location: Wellspring Island
         coordinates:
-        - 3481
-        - 0666
-        - 1340
+        - "3481"
+        - "0666"
+        - "1340"
         treasure:
         - Large Zonaite Charge
       mayanas:
@@ -1339,9 +1339,9 @@ shrines:
         type: puzzle
         location: South Lanayru Sky Archipelago
         coordinates:
-        - 4613
-        - -0947
-        - 1804
+        - "4613"
+        - "-0947"
+        - "1804"
         treasure:
         - Mighty Zonaite Shield
     necluda:
@@ -1350,9 +1350,9 @@ shrines:
         type: crystal
         location: North Necluda Sky Archipelago
         coordinates:
-        - 1758
-        - -1208
-        - 0938
+        - "1758"
+        - "-1208"
+        - "0938"
         treasure:
         - Large Zonai Charge
       ukoojisi:
@@ -1360,9 +1360,9 @@ shrines:
         type: outdoor
         location: West Necluda Sky Archipelago
         coordinates:
-        - 1469
-        - -2169
-        - 0600
+        - "1469"
+        - "-2169"
+        - "0600"
         treasure:
         - Mighty Zonaite Shield
       kumamayn:
@@ -1370,9 +1370,9 @@ shrines:
         type: crystal
         location: Necluda Sky Archipelgao
         coordinates:
-        - 2857
-        - -2856
-        - 1226
+        - "2857"
+        - "-2856"
+        - "1226"
         treasure:
         - Zonaite Bow
       yansamin:
@@ -1380,9 +1380,9 @@ shrines:
         type: combat
         location: Zonaite Forge Island
         coordinates:
-        - 2351
-        - -1783
-        - 1490
+        - "2351"
+        - "-1783"
+        - "1490"
         treasure:
         - Large Zonaite
 lightroots:
@@ -1390,1148 +1390,1148 @@ lightroots:
     oyimay:
       name: Oyimay
       coordinates:
-      - 0333
-      - 0469
-      - -0479
+      - "0333"
+      - "0469"
+      - "-0479"
     sinonoyk:
       name: Sinonoyk
       coordinates:
-      - -0204
-      - 0450
-      - -0472
+      - "-0204"
+      - "0450"
+      - "-0472"
     gadohsi:
       name: Gadohsi
       coordinates:
-      - -0878
-      - 0423
-      - -0497
+      - "-0878"
+      - "0423"
+      - "-0497"
     kawakanis:
       name: Kawakanis
       coordinates:
-      - -1415
-      - 0756
-      - -0538
+      - "-1415"
+      - "0756"
+      - "-0538"
     nisoij:
       name: Nisoij
       coordinates:
-      - -0240
-      - -0372
-      - -0478
+      - "-0240"
+      - "-0372"
+      - "-0478"
     iayusus:
       name: Iayusus
       coordinates:
-      - -0785
-      - -0433
-      - -0469
+      - "-0785"
+      - "-0433"
+      - "-0469"
     nihcayam:
       name: Nihcayam
       coordinates:
-      - -0705
-      - -0867
-      - -0481
+      - "-0705"
+      - "-0867"
+      - "-0481"
     netinet:
       name: Netinet
       coordinates:
-      - -0073
-      - -1115
-      - -0471
+      - "-0073"
+      - "-1115"
+      - "-0471"
     stakijat:
       name: Stakijat
       coordinates:
-      - 0343
-      - -1008
-      - -0468
+      - "0343"
+      - "-1008"
+      - "-0468"
     nuzimak:
       name: Nuzimak
       coordinates:
-      - -0178
-      - -1559
-      - -0473
+      - "-0178"
+      - "-1559"
+      - "-0473"
     nogukoyk:
       name: Nogukoyk
       coordinates:
-      - -0708
-      - -1551
-      - -0517
+      - "-0708"
+      - "-1551"
+      - "-0517"
     muustust:
       name: Mu-ustust
       coordinates:
-      - -1423
-      - -1351
-      - -0517
+      - "-1423"
+      - "-1351"
+      - "-0517"
     kogoir:
       name: Kogoir
       coordinates:
-      - -1442
-      - -1616
-      - -0538
+      - "-1442"
+      - "-1616"
+      - "-0538"
     koradat:
       name: Koradat
       coordinates:
-      - -1079
-      - -2180
-      - -0562
+      - "-1079"
+      - "-2180"
+      - "-0562"
     camobatures:
       name: Camobatures
       coordinates:
-      - -0178
-      - 1169
-      - -0515
+      - "-0178"
+      - "1169"
+      - "-0515"
     apapes:
       name: Apapes
       coordinates:
-      - 0221
-      - 1084
-      - -0474
+      - "0221"
+      - "1084"
+      - "-0474"
     ziner:
       name: Zi-ner
       coordinates:
-      - 0758
-      - 0824
-      - -0531
+      - "0758"
+      - "0824"
+      - "-0531"
     nojoj:
       name: Nojoj
       coordinates:
-      - 1202
-      - 0330
-      - -0574
+      - "1202"
+      - "0330"
+      - "-0574"
   hebra:
     muihcoro:
       name: Muihcoro
       coordinates:
-      - -1637
-      - 2642
-      - -0685
+      - "-1637"
+      - "2642"
+      - "-0685"
     aduon:
       name: Aduon
       coordinates:
-      - -2317
-      - 2200
-      - -0781
+      - "-2317"
+      - "2200"
+      - "-0781"
     kawumoro:
       name: Kawumoro
       coordinates:
-      - -3077
-      - 1615
-      - -0687
+      - "-3077"
+      - "1615"
+      - "-0687"
     sikatag:
       name: Sikatag
       coordinates:
-      - -3652
-      - 1806
-      - -0417
+      - "-3652"
+      - "1806"
+      - "-0417"
     sooaw:
       name: So-oaw
       coordinates:
-      - -4057
-      - 1989
-      - -0674
+      - "-4057"
+      - "1989"
+      - "-0674"
     worihas:
       name: Worihas
       coordinates:
-      - -3353
-      - 2385
-      - -0802
+      - "-3353"
+      - "2385"
+      - "-0802"
     nupisoyuat:
       name: Nupisoyuat
       coordinates:
-      - -4537
-      - 2879
-      - -0707
+      - "-4537"
+      - "2879"
+      - "-0707"
     kato:
       name: Kato
       coordinates:
-      - -4389
-      - 3713
-      - -0702
+      - "-4389"
+      - "3713"
+      - "-0702"
     muotue:
       name: Muotue
       coordinates:
-      - -3507
-      - 3569
-      - -0826
+      - "-3507"
+      - "3569"
+      - "-0826"
     muufatuf:
       name: Mu-ufatuf
       coordinates:
-      - -2998
-      - 3100
-      - 1006
+      - "-2998"
+      - "3100"
+      - "1006"
     narusis:
       name: Narusis
       coordinates:
-      - -2558
-      - 3354
-      - -0690
+      - "-2558"
+      - "3354"
+      - "-0690"
     unazohso:
       name: U-nazohso
       coordinates:
-      - -1403
-      - 3678
-      - -0712
+      - "-1403"
+      - "3678"
+      - "-0712"
     ikatoayam:
       name: Ikatoayam
       coordinates:
-      - -0849
-      - 3534
-      - -0636
+      - "-0849"
+      - "3534"
+      - "-0636"
   tabantha:
     yisuayam:
       name: Yisuayam
       coordinates:
-      - -1167
-      - 2602
-      - -0350
+      - "-1167"
+      - "2602"
+      - "-0350"
     kataki:
       name: Kataki
       coordinates:
-      - -3951
-      - 1139
-      - -0551
+      - "-3951"
+      - "1139"
+      - "-0551"
     kawakarut:
       name: Kawakarut
       coordinates:
-      - -3485
-      - -0214
-      - -0516
+      - "-3485"
+      - "-0214"
+      - "-0516"
     koronui:
       name: Koro-nui
       coordinates:
-      - -3538
-      - 0851
-      - -0576
+      - "-3538"
+      - "0851"
+      - "-0576"
     sasag:
       name: Sasag
       coordinates:
-      - -4154
-      - 0097
-      - -0489
+      - "-4154"
+      - "0097"
+      - "-0489"
   hyrule_ridge:
     uoyoyuik:
       name: Uoyoyuik
       coordinates:
-      - -1110
-      - 2087
-      - -0554
+      - "-1110"
+      - "2087"
+      - "-0554"
     muzasu:
       name: Muzasu
       coordinates:
-      - -2138
-      - -0874
-      - -0542
+      - "-2138"
+      - "-0874"
+      - "-0542"
     napanos:
       name: Napanos
       coordinates:
-      - -1921
-      - -0359
-      - -0635
+      - "-1921"
+      - "-0359"
+      - "-0635"
     sikurukam:
       name: Sikurukam
       coordinates:
-      - -2846
-      - 0630
-      - -0621
+      - "-2846"
+      - "0630"
+      - "-0621"
     tikanur:
       name: Tikanur
       coordinates:
-      - -2529
-      - 1170
-      - -0623
+      - "-2529"
+      - "1170"
+      - "-0623"
     nabahiikat:
       name: Nabahi-ikat
       coordinates:
-      - -1829
-      - 1196
-      - -0723
+      - "-1829"
+      - "1196"
+      - "-0723"
     netamnet:
       name: Netamnet
       coordinates:
-      - -0595
-      - 1549
-      - -0599
+      - "-0595"
+      - "1549"
+      - "-0599"
   akkala:
     kimimeg:
       name: Kimimeg
       coordinates:
-      - 4512
-      - 2115
-      - -0453
+      - "4512"
+      - "2115"
+      - "-0453"
     uiihcoj:
       name: Ui-ihcoj
       coordinates:
-      - 4346
-      - 2877
-      - -0608
+      - "4346"
+      - "2877"
+      - "-0608"
     gedihcayam:
       name: Gedihcayam
       coordinates:
-      - 3060
-      - 1825
-      - -0662
+      - "3060"
+      - "1825"
+      - "-0662"
     sikutamak:
       name: Sikutamak
       coordinates:
-      - 3227
-      - 3436
-      - -0431
+      - "3227"
+      - "3436"
+      - "-0431"
     akinatanis:
       name: Akinatanis
       coordinates:
-      - 3841
-      - 2302
-      - -0488
+      - "3841"
+      - "2302"
+      - "-0488"
     kawikatisar:
       name: Kawikatisar
       coordinates:
-      - 4166
-      - 1321
-      - -0673
+      - "4166"
+      - "1321"
+      - "-0673"
     agihiihcoj:
       name: Agihi-ihcoj
       coordinates:
-      - 3811
-      - 1219
-      - -0536
+      - "3811"
+      - "1219"
+      - "-0536"
     sisinatag:
       name: Sisinatag
       coordinates:
-      - 4497
-      - 0827
-      - -0535
+      - "4497"
+      - "0827"
+      - "-0535"
     kawisar:
       name: Kawisar
       coordinates:
-      - 4659
-      - 3249
-      - -0454
+      - "4659"
+      - "3249"
+      - "-0454"
     kuhsagi:
       name: Kuhsagi
       coordinates:
-      - 4654
-      - 3732
-      - -0400
+      - "4654"
+      - "3732"
+      - "-0400"
     niuzimod:
       name: Niuzimod
       coordinates:
-      - 3302
-      - 1442
-      - -0790
+      - "3302"
+      - "1442"
+      - "-0790"
     tayamik:
       name: Tayamik
       coordinates:
-      - 2854
-      - 3639
-      - -0685
+      - "2854"
+      - "3639"
+      - "-0685"
   death_mountain:
     mustis:
       name: Mustis
       coordinates:
-      - 2368
-      - 2576
-      - -0948
+      - "2368"
+      - "2576"
+      - "-0948"
     kisimom:
       name: Kisomom
       coordinates:
-      - 2961
-      - 2758
-      - -0963
+      - "2961"
+      - "2758"
+      - "-0963"
     kawamit:
       name: Kawamit
       coordinates:
-      - 1799
-      - 1640
-      - -0749
+      - "1799"
+      - "1640"
+      - "-0749"
     cugukaram:
       name: Cugukaram
       coordinates:
-      - 1763
-      - 2510
-      - -0719
+      - "1763"
+      - "2510"
+      - "-0719"
     misisi:
       name: Misisi
       coordinates:
-      - 1842
-      - 2843
-      - -0838
+      - "1842"
+      - "2843"
+      - "-0838"
   eldin:
     katoij:
       name: Katoij
       coordinates:
-      - 1835
-      - 3181
-      - -0838
+      - "1835"
+      - "3181"
+      - "-0838"
     anonisik:
       name: Anonisik
       coordinates:
-      - 3568
-      - 1246
-      - -0600
+      - "3568"
+      - "1246"
+      - "-0600"
     niopahsom:
       name: Nipahsom
       coordinates:
-      - 2679
-      - 1903
-      - -0688
+      - "2679"
+      - "1903"
+      - "-0688"
     katijabis:
       name: Katijabis
       coordinates:
-      - 2400
-      - 3276
-      - -0844
+      - "2400"
+      - "3276"
+      - "-0844"
     uukukis:
       name: Uukukis
       coordinates:
-      - 0697
-      - 2792
-      - -0671
+      - "0697"
+      - "2792"
+      - "-0671"
     katenim:
       name: Katenim
       coordinates:
-      - 0394
-      - 3483
-      - -0594
+      - "0394"
+      - "3483"
+      - "-0594"
     kayam:
       name: Kayam
       coordinates:
-      - 1269
-      - 3733
-      - -0553
+      - "1269"
+      - "3733"
+      - "-0553"
     nikakik:
       name: Nikakik
       coordinates:
-      - -0396
-      - 2729
-      - -0725
+      - "-0396"
+      - "2729"
+      - "-0725"
   faron:
     kohsustu:
       name: Kohsustu
       coordinates:
-      - 0670
-      - -3559
-      - -0484
+      - "0670"
+      - "-3559"
+      - "-0484"
     muokuij:
       name: Muokuij
       coordinates:
-      - 0867
-      - -2267
-      - -0556
+      - "0867"
+      - "-2267"
+      - "-0556"
     nikohsi:
       name: Nikohsi
       coordinates:
-      - -0564
-      - -3524
-      - -0574
+      - "-0564"
+      - "-3524"
+      - "-0574"
   gerudo_desert:
     gonatoyrim:
       name: Gonatoyrim
       coordinates:
-      - -4681
-      - -3086
-      - -0503
+      - "-4681"
+      - "-3086"
+      - "-0503"
     rasinaduk:
       name: Rasinaduk
       coordinates:
-      - -4168
-      - -2412
-      - -0487
+      - "-4168"
+      - "-2412"
+      - "-0487"
     gonatoyros:
       name: Gonatoyros
       coordinates:
-      - -3882
-      - -2963
-      - -0434
+      - "-3882"
+      - "-2963"
+      - "-0434"
     tatayam:
       name: Tatayam
       coordinates:
-      - -3291
-      - -2511
-      - -0475
+      - "-3291"
+      - "-2511"
+      - "-0475"
     amakawis:
       name: Amakawis
       coordinates:
-      - -2439
-      - -3343
-      - -0465
+      - "-2439"
+      - "-3343"
+      - "-0465"
     mihcihc:
       name: Mihcihc
       coordinates:
-      - -3211
-      - -3005
-      - -0470
+      - "-3211"
+      - "-3005"
+      - "-0470"
     kasari:
       name: Kasari
       coordinates:
-      - -4158
-      - -3826
-      - -0478
+      - "-4158"
+      - "-3826"
+      - "-0478"
     gataharak:
       name: Gataharak
       coordinates:
-      - -3728
-      - -3624
-      - -0494
+      - "-3728"
+      - "-3624"
+      - "-0494"
   gerudo_highlands:
     kawiraus:
       name: Kawiraus
       coordinates:
-      - 4659
-      - 3249
-      - -0454
+      - "4659"
+      - "3249"
+      - "-0454"
     mustuto:
       name: Mustuto
       coordinates:
-      - -4469
-      - -0672
-      - -0949
+      - "-4469"
+      - "-0672"
+      - "-0949"
     stamayam:
       name: Stamayam
       coordinates:
-      - -4638
-      - -1512
-      - -0890
+      - "-4638"
+      - "-1512"
+      - "-0890"
     umamustor:
       name: Umamustor
       coordinates:
-      - -3406
-      - -1368
-      - -0770
+      - "-3406"
+      - "-1368"
+      - "-0770"
     sisustom:
       name: Sisustom
       coordinates:
-      - -1795
-      - -3497
-      - -0477
+      - "-1795"
+      - "-3497"
+      - "-0477"
     kawatik:
       name: Kawatik
       coordinates:
-      - -1531
-      - -2928
-      - -0731
+      - "-1531"
+      - "-2928"
+      - "-0731"
     jadukakar:
       name: Jadukakar
       coordinates:
-      - -2037
-      - -1852
-      - -0504
+      - "-2037"
+      - "-1852"
+      - "-0504"
     kimakarut:
       name: Kimakarut
       coordinates:
-      - -2656
-      - -2237
-      - -0488
+      - "-2656"
+      - "-2237"
+      - "-0488"
   lanayru:
     korom:
       name: Korom
       coordinates:
-      - 1180
-      - -0778
-      - 0500
+      - "1180"
+      - "-0778"
+      - "0500"
     korakut:
       name: Korakut
       coordinates:
-      - 0915
-      - -0250
-      - -0481
+      - "0915"
+      - "-0250"
+      - "-0481"
     siakij:
       name: Siakij
       coordinates:
-      - 4267
-      - -1672
-      - -0628
+      - "4267"
+      - "-1672"
+      - "-0628"
     uogoj:
       name: Uogoj
       coordinates:
-      - 3345
-      - -1185
-      - -0610
+      - "3345"
+      - "-1185"
+      - "-0610"
     usukaz:
       name: Usukaz
       coordinates:
-      - 3526
-      - -1482
-      - -0612
+      - "3526"
+      - "-1482"
+      - "-0612"
     kawagom:
       name: Kawagom
       coordinates:
-      - 3295
-      - 0421
-      - -0749
+      - "3295"
+      - "0421"
+      - "-0749"
     uasnoj:
       name: Uasnoj
       coordinates:
-      - 1742
-      - 0018
-      - -0459
+      - "1742"
+      - "0018"
+      - "-0459"
     takaruk:
       name: Takaruk
       coordinates:
-      - 2359
-      - -0506
-      - -0589
+      - "2359"
+      - "-0506"
+      - "-0589"
     uinoj:
       name: Uinoj
       coordinates:
-      - 2918
-      - 0508
-      - -0795
+      - "2918"
+      - "0508"
+      - "-0795"
     anehi:
       name: A-nehi
       coordinates:
-      - 3785
-      - 0578
-      - -0926
+      - "3785"
+      - "0578"
+      - "-0926"
     kegopa:
       name: Kegopa
       coordinates:
-      - 3887
-      - -0215
-      - -0608
+      - "3887"
+      - "-0215"
+      - "-0608"
     kuzimoy:
       name: Kuzimoy
       coordinates:
-      - 4414
-      - -0613
-      - -0513
+      - "4414"
+      - "-0613"
+      - "-0513"
     sekioam:
       name: Sekioam
       coordinates:
-      - 2276
-      - 0148
-      - -0501
+      - "2276"
+      - "0148"
+      - "-0501"
   necluda:
     amone:
       name: Amo-ne
       coordinates:
-      - 0102
-      - -2518
-      - -0414
+      - "0102"
+      - "-2518"
+      - "-0414"
     busus:
       name: Busus
       coordinates:
-      - 0345
-      - -2053
-      - -0471
+      - "0345"
+      - "-2053"
+      - "-0471"
     uisihcoj:
       name: Uisihcoj
       coordinates:
-      - 0918
-      - -1900
-      - -0461
+      - "0918"
+      - "-1900"
+      - "-0461"
     migoo:
       name: Migo-o
       coordinates:
-      - 2755
-      - -1088
-      - -0540
+      - "2755"
+      - "-1088"
+      - "-0540"
     kimnaz:
       name: Kimnaz
       coordinates:
-      - 3469
-      - -2181
-      - -0594
+      - "3469"
+      - "-2181"
+      - "-0594"
     kisihayam:
       name: Kisihayam
       coordinates:
-      - 3728
-      - -2059
-      - -0665
+      - "3728"
+      - "-2059"
+      - "-0665"
     mimufis:
       name: Mimufis
       coordinates:
-      - 2827
-      - -3261
-      - -0527
+      - "2827"
+      - "-3261"
+      - "-0527"
     arusakam:
       name: Arusakam
       coordinates:
-      - 1739
-      - -1057
-      - -0610
+      - "1739"
+      - "-1057"
+      - "-0610"
     uuujoj:
       name: U-u-ujoj
       coordinates:
-      - 1514
-      - -3577
-      - -0529
+      - "1514"
+      - "-3577"
+      - "-0529"
     sohse:
       name: Sohse
       coordinates:
-      - 1563
-      - -1943
-      - -0464
+      - "1563"
+      - "-1943"
+      - "-0464"
     sijotu:
       name: Sijotu
       coordinates:
-      - 1218
-      - -2543
-      - -0612
+      - "1218"
+      - "-2543"
+      - "-0612"
     niiraram:
       name: Ni-iraram
       coordinates:
-      - 4630
-      - -3711
-      - -0506
+      - "4630"
+      - "-3711"
+      - "-0506"
     yikot:
       name: Yikot
       coordinates:
-      - 2303
-      - -2378
-      - -0617
+      - "2303"
+      - "-2378"
+      - "-0617"
     kimimadena:
       name: Kimimadena
       coordinates:
-      - 4234
-      - -2176
-      - -0521
+      - "4234"
+      - "-2176"
+      - "-0521"
     kotimab:
       name: Kotimab
       coordinates:
-      - 3469
-      - -2181
-      - -0594
+      - "3469"
+      - "-2181"
+      - "-0594"
   great_hyrule_forest:
     rikonasum:
       name: Rikonasum
       coordinates:
-      - 0406
-      - 2134
-      - -0592
+      - "0406"
+      - "2134"
+      - "-0592"
     uihcoke:
       name: Uihcoke
       coordinates:
-      - 1063
-      - 1281
-      - -0495
+      - "1063"
+      - "1281"
+      - "-0495"
     eknupup:
       name: Eknupup
       coordinates:
-      - 0622
-      - 2211
-      - -0611
+      - "0622"
+      - "2211"
+      - "-0611"
     sijnin:
       name: Sijnin
       coordinates:
-      - 0355
-      - 1892
-      - -0625
+      - "0355"
+      - "1892"
+      - "-0625"
     ramobnukas:
       name: Ramobnukas
       coordinates:
-      - 0166
-      - 2321
-      - -0625
+      - "0166"
+      - "2321"
+      - "-0625"
 great_fairy_fountains:
   tera:
     name: Tera's Great Fairy Fountain
     location: Eldin
     coordinates:
-    - 0916
-    - 1386
-    - 0082
+    - "0916"
+    - "1386"
+    - "0082"
   mija:
     name: Mija's Great Fairy Fountain
     location: Tabantha
     coordinates:
-    - -1460
-    - 2995
-    - 0302
+    - "-1460"
+    - "2995"
+    - "0302"
   cotera:
     name: Cotera's Great Fairy Fountain
     location: West Necluda
     coordinates:
-    - 1768
-    - -2180
-    - 0001
+    - "1768"
+    - "-2180"
+    - "0001"
   kaysa:
     name: Kaysa's Great Fairy Fountain
     location: South Hyrule Field
     coordinates:
-    - -1557
-    - -1231
-    - 0077
+    - "-1557"
+    - "-1231"
+    - "0077"
     malanya:
       name: Malanya Spring
       location: East Akkala
       coordinates:
-      - 4296
-      - 3219
-      - 0150
+      - "4296"
+      - "3219"
+      - "0150"
 caves:
   great_sky_island:
     pondside:
       name: Pondside Cave
       coordinates:
-      - 0166
-      - -1634
-      - 1378
+      - "0166"
+      - "-1634"
+      - "1378"
     mining:
       name: Mining Cave
       coordinates:
-      - 0388
-      - -1621
-      - 1401
+      - "0388"
+      - "-1621"
+      - "1401"
     pit:
       name: Pit Cave
       coordinates:
-      - 0579
-      - -1625
-      - 1442
+      - "0579"
+      - "-1625"
+      - "1442"
     bottomless:
       name: Bottomless
       coordinates:
-      - 0704
-      - -1458
-      - 1486
+      - "0704"
+      - "-1458"
+      - "1486"
   central_hyrule_field:
     royal_hidden_passage:
       name: Royal Hidden Passage
       coordinates:
-      - -0254
-      - 0129
-      - 0008
+      - "-0254"
+      - "0129"
+      - "0008"
     passeri_greenbelt:
       name: Passeri Greenbelt
       coordinates:
-      - -0508
-      - 0125
-      - 0021
+      - "-0508"
+      - "0125"
+      - "0021"
     ranch_ruins:
       name: Ranch Ruins
       coordinates:
-      - 0040
-      - -0203
-      - 0021
+      - "0040"
+      - "-0203"
+      - "0021"
     sage_temple:
       name: Sage Temple
       coordinates:
-      - -1402
-      - -0253
-      - -0010
+      - "-1402"
+      - "-0253"
+      - "-0010"
     ancient_tree_stump:
       name: Ancient Tree Stump
       coordinates:
-      - -1116
-      - -0439
-      - 0064
+      - "-1116"
+      - "-0439"
+      - "0064"
     rebonae_bridge:
       name: Rebonae Bridge
       coordinates:
-      - 0844
-      - 0031
-      - 0018
+      - "0844"
+      - "0031"
+      - "0018"
     crenel_peak:
       name: Crenel Peak
       coordinates:
-      - 1137
-      - 0245
-      - 0058
+      - "1137"
+      - "0245"
+      - "0058"
     crenel_hills:
       name: Crenel Hills
       coordinates:
-      - 0490
-      - 0732
-      - 0042
+      - "0490"
+      - "0732"
+      - "0042"
     whistling_hill:
       name: Whistling Hill
       coordinates:
-      - -0069
-      - -1048
-      - 0020
+      - "-0069"
+      - "-1048"
+      - "0020"
     coliseum_ruins:
       name: Coliseum Ruins
       coordinates:
-      - -1163
-      - -1313
-      - 0046
+      - "-1163"
+      - "-1313"
+      - "0046"
     great_plateau_foothill:
       name: Great Plateau Foothill
       coordinates:
-      - -0837
-      - -1481
-      - 0025
+      - "-0837"
+      - "-1481"
+      - "0025"
     shrine_of_resurrection:
       name: Shrine of Resurrection
       coordinates:
-      - -1060
-      - -1827
-      - 0144
+      - "-1060"
+      - "-1827"
+      - "0144"
     river_of_the_dead_waterfall:
       name: River of the Dead Waterfall
       coordinates:
-      - -1094
-      - -2157
-      - 0145
+      - "-1094"
+      - "-2157"
+      - "0145"
   hebra_tabantha_ridge:
     north_hyrule_plain:
       name: North Hyrule Plain
       coordinates:
-      - -1188
-      - 0641
-      - 0072
+      - "-1188"
+      - "0641"
+      - "0072"
     lindors_brow:
       name: Lindor's Brow
     thundra_plateau:
       name: Thundra Plateau
       coordinates:
-      - -2261
-      - 0900
-      - 0110
+      - "-2261"
+      - "0900"
+      - "0110"
     tanagar_canyon_east:
       name: Tanagar Canyon East
       coordinates:
-      - -2052
-      - 1623
-      - -0056
+      - "-2052"
+      - "1623"
+      - "-0056"
     satori_mountain:
       name: Satori Mountain
       coordinates:
-      - -2154
-      - -0366
-      - 0277
+      - "-2154"
+      - "-0366"
+      - "0277"
     satori_mountain_foothill:
       name: Satori Mountain Foothill
       coordinates:
-      - -2201
-      - -0804
-      - 0118
+      - "-2201"
+      - "-0804"
+      - "0118"
     tamio_river_downstream:
       name: Tamio River Downstream
       coordinates:
-      - -2921
-      - -0804
-      - 0008
+      - "-2921"
+      - "-0804"
+      - "0008"
     ancient_columns:
       name: Ancient Columns
       coordinates:
-      - -3457
-      - 0452
-      - 0278
+      - "-3457"
+      - "0452"
+      - "0278"
     tanagar_canyon_west:
       name: Tanagar Canyon West
       coordinates:
-      - -3312
-      - 0788
-      - -0101
+      - "-3312"
+      - "0788"
+      - "-0101"
     gisa_crater:
       name: Gisa Crater
       coordinates:
-      - -3866
-      - 1011
-      - 0097
+      - "-3866"
+      - "1011"
+      - "0097"
     brightcap:
       name: Brightcap
       coordinates: 
-      - -3003
-      - 1638
-      - 0201
+      - "-3003"
+      - "1638"
+      - "0201"
     tabantha_hills:
       name: Tabantha Hills
       coordinates:
-      - -2844
-      - 1772
-      - 0224
+      - "-2844"
+      - "1772"
+      - "0224"
     kopeeki_drifts:
       name: Kopeeki Drifts
       coordinates:
-      - -2397
-      - 2278
-      - 0172
+      - "-2397"
+      - "2278"
+      - "0172"
     hebra_headspring:
       name: Hebra Headspring
       coordinates:
-      - -2911
-      - 2517
-      - 0392
+      - "-2911"
+      - "2517"
+      - "0392"
     talonto_peak:
       name: Talonto Peak
       coordinates:
-      - -3212
-      - 2466
-      - 0348
+      - "-3212"
+      - "2466"
+      - "0348"
     hebra_south_summit:
       name: Hebra South Summit
       coordinates:
-      - -3397
-      - 2498
-      - 0313
+      - "-3397"
+      - "2498"
+      - "0313"
     rospro_pass:
       name: Rospro Pass
       coordinates:
-      - -3572
-      - 2477
-      - 0228
+      - "-3572"
+      - "2477"
+      - "0228"
     west_lake_totori:
       name: West Lake Totori
       coordinates:
-      - -3952
-      - 2032
-      - 0201
+      - "-3952"
+      - "2032"
+      - "0201"
     sturnida_springs:
       name: Sturnida Springs
       coordinates:
-      - -4064
-      - 2678
-      - 0024
+      - "-4064"
+      - "2678"
+      - "0024"
     lake_kilsie:
       name: Lake Kilsie
       coordinates:
-      - -3932
-      - 2850
-      - -0016
+      - "-3932"
+      - "2850"
+      - "-0016"
     north_biron_snowshelf:
       name: North Biron Snowshelf
       coordinates:
-      - -3960
-      - 3243
-      - 0238
+      - "-3960"
+      - "3243"
+      - "0238"
     east_biron_snowshelf:
       name: East Biron Snowshelf
       coordinates:
-      - -3556
-      - 3086
-      - 0273
+      - "-3556"
+      - "3086"
+      - "0273"
     hebra_great_skeleton:
       name: Hebra Great Skeleton
       coordinates:
-      - -3815
-      - 3595
-      - 0258
+      - "-3815"
+      - "3595"
+      - "0258"
     icefall_foothills:
       name: Icefall Foothills
       coordinates:
-      - -4428
-      - 3758
-      - 0224
+      - "-4428"
+      - "3758"
+      - "0224"
     hebra_mountains_northwest:
       name: Hebra Mountains Northwest
     pikida_stonegrove_northwest:
       name: Pikida Stonegrove Northwest
       coordinates:
-      - -2418
-      - 3146
-      - 0374
+      - "-2418"
+      - "3146"
+      - "0374"
     mount_drena_foothill:
       name: Mount Drena Foothill
       coordinates:
-      - -1372
-      - 2861
-      - 0199
+      - "-1372"
+      - "2861"
+      - "0199"
   gerudo_highlands_desert:
     stalry_plateau:
       name: Stalry Plateau
       coordinates:
-      - -1531
-      - -2222
-      - -0019
+      - "-1531"
+      - "-2222"
+      - "-0019"
     mount_nabooru_south:
       name: Mount Nabooru South
       coordinates:
-      - -1725
-      - -2182
-      - 0007
+      - "-1725"
+      - "-2182"
+      - "0007"
     lower_spectacle_rock:
       name: Lower Spectacle Rock
       coordinates:
-      - -1744
-      - -2397
-      - -0010
+      - "-1744"
+      - "-2397"
+      - "-0010"
     mount_nabooru:
       name: Mount Nabooru
       coordinates:
-      - -1794
-      - -1947
-      - 0039
+      - "-1794"
+      - "-1947"
+      - "0039"
     koukot_plateau:
       name: Koukot Plateau
       coordinates:
-      - -2257
-      - -1758
-      - 0060
+      - "-2257"
+      - "-1758"
+      - "0060"
     yiga_blademaster_station:
       name: Yiga Blademaster Station
       coordinates:
-      - -2427
-      - -1822
-      - 0147
+      - "-2427"
+      - "-1822"
+      - "0147"
     taafei_hill:
       name: Taafei Hill
     spectacle_rock:
       name: Spectacle Rock
       coordinates:
-      - -2214
-      - -2392
-      - 0248
+      - "-2214"
+      - "-2392"
+      - "0248"
     gerudo_canyon_mine:
       name: Gerudo Canyon Mine
       coordinates:
-      - -2676
-      - -2412
-      - 0079
+      - "-2676"
+      - "-2412"
+      - "0079"
     east_gerudo_ruin:
       name: East Gerudo Ruin
       coordinates:
-      - -2693
-      - -2809
-      - 0008
+      - "-2693"
+      - "-2809"
+      - "0008"
     oasis_source:
       name: Oasis Source
       coordinates:
-      - -3355
-      - -2695
-      - 0025
+      - "-3355"
+      - "-2695"
+      - "0025"
     quicksand_lake:
       name: Quicksand Lake
       coordinates:
-      - -3241
-      - -2938
-      - -0008
+      - "-3241"
+      - "-2938"
+      - "-0008"
     ancient_prison :
       name: Ancient Prison
       coordinates:
-      - -3100
-      - -3064
-      - 0009
+      - "-3100"
+      - "-3064"
+      - "0009"
     gerudo_sanctuary:
       name: Gerudo Sanctuary
       coordinates:
-      - -3764
-      - -2698
-      - 0035
+      - "-3764"
+      - "-2698"
+      - "0035"
     valley_of_silent_statues:
       name: Valley of Silent Statues
       coordinates:
-      - -3827
-      - -2650
-      - 0037
+      - "-3827"
+      - "-2650"
+      - "0037"
     central_gerudo:
       name: Central Gerudo
       coordinates:
-      - -3679
-      - -3255
-      - 0020
+      - "-3679"
+      - "-3255"
+      - "0020"
     south_gerudo:
       name: South Gerudo
       coordinates:
-      - -2941
-      - -3862
-      - 0010
+      - "-2941"
+      - "-3862"
+      - "0010"
     ancient_altar :
       name: Ancient Altar
       coordinates:
-      - -2582
-      - -3624
-      - 0006
+      - "-2582"
+      - "-3624"
+      - "0006"
     gerudo_great_skeleton:
       name: Gerudo Great Skeleton
       coordinates:
-      - -4810
-      - -3877
-      - 0002
+      - "-4810"
+      - "-3877"
+      - "0002"
     west_gerudo_underground_ruins:
       name: West Gerudo Underground Ruins
       coordinates:
-      - -4672
-      - -1976
-      - 0024
+      - "-4672"
+      - "-1976"
+      - "0024"
     meadelas_mantle:
       name: Meadela's Mantle
     mystathis_shelf:
@@ -2542,1069 +2542,1069 @@ caves:
     lake_hylia_whirlpool:
       name: Lake Hylia Whirlpool
       coordinates: 
-      - 0122
-      - -2502
-      - -0021
+      - "0122"
+      - "-2502"
+      - "-0021"
     cora_lakefront:
       name: Cora Lakefront
       coordinates:
-      - -0170
-      - -3073
-      - 0008
+      - "-0170"
+      - "-3073"
+      - "0008"
     finra_woods_excavation:
       name: Finra Woods Excavation Site
       coordinates:
-      - 0569
-      - -2982
-      - 0014
+      - "0569"
+      - "-2982"
+      - "0014"
     pagos_woods_excavation:
       name: Pagos Woods Excavation Site
       coordinates:
-      - 0671
-      - -3110
-      - 0026
+      - "0671"
+      - "-3110"
+      - "0026"
     floria_river_upstream_excavation:
       name: Floria River Upstream Excavation
       coordinates:
-      - 0809
-      - -2975
-      - 0012
+      - "0809"
+      - "-2975"
+      - "0012"
     puffer_beach_overhead:
       name: Puffer Beach Overhead
       coordinates:
-      - 0286
-      - -3870
-      - 0043
+      - "0286"
+      - "-3870"
+      - "0043"
     komo_shoreline:
       name: Komo Shoreline
       coordinates:
-      - 0488
-      - -3831
-      - 0009
+      - "0488"
+      - "-3831"
+      - "0009"
     sarjon_woods:
       name: Sarjon Woods
       coordinates:
-      - 1196
-      - -3161
-      - 0027
+      - "1196"
+      - "-3161"
+      - "0027"
     ubota_point:
       name: Ubota Point
       coordinates:
-      - 1452
-      - -3483
-      - 0077
+      - "1452"
+      - "-3483"
+      - "0077"
     rassla_lake:
       name: Rassla Lake
       coordinates:
-      - 1825
-      - -3737
-      - 0125
+      - "1825"
+      - "-3737"
+      - "0125"
     corta_lake:
       name: Corta Lake
       coordinates:
-      - 1674
-      - -3038
-      - 0165
+      - "1674"
+      - "-3038"
+      - "0165"
     mount_floria:
       name: Mount Floria
       coordinates:
-      - 1951
-      - -2598
-      - 0072
+      - "1951"
+      - "-2598"
+      - "0072"
     rodai_lakefront_tunnel:
       name: Rodai Lakefront Tunnel
       coordinates:
-      - 1894
-      - -3117
-      - 0133
+      - "1894"
+      - "-3117"
+      - "0133"
     calora_lake:
       name: Calora Lake
       coordinates:
-      - 1962
-      - -3043
-      - 0208
+      - "1962"
+      - "-3043"
+      - "0208"
   east_west_necluda_mount_lanayru:
     popla_foothills_excavation_site:
       name: Popla Foothills Excavation Site
       coordinates:
-      - 0608
-      - -2215
-      - 0052
+      - "0608"
+      - "-2215"
+      - "0052"
     tobios_hollow:
       name: Tobio's Hollow
       coordinates:
-      - 1165
-      - -2439
-      - 0170
+      - "1165"
+      - "-2439"
+      - "0170"
     dueling_peaks_south:
       name: Dueling Peaks South
       coordinates:
-      - 1184
-      - -1944
-      - 0246
+      - "1184"
+      - "-1944"
+      - "0246"
     dueling_peaks_north:
       name: Dueling Peaks North
       coordinates:
-      - 1191
-      - -1859
-      - 0158
+      - "1191"
+      - "-1859"
+      - "0158"
     sahasra_slope:
       name: Sahasra Slope
       coordinates:
-      - 1327
-      - -1155
-      - 0138
+      - "1327"
+      - "-1155"
+      - "0138"
     byroad_to_lanayru_wetlands:
       name: Byroad to Lanayru Wetlands
       coordinates:
-      - 1624
-      - -0789
-      - 0016
+      - "1624"
+      - "-0789"
+      - "0016"
     kakariko_village:
       name: Kakariko Village
       coordinates:
-      - 1944
-      - -0983
-      - 0159
+      - "1944"
+      - "-0983"
+      - "0159"
     cucco_hideaway:
       name: Cucco Hideaway
       coordinates:
-      - 1878
-      - -1155
-      - 0199
+      - "1878"
+      - "-1155"
+      - "0199"
     lanayru_road_east:
       name: Lanayru Road East
       coordinates:
-      - 3071
-      - -1134
-      - 0096
+      - "3071"
+      - "-1134"
+      - "0096"
     lanayru_road_south:
       name: Lanayru Road South
       coordinates:
-      - 2669
-      - -1311
-      - 0115
+      - "2669"
+      - "-1311"
+      - "0115"
     robred_dropoff:
       name: Robred Dropoff
       coordinates:
-      - 2496
-      - -1485
-      - 0014
+      - "2496"
+      - "-1485"
+      - "0014"
     fort_hateno:
       name: Fort Hateno
       coordinates:
-      - 2237
-      - -1694
-      - 0027
+      - "2237"
+      - "-1694"
+      - "0027"
     oakles_navel:
       name: Oakle's Navel
       coordinates:
-      - 2507
-      - -2119
-      - 0009
+      - "2507"
+      - "-2119"
+      - "0009"
     retsam_forest:
       name: Retsam Forest
       coordinates:
-      - 3756
-      - -2072
-      - 0214
+      - "3756"
+      - "-2072"
+      - "0214"
     walnot_mountain:
       name: Walnot Mountain
       coordinates:
-      - 4222
-      - -1731
-      - 0195
+      - "4222"
+      - "-1731"
+      - "0195"
     deepback_bay:
       name: Deepback Bay
       coordinates:
-      - 4203
-      - -2295
-      - 0000
+      - "4203"
+      - "-2295"
+      - "0000"
     mapla_point:
       name: Mapla Point
       coordinates:
-      - 4595
-      - -2233
-      - 0000
+      - "4595"
+      - "-2233"
+      - "0000"
     atun_valley:
       name: Atun Valley
       coordinates:
-      - 2455
-      - -3199
-      - 0066
+      - "2455"
+      - "-3199"
+      - "0066"
     mount_dunsel:
       name: Mount Dunsel
       coordinates:
-      - 3216
-      - -3011
-      - 0066
+      - "3216"
+      - "-3011"
+      - "0066"
     cape_cales_cliffbase:
       name: Cape Cales Cliffbase
       coordinates:
-      - 3669
-      - -3209
-      - -0002
+      - "3669"
+      - "-3209"
+      - "-0002"
     eventide_island:
       name: Eventide Island
       coordinates:
-      - 4706
-      - -3784
-      - 0014
+      - "4706"
+      - "-3784"
+      - "0014"
   lanayru_great_spring:
     bone_pond_east:
       name: Bone Pond East
       coordinates:
-      - 2251
-      - 0013
-      - 0021
+      - "2251"
+      - "0013"
+      - "0021"
     tabahl_woods:
       name: Tabahl Woods
       coordinates:
-      - 2691
-      - 0213
-      - 0104
+      - "2691"
+      - "0213"
+      - "0104"
     upland_zorana_mountainside:
       name: Upland Zorana Mountainside
       coordinates:
-      - 2634
-      - 0527
-      - 0204
+      - "2634"
+      - "0527"
+      - "0204"
     upland_zorana_summit:
       name: Upland Zorana Summit
       coordinates:
-      - 2855
-      - 0476
-      - 0329
+      - "2855"
+      - "0476"
+      - "0329"
     upland_zorana_byroad:
       name: Upland Zorana Byroad
       coordinates:
-      - 2864
-      - 0342
-      - 0228
+      - "2864"
+      - "0342"
+      - "0228"
     ralis_channel:
       name: Ralis Channel
       coordinates:
-      - 2910
-      - 0169
-      - 0161
+      - "2910"
+      - "0169"
+      - "0161"
     oren_bridge:
       name: Oren Bridge
       coordinates:
-      - 2906
-      - -0063
-      - 0084
+      - "2906"
+      - "-0063"
+      - "0084"
     lutos_channel:
       name: Luto's Channel
       coordinates:
-      - 3092
-      - -0045
-      - 0079
+      - "3092"
+      - "-0045"
+      - "0079"
     cave_under_zoras_domain:
       name: Cave Under Zora's Domain
       coordinates:
-      - 3254
-      - 0381
-      - 0077
+      - "3254"
+      - "0381"
+      - "0077"
     upland_zorana_foothill:
       name: Upland Zorana Foothill
       coordinates:
-      - 3151
-      - 0664
-      - 0179
+      - "3151"
+      - "0664"
+      - "0179"
     pristine_sanctum:
       name: Pristine Sanctum
       coordinates:
-      - 3620
-      - 0583
-      - 0172
+      - "3620"
+      - "0583"
+      - "0172"
     ploymus_mountain:
       name: Ploymus Mountain
       coordinates:
-      - 3654
-      - 0540
-      - 0271
+      - "3654"
+      - "0540"
+      - "0271"
     reservoir_lakefront_cavern:
       name: Reservoir Lakefront Cavern
       coordinates:
-      - 3806
-      - 0420
-      - 0209
+      - "3806"
+      - "0420"
+      - "0209"
     ancient_zora_water:
       name: Ancient Zora Waterworks
       coordinates:
-      - 3608
-      - 0121
-      - 0209
+      - "3608"
+      - "0121"
+      - "0209"
     ulria_grotto_south:
       name: Ulria Grotto South
       coordinates:
-      - 4120
-      - 0663
-      - 0189
+      - "4120"
+      - "0663"
+      - "0189"
     ulria_grotto_east:
       name: Ulria Grotto East
       coordinates:
-      - 4275
-      - 0774
-      - 0148
+      - "4275"
+      - "0774"
+      - "0148"
     horon_lagoon:
       name: Horon Lagoon
       coordinates:
-      - 4245
-      - -0267
-      - 0004
+      - "4245"
+      - "-0267"
+      - "0004"
     tarm_point:
       name: Tarm Point
       coordinates:
-      - 4470
-      - -0836
-      - 0053
+      - "4470"
+      - "-0836"
+      - "0053"
   akkala_eldin:
     pico_pond:
       name: Pico Pond
       coordinates:
-      - 1244
-      - 1228
-      - 0027
+      - "1244"
+      - "1228"
+      - "0027"
     lake_ferona:
       name: Lake Ferona
       coordinates:
-      - 1929
-      - 1305
-      - 0176
+      - "1929"
+      - "1305"
+      - "0176"
     west_restaurant:
       name: West Restaurant
       coordinates:
-      - 1643
-      - 1727
-      - 0278
+      - "1643"
+      - "1727"
+      - "0278"
     east_restaurant:
       name: East Restaurant
       coordinates:
-      - 1855
-      - 1721
-      - 0292
+      - "1855"
+      - "1721"
+      - "0292"
     gorko_tunnel:
       name: Gorko Tunnel
       coordinates:
-      - 2013
-      - 2040
-      - 0422
+      - "2013"
+      - "2040"
+      - "0422"
     southern_mine:
       name: Southern Mine
       coordinates:
-      - 1792
-      - 1974
-      - 0321
+      - "1792"
+      - "1974"
+      - "0321"
     goronbi_river:
       name: Goronbi River
       coordinates:
-      - 1424
-      - 2100
-      - 0286
+      - "1424"
+      - "2100"
+      - "0286"
     death_mountain_foothill:
       name: Death Mountain Foothill
       coordinates:
-      - 1950
-      - 2688
-      - 0427
+      - "1950"
+      - "2688"
+      - "0427"
     yunoboco_hq_south:
       name: YunoboCo HQ South
       coordinates:
-      - 1713
-      - 2718
-      - 0403
+      - "1713"
+      - "2718"
+      - "0403"
     yunoboco_hq_east:
       name: YunoboCo HQ East
       coordinates:
-      - 1762
-      - 2825
-      - 0398
+      - "1762"
+      - "2825"
+      - "0398"
     isle_of_rabac_gallery:
       name: Isle of Rabac Gallery
       coordinates:
-      - 1567
-      - 3095
-      - 0395
+      - "1567"
+      - "3095"
+      - "0395"
     deplian_badlands:
       name: Deplian Badlands
       coordinates:
-      - 0306
-      - 3581
-      - 0089
+      - "0306"
+      - "3581"
+      - "0089"
     lizards_burrow:
       name: Lizard's Burrow
       coordinates:
-      - 2208
-      - 3070
-      - 0406
+      - "2208"
+      - "3070"
+      - "0406"
     lake_darman_monster_den:
       name: Lake Darman Monster Den
       coordinates:
-      - 2380
-      - 3035
-      - 0446
+      - "2380"
+      - "3035"
+      - "0446"
     death_mountain_west_tunnel:
       name: Death Mountain West Tunnel
       coordinates:
-      - 2235
-      - 2685
-      - 0522
+      - "2235"
+      - "2685"
+      - "0522"
     death_mountain_east_tunnel:
       name: Death Mountain East Tunnel
       coordinates:
-      - 2777
-      - 2782
-      - 0523
+      - "2777"
+      - "2782"
+      - "0523"
     lake_intenoch:
       name: Lake Intenoch
       coordinates:
-      - 2491
-      - 1783
-      - 0156
+      - "2491"
+      - "1783"
+      - "0156"
     foothill_monster_den:
       name: Foothill Monster Den
       coordinates:
-      - 2283
-      - 1507
-      - 0156
+      - "2283"
+      - "1507"
+      - "0156"
     cephla_lake:
       name: Cephla Lake
       coordinates:
-      - 2602
-      - 1322
-      - 0150
+      - "2602"
+      - "1322"
+      - "0150"
     akkala_citadel_ruins:
       name: Akkala Citadel Ruins
       coordinates:
-      - 3234
-      - 1452
-      - 0292
+      - "3234"
+      - "1452"
+      - "0292"
     akkala_citadel_ruins_summit:
       name: Akkala Citadel Ruins Summit
       coordinates:
-      - 3290
-      - 1493
-      - 0414
+      - "3290"
+      - "1493"
+      - "0414"
     construction_site:
       name: Construction Site
       coordinates:
-      - 3672
-      - 1547
-      - 0089
+      - "3672"
+      - "1547"
+      - "0089"
     tarrey_town_tunnel:
       name: Tarrey Town Tunnel
       coordinates:
-      - 3926
-      - 1576
-      - 0110
+      - "3926"
+      - "1576"
+      - "0110"
     skull_lake:
       name: Skull Lake
       coordinates:
-      - 3314
-      - 3428
-      - 0191
+      - "3314"
+      - "3428"
+      - "0191"
     north_akkala_beach:
       name: North Akkala Beach
       coordinates:
-      - 4648
-      - 3207
-      - 0008
+      - "4648"
+      - "3207"
+      - "0008"
   great_hyrule_forest:
     yiga_clan_maritta_branch:
       name: Yiga Clan Maritta Branch
       coordinates:
-      - -0644
-      - 2034
-      - 0158
+      - "-0644"
+      - "2034"
+      - "0158"
     raru_hillside:
       name: Raru Hillside Cave
       coordinates:
-      - 0676
-      - 1391
-      - 0048
+      - "0676"
+      - "1391"
+      - "0048"
 sages_will:
   akkala_highlands_sky:
     name: Akkala Highlands Sky
     type: puzzle
     coordinates:
-    - 3810
-    - 1580
-    - 1144
+    - "3810"
+    - "1580"
+    - "1144"
   eldin_sky_archipelago:
     name: Eldin Sky Archipelago
     type: puzzle
     coordinates:
-    - 1780
-    - 0973
-    - 1226
+    - "1780"
+    - "0973"
+    - "1226"
   eldin_south_sky_archipelago:
     name: South Eldin Sky Archipelago
     type: puzzle
     coordinates:
-    - 1764
-    - 2267
-    - 0827    
+    - "1764"
+    - "2267"
+    - "0827"    
   gerudo_east_sky_archipelago:
     name: East Gerudo Sky Archipelago
     type: puzzle
     coordinates:
-    - -1959
-    - -1812
-    - 1140
+    - "-1959"
+    - "-1812"
+    - "1140"
   gerudo_west_sky:
     name: West Gerudo Sky
     type: puzzle
     note: King Gleeok
     coordinates:
-    - -4447
-    - -2731
-    - 1419
+    - "-4447"
+    - "-2731"
+    - "1419"
   gerudo_starview_island:
     name: Starview Island
     location: Gerudo Highlands Sky Archipelago
     type: puzzle
     coordinates:
-    - -3459
-    - -0269
-    - 1937     
+    - "-3459"
+    - "-0269"
+    - "1937"     
   hebra_mountains_sky:
     name: Hebra Mountains Sky
     type: puzzle
     coordinates:
-    - -3075
-    - 2150
-    - 0648
+    - "-3075"
+    - "2150"
+    - "0648"
   hebra_south_sky_archipelago:
     name: South Hebra Sky Archipelago
     type: puzzle
     coordinates:
-    - -2273
-    - -0448
-    - 0894    
+    - "-2273"
+    - "-0448"
+    - "0894"    
   hebra_west_sky_archipelago:
     name: West Hebra Sky Archipelago
     type: combat
     note: King Gleeok
     coordinates:
-    - -4466
-    - 2285
-    - 1247    
+    - "-4466"
+    - "2285"
+    - "1247"    
   hyrule_central_sky_archipelgao:
     name: Central Hyrule Sky Archipelago
     type: puzzle
     coordinates:
-    - -0964
-    - -1737
-    - 1018
+    - "-0964"
+    - "-1737"
+    - "1018"
   lanayru_great_spring_sky:
     name: Lanayru Great Spring Sky
     type: puzzle
     coordinates:
-    - 2911
-    - 0525
-    - 0929
+    - "2911"
+    - "0525"
+    - "0929"
   lanayru_sky_archipelago:
     name: Lanayru Sky Archipelago
     type: combat
     note: Flux Construct II
     coordinates:
-    - 3014
-    - -0259
-    - 0894
+    - "3014"
+    - "-0259"
+    - "0894"
   lanayru_wellspring_island:
     name: Wellspring Island
     location: Lanayru
     type: combat
     note: Flux Construct II
     coordinates:
-    - 3359
-    - 0663
-    - 1295
+    - "3359"
+    - "0663"
+    - "1295"
   necluda_dragonhead_island:
     name: Dragonhead Island
     location: West Necluda Sky
     type: puzzle
     coordinates:
-    - 1309
-    - -3210
-    - 0459
+    - "1309"
+    - "-3210"
+    - "0459"
   necluda_east_sky_archipelago:
     name: East Necluda Sky Archipelago
     type: combat
     note: Flux Construct III
     coordinates:
-    - 2562
-    - -3611
-    - 0794
+    - "2562"
+    - "-3611"
+    - "0794"
   necluda_southeast_sky:
     name: Southeast Necluda Sky
     type: combat
     note: King Gleeok
     coordinates:
-    - 4652
-    - -3828
-    - 1065    
+    - "4652"
+    - "-3828"
+    - "1065"    
   necluda_thunderhead_isles:
     name: Thunderhead Isles
     location: West Necluda Sky
     type: puzzle
     coordinates:
-    - 0966
-    - -3306
-    - 0846
+    - "0966"
+    - "-3306"
+    - "0846"
   necluda_west_sky_archipelago_combat:
     name: West Necluda Sky Archipelago
     type: combat
     note: Flux Construct III
     coordinates:
-    - -0338
-    - -2581
-    - 0894 
+    - "-0338"
+    - "-2581"
+    - "0894" 
   necluda_west_sky_archipelago:
     name: West Necluda Sky Archipelago
     coordinates:
-    - 1934
-    - -1062
-    - 0961       
+    - "1934"
+    - "-1062"
+    - "0961"       
   tabantha_north_sky_archipelago:
     name: North Tabantha Sky Archipelago
     type: puzzle
     coordinates:
-    - -3781
-    - 1571
-    - 1238
+    - "-3781"
+    - "1571"
+    - "1238"
 schema_stones:
   fanplane:
     name: Fan plane
     location: Great Abandoned Central Mine
     coordinates:
-    - -0821
-    - -1940
-    - -0523
+    - "-0821"
+    - "-1940"
+    - "-0523"
   launch_pad:
     name: Launch Pad
     location: Abandoned Kakariko Mine
     coordinates:
-    - 1796
-    - -1226
-    - -0629
+    - "1796"
+    - "-1226"
+    - "-0629"
   instant_scaffold_stone:
     name: Instant Scaffold
     location: Abandoned Kara Kara Mine
     coordinates:
-    - -3210
-    - -2473
-    - -0475
+    - "-3210"
+    - "-2473"
+    - "-0475"
   hovercraft:
     name: Hovercraft
     location: Abandoned Gerudo Mine
     coordinates:
-    - -3846
-    - -2941
-    - -0487
+    - "-3846"
+    - "-2941"
+    - "-0487"
   bridge:
     name: Bridge
     location: Abandoned Hateno Mine
     coordinates:
-    - 3562
-    - -2209
-    - -0588
+    - "3562"
+    - "-2209"
+    - "-0588"
   dirigible:
     name: Dirigible
     location: Abandoned Lurelin Mine
     coordinates:
-    - 2946
-    - -3338
-    - -0453
+    - "2946"
+    - "-3338"
+    - "-0453"
   rocket_platform:
     name: Rocket Platform
     location: Abandoned Hebra Mine
     coordinates:
-    - -3480
-    - 1883
-    - -0417
+    - "-3480"
+    - "1883"
+    - "-0417"
   automated_ally:
     name: Automated Ally
     location: Abandoned Eldin Mine
     coordinates:
-    - 1641
-    - 2397
-    - -0824
+    - "1641"
+    - "2397"
+    - "-0824"
   instant_cannon:
     name: Instant Cannon
     location: Abandoned Tarry Mine
     coordinates:
-    - 3986
-    - 1583
-    - -0576    
+    - "3986"
+    - "1583"
+    - "-0576"    
   bolt_boat:
     name: Bolt Boat
     location: Abandoned Lanayru Mine
     coordinates:
-    - 3257
-    - 0593
-    - -0750
+    - "3257"
+    - "0593"
+    - "-0750"
   hot_air_balloon:
     name: Hot Air Balloon
     location: Great Abandoned Central Mine
     coordinates:
-    - -0256
-    - 0153
-    - 0020
+    - "-0256"
+    - "0153"
+    - "0020"
   beam_cycle:
     name: Beam Cycle
     location: Shrine of Resurrection cave
     coordinates:
-    - -1122
-    - -1902
-    - 0101
+    - "-1122"
+    - "-1902"
+    - "0101"
 yiga_schematics:
   monocycle:
     name: Monocycle
     ordinal: 1
     location: Koradat, Gerudo Highlands Depths
     coordinates:
-    - -1227
-    - -2616
-    - -0480
+    - "-1227"
+    - "-2616"
+    - "-0480"
   shock_trap:
     name: Shock Trap
     ordinal: 2
     location: Mihcihc, Gerudo Desert Depths
     coordinates:
-    - -2695
-    - -2882
-    - -0467
+    - "-2695"
+    - "-2882"
+    - "-0467"
   beam_turret:
     name: Beam Turret
     ordinal: 3
     location: Amakawis, Gerudo Desert Depths
     coordinates:
-    - -2409
-    - -3489
-    - -0394
+    - "-2409"
+    - "-3489"
+    - "-0394"
   vertical_escape:
     name: Vertical Escape
     ordinal: 4
     location: Gataharak, Gerudo Desert Depths
     coordinates:
-    - -3266
-    - -3789
-    - -0494
+    - "-3266"
+    - "-3789"
+    - "-0494"
   raiding_plane:
     name: Raiding Plane
     ordinal: 5
     location: Rasinaduk, Gerudo Desert Depths
     coordinates:
-    - -4542
-    - -2171
-    - -0488
+    - "-4542"
+    - "-2171"
+    - "-0488"
   fan_boat:
     name: Fan Boat
     ordinal: 6
     location: Umamustor, Gerudo Highlands Depths
     coordinates:
-    - -3077
-    - -1577
-    - -0908
+    - "-3077"
+    - "-1577"
+    - "-0908"
   smoke_rocket:
     name: Smoke Rocket
     ordinal: 7
     location: Mustuto, Gerudo Highlands Depths
     coordinates:
-    - -4458
-    - -0994
-    - -0861
+    - "-4458"
+    - "-0994"
+    - "-0861"
   instant_scaffold_yiga:
     name: Instant Scaffold
     ordinal: 8
     location: Kawakarut, Tabantha Frontier Depths
     coordinates:
-    - -3397
-    - -0222
-    - -0482
+    - "-3397"
+    - "-0222"
+    - "-0482"
   three_wheeler:
     name: Three Wheeler
     ordinal: 9
     location: Muzasu, Hyrule Ridge Depths
     coordinates:
-    - -1858
-    - -0732
-    - -0527
+    - "-1858"
+    - "-0732"
+    - "-0527"
   bomb_bouquet:
     name: Bomb Bouquet
     ordinal: 10
     location: Kawakanis, Central Hyrule Depths
     coordinates:
-    - -1616
-    - 0246
-    - -0482
+    - "-1616"
+    - "0246"
+    - "-0482"
   all_purpose_raft:
     name: All-Purpose Raft
     ordinal: 11
     location: Koro-nui, Tabantha Frontier Depths
     coordinates:
-    - -3381
-    - 0664
-    - 0619
+    - "-3381"
+    - "0664"
+    - "0619"
   flamethrower_balloon:
     name: Flamethrower Balloon
     ordinal: 12
     location: Tikanur, Hyrule Ridge Depths
     coordinates:
-    - -2846
-    - 0630
-    - -0621
+    - "-2822"
+    - "0902"
+    - "-0555"
   cargo_carrier:
     name: Cargo Carrier
     ordinal: 13
     location: Uoyoyuik, Central Hyrule Depths
     coordinates:
-    - -2823
-    - 0901
-    - -0565
+    - "-2823"
+    - "0901"
+    - "-0565"
   sprinkler_system:
     name: Sprinkler System
     ordinal: 14
     location: Aduon, Hebra Mountains Depths
     coordinates:
-    - -1332
-    - 1496
-    - -0597
+    - "-1332"
+    - "1496"
+    - "-0597"
   excavator:
     name: Excavator
     ordinal: 15
     location: Muotue, Hebra Mountains Depths
     coordinates:
-    - -1902
-    - 2096
-    - -0682
+    - "-1902"
+    - "2096"
+    - "-0682"
   floodlights:
     name: Floodlights
     ordinal: 16
     location: Mu-ufatur, Hebra Mountains Depths
     coordinates:
-    - -3708
-    - 3099
-    - -0782
+    - "-3708"
+    - "3099"
+    - "-0782"
   whirling_basher:
     name: Whirling Basher
     ordinal: 17
     location: U-nazohso, Hebra Mountains Depths
     coordinates:
-    - -2865
-    - 2918
-    - -0931
+    - "-1750"
+    - "3106"
+    - "-0679"
   fishing_trawler:
     name: Fishing Trawler
     ordinal: 18
     location: Netamnet, Great Hyrule Forest Depths
     coordinates:
-    - -1751
-    - 3107
-    - -0679
+    - "-0397"
+    - "1775"
+    - "-0623"
   aerial_cannon:
     name: Aerial Cannon
     ordinal: 19
     location: Nikakik, Great Hyrule Forest Depths
     coordinates:
-    - -0397
-    - 1776
-    - -0623
+    - "-0397"
+    - "1776"
+    - "-0623"
   charged_charger:
     name: Charged Charger
     ordinal: 20
     location: Katenim, Eldin Mountains Depths
     coordinates:
-    - 0083
-    - 2813
-    - -0631
+    - "0621"
+    - "3697"
+    - "-0540"
   assault_cart:
     name: Assault Cart
     ordinal: 21
     location: Sikutamak, Deep Akkala Depths
     coordinates:
-    - 3133
-    - 3643
-    - -0661
+    - "3133"
+    - "3643"
+    - "-0661"
   headlight_raft:
     name: Headlight Raft
     ordinal: 22
     location: Ui-ihcoj, Deep Akkala Depths
     coordinates:
-    - 3273
-    - 3696
-    - -0660
+    - "3273"
+    - "3696"
+    - "-0660"
   wagon:
     name: Wagon
     ordinal: 23
     location: Akinatanis, Akkala Highlands Depths
     coordinates:
-    - 4112
-    - 3215
-    - -0611
+    - "4112"
+    - "3215"
+    - "-0611"
   big_rig:
     name: Big Rig
     ordinal: 24
     location: Anonisik, Eldin Canyon Depths
     coordinates:
-    - 3606
-    - 2281
-    - -0478
+    - "2668"
+    - "1578"
+    - "-0591"
   rainmaker:
     name: Rainmaker
     ordinal: 25
     location: Uihcoke, Eldin Canyon Depths
     coordinates:
-    - 2667
-    - 1578
-    - -0591
+    - "2667"
+    - "1578"
+    - "-0591"
   instant_kitchen:
     name: Instant Kitchen
     ordinal: 26
     location: Nojoj, Central Hyrule Depths
     coordinates:
-    - 1539
-    - 0692
-    - -0439
+    - "1539"
+    - "0692"
+    - "-0439"
   triple_cannon:
     name: Triple Cannon
     ordinal: 27
     location: Sisinatag, Akkala Highlands Depths
     coordinates:
-    - 1168
-    - 0600
-    - -0408
+    - "1168"
+    - "0600"
+    - "-0408"
   icebreaker:
     name: Icebreaker
     ordinal: 28
     location: Kegopa, Lanayru Great Spring Depths
     coordinates:
-    - 3651
-    - -0534
-    - -0455
+    - "3651"
+    - "-0534"
+    - "-0455"
   super_spring:
     name: Super Spring
     ordinal: 29
     location: Takaruk, Lanayru Great Spring Depths
     coordinates:
-    - 3618
-    - -0569
-    - -0455
+    - "3618"
+    - "-0569"
+    - "-0455"
   tank:
     name: Tank
     ordinal: 30
     location: Uogoj, East Necluda Depths
     coordinates:
-    - 2542
-    - -0544
-    - -0476
+    - "2542"
+    - "-0544"
+    - "-0476"
   scatter_trap:
     name: Scatter Trap
     ordinal: 31
     location: Sohse, East Necluda Depths
     coordinates:
-    - 3262
-    - -1445
-    - -0657
+    - "3262"
+    - "-1445"
+    - "-0657"
   liftoff_glider:
     name: Liftoff Glider
     ordinal: 32
     location: Kimnaz, East Necluda Depths
     coordinates:
-    - 2077
-    - -1652
-    - -0464
+    - "2077"
+    - "-1652"
+    - "-0464"
   water_freezer:
     name: Water Freezer
     ordinal: 33
     location: Kohsustu, Faron Grasslands Depths
     coordinates:
-    - 2856
-    - -2858
-    - 1212
+    - "2856"
+    - "-2858"
+    - "1212"
   beam_spinner:
     name: Beam Spinner
     ordinal: 34
     location: Busus, West Necluda Depths
     coordinates:
-    - 0417
-    - -3673
-    - -0498
+    - "0417"
+    - "-3673"
+    - "-0498"
 ancient_tablets:
   west_hebra:
     name: West Hebra
     coordinates:
-    - -4045
-    - 3205
-    - 0444
+    - "-4045"
+    - "3205"
+    - "0444"
   east_hebra:
     name: East Hebra
     coordinates:
-    - -1369
-    - 3576
-    - 0904
+    - "-1369"
+    - "3576"
+    - "0904"
   north_hyrule:
     name: North Hyrule
     coordinates:
-    - -0048
-    - 2951
-    - 1330
+    - "-0048"
+    - "2951"
+    - "1330"
   sokkala:
     name: Sokkala
     coordinates:
-    - 3555
-    - 1776
-    - 0884
+    - "3555"
+    - "1776"
+    - "0884"
   south_eldin:
     name: South Eldin
     coordinates:
-    - 2214
-    - 0990
-    - 1142
+    - "2214"
+    - "0990"
+    - "1142"
   lanayru:
     name: Lanayru
     coordinates:
-    - 2918
-    - 0220
-    - 0797
+    - "2918"
+    - "0220"
+    - "0797"
   south_lanayru:
     name: South Lanayru
     coordinates:
-    - 3917
-    - -2468
-    - 0009
+    - "3917"
+    - "-2468"
+    - "0009"
   necluda:
     name: Necluda
     coordinates:
-    - 2084
-    - -2730
-    - 0317
+    - "2084"
+    - "-2730"
+    - "0317"
   west_necluda:
     name: West Necluda
     coordinates:
-    - 0476
-    - -2249
-    - 0394
+    - "0476"
+    - "-2249"
+    - "0394"
   south_hyrule:
     name: South Hyrule
     coordinates:
-    - -1241
-    - -1934
-    - 0979
+    - "-1241"
+    - "-1934"
+    - "0979"
   east_gerudo:
     name: East Gerudo
     coordinates:
-    - -2449
-    - -3264
-    - 0047
+    - "-2449"
+    - "-3264"
+    - "0047"
   north_gerudo:
     name: North Gerudo
     coordinates:
-    - -3604
-    - -0934
-    - 0495
+    - "-3604"
+    - "-0934"
+    - "0495"
 memories:
   master_swords_power:
     name: Master Sword's Power
@@ -3684,83 +3684,83 @@ dragons_tears:
   rauru:
     name: Rauru geoglyph
     coordinates:
-    - -1417
-    - 0967
-    - 0125
+    - "-1417"
+    - "0967"
+    - "0125"
   forgotten_temple:
     name: Forgotten Temple geoglyph
     coordinates:
-    - 1236
-    - 1713
-    - 0128
+    - "1236"
+    - "1713"
+    - "0128"
   purah_pad:
     name: Purah Pad geoglyph
     coordinates:
-    - 1699
-    - 1016
-    - 0125
+    - "1699"
+    - "1016"
+    - "0125"
   fish:
     name: Fish geoglyph
     coordinates:
-    - 0676
-    - -1800
-    - 0125
+    - "0676"
+    - "-1800"
+    - "0125"
   ganondorf:
     name: Ganondorf geoglyph
     coordinates:
-    - -3502
-    - -1771
-    - 0125
+    - "-3502"
+    - "-1771"
+    - "0125"
   queen:
     name: Queen geoglyph
     coordinates:
-    - -2743
-    - 0441
-    - 0520
+    - "-2743"
+    - "0441"
+    - "0520"
   scimitar:
     name: Scimitar geoglyph
     coordinates:
-    - 2819
-    - 3122
-    - 0125
+    - "2819"
+    - "3122"
+    - "0125"
   demon_king:
     name: Demon King geoglyph
     coordinates:
-    - -1865
-    - 3616
-    - 0237
+    - "-1865"
+    - "3616"
+    - "0237"
   sacred_stone:
     name: Sacred Stone geoglyph
     coordinates:
-    - 4430
-    - -0276
-    - 0125
+    - "4430"
+    - "-0276"
+    - "0125"
   memorial_stone:
     name: Memorial Stone geoglyph
     coordinates:
-    - -0348
-    - -2118
-    - 0677
+    - "-0348"
+    - "-2118"
+    - "0677"
   master_sword:
     name: Master Sword geoglyph
     coordinates:
-    - 0438
-    - 3078
-    - 1277
+    - "0438"
+    - "3078"
+    - "1277"
   final:
     name: Final geoglyph
     coordinates:
-    - 4097
-    - 1875
-    - 0557
+    - "4097"
+    - "1875"
+    - "0557"
 bargainer_statues:
   great_abandoned_central_mine:
     name: Great Abandoned Central Mine
     location: Central Hyrule Depths
     coordinates:
-    - -0822
-    - -1941
-    - -0523
+    - "-0822"
+    - "-1941"
+    - "-0523"
   lookout_landing:
     name: Lookout Landing
     location: Hyrule Field
@@ -3806,16 +3806,16 @@ gear:
       name: Archaic Tunic
       location: Pondside cave in Great Sky Island
       coordinates:
-      - -1335
-      - -1499
-      - 0125
+      - "-1335"
+      - "-1499"
+      - "0125"
     legs:
       name: Archaic Legwear
       location: Room of Awakening, Great Sky Island
       coordinates:
-      - -1335
-      - -1499
-      - 0125
+      - "-1335"
+      - "-1499"
+      - "0125"
   armor_of_awakening:
   armor_of_the_hero:
   armor_of_the_sky:
@@ -3828,9 +3828,9 @@ gear:
       name: Barbarian Helm
       location: Robred Dropoff Cave
       coordinates:
-      - 2543
-      - -1543
-      - -0023
+      - "2543"
+      - "-1543"
+      - "-0023"
       level_1:
         "Mighty Thistle": 3
       level_2:
@@ -3849,9 +3849,9 @@ gear:
       name: Barbarian Armor
       location: Crenel Hills Cave
       coordinates:
-      - 0632
-      - 0820
-      - 0028
+      - "0632"
+      - "0820"
+      - "0028"
       level_1:
         "Mighty Thistle": 3
       level_2:
@@ -3870,9 +3870,9 @@ gear:
       name: Barbarian Leg Wraps
       location: Walnot Mountain Cave
       coordinates:
-      - 4050
-      - -1875
-      - 0157
+      - "4050"
+      - "-1875"
+      - "0157"
       level_1:
         "Mighty Thistle": 3
       level_2:
@@ -3992,9 +3992,9 @@ gear:
       name: Desert Voe Headband
       location: Kara Kara Bazaar
       coordinates:
-      - -3273
-      - -2549
-      - 0023
+      - "-3273"
+      - "-2549"
+      - "0023"
       cost: 450
       level_1:
         "White Chuchu Jelly": 3
@@ -4013,9 +4013,9 @@ gear:
       name: Desert Voe Spaulder
       location: Gerudo Secret Club
       coordinates:
-      - -3794
-      - -2923
-      - 0044
+      - "-3794"
+      - "-2923"
+      - "0044"
       note: Additionally requires Ancient Arowana to repair
       cost: 1300
       level_1:
@@ -4035,9 +4035,9 @@ gear:
       name: Desert Voe Trousers
       location: Gerudo Secret Club
       coordinates:
-      - -3794
-      - -2923
-      - 0044
+      - "-3794"
+      - "-2923"
+      - "0044"
       note: Speak to Yuna after completing Sidon of the Zora
       cost: 650
       level_1:
@@ -4225,9 +4225,9 @@ gear:
     glide_shirt:
       location: Courage Island
       coordinates:
-      - -2308
-      - 0865
-      - 0701
+      - "-2308"
+      - "0865"
+      - "0701"
       level_1:
         "Keese Wing": 3
       level_2:
@@ -4311,9 +4311,9 @@ gear:
       name: Miner's Mask
       location: Abandoned Kara Kara Mine
       coordinates:
-      - -3213
-      - -2473
-      - -0453
+      - "-3213"
+      - "-2473"
+      - "-0453"
       level_1:
         "Brightbloom Seed": 10
       level_2:
@@ -4484,9 +4484,9 @@ gear:
       name: Rubber Helm
       location: Sarjon Woods, Faron
       coordinates:
-      - 1593
-      - -2946
-      - -0023
+      - "1593"
+      - "-2946"
+      - "-0023"
       level_1:
         "Yellow Chuchu Jelly": 3
       level_2:
@@ -4502,9 +4502,9 @@ gear:
       name: Rubber Armor
       location: Whistling Hill Cave, Hyrule Field
       coordinates:
-      - -0070
-      - -1117
-      - -0004
+      - "-0070"
+      - "-1117"
+      - "-0004"
       level_1:
         "Yellow Chuchu Jelly": 3
       level_2:
@@ -4520,9 +4520,9 @@ gear:
       name: Rubber Tights
       location: Lagoon Cave, Lanayru Great Spring
       coordinates:
-      - 4276
-      - -0378
-      - -0021
+      - "4276"
+      - "-0378"
+      - "-0021"
       level_1:
         "Yellow Chuchu Jelly": 3
       level_2:
@@ -4591,9 +4591,9 @@ gear:
       name: Soldier's Helm
       location: Royal Hidden Passage cave, Hyrule Castle
       coordinates:
-      - -0232
-      - 0468
-      - -0039
+      - "-0232"
+      - "0468"
+      - "-0039"
       level_1:
         "Chuchu Jelly": 5
         "Bokoblin Guts": 3
@@ -4612,9 +4612,9 @@ gear:
       name: Soldier's Armor
       location: Royal Hidden Passage cave, Hyrule Castle
       coordinates:
-      - -0268
-      - 0637
-      - -0035
+      - "-0268"
+      - "0637"
+      - "-0035"
       level_1:
         "Chuchu Jelly": 5
         "Bokoblin Guts": 3
@@ -4633,9 +4633,9 @@ gear:
       name: Soldier's Greaves
       location: Royal Hidden Passage cave, Hyrule Castle
       coordinates:
-      - -0306
-      - 0281
-      - -0006
+      - "-0306"
+      - "0281"
+      - "-0006"
       level_1:
         "Chuchu Jelly": 5
         "Bokoblin Guts": 3
@@ -4712,9 +4712,9 @@ gear:
       location: Floating Scales Island
       note: After completing Sidon of the Zora
       coordinates:
-      - 4129
-      - 0517
-      - 0585
+      - "4129"
+      - "0517"
+      - "0585"
       cost: 1400
       level_1:
         "Lizalfos Horn": 3
@@ -4751,9 +4751,9 @@ gear:
       name: Zora Greaves
       location: Ancient Zora Waterworks
       coordinates:
-      - 3586
-      - 0247
-      - -0103
+      - "3586"
+      - "0247"
+      - "-0103"
       note: Speak to Yuna after completing Sidon of the Zora
       cost: 1200
       level_1:
@@ -4897,1056 +4897,1056 @@ bounties:
       name: Thunder Gleeok
       location: Coliseum Ruins, Central Hyrule
       coordinates:
-      - -1126
-      - -1242
-      - 0047
+      - "-1126"
+      - "-1242"
+      - "0047"
     flame_gleeok_lake_hylia:
       name: Flame Gleeok
       location: Lake Hylia, Central Hyrule
       coordinates:
-      - -0023
-      - -2508
-      - 0039
+      - "-0023"
+      - "-2508"
+      - "0039"
     frost_gleeok_gerudo_summit:
       name: Frost Gleeok
       location: Gerudo Summit, Gerudo Highlands
       coordinates:
-      - -3916
-      - -0968
-      - 0711
+      - "-3916"
+      - "-0968"
+      - "0711"
     frost_gleeok_tabantha_frontier:
       name: Frost Gleeok
       location: Tabantha Frontier, Tabantha
       coordinates:
-      - 1828
-      - 2984
-      - 0239
+      - "1828"
+      - "2984"
+      - "0239"
     frost_gleeok_biron_snowshelf:
       name: Frost Gleeok
       location: Biron Snowshelf, Gerudo Highlands
       coordinates:
-      - -3727
-      - 2951
-      - 0335
+      - "-3727"
+      - "2951"
+      - "0335"
     flame_gleeok_ancient_columns:
       name: Flame Gleeok
       location: Ancient Columns, Tabantha
       coordinates:
-      - -3561
-      - 0414
-      - 0270
+      - "-3561"
+      - "0414"
+      - "0270"
     thunder_gleeok_herin_lake_south:
       name: Thunder Gleeok
       location: Herin Lake South, Faron
       coordinates:
-      - 1113
-      - -3586
-      - 0066
+      - "1113"
+      - "-3586"
+      - "0066"
     thunder_gleeok_akkala_citadel_ruins:
       name: Thunder Gleeok
       location: Akkala Citadel Ruins, Akkala
       coordinates:
-      - 3413
-      - 1367
-      - 0337
+      - "3413"
+      - "1367"
+      - "0337"
     flame_gleeok_spectacle_rock:
       name: Flame Gleeok
       location: Spectacle Rock, Gerudo Desert
       coordinates:
-      - -2146
-      - -2622
-      - 0368
+      - "-2146"
+      - "-2622"
+      - "0368"
     king_gleeok_gleeok_den:
       name: King Gleeok
       location: Gleeok Den, Great Hyrule Forest Depths
       coordinates:
-      - 0202
-      - 3120
-      - -0623
+      - "0202"
+      - "3120"
+      - "-0623"
     king_gleeok_hebra_sky:
       name: King Gleeok
       location: Hebra Sky
       coordinates:
-      - -4420
-      - 2297
-      - 1246
+      - "-4420"
+      - "2297"
+      - "1246"
     king_gleeok_gerudo_desert:
       name: King Gleeok
       location: Gerudo Desert Sky
       coordinates:
-      - -4435
-      - -2555
-      - 1413
+      - "-4435"
+      - "-2555"
+      - "1413"
     king_gleeok_necluda_sky:
       name: King Gleeok
       location: Necluda Sky
       coordinates:
-      - 4621
-      - -3665
-      - 1058 
+      - "4621"
+      - "-3665"
+      - "1058" 
   molduga:
     palu_wasteland:
       location: Palu Wasteland
       coordinates:
-      - -3321
-      - -3329
-      - 0016
+      - "-3321"
+      - "-3329"
+      - "0016"
     east_barrens:
       location: East Barrens
       coordinates:
-      - -2439
-      - -3319
-      - 0039
+      - "-2439"
+      - "-3319"
+      - "0039"
     gerudo_town:
       location: North of Gerudo Town
       coordinates:
-      - -4026
-      - -2587
-      - 0040
+      - "-4026"
+      - "-2587"
+      - "0040"
     toruama_dunes:
       location: Toruama Dunes
       coordinates:
-      - -4793
-      - -2800
-      - 0027
+      - "-4793"
+      - "-2800"
+      - "0027"
   talus:
     rare_lake_floria:
       name: Rare Stone Talus
       location: Lake Floria
       coordinates:
-      - 1824
-      - -3497
-      - 0026
+      - "1824"
+      - "-3497"
+      - "0026"
     rare_guchini_plain:
       name: Rare Stone Talus
       location: Guchini Plain
       coordinates:
-      - 1014
-      - -3393
-      - 0022
+      - "1014"
+      - "-3393"
+      - "0022"
     rare_horse_god:
       name: Rare Stone Talus
       location: Lake of the Horse God
       coordinates:
-      - 0523
-      - -3706
-      - 0059
+      - "0523"
+      - "-3706"
+      - "0059"
     rare_gerudo_canyon:
       name: Rare Stone Talus
       location: Gerudo Canyon
       coordinates:
-      - -2304
-      - -2455
-      - 0357
+      - "-2304"
+      - "-2455"
+      - "0357"
     rare_taafei_hill_cave:
       name: Rare Stone Talus
       location: Taafei Hill Cave
       coordinates:
-      - -2604
-      - -1778
-      - 0177
+      - "-2604"
+      - "-1778"
+      - "0177"
     rare_tanagar_canyon:
       name: Rare Stone Talus
       location: Tanagar Canyon
       coordinates:
-      - -3497
-      - 0174
-      - -0104
+      - "-3497"
+      - "0174"
+      - "-0104"
     rare_drenan_highlands:
       name: Rare Stone Talus
       location: Drenan Highlands
       coordinates:
-      - -0397
-      - 2951
-      - 0146
+      - "-0397"
+      - "2951"
+      - "0146"
     rare_north_akkala:
       name: Rare Stone Talus
       location: North Akkala Beach
       coordinates:
-      - 4675
-      - 3003
-      - 0002
+      - "4675"
+      - "3003"
+      - "0002"
     rare_hebra_depths:
       name: Rare Stone Talus
       location: Hebra Depths
       coordinates:
-      - -4436
-      - 3386
-      - -0733
+      - "-4436"
+      - "3386"
+      - "-0733"
     rare_central_depths:
       name: Rare Stone Talus
       location: Central Hyrule Depths
       coordinates:
-      - 0699
-      - 0517
-      - -0482
+      - "0699"
+      - "0517"
+      - "-0482"
     stone_tabantha_frontier:
       name: Stone Talus
       location: Tabantha Frontier
       coordinates:
-      - -3387
-      - 1076
-      - 0209
+      - "-3387"
+      - "1076"
+      - "0209"
     stone_piper_ridge:
       name: Stone Talus
       location: Piper Ridge
       coordinates:
-      - -3298
-      - 0649
-      - 0198
+      - "-3298"
+      - "0649"
+      - "0198"
     stone_great_hyrule:
       name: Stone Talus 
       location: Great Hyrule Forest
       coordinates:
-      - 0098
-      - 2370
-      - 2370
+      - "0098"
+      - "2370"
+      - "2370"
     stone_north_akkala:
       name: Stone Talus
       location: North Akkala Foothill 
       coordinates:
-      - 4063
-      - 2973
-      - 2973
+      - "4063"
+      - "2973"
+      - "2973"
     luminous_tamio_river:
       name: Stone Talus (Luminous)
       location: Tamio River
       coordinates:
-      - -2860
-      - -0521
-      - -0521
+      - "-2860"
+      - "-0521"
+      - "-0521"
     luminous_satori_mountain:
       name: Stone Talus (Luminous)
       location: Satori Mountain
       coordinates:
-      - -2221
-      - -0585
-      - -0585
+      - "-2221"
+      - "-0585"
+      - "-0585"
     luminous_deplian_badlands:
       name: Stone Talus (Luminous)
       location: Deplian Badlands
       coordinates:
-      - 0703
-      - 3692
-      - 3692
+      - "0703"
+      - "3692"
+      - "3692"
     luminous_gut_check:
       name: Stone Talus (Luminous)
       location: Gut Check Rock
       coordinates:
-      - 2710
-      - 3303
-      - 3303
+      - "2710"
+      - "3303"
+      - "3303"
     luminous_trilby_valley:
       name: Stone Talus (Luminous)
       location: Trilby Valley
       coordinates:
-      - 2483
-      - 0908
-      - 0908
+      - "2483"
+      - "0908"
+      - "0908"
     luminous_ovli_plain:
       name: Stone Talus (Luminous)  
       location: Ovli Plain
       coordinates:
-      - 3029
-      - -1778
-      - 0019
+      - "3029"
+      - "-1778"
+      - "0019"
     luminous_keya_pond:
       name: Stone Talus (Luminous)  
       location: Keya Pond
       coordinates:
-      - 3195
-      - -2958
-      - 0077
+      - "3195"
+      - "-2958"
+      - "0077"
     luminous_tal_tal_peak:
       name: Stone Talus (Luminous)
       location: Tal Tal Peak (plateau)
       coordinates:
-      - 4191
-      - 0518
-      - 0518
+      - "4191"
+      - "0518"
+      - "0518"
     luminous_tal_tal_peak_bottom:
       name: Stone Talus (Luminous)
       location: Tal Tal Peak (bottom)
       coordinates:
-      - 4141
-      - 0543
-      - 0543
+      - "4141"
+      - "0543"
+      - "0543"
     luminous_crenel_hills:
       name: Stone Talus (Luminous)
       location: Crenel Hills
       coordinates:
-      - 0575
-      - 0766
-      - 0766
+      - "0575"
+      - "0766"
+      - "0766"
     luminous_east_reservoir:
       name: Stone Talus (Luminous)  
       location: East Reservoir Lake
       coordinates: 
-      - 3628
-      - 0274
-      - -0089
+      - "3628"
+      - "0274"
+      - "-0089"
     luminous_sahasra_slope:
       name: Stone Talus (Luminous)  
       location: Sahasra Slope
       coordinates:
-      - 1483
-      - -0975
-      - 0022
+      - "1483"
+      - "-0975"
+      - "0022"
     luminous_deya_lake:
       name: Stone Talus (Luminous)
       location: Deya Village Ruins
       coordinates:
-      - 0340
-      - -1984
-      - -1984
+      - "0340"
+      - "-1984"
+      - "-1984"
     battle_dragon_bone_mire:
       name: Battle Talus  
       location: Dragon Bone Mire
       coordinates: 
-      - -4393
-      - 1935
-      - 0122
+      - "-4393"
+      - "1935"
+      - "0122"
     battle_brida_lookout:
       name: Battle Talus 
       location: Brida Lookout Chasm
       coordinates:
-      - -3987
-      - -1703
-      - -1703
+      - "-3987"
+      - "-1703"
+      - "-1703"
     battle_kolami_bridge:
       name: Battle Talus 
       location: Kolami Bridge 
       coordinates: 
-      - -3109
-      - 1287
-      - 0166
+      - "-3109"
+      - "1287"
+      - "0166"
     battle_washas_bluff:
       name: Battle Talus
       location: Washa's Bluff (bottom) 
       coordinates:
-      - -2550
-      - -0111
-      - -0111
+      - "-2550"
+      - "-0111"
+      - "-0111"
     battle_royal_ancient_lab_ruins:
       name: Battle Talus  
       location: Royal Ancient Lab Ruins
       coordinates:
-      - -1448
-      - 1026
-      - 0147
+      - "-1448"
+      - "1026"
+      - "0147"
     battle_gleeok_bridge:
       name: Battle Talus 
       location: Gleeok Bridge
       coordinates:
-      - -1364
-      - -0789
-      - -0789
+      - "-1364"
+      - "-0789"
+      - "-0789"
     battle_forest_spirits:
       name: Battle Talus 
       location: Forest of Spirits
       coordinates:
-      - -1092
-      - -1659
-      - -1659
+      - "-1092"
+      - "-1659"
+      - "-1659"
     battle_castle_town_prison:
       name: Battle Talus  
       location: Castle Town Prison
       coordinates:
-      - -0770
-      - 0811
-      - 0058
+      - "-0770"
+      - "0811"
+      - "0058"
     battle_whistling_hill:
       name: Battle Talus 
       location: Whistling Hill
       coordinates:
-      - -0109
-      - -0802
-      - -0802
+      - "-0109"
+      - "-0802"
+      - "-0802"
     battle_orsedd_bridge:
       name: Battle Talus 
       location: Orsedd Bridge
       coordinates:
-      - 0677
-      - 0506
-      - 0506
+      - "0677"
+      - "0506"
+      - "0506"
     battle_hyrule_cathedral:
       name: Battle Talus 
       location: Hyrule Cathedral
       coordinates:
-      - 0202
-      - 0531
-      - 0531
+      - "0202"
+      - "0531"
+      - "0531"
     battle_batrea_lake:
       name: Battle Talus  
       location: Batrea Lake
       coordinates:
-      - 0770
-      - -1223
-      - -1223
+      - "0770"
+      - "-1223"
+      - "-1223"
     battle_hills_baumer:
       name: Battle Talus
       location: Hills of Baumer  
       coordinates:
-      - 0587
-      - -1934
-      - -1934
+      - "0587"
+      - "-1934"
+      - "-1934"
     battle_sahasra_slope:
       name: Battle Talus 
       location: Sahasra Slope 
       coordinates:
-      - 1256
-      - -1165
-      - -1165
+      - "1256"
+      - "-1165"
+      - "-1165"
     battle_akkala_span:
       name: Battle Talus 
       location: Akkala Span
       coordinates:
-      - 2974
-      - 1488
-      - 1488
+      - "2974"
+      - "1488"
+      - "1488"
     battle_kaepora_pass:
       name: Battle Talus
       location: Kaepora Pass 
       coordinates:
-      - 3951
-      - 1189
-      - 1189
+      - "3951"
+      - "1189"
+      - "1189"
     battle_gama_cove:
       name: Battle Talus  
       location: Gama Cove
       coordinates:
-      - 3277
-      - -3408
-      - -3408
+      - "3277"
+      - "-3408"
+      - "-3408"
     battle_east_akkala_plains:
       name: Battle Talus 
       location: East Akkala Plains
       coordinates:
-      - 4181
-      - 2228
-      - 2228
+      - "4181"
+      - "2228"
+      - "2228"
     frost_sherfins_hot_spring:
       name: Frost Talus 
       location: Sherfin's Secret Hot Spring
       coordinates:
-      - -4433
-      - 3387
-      - 3387
+      - "-4433"
+      - "3387"
+      - "3387"
     frost_lake_kilsie_west:
       name: Frost Talus 
       location: W of Lake Kilsie
       coordinates:
-      - -4500
-      - 2450
-      - 2450
+      - "-4500"
+      - "2450"
+      - "2450"
     frost_meadelas_mantle:
       name: Frost Talus
       location: NW of Meadela's Mantle
       coordinates:
-      - -4321
-      - -1203
-      - -1203
+      - "-4321"
+      - "-1203"
+      - "-1203"
     frost_north_hebra_mountains:
       name: Frost Talus 
       location: North Hebra Mountains Edge
       coordinates:
-      - -2685
-      - 3353
-      - 3353
+      - "-2685"
+      - "3353"
+      - "3353"
     frost_laparoh_mesa:
       name: Frost Talus
       location: Laparoh Mesa
       coordinates:
-      - -2833
-      - -1326
-      - -1326
+      - "-2833"
+      - "-1326"
+      - "-1326"
     frost_mount_lanayru_ne:
       name: Frost Talus 
       location: Mount Lanayru (NE face)
       coordinates:
-      - 4057
-      - -1056
-      - -1056
+      - "4057"
+      - "-1056"
+      - "-1056"
     igneo_lake_darman_nw:
       name: Igneo Talus
       location: NW of Lake Darman
       coordinates:
-      - 1944
-      - 3194
-      - 3194
+      - "1944"
+      - "3194"
+      - "3194"
     igneo_goronbi:
       name: Igneo Talus
       location: W of Goronbi River
       coordinates:
-      - 1291
-      - 1717
-      - 1717
+      - "1291"
+      - "1717"
+      - "1717"
     igneo_eldins_flank:
       name: Igneo Talus
       location: E of Eldin's Flank
       coordinates:
-      - 2479
-      - 3637
-      - 3637
+      - "2479"
+      - "3637"
+      - "3637"
     igneo_goro_cove: 
       name: Igneo Talus
       location: SE of Goro Cove
       coordinates:
-      - 2015
-      - 2398
-      - 2398
+      - "2015"
+      - "2398"
+      - "2398"
     igneo_medingo_pool:
       name: Igneo Talus
       location: Medingo Pool
       coordinates:
-      - 2215
-      - 1780
-      - 1780
+      - "2215"
+      - "1780"
+      - "1780"
     igneo_death_mountain_ne:
       name: Igneo Talus 
       location: Death Mountain (NE face)
       coordinates:
-      - 2630
-      - 2745
-      - 2745
+      - "2630"
+      - "2745"
+      - "2745"
     depths_stone_brida_lookout_chasm:
       name: Gloom Stone Talus
       location: NW of Brida Lookout Chasm Depths
       coordinates:
-      - -4010
-      - -1696
-      - -1696
+      - "-4010"
+      - "-1696"
+      - "-1696"
     depths_stone_abandoned_kara_kara_mine:
       name: Gloom Stone Talus
       location: W of Abandoned Kara Kara Mine
       coordinates:
-      - -3531
-      - -2443
-      - -2443
+      - "-3531"
+      - "-2443"
+      - "-2443"
     depths_stone_nihcayam:
       name: Gloom Stone Talus
       location: SE of Nihcayam
       coordinates:
-      - -0460
-      - -1005
-      - -1005
+      - "-0460"
+      - "-1005"
+      - "-1005"
     depths_stone_granajh:
       name: Gloom Stone Talus 
       location: E of Granajh Canyon Mine
       coordinates:
-      - -0826
-      - -3350
-      - -3350
+      - "-0826"
+      - "-3350"
+      - "-3350"
     depths_stone_applean_grove:
       name: Gloom Stone Talus
       location: SW of Applean Grove
       coordinates:
-      - -0004
-      - -0012
-      - -0012
+      - "-0004"
+      - "-0012"
+      - "-0012"
     depths_rare_shervins:
       name: Gloom Stone Talus (Rare)
       location: W of Shervin's Lavafalls
       coordinates:
-      - -4433
-      - 3387
-      - 3387
+      - "-4433"
+      - "3387"
+      - "3387"
     depths_rare_sturnida:
       name: Gloom Stone Talus (Rare)
       location: SW of Sturnida's Lavafalls
       coordinates:
-      - -4500
-      - 2450
-      - 2450
+      - "-4500"
+      - "2450"
+      - "2450"
     depths_rare_hebra_mine:
       name: Gloom Stone Talus (Rare)
       location: S of Abandoned Hebra Mine
       coordinates:
-      - -3387
-      - 1076
-      - 1076
+      - "-3387"
+      - "1076"
+      - "1076"
     depths_rare_tikanur:
       name: Stone Talus (Rare)
       locations: N of Tikanur
       coordinates:
-      - -2635
-      - 1492
-      - 1492
+      - "-2635"
+      - "1492"
+      - "1492"
     depths_rare_ziner:
       name: Stone Talus (Rare)  
       location: S of Zi-ner
       coordinates:
-      - 0697
-      - 0513
-      - 0513
+      - "0697"
+      - "0513"
+      - "0513"
     depths_rare_kakariko_mine:
       name: Stone Talus (Rare)
       location: NW of Abandoned Kakariko Mine
       coordinates:
-      - 1483
-      - -0975
-      - -0975
+      - "1483"
+      - "-0975"
+      - "-0975"
     depths_luminous_blupee:
       name: Stone Talus (Luminous)  
       location: S of Blupee Burrow
       coordinates:
-      - -2221
-      - -0585
-      - -0585
+      - "-2221"
+      - "-0585"
+      - "-0585"
     depths_luminous_nikakik:
       name: Stone Talus (Luminous)
       location: N of Nikakik
       coordinates:
-      - -0394
-      - 2956
-      - 2956
+      - "-0394"
+      - "2956"
+      - "2956"
     depths_luminous_kayam:
       name: Stone Talus (Luminous)  
       location: W of Kayam
       coordinates:
-      - 0951
-      - 3673
-      - 3673
+      - "0951"
+      - "3673"
+      - "3673"
     depths_luminous_spirit:
       name: Stone Talus (Luminous)
       location: W of Spirit Temple
       coordinates:
-      - 1056
-      - -3417
-      - -3417
+      - "1056"
+      - "-3417"
+      - "-3417"
     depths_luminous_tayamik:
       name: Stone Talus (Luminous)  
       location: W of Tayamik
       coordinates:
-      - 2479
-      - 3637
-      - 3637
+      - "2479"
+      - "3637"
+      - "3637"
     depths_luminous_ginner_grove:
       name: Stone Talus (Luminous)
       location: NW of Ginner Grove
       coordinates:
-      - 3029
-      - -1779
-      - -1779
+      - "3029"
+      - "-1779"
+      - "-1779"
     depths_luminous_kawisar:
       name: Stone Talus (Luminous)  
       location: S of Kawisar
       coordinates:
-      - 4678
-      - 2998
-      - 2998
+      - "4678"
+      - "2998"
+      - "2998"
     depths_luminous_ploymous_mine:
       name: Stone Talus (Luminous)
       location: E of Ploymous Canyon Mine  
       coordinates:
-      - 4191
-      - 0518
-      - 0518
+      - "4191"
+      - "0518"
+      - "0518"
     depths_luminous_wellspring_wisdom:
       name: Stone Talus (Luminous)
       location: NE of Wellspring of Wisdom
       coordinates:
-      - 4057
-      - -1056
-      - -1056
+      - "4057"
+      - "-1056"
+      - "-1056"
     depths_battle_sooaw:
       name: Battle Talus 
       location: W of So-oaw
       coordinates:
-      - -4393
-      - 1935
-      - 1935
+      - "-4393"
+      - "1935"
+      - "1935"
     depths_battle_kawumoro:
       name: Battle Talus 
       location: S of Kawuomoro
       coordinates:
-      - -3108
-      - 1288
-      - 1288
+      - "-3108"
+      - "1288"
+      - "1288"
     depths_battle_sikurukam:
       name: Battle Talus  
       location: S of Sikurukam
       coordinates:
-      - -2527
-      - -0107
-      - -0107
+      - "-2527"
+      - "-0107"
+      - "-0107"
     depths_battle_netinet:
       name: Battle Talus  
       location: S of Netinet
       coordinates:
-      - -0109
-      - -0802
-      - -0802
+      - "-0109"
+      - "-0802"
+      - "-0802"
     depths_battle_ancient_underground:
       name: Battle Talus  
       location: W of Ancient Underground Fortress
       coordinates:
-      - 2985
-      - 1449
-      - 1449
+      - "2985"
+      - "1449"
+      - "1449"
     depths_battle_dunsel:
       name: Battle Talus 
       location: SE of Dunsel Canyon Mine
       coordinates:
-      - 3277
-      - -3408
-      - -3408
+      - "3277"
+      - "-3408"
+      - "-3408"
     depths_frost_agaat:
       name: Frost Talus
       location: N of Agaat Canyon Mine 
       coordinates:
-      - -4723
-      - -0391
-      - -0391
+      - "-4723"
+      - "-0391"
+      - "-0391"
     depths_frost_corvash:
       name: Frost Talus
       location: SW of Corvash Canyon Mine
       coordinates:
-      - -3629
-      - 2196
-      - 2196
+      - "-3629"
+      - "2196"
+      - "2196"
     depths_frost_rozudo:
       name: Frost Talus
       location: NE of Rozudo Canyon Mine
       coordinates:
-      - 2642
-      - -1943
-      - -1943
+      - "2642"
+      - "-1943"
+      - "-1943"
     depths_igneo_fire_temple:
       name: Igneo Talus 
       location: N of Fire Temple
       coordinates:
-      - 1454
-      - 3175
-      - 3175
+      - "1454"
+      - "3175"
+      - "3175"
     depths_igneo_kawamit:
       name: Igneo Talus 
       location: W of Kawamit
       coordinates:
-      - 1672
-      - 1610
-      - 1610
+      - "1672"
+      - "1610"
+      - "1610"
     depths_igneo_kisomom:
       name: Igneo Talus 
       location: S of Kisomom
       coordinates:
-      - 2913
-      - 2556
-      - 2556
+      - "2913"
+      - "2556"
+      - "2556"
   hinox:
     hinox_carok_bridge:
       name: Hinox
       location: Carok Bridge
       coordinates:
-      - -1054
-      - 0452
-      - 0035
+      - "-1054"
+      - "0452"
+      - "0035"
     hinox_irch_plain:
       name: Hinox
       location: Irch Plain
       coordinates:
-      - -0704
-      - 1276
-      - 0082
+      - "-0704"
+      - "1276"
+      - "0082"
     hinox_hebra_headspring:
       name: Hinox
       location: Hebra Headspring
       coordinates:
-      - -2788
-      - 2462
-      - 0397
+      - "-2788"
+      - "2462"
+      - "0397"
     blue_hebra_north_crest:
       name: Blue Hinox
       location: Hebra North Crest
       coordinates:
-      - -3599
-      - 3814
-      - 0230
+      - "-3599"
+      - "3814"
+      - "0230"
     hinox_rowan_plains:
       name: Hinox
       location: Rowan Plains
       coordinates:
-      - -1188
-      - 2118
-      - 0102
+      - "-1188"
+      - "2118"
+      - "0102"
     hinox_elma_knolls:
       name: Hinox
       location: Elma Knolls
       coordinates:
-      - -0435
-      - 1974
-      - 0177
+      - "-0435"
+      - "1974"
+      - "0177"
     hinox_upland_lindor:
       name: Hinox
       location: Upland Lindor
       coordinates:
-      - -2694
-      - 1361
-      - 0158
+      - "-2694"
+      - "1361"
+      - "0158"
     hinox_thundra_plateau:
       name: Hinox
       location: Thundra Plateau
       coordinates:
-      - -2253
-      - 0756
-      - 0102
+      - "-2253"
+      - "0756"
+      - "0102"
     hinox_satori_mountain:
       name: Hinox
       location: Satori Mountain
       coordinates:
-      - -2180
-      - -0846
-      - 0101
+      - "-2180"
+      - "-0846"
+      - "0101"
     blue_dalite_forest:
       name: Blue Hinox
       location: Dalite Forest
       coordinates:
-      - -2002
-      - -1151
-      - 0098
+      - "-2002"
+      - "-1151"
+      - "0098"
     black_meadelas_mantle:
       name: Black Hinox
       location: Meadela's Mantle
       coordinates:
-      - -4179
-      - -1333
-      - 0430
+      - "-4179"
+      - "-1333"
+      - "0430"
     black_e_deplian_badlands:
       name: Black Hinox
       location: East Deplian Badlands
       coordinates:
-      - 0834
-      - 3360
-      - 0199
+      - "0834"
+      - "3360"
+      - "0199"
     hinox_trilby_plain:
       name: Hinox
       location: Trilby Plain
       coordinates:
-      - 1339
-      - 0891
-      - 0025
+      - "1339"
+      - "0891"
+      - "0025"
     black_n_akkala_beach_cave:
       name: Black Hinox
       location: North Akkala Beach Cave
       coordinates:
-      - 4595
-      - 3481
-      - 0053
+      - "4595"
+      - "3481"
+      - "0053"
     black_malin_bay:
       name: Black Hinox
       location: Malin Bay
       coordinates:
-      - 4590
-      - 1794
-      - 0030
+      - "4590"
+      - "1794"
+      - "0030"
     blue_ulria_grotto:
       name: Blue Hinox
       location: Ulria Grotto East Cave
       coordinates:
-      - 4455
-      - 0736
-      - 0111
+      - "4455"
+      - "0736"
+      - "0111"
     blue_ruto_precipice:
       name: Blue Hinox
       location: Ruto Precipice
       coordinates:
-      - 3444
-      - 0275
-      - 0248
+      - "3444"
+      - "0275"
+      - "0248"
     hinox_batrea_lake:
       name: Hinox
       location: Batrea Lake
       coordinates:
-      - 0738
-      - -1080
-      - 0011
+      - "0738"
+      - "-1080"
+      - "0011"
     hinox_mable_ridge:
       name: Hinox
       location: Mable Ridge
       coordinates:
-      - 1468
-      - -1329
-      - 0103
+      - "1468"
+      - "-1329"
+      - "0103"
     hinox_bubinga_forest:
       name: Hinox
       location: Bubinga Forest
       coordinates:
-      - 2057
-      - -1979
-      - 0018
+      - "2057"
+      - "-1979"
+      - "0018"
     blue_dueling_peaks:
       name: Blue Hinox
       location: Dueling Peaks
       coordinates:
-      - 1221
-      - -2180
-      - 0253
+      - "1221"
+      - "-2180"
+      - "0253"
     black_jia_highlands:
       name: Black Hinox
       location: Jia Highlands
       coordinates:
-      - 1529
-      - -2368
-      - 0192
+      - "1529"
+      - "-2368"
+      - "0192"
     black_harker_lake:
       name: Black Hinox
       location: Harker Lake
       coordinates:
-      - 1054
-      - -2851
-      - 0060
+      - "1054"
+      - "-2851"
+      - "0060"
     hinox_rodai_lakefront:
       name: Hinox
       location: Rodai Lakefront Tunnel
       coordinates:
-      - 1888
-      - -3122
-      - 0135
+      - "1888"
+      - "-3122"
+      - "0135"
     blue_corta_lake:
       name: Blue Hinox
       location: Corta Lake Cave
       coordinates:
-      - 1679
-      - -3041
-      - 0166
+      - "1679"
+      - "-3041"
+      - "0166"
     black_calora_lake:
       name: Black Hinox
       location: Calora Lake Cave
       coordinates:
-      - 2021
-      - -3172
-      - 0180
+      - "2021"
+      - "-3172"
+      - "0180"
     blue_firly_plateau:
       name: Blue Hinox
       location: Firly Plateau
       coordinates:
-      - 3165
-      - 2586
-      - 0105
+      - "3165"
+      - "2586"
+      - "0105"
     black_aris_beach:
       name: Black Hinox
       location: Aris Beach
       coordinates:
-      - 1704
-      - -3878
-      - 0002
+      - "1704"
+      - "-3878"
+      - "0002"
     blue_grinnden_plains:
       name: Blue Hinox
       location: Grinnden Plains
       coordinates:
-      - -0812
-      - -3027
-      - 0119
+      - "-0812"
+      - "-3027"
+      - "0119"
     depths_blue_tikanur:
       name: Gloom Blue Hinox
       location: Tikanur
       coordinates:
-      - -2745
-      - 1327
-      - -0608
+      - "-2745"
+      - "1327"
+      - "-0608"
     depths_black_forest:
       name: Gloom Black Hinox
       location: Forest Coliseum
       coordinates:
-      - -0117
-      - 2435
-      - -0621
+      - "-0117"
+      - "2435"
+      - "-0621"
     depths_black_rist:
       name: Gloom Black Hinox
       location: Rist Mine
       coordinates:
-      - 4632
-      - 1774
-      - -0482
+      - "4632"
+      - "1774"
+      - "-0482"
     depths_hinox_oyimay:
       name: Gloom Hinox
       location: Oyimay Lightroot
       coordinates:
-      - 0356
-      - -0016
-      - -0477
+      - "0356"
+      - "-0016"
+      - "-0477"
     depths_hinox_nihcayam:
       name: Gloom Hinox
       location: Nihcayam Lightroot
       coordinates:
-      - -1062
-      - -0838
-      - -0477
+      - "-1062"
+      - "-0838"
+      - "-0477"
     depths_hinox_netinet:
       name: Gloom Hinox
       location: Netinet Lightroot
       coordinates:
-      - 0046
-      - -1353
-      - -0466
+      - "0046"
+      - "-1353"
+      - "-0466"
     depths_black_arusakam:
       name: Gloom Black Hinox
       location: Arusakam Lightroot
       coordinates:
-      - 1482
-      - -1341
-      - -0550
+      - "1482"
+      - "-1341"
+      - "-0550"
     depths_black_bubinga:
       name: Gloom Black Hinox
       location: Bubinga Grove
       coordinates:
-      - 2087
-      - -2012
-      - -0470
+      - "2087"
+      - "-2012"
+      - "-0470"
     depths_blue_sijotu:
       name: Gloom Blue Hinox
       location: Sijotu Lightroot
       coordinates:
-      - 1210
-      - -2640
-      - -0599
+      - "1210"
+      - "-2640"
+      - "-0599"
     depths_blue_sijotu_2:
       name: Gloom Blue Hinox
       location: Sijotu Lightroot
       coordinates:
-      - 1081
-      - -2863
-      - -0515
+      - "1081"
+      - "-2863"
+      - "-0515"
     depths_black_uujoju:
       name: Gloom Black Hinox
       location: U-u-joju Lightroot
       coordinates:
-      - 1689
-      - -3891
-      - -0455
+      - "1689"
+      - "-3891"
+      - "-0455"
     depths_hinox_hylia:
       name: Gloom Hinox
       location: Hylia Canyon Mine
       coordinates:
-      - -1450
-      - -2383
-      - -0556
+      - "-1450"
+      - "-2383"
+      - "-0556"
     depths_blue_kasari:
       name: Gloom Blue Hinox
       location: Kasari Lightroot
       coordinates:
-      - -4345
-      - -3480
-      - -0477
+      - "-4345"
+      - "-3480"
+      - "-0477"
     depths_black_stamayam:
       name: Black Hinox
       location: Stamayam Lightroot
       coordinates:
-      - -4216
-      - -1308
-      - -0872
+      - "-4216"
+      - "-1308"
+      - "-0872"
     depths_stalnox_bones:
       name: Stalnox
       location: Akkala House of Bones
       coordinates:
-      - -3249
-      - 3443
-      - 0431
+      - "-3249"
+      - "3443"
+      - "0431"
     stalnox_zaus_island:
       name: Stalnox
       location: Zauz Island Well
       coordinates:
-      - 1466
-      - -0139
-      - -0015
+      - "1466"
+      - "-0139"
+      - "-0015"
   lynel:
