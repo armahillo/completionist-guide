@@ -4930,9 +4930,9 @@ bounties:
       name: Frost Gleeok
       location: Tabantha Frontier, Tabantha
       coordinates:
-      - "1828"
-      - "2984"
-      - "0239"
+      - "-1962"
+      - "2938"
+      - "0245"
     frost_gleeok_biron_snowshelf:
       name: Frost Gleeok
       location: Biron Snowshelf, Hebra Mountains
@@ -4968,6 +4968,13 @@ bounties:
       - "-2146"
       - "-2622"
       - "0368"
+    flame_gleeok_trilby_canyon:
+      name: Flame Gleeok
+      location: Trilby Valley, Eldin Canyon
+      coordinates:
+      - "2226"
+      - "0970"
+      - "1145"
     king_gleeok_gleeok_den:
       name: King Gleeok
       location: Gleeok Den, Great Hyrule Forest Depths
