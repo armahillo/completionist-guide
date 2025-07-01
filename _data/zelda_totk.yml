@@ -457,10 +457,12 @@ shrines:
         - "0177"
       takiihaban:
         name: Taki-ihaban
+        treasure:
+        - Large Zonai Charge
         coordinates:
-        - "1830"
-        - "1194"
-        - "0147"
+        - "-1830"
+        - "1195"
+        - "0162"
       tenmaten:
         name: Tenmaten
         location: Under Elma Knolls Well
@@ -468,6 +470,8 @@ shrines:
         - "-0594"
         - "1551"
         - "-0014"
+        treasure:
+        - Large Zonai Charge
     akkala:
       gemimik:
         name: Gemimik
@@ -758,8 +762,10 @@ shrines:
         location: Gerudo Highlands
         coordinates:
         - "-3407"
-        - "-3162"
-        - "0035"
+        - "-1362"
+        - "0335"
+        treasure:
+        - Large Zonaite Charge
       motsusis:
         name: Motsusis
         location: South Lomei Labyrinth
@@ -5840,7 +5846,7 @@ bounties:
       location: Firly Plateau
       coordinates:
       - "3165"
-      - "2586"
+      - "-2586"
       - "0105"
     black_aris_beach:
       name: Black Hinox
@@ -5860,9 +5866,9 @@ bounties:
       name: Gloom Blue Hinox
       location: Tikanur
       coordinates:
-      - "-2745"
-      - "1327"
-      - "-0608"
+      - "-2734"
+      - "1347"
+      - "-0609"
     depths_black_forest:
       name: Gloom Black Hinox
       location: Forest Coliseum
@@ -5958,9 +5964,9 @@ bounties:
       name: Stalnox
       location: Akkala House of Bones
       coordinates:
-      - "-3249"
-      - "3443"
-      - "0431"
+      - "3239"
+      - "3446"
+      - "-0431"
     stalnox_zaus_island:
       name: Stalnox
       location: Zauz Island Well
