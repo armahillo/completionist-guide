@@ -432,7 +432,7 @@ shrines:
       usazum:
         name: Usazum
         location: bottom of Satori Mountain
-        coordinates: 
+        coordinates:
         - "-2139"
         - "-0874"
         - "0093"
@@ -466,7 +466,7 @@ shrines:
       tenmaten:
         name: Tenmaten
         location: Under Elma Knolls Well
-        coordinates: 
+        coordinates:
         - "-0594"
         - "1551"
         - "-0014"
@@ -497,7 +497,7 @@ shrines:
       kamatukis:
         name: Kamatukis
         location: Deep Akkala
-        coordinates: 
+        coordinates:
         - "3427"
         - "3345"
         - "0070"
@@ -511,7 +511,7 @@ shrines:
       rasitakiwak:
         name: Rasitakiwak
         location: Akkala Highlands
-        coordinates: 
+        coordinates:
         - "4161"
         - "1324"
         - "0229"
@@ -2325,7 +2325,7 @@ caves:
       - "0097"
     brightcap:
       name: Brightcap
-      coordinates: 
+      coordinates:
       - "-3003"
       - "1638"
       - "0201"
@@ -2547,7 +2547,7 @@ caves:
   faron:
     lake_hylia_whirlpool:
       name: Lake Hylia Whirlpool
-      coordinates: 
+      coordinates:
       - "0122"
       - "-2502"
       - "-0021"
@@ -3050,7 +3050,7 @@ sages_will:
     coordinates:
     - "1764"
     - "2267"
-    - "0827"    
+    - "0827"
   gerudo_east_sky_archipelago:
     name: East Gerudo Sky Archipelago
     type: puzzle
@@ -3073,7 +3073,7 @@ sages_will:
     coordinates:
     - "-3459"
     - "-0269"
-    - "1937"     
+    - "1937"
   hebra_mountains_sky:
     name: Hebra Mountains Sky
     type: puzzle
@@ -3087,7 +3087,7 @@ sages_will:
     coordinates:
     - "-2273"
     - "-0448"
-    - "0894"    
+    - "0894"
   hebra_west_sky_archipelago:
     name: West Hebra Sky Archipelago
     type: combat
@@ -3095,7 +3095,7 @@ sages_will:
     coordinates:
     - "-4466"
     - "2285"
-    - "1247"    
+    - "1247"
   hyrule_central_sky_archipelgao:
     name: Central Hyrule Sky Archipelago
     type: puzzle
@@ -3150,7 +3150,7 @@ sages_will:
     coordinates:
     - "4652"
     - "-3828"
-    - "1065"    
+    - "1065"
   necluda_thunderhead_isles:
     name: Thunderhead Isles
     location: West Necluda Sky
@@ -3166,13 +3166,13 @@ sages_will:
     coordinates:
     - "-0338"
     - "-2581"
-    - "0894" 
+    - "0894"
   necluda_west_sky_archipelago:
     name: West Necluda Sky Archipelago
     coordinates:
     - "1934"
     - "-1062"
-    - "0961"       
+    - "0961"
   tabantha_north_sky_archipelago:
     name: North Tabantha Sky Archipelago
     type: puzzle
@@ -3243,7 +3243,7 @@ schema_stones:
     coordinates:
     - "3986"
     - "1583"
-    - "-0576"    
+    - "-0576"
   bolt_boat:
     name: Bolt Boat
     location: Abandoned Lanayru Mine
@@ -3823,12 +3823,339 @@ gear:
       - "-1499"
       - "0125"
   armor_of_awakening:
+    head:
+      name: Mask of Awakening
+      location: Thundra Plateau Cave
+      coordinates:
+      - -2268
+      - 0841
+      - 0083
+      level_1:
+        "Luminous Stone": 10
+        "Star Fragment": 10
+      level_2:
+        "Luminous Stone": 15
+        "Star Fragment": 1
+      level_3:
+        "Luminous Stone": 20
+        "Star Fragment": 1
+      level_4:
+        "Luminous Stone": 30
+        "Star Fragment": 1
+    body:
+      name: Tunic of Awakening
+      location: Ancient Columns Cave
+      coordinates:
+      - -3535
+      - 0410
+      - 0243
+      level_1:
+        "Luminous Stone": 10
+        "Star Fragment": 10
+      level_2:
+        "Luminous Stone": 15
+        "Star Fragment": 1
+      level_3:
+        "Luminous Stone": 20
+        "Star Fragment": 1
+      level_4:
+        "Luminous Stone": 30
+        "Star Fragment": 1
+    legs:
+      name: Trousers of Awakening
+      location: Coliseum Ruins Cave
+      coordinates:
+      - -1157
+      - -1264
+      - 0035
+      level_1:
+        "Luminous Stone": 10
+        "Star Fragment": 10
+      level_2:
+        "Luminous Stone": 15
+        "Star Fragment": 1
+      level_3:
+        "Luminous Stone": 20
+        "Star Fragment": 1
+      level_4:
+        "Luminous Stone": 30
+        "Star Fragment": 1
   armor_of_the_hero:
+    head:
+      name: Cap of the Hero
+      location: Tuft Canyon Mine
+      level_1:
+        "Ruby": 1
+        "Star Fragment": 1
+      level_2:
+        "Ruby": 3
+        "Star Fragment": 1
+      level_3:
+        "Ruby": 5
+        "Star Fragment": 1
+      level_4:
+        "Ruby": 10
+        "Star Fragment": 1
+    body:
+      name: Tunic of the Hero
+      location: Dueling Canyon Mines
+      level_1:
+        "Ruby": 1
+        "Star Fragment": 1
+      level_2:
+        "Ruby": 3
+        "Star Fragment": 1
+      level_3:
+        "Ruby": 5
+        "Star Fragment": 1
+      level_4:
+        "Ruby": 10
+        "Star Fragment": 1
+    legs:
+      name: Trousers of the Hero
+      location: Corvash Canyon Mine
+      level_1:
+        "Ruby": 1
+        "Star Fragment": 1
+      level_2:
+        "Ruby": 3
+        "Star Fragment": 1
+      level_3:
+        "Ruby": 5
+        "Star Fragment": 1
+      level_4:
+        "Ruby": 10
+        "Star Fragment": 1
   armor_of_the_sky:
+    head:
+      name: Cap of the Sky
+      location: Retsam Grove
+      level_1:
+        "Sapphire": 1
+        "Star Fragment": 1
+      level_2:
+        "Sapphire": 3
+        "Star Fragment": 1
+      level_3:
+        "Sapphire": 5
+        "Star Fragment": 1
+      level_4:
+        "Sapphire": 10
+        "Star Fragment": 1
+    body:
+      name: Tunic of the Sky
+      location: Minshi Grove
+      level_1:
+        "Sapphire": 1
+        "Star Fragment": 1
+      level_2:
+        "Sapphire": 3
+        "Star Fragment": 1
+      level_3:
+        "Sapphire": 5
+        "Star Fragment": 1
+      level_4:
+        "Sapphire": 10
+        "Star Fragment": 1
+    legs:
+      name: Trousers of the Sky
+      location: Crenel Canyon Mine
+      level_1:
+        "Sapphire": 1
+        "Star Fragment": 1
+      level_2:
+        "Sapphire": 3
+        "Star Fragment": 1
+      level_3:
+        "Sapphire": 5
+        "Star Fragment": 1
+      level_4:
+        "Sapphire": 10
+        "Star Fragment": 1
   armor_of_the_wild:
+    head:
+      name: Cap of the Wild
+      location: Hebra Dark Skeleton
+      level_1:
+        "Acorn": 10
+        "Farosh's Scale": 2
+      level_2:
+        "Courser Bee Honey": 5
+        "Farosh's Claw": 2
+      level_3:
+        "Energetic Rhino Beetle": 5
+        "Shard of Farosh's Fang": 2
+      level_4:
+        "Star Fragment": 1
+        "Shard of Farosh's Horn": 2
+    body:
+      name: Tunic of the Wild
+      location: Gerudo Dark Skeleton
+      level_1:
+        "Acorn": 10
+        "Naydra's Scale": 2
+      level_2:
+        "Courser Bee Honey": 5
+        "Naydra's Claw": 2
+      level_3:
+        "Energetic Rhino Beetle": 5
+        "Shard of Naydra's Fang": 2
+      level_4:
+        "Star Fragment": 1
+        "Shard of Naydra's Horn": 2
+    legs:
+      name: Trousers of the Wild
+      location: Eldin Dark Skeleton
+      level_1:
+        "Acorn": 10
+        "Dinraal's Scale": 2
+      level_2:
+        "Courser Bee Honey": 5
+        "Dinraal's Claw": 2
+      level_3:
+        "Energetic Rhino Beetle": 5
+        "Shard of Dinraal's Fang": 2
+      level_4:
+        "Star Fragment": 1
+        "Shard of Dinraal's Horn": 2
   armor_of_the_wind:
+    head:
+      name: Cap of the Wind
+      location: Davdi Island Depths
+      level_1:
+        "Opal": 3
+        "Star Fragment": 1
+      level_2:
+        "Opal": 5
+        "Star Fragment": 1
+      level_3:
+        "Opal": 10
+        "Star Fragment": 1
+      level_4:
+        "Opal": 20
+        "Star Fragment": 1
+    body:
+      name: Tunic of the Wind
+      location: Cuho Canyon Mine
+      level_1:
+        "Opal": 3
+        "Star Fragment": 1
+      level_2:
+        "Opal": 5
+        "Star Fragment": 1
+      level_3:
+        "Opal": 10
+        "Star Fragment": 1
+      level_4:
+        "Opal": 20
+        "Star Fragment": 1
+    legs:
+      name: Trousers of the Wind
+      location: Cresia Pit Mine
+      level_1:
+        "Opal": 3
+        "Star Fragment": 1
+      level_2:
+        "Opal": 5
+        "Star Fragment": 1
+      level_3:
+        "Opal": 10
+        "Star Fragment": 1
+      level_4:
+        "Opal": 20
+        "Star Fragment": 1
   armor_of_time:
+    head:
+      name: Cap of Time
+      location: Sturnida Lavafalls
+      level_1:
+        "Amber": 3
+        "Star Fragment": 1
+      level_2:
+        "Amber": 5
+        "Star Fragment": 1
+      level_3:
+        "Amber": 15
+        "Star Fragment": 1
+      level_4:
+        "Amber": 30
+        "Star Fragment": 1
+    body:
+      name: Tunic of Time
+      location: Lindor Canyon Mine
+      level_1:
+        "Amber": 3
+        "Star Fragment": 1
+      level_2:
+        "Amber": 5
+        "Star Fragment": 1
+      level_3:
+        "Amber": 15
+        "Star Fragment": 1
+      level_4:
+        "Amber": 30
+        "Star Fragment": 1
+    legs:
+      name: Trousers of Time
+      location: Gerudo Canyon Mine
+      level_1:
+        "Amber": 3
+        "Star Fragment": 1
+      level_2:
+        "Amber": 5
+        "Star Fragment": 1
+      level_3:
+        "Amber": 15
+        "Star Fragment": 1
+      level_4:
+        "Amber": 30
+        "Star Fragment": 1
   armor_of_twilight:
+    head:
+      name: Cap of Twilight
+      location: Gleeok Den
+      level_1:
+        "Topaz": 1
+        "Star Fragment": 1
+      level_2:
+        "Topaz": 3
+        "Star Fragment": 1
+      level_3:
+        "Topaz": 5
+        "Star Fragment": 1
+      level_4:
+        "Topaz": 10
+        "Star Fragment": 1
+    body:
+      name: Tunic of Twilight
+      location: Rist Mine
+      level_1:
+        "Topaz": 1
+        "Star Fragment": 1
+      level_2:
+        "Topaz": 3
+        "Star Fragment": 1
+      level_3:
+        "Topaz": 5
+        "Star Fragment": 1
+      level_4:
+        "Topaz": 10
+        "Star Fragment": 1
+    legs:
+      name: Trousers of Twilight
+      location: Ancient Underground Fortress
+      level_1:
+        "Topaz": 1
+        "Star Fragment": 1
+      level_2:
+        "Topaz": 3
+        "Star Fragment": 1
+      level_3:
+        "Topaz": 5
+        "Star Fragment": 1
+      level_4:
+        "Topaz": 10
+        "Star Fragment": 1
   barbarian:
     head:
       name: Barbarian Helm
@@ -3894,6 +4221,66 @@ gear:
         "White-Maned Lynel Mace Horn": 3
         "Bladed Rhino Beetle": 3
   charged:
+    head:
+      name: Charged Headdress
+      location: Dracozu River
+      coordinates:
+      - 0985
+      - -2829
+      - 0013
+      level_1:
+        "Shock Fruit": 3
+      level_2:
+        "Electric Lizalfos Horn": 5
+        "Thunderwing Butterfly": 3
+      level_3:
+        "Shock Like Stone": 5
+        "Electric Darner": 5
+        "Large Zonai Charge": 3
+      level_4:
+        "Gleeok Thunder Horn": 5
+        "Voltfin Trout": 10
+        "Large Zonai Charge": 5
+    body:
+      name: Charged Shirt
+      location: Dracozu River
+      coordinates:
+      - 1006
+      - -2539
+      - 0014
+      level_1:
+        "Shock Fruit": 3
+      level_2:
+        "Electric Lizalfos Horn": 5
+        "Thunderwing Butterfly": 3
+      level_3:
+        "Shock Like Stone": 5
+        "Electric Darner": 5
+        "Large Zonai Charge": 3
+      level_4:
+        "Gleeok Thunder Horn": 5
+        "Voltfin Trout": 10
+        "Large Zonai Charge": 5
+    legs:
+      name: Charged Trousers
+      location: Dracozu River
+      coordinates:
+      - 0951
+      - -2706
+      - 0013
+      level_1:
+        "Shock Fruit": 3
+      level_2:
+        "Electric Lizalfos Horn": 5
+        "Thunderwing Butterfly": 3
+      level_3:
+        "Shock Like Stone": 5
+        "Electric Darner": 5
+        "Large Zonai Charge": 3
+      level_4:
+        "Gleeok Thunder Horn": 5
+        "Voltfin Trout": 10
+        "Large Zonai Charge": 5
   climbers:
     head:
       name: Climber's Bandanna
@@ -3941,6 +4328,15 @@ gear:
         "Fire Keese Wing": 10
         "Swift Violet": 20
   dark:
+    head:
+      name: Dark Hood
+      location: Fang and Bone
+    body:
+      name: Dark Tunic
+      location: Fang and Bone
+    legs:
+      name: Dark Trousers
+      location: Fang and Bone
   depths:
     head:
       name: Hood of the Depths
@@ -4109,7 +4505,61 @@ gear:
         "Sizzlefin Trout": 10
         "Large Zonai Charge": 10
   evil_spirit:
+    head:
+      name: Evil Spirit Mask
+      location: South Lomei Depths Labyrinth
+    body:
+      name: Evil Spirit Armor
+      location: Lomei Depths Labyrinth
+    legs:
+      name: Evil Spirit Greaves
+      location: North Lomei Depths Labyrinth
   fierce_deity:
+    head:
+      name: Fierce Deity Mask
+      location: Skull Lake Cave
+      level_1:
+        "Hinox Toenail": 5
+        "Dinraal's Scale": 1
+      level_2:
+        "Hinox Tooth": 5
+        "Dinraal's Claw": 1
+      level_3:
+        "Hinox Guts": 2
+        "Shard of Dinraal's Fang": 1
+      level_4:
+        "Lynel Guts": 2
+        "Shard of Dinraal's Horn": 1
+    body:
+      name: Fierce Deity Armor
+      location: Akkala Citadel Ruins Summit Cave
+      level_1:
+        "Hinox Toenail": 5
+        "Naydra's Scale": 1
+      level_2:
+        "Hinox Tooth": 5
+        "Naydra's Claw": 1
+      level_3:
+        "Hinox Guts": 2
+        "Shard of Naydra's Fang": 1
+      level_4:
+        "Lynel Guts": 2
+        "Shard of Naydra's Horn": 1
+    legs:
+      name: Fierce Deity Boots
+      location: Ancient Tree Stump Cave
+      level_1:
+        "Hinox Toenail": 5
+        "Farosh's Scale": 1
+      level_2:
+        "Hinox Tooth": 5
+        "Farosh's Claw": 1
+      level_3:
+        "Hinox Guts": 2
+        "Shard of Farosh's Fang": 1
+      level_4:
+        "Lynel Guts": 2
+        "Shard of Farosh's Horn": 1
   flamebreaker:
     head:
       name: Flamebreaker Helm
@@ -4212,6 +4662,54 @@ gear:
         "Horriblin Guts": 10
         "Opal": 10
   frostbite:
+    head:
+      name: Frostbite Headdress
+      location: Lake Kilsie Cave
+      level_1:
+        "Ice Fruit": 3
+      level_2:
+        "Ice-Breath Lizalfos Horn": 5
+        "Winterwing Butterfly": 5
+      level_3:
+        "Ice Like Stone": 5
+        "Cold Darner": 5
+        "Large Zonai Charge": 5
+      level_4:
+        "Gleeok Frost Horn": 5
+        "Chillfin Trout": 10
+        "Large Zonai Charge": 10
+    body:
+      name: Frostbite Shirt
+      location: Brightcap Cave
+      level_1:
+        "Ice Fruit": 3
+      level_2:
+        "Ice-Breath Lizalfos Horn": 5
+        "Winterwing Butterfly": 5
+      level_3:
+        "Ice Like Stone": 5
+        "Cold Darner": 5
+        "Large Zonai Charge": 5
+      level_4:
+        "Gleeok Frost Horn": 5
+        "Chillfin Trout": 10
+        "Large Zonai Charge": 10
+    legs:
+      name: Frostbite Trousers
+      location: Hebra Headspring Cave
+      level_1:
+        "Ice Fruit": 3
+      level_2:
+        "Ice-Breath Lizalfos Horn": 5
+        "Winterwing Butterfly": 5
+      level_3:
+        "Ice Like Stone": 5
+        "Cold Darner": 5
+        "Large Zonai Charge": 5
+      level_4:
+        "Gleeok Frost Horn": 5
+        "Chillfin Trout": 10
+        "Large Zonai Charge": 10
   glider:
     note: Each requires a sky island dive challenge
     glide_mask:
@@ -4380,6 +4878,15 @@ gear:
       location: Ulri Mountain at night
       cost: 22 Bubbul Gems
   phantom:
+    head:
+      name: Phantom Helmet
+      location: Coliseum Ruins
+    body:
+      name: Phantom Armor
+      location: Sacred Ground Ruins
+    legs:
+      name: Phantom Greaves
+      location: Hyrule Garrison Ruins
   radiant:
     note: Completing the Gloom-Borne Illness sidequest, the cost is reduced from 5000
     head:
@@ -4710,8 +5217,116 @@ gear:
         "Silent Princess": 5
         "Sundelion": 10
   tingle:
+    head:
+      name: Tingle's Hood
+      location: Exchange Ruins
+    body:
+      name: Tingle's Shirt
+      location: Castle Town Prison
+    legs:
+      name: Tingle's Tights
+      location: Mabe Village Ruins
   yiga_armor:
+    head:
+      name: Yiga Mask
+      location:
+      - Woodcutter's House
+      - Akkala Ancient Tech Lab
+      - Yiga Clan Maritta Branch
+      level_1:
+        "Octorok Eyeball": 2
+      level_2:
+        "Fire-Breath Lizalfos Tail": 3
+        "Puffshroom": 3
+      level_3:
+        "Ice-Breath Lizalfos Tail": 5
+        "Keese Eyeball": 5
+      level_4:
+        "Electric Lizalfos Tail": 5
+        "Black Hinox Horn": 3
+        "Mighty Bananas": 10
+    body:
+      name: Yiga Armor
+      location: Ancient Akkala Tech Lab
+      level_1:
+        "Octorok Eyeball": 2
+      level_2:
+        "Fire-Breath Lizalfos Tail": 3
+        "Puffshroom": 3
+      level_3:
+        "Ice-Breath Lizalfos Tail": 5
+        "Keese Eyeball": 5
+      level_4:
+        "Electric Lizalfos Tail": 5
+        "Black Hinox Horn": 3
+        "Mighty Bananas": 10
+    legs:
+      name: Yiga Tights
+      location: Yiga Clan Maritta Branch
+      level_1:
+        "Octorok Eyeball": 2
+      level_2:
+        "Fire-Breath Lizalfos Tail": 3
+        "Puffshroom": 3
+      level_3:
+        "Ice-Breath Lizalfos Tail": 5
+        "Keese Eyeball": 5
+      level_4:
+        "Electric Lizalfos Tail": 5
+        "Black Hinox Horn": 3
+        "Mighty Bananas": 10
   zonaite:
+    head:
+      name: Zonaite Helm
+      location: Lightcast Island
+      level_1:
+        "Soldier Construct Horn": 5
+      level_2:
+        "Soldier Construct II Horn": 5
+        "Captain Construct I Horn": 5
+        "Zonaite": 5
+      level_3:
+        "Soldier Construct III": 5
+        "Captain Construct II Horn": 5
+        "Large Zonaite": 5
+      level_4:
+        "Soldier Construct IV Horn": 5
+        "Captain Construct III Horn": 5
+        "Large Zonaite": 10
+    body:
+      name: Zoniate Waistguard
+      location: Zonaite Forge Island
+      level_1:
+        "Soldier Construct Horn": 5
+      level_2:
+        "Soldier Construct II Horn": 5
+        "Captain Construct I Horn": 5
+        "Zonaite": 5
+      level_3:
+        "Soldier Construct III": 5
+        "Captain Construct II Horn": 5
+        "Large Zonaite": 5
+      level_4:
+        "Soldier Construct IV Horn": 5
+        "Captain Construct III Horn": 5
+        "Large Zonaite": 10
+    trousers:
+      name: Zonaite Shin Guards
+      location: Sky Mine, North Akkala Sky Archipelago
+      level_1:
+        "Soldier Construct Horn": 5
+      level_2:
+        "Soldier Construct II Horn": 5
+        "Captain Construct I Horn": 5
+        "Zonaite": 5
+      level_3:
+        "Soldier Construct III": 5
+        "Captain Construct II Horn": 5
+        "Large Zonaite": 5
+      level_4:
+        "Soldier Construct IV Horn": 5
+        "Captain Construct III Horn": 5
+        "Large Zonaite": 10
   zora:
     head:
       name: Zora Helm
@@ -4776,6 +5391,82 @@ gear:
         "Blue Lizalfos Tail": 10
         "Opal": 20
   unique:
+    majora:
+      name: Majora's Mask
+      location: Floating Coliseum
+    korok:
+      name: Korok Mask
+      location: Forest Coliseum
+    ravio:
+      name: Ravio's Hood
+      location: Secluded Coliseum
+    zant:
+      name: Zant's Helmet
+      location: Scorching Coliseum
+    midna:
+      name: Midna's Helmet
+      location: Lone Island Coliseum
+    lynel:
+      name: Lynel Mask
+      location: Fang and Bone
+      cost: 38 Bubbul Gems
+    lizalfos:
+      name: Lizalfos Mask
+      location: Fang and Bone
+      cost: 15 Bubbul Gems
+    moblin:
+      name: Moblin Mask
+      location: Fang and Bone
+      cost: 3 Bubbul Gems
+    horriblin:
+      name: Horriblin Mask
+      location: Fang and Bone
+      cost: 30 Bubbul Gems
+    bokoblin:
+      name: Bokoblin Mask
+      location: Fang and Bone
+      cost: 1 Bubbul Gem
+    lightning_helm:
+      name: Lightning Helm
+      location: Yiga Clan Hideout
+    cece:
+      name: Cece Hat
+      location: Hateno Village
+    hair_band:
+      name: Well-Worn Hair Band
+      location: Zelda's Secret Well, Hateno Village
+    amber_earrings:
+      name: Amber Earrings
+      location: Gerudo Town
+      cost: 100⬥, 10 Ambers
+    opal_earrings:
+      name: Opal Earrings
+      location: Gerudo Town
+      cost: 700⬥
+    topaz_earrings:
+      name: Topaz Earrings
+      location: 1200⬥
+    sapphire_circlet:
+      name: Sapphire Circlet
+      location: 1400⬥
+    ruby_circlet:
+      name: Ruby Circlet
+      location: 1300⬥
+    diamond_circlet:
+      name: Diamond Circlet
+      location: 2400⬥
+    van_medoh:
+      name: Vah Medoh Divine Helm
+      location: North Biron Snowshelf Cave
+    van_rudania:
+      name: Vah Rudania Divine Helm
+      location: Lizard's Burrow
+    van_ruta:
+      name: Vah Ruta Divine Helm
+      location: Cave under Zora's Domain
+    vah_naboris:
+      name: Vah Naboris Divine Helm
+      location: West Gerudo Underground Ruins
 bounties:
   frox:
     northwest_1:
@@ -4844,7 +5535,7 @@ bounties:
     hyrule_4:
       name: Obsidian Frox
       location: NW of Netamnet
-    hyrule_5: 
+    hyrule_5:
       name: Blue-White Frox
       location: N of Gadohsi
     hyrule_6:
@@ -4859,10 +5550,10 @@ bounties:
     hyrule_9:
       name: Frox
       location: NW of Stakijat
-    hyrule_10: 
+    hyrule_10:
       name: Blue-White Frox
       location: S of Apapes
-    hyrule_11: 
+    hyrule_11:
       name: Blue-White Frox
       location: NE of Korakut, S of Crenel Canyon Mine
     gerudo_1:
@@ -5008,7 +5699,7 @@ bounties:
       coordinates:
       - "4621"
       - "-3665"
-      - "1058" 
+      - "1058"
   molduga:
     palu_wasteland:
       location: Palu Wasteland
@@ -5120,7 +5811,7 @@ bounties:
       - "0654"
       - "0194"
     stone_great_hyrule:
-      name: Stone Talus 
+      name: Stone Talus
       location: Great Hyrule Forest
       coordinates:
       - "0098"
@@ -5128,7 +5819,7 @@ bounties:
       - "2370"
     stone_north_akkala:
       name: Stone Talus
-      location: North Akkala Foothill 
+      location: North Akkala Foothill
       coordinates:
       - "4063"
       - "2973"
@@ -5169,14 +5860,14 @@ bounties:
       - "0908"
       - "~0100"
     luminous_ovli_plain:
-      name: Stone Talus (Luminous)  
+      name: Stone Talus (Luminous)
       location: Ovli Plain
       coordinates:
       - "3029"
       - "-1778"
       - "0019"
     luminous_keya_pond:
-      name: Stone Talus (Luminous)  
+      name: Stone Talus (Luminous)
       location: Keya Pond
       coordinates:
       - "3195"
@@ -5204,14 +5895,14 @@ bounties:
       - "0766"
       - "~0010"
     luminous_east_reservoir:
-      name: Stone Talus (Luminous)  
+      name: Stone Talus (Luminous)
       location: Ancient Zora Waterworks, East Reservoir Lake
-      coordinates: 
+      coordinates:
       - "3628"
       - "0274"
       - "-0089"
     luminous_sahasra_slope:
-      name: Stone Talus (Luminous)  
+      name: Stone Talus (Luminous)
       location: Sahasra Slope
       coordinates:
       - "1483"
@@ -5225,84 +5916,84 @@ bounties:
       - "-1984"
       - "-1984"
     battle_dragon_bone_mire:
-      name: Battle Talus  
+      name: Battle Talus
       location: Dragon Bone Mire
-      coordinates: 
+      coordinates:
       - "-4393"
       - "1935"
       - "0122"
     battle_brida_lookout:
-      name: Battle Talus 
+      name: Battle Talus
       location: Brida Lookout Chasm
       coordinates:
       - "-3987"
       - "-1703"
       - "-1703"
     battle_kolami_bridge:
-      name: Battle Talus 
-      location: Kolami Bridge 
-      coordinates: 
+      name: Battle Talus
+      location: Kolami Bridge
+      coordinates:
       - "-3109"
       - "1287"
       - "0166"
     battle_washas_bluff:
       name: Battle Talus
-      location: Washa's Bluff (bottom) 
+      location: Washa's Bluff (bottom)
       coordinates:
       - "-2550"
       - "-0111"
       - "-0111"
     battle_royal_ancient_lab_ruins:
-      name: Battle Talus  
+      name: Battle Talus
       location: Royal Ancient Lab Ruins
       coordinates:
       - "-1448"
       - "1026"
       - "0147"
     battle_gleeok_bridge:
-      name: Battle Talus 
+      name: Battle Talus
       location: Gleeok Bridge
       coordinates:
       - "-1364"
       - "-0789"
       - "-0010"
     battle_forest_spirits:
-      name: Battle Talus 
+      name: Battle Talus
       location: Forest of Spirits
       coordinates:
       - "-1092"
       - "-1659"
       - "-1659"
     battle_castle_town_prison:
-      name: Battle Talus  
+      name: Battle Talus
       location: Castle Town Prison
       coordinates:
       - "-0770"
       - "0811"
       - "0058"
     battle_whistling_hill:
-      name: Battle Talus 
+      name: Battle Talus
       location: Whistling Hill
       coordinates:
       - "-0109"
       - "-0802"
       - "-0802"
     battle_orsedd_bridge:
-      name: Battle Talus 
+      name: Battle Talus
       location: Orsedd Bridge
       coordinates:
       - "0677"
       - "0506"
       - "0506"
     battle_hyrule_cathedral:
-      name: Battle Talus 
+      name: Battle Talus
       location: Hyrule Cathedral
       coordinates:
       - "0202"
       - "0531"
       - "0531"
     battle_batrea_lake:
-      name: Battle Talus  
+      name: Battle Talus
       location: Batrea Lake
       coordinates:
       - "0770"
@@ -5310,20 +6001,20 @@ bounties:
       - "-1223"
     battle_hills_baumer:
       name: Battle Talus
-      location: Hills of Baumer  
+      location: Hills of Baumer
       coordinates:
       - "0587"
       - "-1934"
       - "-1934"
     battle_sahasra_slope:
-      name: Battle Talus 
-      location: Sahasra Slope 
+      name: Battle Talus
+      location: Sahasra Slope
       coordinates:
       - "1256"
       - "-1165"
       - "0108"
     battle_akkala_span:
-      name: Battle Talus 
+      name: Battle Talus
       location: Akkala Span
       coordinates:
       - "2974"
@@ -5331,34 +6022,34 @@ bounties:
       - "1488"
     battle_kaepora_pass:
       name: Battle Talus
-      location: Kaepora Pass 
+      location: Kaepora Pass
       coordinates:
       - "3951"
       - "1189"
       - "1189"
     battle_gama_cove:
-      name: Battle Talus  
+      name: Battle Talus
       location: Gama Cove
       coordinates:
       - "3277"
       - "-3408"
       - "-3408"
     battle_east_akkala_plains:
-      name: Battle Talus 
+      name: Battle Talus
       location: East Akkala Plains
       coordinates:
       - "4181"
       - "2228"
       - "2228"
     frost_sherfins_hot_spring:
-      name: Frost Talus 
+      name: Frost Talus
       location: Sherfin's Secret Hot Spring
       coordinates:
       - "-4433"
       - "3387"
       - "3387"
     frost_lake_kilsie_west:
-      name: Frost Talus 
+      name: Frost Talus
       location: W of Lake Kilsie
       coordinates:
       - "-4500"
@@ -5372,7 +6063,7 @@ bounties:
       - "-1203"
       - "-1203"
     frost_north_hebra_mountains:
-      name: Frost Talus 
+      name: Frost Talus
       location: North Hebra Mountains Edge
       coordinates:
       - "-2685"
@@ -5386,7 +6077,7 @@ bounties:
       - "-1326"
       - "-1326"
     frost_mount_lanayru_ne:
-      name: Frost Talus 
+      name: Frost Talus
       location: Mount Lanayru (NE face)
       coordinates:
       - "4057"
@@ -5413,7 +6104,7 @@ bounties:
       - "2479"
       - "3637"
       - "3637"
-    igneo_goro_cove: 
+    igneo_goro_cove:
       name: Igneo Talus
       location: SE of Goro Cove
       coordinates:
@@ -5428,7 +6119,7 @@ bounties:
       - "1780"
       - "1780"
     igneo_death_mountain_ne:
-      name: Igneo Talus 
+      name: Igneo Talus
       location: Death Mountain (NE face)
       coordinates:
       - "2630"
@@ -5456,7 +6147,7 @@ bounties:
       - "-1005"
       - "-1005"
     depths_stone_granajh:
-      name: Gloom Stone Talus 
+      name: Gloom Stone Talus
       location: E of Granajh Canyon Mine
       coordinates:
       - "-0826"
@@ -5498,7 +6189,7 @@ bounties:
       - "1492"
       - "1492"
     depths_rare_ziner:
-      name: Stone Talus (Rare)  
+      name: Stone Talus (Rare)
       location: S of Zi-ner
       coordinates:
       - "0697"
@@ -5512,7 +6203,7 @@ bounties:
       - "-0975"
       - "-0975"
     depths_luminous_blupee:
-      name: Stone Talus (Luminous)  
+      name: Stone Talus (Luminous)
       location: S of Blupee Burrow
       coordinates:
       - "-2221"
@@ -5526,7 +6217,7 @@ bounties:
       - "2956"
       - "2956"
     depths_luminous_kayam:
-      name: Stone Talus (Luminous)  
+      name: Stone Talus (Luminous)
       location: W of Kayam
       coordinates:
       - "0951"
@@ -5540,7 +6231,7 @@ bounties:
       - "-3417"
       - "-3417"
     depths_luminous_tayamik:
-      name: Stone Talus (Luminous)  
+      name: Stone Talus (Luminous)
       location: W of Tayamik
       coordinates:
       - "2479"
@@ -5554,7 +6245,7 @@ bounties:
       - "-1779"
       - "-1779"
     depths_luminous_kawisar:
-      name: Stone Talus (Luminous)  
+      name: Stone Talus (Luminous)
       location: S of Kawisar
       coordinates:
       - "4678"
@@ -5562,7 +6253,7 @@ bounties:
       - "2998"
     depths_luminous_Ploymus_mine:
       name: Stone Talus (Luminous)
-      location: E of Ploymus Canyon Mine  
+      location: E of Ploymus Canyon Mine
       coordinates:
       - "4191"
       - "0518"
@@ -5575,42 +6266,42 @@ bounties:
       - "-1056"
       - "-1056"
     depths_battle_sooaw:
-      name: Battle Talus 
+      name: Battle Talus
       location: W of So-oaw
       coordinates:
       - "-4393"
       - "1935"
       - "1935"
     depths_battle_kawumoro:
-      name: Battle Talus 
+      name: Battle Talus
       location: S of Kawuomoro
       coordinates:
       - "-3108"
       - "1288"
       - "1288"
     depths_battle_sikurukam:
-      name: Battle Talus  
+      name: Battle Talus
       location: S of Sikurukam
       coordinates:
       - "-2527"
       - "-0107"
       - "-0107"
     depths_battle_netinet:
-      name: Battle Talus  
+      name: Battle Talus
       location: S of Netinet
       coordinates:
       - "-0109"
       - "-0802"
       - "-0802"
     depths_battle_ancient_underground:
-      name: Battle Talus  
+      name: Battle Talus
       location: W of Ancient Underground Fortress
       coordinates:
       - "2985"
       - "1449"
       - "1449"
     depths_battle_dunsel:
-      name: Battle Talus 
+      name: Battle Talus
       location: SE of Dunsel Canyon Mine
       coordinates:
       - "3277"
@@ -5618,7 +6309,7 @@ bounties:
       - "-3408"
     depths_frost_agaat:
       name: Frost Talus
-      location: N of Agaat Canyon Mine 
+      location: N of Agaat Canyon Mine
       coordinates:
       - "-4723"
       - "-0391"
@@ -5638,21 +6329,21 @@ bounties:
       - "-1943"
       - "-1943"
     depths_igneo_fire_temple:
-      name: Igneo Talus 
+      name: Igneo Talus
       location: N of Fire Temple
       coordinates:
       - "1454"
       - "3175"
       - "3175"
     depths_igneo_kawamit:
-      name: Igneo Talus 
+      name: Igneo Talus
       location: W of Kawamit
       coordinates:
       - "1672"
       - "1610"
       - "1610"
     depths_igneo_kisomom:
-      name: Igneo Talus 
+      name: Igneo Talus
       location: S of Kisomom
       coordinates:
       - "2913"
@@ -5974,4 +6665,4 @@ bounties:
       - "1466"
       - "-0139"
       - "-0015"
-  lynel:
+#  lynel:
