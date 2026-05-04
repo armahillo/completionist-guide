@@ -1,0 +1,41 @@
+---
+layout: guide
+title:  Materia
+game: ffvii
+section: materia
+metadata:
+  last_updated: 05-03-2026
+---
+
+<h3>Magic</h3>
+
+{% for materia in site.data.ffvii.materia['magic'] %}
+  {% include ffvii/materia.html materia_type="magic" materia=materia %}
+{% endfor %}
+
+<h3>Summon</h3>
+
+{% for materia in site.data.ffvii.materia['summon'] %}
+  {% include ffvii/materia.html materia_type="summon" materia=materia %}
+{% endfor %}
+
+
+<h3>Command</h3>
+
+{% for materia in site.data.ffvii.materia['command'] %}
+  {% include ffvii/materia.html materia_type="command" materia=materia %}
+{% endfor %}
+
+
+<h3>Independent</h3>
+
+{% for materia in site.data.ffvii.materia['independent'] %}
+  {% include ffvii/materia.html materia_type="independent" materia=materia %}
+{% endfor %}
+
+
+<h3>Support</h3>
+
+{% for materia in site.data.ffvii.materia['support'] %}
+  {% include ffvii/materia.html materia_type="support" materia=materia %}
+{% endfor %}

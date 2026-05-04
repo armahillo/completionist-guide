@@ -1,0 +1,46 @@
+{% assign materia = site.data.ffvii.materia[include.materia_type] %}
+{% capture key_base %}{{ include.materia_type }}_{{ include.materia[0] }}_{% endcapture %}
+{% capture form_key %}{{ include.materia_type }}[{{ include.materia[0] }}]{% endcapture %}
+
+<h4>{{ materia[1].name }}</h4>
+
+{% if materia[1]['find'] %}
+<h5>Find it</h5>
+<dl class="materia find">
+  {% for location in materia[1]['find'] %}
+  <dt>{{ location[0] }}</dt>
+  <dd>{{ location[1] }}</dd>
+  {% endfor %}
+</dl>
+{% endif %}
+{% if materia[1]['cost'] %}
+<h5>Buy it for {{ materia[1]['cost'] }} gil</h5>
+<ul class="materia buy">
+  {% for location in materia[1]['buy'] %}
+    <li>{{ location }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+<ol class="levels {{ include.materia_type }}" data-list="materia">
+  <li>
+    <label for="{{ key_base }}_none" class="cached">
+      <input id="{{ key_base }}_none" type="radio" name="{{ form_key }}" checked="true" />clear
+    </label>
+  </li>
+  {% assign level = materia[1]['levels']['1'] %}
+  <li>
+    <label for="{{ key_base }}1">
+      <input id="{{ key_base }}1" type="radio" name="{{ form_key }}" value="1" /> {{ level.name }}
+      <span class="hide-after-complete">Acquired</span>
+    </label>
+  </li>
+  {% for level in materia[1]['levels'] offset: 1 %}
+  <li>
+    <label for="{{ key_base }}{{ level[0] }}">
+      <input id="{{ key_base }}{{ level[0] }}" type="radio" name="{{ form_key }}" value="{{ level[0] }}" /> {{ level[1].name }}
+      <span class="hide-after-complete">{{ level[1].cost }} AP</span>
+    </label>
+  </li>
+  {% endfor %}
+</ol>

@@ -1,0 +1,26 @@
+---
+layout: guide
+title: Enemy Skill
+game: ffvii
+section: enemy_skill
+published: true
+metadata:
+  last_updated: 05-03-2026
+---
+
+<ol class="collapsed" data-list="enemy_skill">
+  {% for enemy_skill in site.data.ffvii.enemy_skill %}
+    {% assign key = enemy_skill[0] %}
+    {% assign name = site.data.ffvii['enemy_skill'][key]['name'] %}
+    {% assign enemies = site.data.ffvii['enemy_skill'][key]['enemies'] %}
+    <li>
+      <label for="enemy_skill_{{ key }}"><input id="enemy_skill_{{ key }}" type="checkbox" name="{{ key }}" /> {{ name }}
+        <ul class="hide-after-complete">
+          {% for enemy in enemies %}
+            <li>{{ enemy }}</li>
+          {% endfor %}
+        </ul>
+      </label>
+    </li>
+  {% endfor %}
+</ol>

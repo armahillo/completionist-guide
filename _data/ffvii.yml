@@ -1,0 +1,1765 @@
+---
+materia:
+  magic:
+    barrier:
+      name: Barrier
+      # find:
+      cost: 10,000
+      buy:
+      - "Rocket Town Item Shop"
+      # note:
+      levels:
+        "1":
+          name: Barrier
+          cost: 0
+        "2":
+          name: MBarrier
+          cost: 5,000
+        "3":
+          name: Reflect
+          cost: 15,000
+        "4":
+          name: Wall
+          cost: 30,000
+        "5":
+          name: MASTERED
+          cost: 45,000
+    comet:
+      name: Comet
+      find:
+        "Forgotten Capital": top of blueish staircase leading downward
+      # note:
+      levels:
+        "1":
+          name: Comet
+          cost: 0
+        "2":
+          name: Comet2
+          cost: 12,000
+        "3":
+          name: MASTERED
+          cost: 60,000
+    contain:
+      name: Contain
+      find:
+        "Mideel": Give Mimett/Sylkis Greens to White Chocobo, then scratch behind its ears.
+      # note:
+      levels:
+        "1":
+          name: Freeze
+          cost: 0
+        "2":
+          name: Break
+          cost: 5,000
+        "3":
+          name: Tornado
+          cost: 10,000
+        "4":
+          name: Flare
+          cost: 15,000
+        "5":
+          name: MASTERED
+          cost: 60,000
+    destruct:
+      name: Destruct
+      find:
+        "Shinra Mansion Basement": Library
+      cost: 9,000
+      buy:
+      - "Mideel Materia Shop (before Cloud Returns)"
+      - "Chocobo Lady's Materia Shop (after Cloud Returns)"
+      # note:
+      levels:
+        "1":
+          name: DeBarrier
+          cost: 0
+        "2":
+          name: DeSpell
+          cost: 5,000
+        "3":
+          name: Death
+          cost: 15,000
+        "4":
+          name: MASTERED
+          cost: 45,000
+    earth:
+      name: Earth
+      cost: 1,500
+      buy:
+      - "Kalm Materia Shop"
+      - "Junon Materia Shop #2"
+      - "Costa del Sol Materia Shop (after Whirlwind Maze)"
+      # note:
+      levels:
+        "1":
+          name: Quake
+          cost: 0
+        "2":
+          name: Quake2
+          cost: 6,000
+        "3":
+          name: Quake3
+          cost: 22,000
+        "4":
+          name: MASTERED
+          cost: 40,000
+    exit:
+      name: Exit
+      cost: 10,000
+      buy:
+      - "Rocket Town Item Shop"
+      # note:
+      levels:
+        "1":
+          name: Exit
+          cost: 0
+        "2":
+          name: Remove
+          cost: 10,000
+        "3":
+          name: MASTERED
+          cost: 30,000
+    fire:
+      name: Fire
+      find:
+        "Red XIII": Initially equipped
+      cost: 600
+      buy:
+      - "Sector 7 Item shop"
+      - "Sector 5 Materia Shop"
+      - "Wall Market Materia Shop"
+      - "Junon Materia Shop #2"
+      - "Costa Del Sol Materai Shop"
+      - "Mideel Materia Shop (after Cloud returns)"
+      # note:
+      levels:
+        "1":
+          name: Fire
+          cost: 0
+        "2":
+          name: Fire2
+          cost: 5000
+        "3":
+          name: Fire3
+          cost: 15000
+        "4":
+          name: MASTERED
+          cost: 30000
+    full_cure:
+      name: Full Cure
+      find:
+        "Cosmo Canyon Item Shop (after Whirlwind Maze)": back room
+      # note:
+      levels:
+        "1":
+          name: "-"
+          cost: 0
+        "2":
+          name: Full Cure
+          cost: 3,000
+        "3":
+          name: MASTERED
+          cost: 100,000
+    gravity:
+      name: Gravity
+      find:
+        "Gi Nattak": Dropped
+      cost: 6,000
+      buy:
+      - "Costa Del Sol (after Whirlwind Maze)"
+      - "Mideel Materia Shop (before Cloud returns)"
+      - "Chocobo Lady's Materia Shop (after Cloud returns)"
+      # note:
+      levels:
+        "1":
+          name: Demi
+          cost: 0
+        "2":
+          name: Demi2
+          cost: 10,000
+        "3":
+          name: Demi3
+          cost: 20,000
+        "4":
+          name: MASTERED
+          cost: 40,000
+    heal:
+      name: Heal
+      cost: 1,000
+      buy:
+      - "Kalm Materia Shop"
+      - "Junon Materia Shop #1"
+      - "Costa del Sol Materia Shop (before Whirlwind Maze)"
+      - "Gongaga Accessory Shop"
+      levels:
+        "1":
+          name: Poisuna
+          cost: 0
+        "2":
+          name: Esuna
+          cost: 12,000
+        "3":
+          name: Resist
+          cost: 52,000
+        "4":
+          name: MASTERED
+          cost: 45,000
+    ice:
+      name: Ice
+      find:
+        "Cloud": Initially equipped
+      cost: 600
+      buy:
+      - "Sector 7 Item Shop"
+      - "Sector 5 Materia Shop"
+      - "Wall Market Materia Shop"
+      - "Junon Materia Shop #2"
+      - "Costa Del Sol Materia Shop"
+      - "Mideel Materia Shop (after Cloud returns)"
+      levels:
+        "1":
+          name: Ice
+          cost: 0
+        "2":
+          name: Ice2
+          cost: 2,000
+        "3":
+          name: Ice3
+          cost: 18,000
+        "4":
+          name: MASTERED
+          cost: 35,000
+    lightning:
+      name: Lightning
+      find:
+        "Cloud": Initially equipped
+      cost: 600
+      buy:
+      - "Sector 7 Item Shop"
+      - "Sector 5 Materia Shop"
+      - "Wall Market Materia Shop"
+      - "Junon Materia Shop #2"
+      - "Costa Del Sol Materia Shop"
+      - "Mideel Materia Shop (after Cloud returns)"
+      levels:
+        "1":
+          name: Bolt
+          cost: 0
+        "2":
+          name: Bolt2
+          cost: 2,000
+        "3":
+          name: Bolt3
+          cost: 18,000
+        "4":
+          name: MASTERED
+          cost: 35,000
+    master:
+      name: Master Magic
+      find:
+        "Green Huge Materia": Examine while possessing one of each mastered Magic materia
+        "Kalm Traveler": Give the Earth Harp (defeet Emerald Weapon)
+      # note:
+      levels:
+        "1":
+          name: MASTERED
+          cost: 0
+    mystify:
+      name: Mystify
+      cost: 6,000
+      buy:
+      - "Gonzaga Accessory Shop"
+      - "Cosmo Canyon Materia Shop"
+      levels:
+        "1":
+          name: Confu
+          cost: 0
+        "2":
+          name: Berserk
+          cost: 12,000
+        "3":
+          name: MASTERED
+          cost: 25,000
+    poison:
+      name: Poison
+      find:
+        "Shinra Building": 67F
+      cost: 1,500
+      buy:
+      - "Kalm Materia Shop"
+      - "Junon Materia Shop #2"
+      - "Costa del Sol Materia Shop (after Whirlwind Maze)"
+      levels:
+        "1":
+          name: Bio
+          cost: 0
+        "2":
+          name: Bio2
+          cost: 5,000
+        "3":
+          name: Bio3
+          cost: 20,000
+        "4":
+          name: MASTERED
+          cost: 38,000
+    restore:
+      name: Restore
+      find:
+        "Sector 1 Reactor": ...
+      cost: 750
+      buy:
+      - "Sector 7 Item Shop"
+      - "Sector 5 Materia Shop"
+      - "Wall Market Materia Shop"
+      - "Fort Condor Materia Shop"
+      - "Junon Materia Shop #1"
+      - "Costa del Sol Materia Shop"
+      - "Mideel Materia Shop (after Cloud Returns)"
+      levels:
+        "1":
+          name: Cure
+          cost: 0
+        "2":
+          name: Cure2
+          cost: 2,500
+        "3":
+          name: Regen
+          cost: 17,000
+        "4":
+          name: Cure3
+          cost: 25,000
+        "5":
+          name: MASTERED
+          cost: 40,000
+    revive:
+      name: Revive
+      cost: 3,000
+      buy:
+      - "Junon Materia Shop #1"
+      - "Costa del Sol Materia Shop (before Whirlwind Maze)"
+      levels:
+        "1":
+          name: Life
+          cost: 0
+        "2":
+          name: Life2
+          cost: 45,000
+        "3":
+          name: MASTERED
+          cost: 55,000
+    seal:
+      name: Sea
+      cost: 3,000
+      buy:
+      - "Junon Materia Shop #1"
+      - "Costa del Sol Materia Shop (before Whirlwind Maze)"
+      levels:
+        "1":
+          name: Sleepel
+          cost: 0
+        "2":
+          name: Silence
+          cost: 10,000
+        "3":
+          name: MASTERED
+          cost: 20,000
+    shield:
+      name: Shield
+      find:
+        "Northern Crater": ...
+      levels:
+        "1":
+          name: "-"
+          cost: 0
+        "2":
+          name: Shield
+          cost: 3,000
+        "3":
+          name: MASTERED
+          cost: 100,000
+    time:
+      name: Time
+      cost: 6,000
+      buy:
+      - "Gongaga Accessory Shop"
+      - "Rocket Town Item Shop"
+      levels:
+        "1":
+          name: Haste
+          cost: 0
+        "2":
+          name: Slow
+          cost: 5,000
+        "3":
+          name: Stop
+          cost: 20,000
+        "4":
+          name: MASTERED
+          cost: 38,000
+    transform:
+      name: Transform
+      find:
+        "Cait Sith": Initially equipped
+        "Mt. Corel": ...
+      cost: 5,000
+      buy:
+      - "Gongaga Accessory Shop"
+      - "Cosmo Canyon Materia Shop"
+      - "Mideel Materia Shop (before Cloud returns)"
+      - "Chocobo Lady's Materia Shop (after Cloud returns)"
+      levels:
+        "1":
+          name: Mini
+          cost: 0
+        "2":
+          name: Toad
+          cost: 8,000
+        "3":
+          name: MASTERED
+          cost: 24,000
+    ultima:
+      name: Ultima
+      find:
+        "Corel Huge Materia Quest": Reward for stopping train
+      cost: 50,000
+      buy:
+      - "little boy in North Corel (must make it onto the train)"
+      levels:
+        "1":
+          name: "-"
+          cost: 0
+        "2":
+          name: Ultima
+          cost: 5,000
+        "3":
+          name: MASTERED
+          cost: 100,000
+  summon:
+    alexander:
+      name: Alexander
+      find:
+        "Great Glacier": Dropped after defeating Snow after touching Hot Springs and talking to her.
+      levels:
+        "1":
+          name: Judgement
+          cost: 0
+        "2":
+          name: x2
+          cost: 25,000
+        "3":
+          name: x3
+          cost: 65,000
+        "4":
+          name: x4
+          cost: 100,000
+        "5":
+          name: MASTERED
+          cost: 150,000
+    bahamut:
+      name: Bahamut
+      find:
+        "Temple of the Ancients": Dropped by Red Dragon
+      levels:
+        "1":
+          name: Mega Flare
+          cost: 0
+        "2":
+          name: x2
+          cost: 20,000
+        "3":
+          name: x3
+          cost: 50,000
+        "4":
+          name: x4
+          cost: 80,000
+        "5":
+          name: MASTERED
+          cost: 120,000
+    bahamut_zero:
+      name: Bahamut ZERO
+      find:
+        "Blue Huge Materia": Examine while possessing Bahamut & Neo Bahamut
+        "Bone Village": Dig up during Disc 3
+      levels:
+        "1":
+          name: Tera Flare
+          cost: 0
+        "2":
+          name: x2
+          cost: 35,000
+        "3":
+          name: x3
+          cost: 120,000
+        "4":
+          name: x4
+          cost: 150,000
+        "5":
+          name: MASTERED
+          cost: 250,000
+    choco_mog:
+      name: Choco/Mog
+      find:
+        "Chocobo Farm (before Whirlwind Maze)": Speak to a Chocobo near the fence and choose "WARK!"
+        "Chocobo Farm (after Whirlwind Maze)": Catch your own chocobo and speak to it
+      levels:
+        "1":
+          name: Choco/Mog
+          cost: 0
+        "2":
+          name: x2
+          cost: 2,000
+        "3":
+          name: x3
+          cost: 14,000
+        "4":
+          name: x4
+          cost: 25,000
+        "5":
+          name: MASTERED
+          cost: 35,000
+    hades:
+      name: Hades
+      find:
+        "Sunken Gelinka": cargo room
+      levels:
+        "1":
+          name: Black Cauldron
+          cost: 0
+        "2":
+          name: x2
+          cost: 35,000
+        "3":
+          name: x3
+          cost: 120,000
+        "4":
+          name: x4
+          cost: 150,000
+        "5":
+          name: MASTERED
+          cost: 250,000
+    ifrit:
+      name: Ifrit
+      find:
+        "Cargo Ship": Dropped by JENOVA-Birth
+      levels:
+        "1":
+          name: Hellfire
+          cost: 0
+        "2":
+          name: x2
+          cost: 5,000
+        "3":
+          name: x3
+          cost: 20,000
+        "4":
+          name: x4
+          cost: 35,000
+        "5":
+          name: MASTERED
+          cost: 60,000
+    kjata:
+      name: Kjata
+      find:
+        "Sleeping Forest": ...
+      levels:
+          "1":
+            name: Tetra-Disaster
+            cost: 0
+          "2":
+            name: x2
+            cost: 22,000
+          "3":
+            name: x3
+            cost: 60,000
+          "4":
+            name: x4
+            cost: 90,000
+          "5":
+            name: MASTERED
+            cost: 140,000
+    kotr:
+      name: Knights of Round
+      find:
+        "Round Island": Get Gold Chocobo, NE corner of map, go inside cave and examine red glowing thing
+      levels:
+        "1":
+          name: Ultimate End
+          cost: 0
+        "2":
+          name: x2
+          cost: 50,000
+        "3":
+          name: x3
+          cost: 200,000
+        "4":
+          name: x4
+          cost: 300,000
+        "5":
+          name: MASTERED
+          cost: 500,000
+    leviathan:
+      name: Leviathan
+      find:
+        "Wutai": Reward for completing Wutai Pagoda sidequest
+      levels:
+        "1":
+          name: Tidal Wave
+          cost: 0
+        "2":
+          name: x2
+          cost: 18,000
+        "3":
+          name: x3
+          cost: 38,000
+        "4":
+          name: x4
+          cost: 70,000
+        "5":
+          name: MASTERED
+          cost: 100,000
+    master:
+      name: Master Summon
+      find:
+        "Red Huge Materia": Examine while possessing one of each Summon materia mastered
+        "Kalm Traveler": Exchanged for Earth Harp (Emerald Weapon)
+      levels:
+        "1":
+          name: "MASTERED"
+          cost: 0
+    neo_bahamut:
+      name: Neo Bahamut
+      find:
+        "Whirlwind Maze": Where the first Save Point is
+      levels:
+        "1":
+          name: Giga Flare
+          cost: 0
+        "2":
+          name: x2
+          cost: 25,000
+        "3":
+          name: x3
+          cost: 65,000
+        "4":
+          name: x4
+          cost: 100,000
+        "5":
+          name: MASTERED
+          cost: 150,000
+    odin:
+      name: Odin
+      find:
+        "Shinra Mansion": Dropped by Lost Number
+      levels:
+        "1":
+          name: Odin
+          cost: 0
+        "2":
+          name: x2
+          cost: 16,000
+        "3":
+          name: x3
+          cost: 32,000
+        "4":
+          name: x4
+          cost: 65,000
+        "5":
+          name: MASTERED
+          cost: 80,000
+    phoenix:
+      name: Phoenix
+      find:
+        "Fort Condor": Reward for completing Fort Condor Huge Materia quest
+        "Bone Village": Dug up during Disc 3. (Can get both if you complete the quest but don't take it until digging it up first)
+      levels:
+        "1":
+          name: Phoenix Flame
+          cost: 0
+        "2":
+          name: x2
+          cost: 35,000
+        "3":
+          name: x3
+          cost: 120,000
+        "4":
+          name: x4
+          cost: 150,000
+        "5":
+          name: MASTERED
+          cost: 250,000
+    ramuh:
+      name: Ramuh
+      find:
+        "Gold Saucer": In the Jockey Room (retrieve before Cloud wins the mandatory race)
+      levels:
+        "1":
+          name: Judgement Bolt
+          cost: 0
+        "2":
+          name: x2
+          cost: 10,000
+        "3":
+          name: x3
+          cost: 25,000
+        "4":
+          name: x4
+          cost: 50,000
+        "5":
+          name: MASTERED
+          cost: 70,000
+    shiva:
+      name: Shiva
+      find:
+        "Junon area": Given by Priscilla after defeating Bottomswell
+      levels:
+        "1":
+          name: Diamond Dust
+          cost: 0
+        "2":
+          name: x2
+          cost: 4,000
+        "3":
+          name: x3
+          cost: 15,000
+        "4":
+          name: x4
+          cost: 30,000
+        "5":
+          name: MASTERED
+          cost: 50,000
+    titan:
+      name: Titan
+      find:
+        "Gongaga": In the meltdown reactor, inspect the area Scarlet was inspecting, near the forked part of the path
+      levels:
+        "1":
+          name: Anger of the Land
+          cost: 0
+        "2":
+          name: x2
+          cost: 15,000
+        "3":
+          name: x3
+          cost: 30,000
+        "4":
+          name: x4
+          cost: 60,000
+        "5":
+          name: MASTERED
+          cost: 80,000
+    typhoon:
+      name: Typhoon
+      find:
+        "Ancient Forest": among the treetops
+      levels:
+        "1":
+          name: Disintegration
+          cost: 0
+        "2":
+          name: x2
+          cost: 35,000
+        "3":
+          name: x3
+          cost: 120,000
+        "4":
+          name: x4
+          cost: 150,000
+        "5":
+          name: MASTERED
+          cost: 250,000
+  command:
+    deathblow:
+      name: Deathblow
+      find:
+        "Gongaga": Near exit
+      cost: 10,000
+      buy:
+      - "Fort Condor Materia Shop (after Whirlwind Maze)"
+      - "Rocket Town Item Shop (after Whirlwind Maze)"
+      levels:
+        "1":
+          name: D.Blow
+          cost: 0
+        "2":
+          name: MASTERED
+          cost: 40,000
+    double_cut:
+      name: Double Cut
+      find:
+        "Sunken Gelinka": ...
+      levels:
+        "1":
+          name: 2x-cut
+          cost: 0
+        "2":
+          name: 4x-cut
+          cost: 100,000
+        "3":
+          name: MASTERED
+          cost: 150,000
+    enemy_skill:
+      name: Enemy Skill
+      find:
+        "Shinra Building": Dropped by Sample H0512
+        "Junon": Respectable Inn
+        "Forgotten Capital": In room with beds
+        "Chocobo Sage's House": Green Chocobo (speak to it)
+      levels:
+        "1":
+          name: Special (see Enemy Skill chart)
+          cost: 0
+    manipulate:
+      name: Manipulate
+      find:
+        "Cait Sith": Initially equipped
+      cost: 10,000
+      buy:
+      - "Fort Condor Materia Shop (after Whirlwind Maze)"
+      - "Rocket Town Item Shop (after Whirlwind Maze)"
+    master:
+      name: Master Command
+      find:
+        "Huge Yellow Materia": Speak ot it with mastered Steal, Sense, Throw, Morph, Deathblow, Manipulate and Mime
+        "Kalm Traveler": Exchanged for Earth Harp (Emerald Weapon)
+      levels:
+        "1":
+          name: MASTERED
+          cost: 0
+    mime:
+      name: Mime
+      find:
+        "Materia Cave": Wutai's Eastern Coast (requires Green, Black, or Gold chocobo)
+      levels:
+        "1":
+          name: Mime
+          cost: 0
+        "2":
+          name: MASTERED
+          cost: 100,000
+    morph:
+      name: Morph
+      find:
+        "Temple of the Ancients": Room with rolling rocks near spring
+      levels:
+        "1":
+          name: Morph
+          cost: 0
+        "2":
+          name: MASTERED
+          cost: 100,000
+    sense:
+      name: Sense
+      find:
+        "Red XIII": Initially equipped
+        "Sector 5 Playground": After Aps
+      cost: 1,000
+      buy:
+      - "Kalm Materia Shop"
+      - "Junon Materia Shop #1"
+      levels:
+        "1":
+          name: Sense
+          cost: 0
+        "2":
+          name: MASTERED
+          cost: 40,000
+    slash_all:
+      name: Slash-All
+      find:
+        "Ancient Forest": In a Fly-Trap (run towards the materia while mashing Circle to collect it)
+      levels:
+        "1":
+          name: Slash-All
+          cost: 0
+        "2":
+          name: Flash
+          cost: 130,000
+        "3":
+          name: MASTERED
+          cost: 150,000
+    steal:
+      name: Steal
+      find:
+        "Sector 6 Sewer": ...
+      cost: 1,200
+      buy:
+      - "Kalm Materia Shop"
+      levels:
+        "1":
+          name: Steal
+          cost: 0
+        "2":
+          name: Mug
+          cost: 40,000
+        "3":
+          name: MASTERED
+          cost: 50,000
+    throw:
+      name: Throw
+      find:
+        "Yuffie": Initially equipped
+      cost: 10,000
+      buy:
+      - "Fort Condor Materia Shop (after Whirlwind Maze)"
+      - "Rocket Town Item Shop (after Whirlwind Maze)"
+      levels:
+        "1":
+          name: Throw
+          cost: 0
+        "2":
+          name: Coin
+          cost: 45,000
+        "3":
+          name: MASTERED
+          cost: 60,000
+    w_item:
+      name: W-Item
+      find:
+        "Midgar Raid": Found in Winding Tunnel, south of junction one
+        "Bone Village": Dug up during disc 3
+      levels:
+        "1":
+          name: W-Item
+          cost: 0
+        "2":
+          name: MASTERED
+          cost: 250,000
+    w_magic:
+      name: W-Magic
+      find:
+        "Northern Crater": ...
+      levels:
+        "1":
+          name: W-Magic
+          cost: 0
+        "2":
+          name: MASTERED
+          cost: 250,000
+    w_summon:
+      name: W-Summon
+      find:
+        "Battle Square": Prize, after Whirlwind Maze, once only
+      levels:
+        "1":
+          name: W-Summon
+          cost: 0
+        "2":
+          name: MASTERED
+          cost: 250,000
+  independent:
+    chocobo_lure:
+      name: Chocobo Lure
+      find:
+        "Chocobo Farm (after Whirlwind Maze)": In front of the fence
+      cost: 2,000
+      buy:
+      - "Chocobo Farm (before Whirlwind Maze), from Choco Billy"
+      levels:
+        "1":
+          name: Meet Chocobos +8
+          cost: 0
+        "2":
+          name: Meet Chocobos +12
+          cost: 3,000
+        "3":
+          name: Meet Chocobos +16
+          cost: 10,000
+        "4":
+          name: MASTERED
+          cost: 30,000
+    counter_attack:
+      name: Counter Attack
+      find:
+        "Chocobo Racing": Prize (A/S Class)
+        "Mt. Nibel": Dropped by Materia Keeper
+      levels:
+        "1":
+          name: Counter 30%
+          cost: 0
+        "2":
+          name: Counter 40%
+          cost: 10,000
+        "3":
+          name: Counter 60%
+          cost: 20,000
+        "4":
+          name: Counter 80%
+          cost: 50,000
+        "5":
+          name: MASTERED
+          cost: 100,000
+    cover:
+      name: Cover
+      find:
+        "Sector 5": Garden outside Aeris's house
+      cost: 1,000
+      buy:
+      - "Wall Market Materia Shop"
+      levels:
+        "1":
+          name: Cover 20%
+          cost: 0
+        "2":
+          name: Cover 40%
+          cost: 2,000
+        "3":
+          name: Cover 60%
+          cost: 10,000
+        "4":
+          name: Cover 80%
+          cost: 25,000
+        "5":
+          name: MASTERED
+          cost: 40,000
+    enemy_away:
+      name: Enemy Away
+      find:
+        "Chocobo Racing": Prize for A/S Class
+      levels:
+        "1":
+          name: Encounter -43.75%
+          cost: 0
+        "2":
+          name: Encounter -87.5%
+          cost: 10,000
+        "3":
+          name: MASTERED
+          cost: 50,000
+    enemy_lure:
+      name: Enemy Lure
+      find:
+        "Battle Square": Prize
+      levels:
+        "1":
+          name: Encounter +43.75%
+          cost: 0
+        "2":
+          name: Encounter +87.5%
+          cost: 10,000
+        "3":
+          name: MASTERED
+          cost: 50,000
+    exp_plus:
+      name: EXP Plus
+      find:
+        "Wonder Square": Prize Lady, costs 2,000 GP
+      levels:
+        "1":
+          name: XP +50%
+          cost: 0
+        "2":
+          name: XP +100%
+          cost: 60,000
+        "3":
+          name: MASTERED
+          cost: 150,000
+    gil_plus:
+      name: Gil Plus
+      find:
+        "Wonder Square": Prize Lady, costs 1,000 GP
+      levels:
+        "1":
+          name: Gil +50%
+          cost: 0
+        "2":
+          name: Gil +100%
+          cost: 80,000
+        "3":
+          name: MASTERED
+          cost: 150,000
+    hp_mp:
+      name: HP<->MP
+      find:
+        "Corel Materia Cave": Requires Blue, Black, or Gold Chocobo to access
+      levels:
+        "1":
+          name: HP<->MP
+          cost: 0
+        "2":
+          name: MASTERED
+          cost: 80,000
+    hp_plus:
+      name: HP Plus
+      find:
+        "Junon": Prize for Rufus Send-Off (60-90 points)
+      cost: 8,000
+      buy:
+      - "Cosmo Canyon Materia Shop"
+      - "Mideel Materia Shop (before Cloud returns)"
+      - "Chocobo Lady's Materia Shop (after Cloud returns)"
+      levels:
+        "1":
+          name: MaxHP +10%
+          cost: 0
+        "2":
+          name: MaxHP +20%
+          cost: 10,000
+        "3":
+          name: MaxHP +30%
+          cost: 20,000
+        "4":
+          name: MaxHP +40%
+          cost: 30,000
+        "5":
+          name: MASTERED
+          cost: 50,000
+    long_range:
+      name: Long Range
+      find:
+        "Mythril Mines": Upper ledge of eastern section
+      levels:
+        "1":
+          name: Long Range Attack
+          cost: 0
+        "2":
+          name: MASTERED
+          cost: 80,000
+    luck_plus:
+      name: Luck Plus
+      find:
+        "Temple of the Ancients": First section of the Temple
+      levels:
+        "1":
+          name: Luck +10%
+          cost: 0
+        "2":
+          name: Luck +20%
+          cost: 15,000
+        "3":
+          name: Luck +30%
+          cost: 30,000
+        "4":
+          name: Luck +40%
+          cost: 60,000
+        "5":
+          name: Luck +50%
+          cost: 100,000
+    magic_plus:
+      name: Magic Plus
+      find:
+        "Corral Valley": in the cave with the long ladder
+      levels:
+        "1":
+          name: Magic +10%
+          cost: 0
+        "2":
+          name: Magic +20%
+          cost: 10,000
+        "3":
+          name: Magic +30%
+          cost: 20,000
+        "4":
+          name: Magic +40%
+          cost: 30,000
+        "5":
+          name: MASTERED
+          cost: 50,000
+    mega_all:
+      name: Mega All
+      find:
+        "Northern Crater": ...
+      levels:
+        "1":
+          name: x1
+          cost: 0
+        "2":
+          name: x2
+          cost: 20,000
+        "3":
+          name: x3
+          cost: 40,000
+        "4":
+          name: x4
+          cost: 80,000
+        "5":
+          name: MASTERED
+          cost: 160,000
+    mp_plus:
+      name: MP Plus
+      cost: 8,000
+      buy:
+      - "Cosmo Canyon Materia Shop"
+      - "Mideel Materia Shop (before Cloud returns)"
+      - "Chocobo Lady's Materia Shop (after Cloud returns)"
+      levels:
+        "1":
+          name: MP +10%
+          cost: 0
+        "2":
+          name: MP +20%
+          cost: 10,000
+        "3":
+          name: MP +30%
+          cost: 20,000
+        "4":
+          name: MP +40%
+          cost: 30,000
+        "5":
+          name: MASTERED
+          cost: 50,000
+    pre_emptive:
+      name: Pre-Emptive
+      find:
+        "Battle Square": Prize
+      levels:
+        "1":
+          name: Pre-emptive +6.25%
+          cost: 0
+        "2":
+          name: Pre-emptive +8.59375%
+          cost: 10,000
+        "3":
+          name: Pre-emptive +10.9375%
+          cost: 20,000
+        "4":
+          name: Pre-emptive +13.28125%
+          cost: 30,000
+        "5":
+          name: MASTERED
+          cost: 50,000
+    speed_plus:
+      name: Speed Plus
+      find:
+        "Battle Square": Prize
+      levels:
+        "1":
+          name: Dexterity +10%
+          cost: 0
+        "2":
+          name: Dexterity +20%
+          cost: 15,000
+        "3":
+          name: Dexterity +30%
+          cost: 30,000
+        "4":
+          name: Dexterity +40%
+          cost: 60,000
+        "5":
+          name: MASTERED
+          cost: 100,000
+    underwater:
+      name: Underwater
+      find:
+        "Kalm Traveler": Exchanged for Guide Book
+      note: BUG! This will be overwritten if you run out of materia space
+      levels:
+        "1":
+          name: Underwater
+          cost: 0
+  support:
+    added_cut:
+      name: Added Cut
+      find:
+        "Great Glacier": Northeast from the Northeastern-most junction
+      levels:
+        "1":
+          name: Added Cut
+          cost: 0
+        "2":
+          name: MASTERED
+          cost: 200,000
+    added_effect:
+      name: Added Effect
+      find:
+        "Cave of the GI": Ledge in first room, access by running south from oil slick in second area
+      levels:
+        "1":
+          name: Added Effect
+          cost: 0
+        "2":
+          name: MASTERED
+          cost: 100,000
+    all:
+      name: All
+      find:
+        "Snowboarding": Course B (89+ Points)
+        "Shinra Building": 63F, A Coupon
+        "Sector 7": Beginner's Hall
+        "Cargo Ship": ...
+        "Mt. Nibel": ...
+        "Great Glacier": ...
+      cost: 20,000
+      buy:
+      - "Fort Condor Materia Shop (after Whirlwind Maze)"
+      levels:
+        "1":
+          name: x1
+          cost: 0
+        "2":
+          name: x2
+          cost: 1,500
+        "3":
+          name: x3
+          cost: 6,000
+        "4":
+          name: x4
+          cost: 18,000
+        "5":
+          name: MASTERED
+          cost: 35,000
+    counter:
+      name: Counter
+      find:
+        "Northern Crater": ...
+      levels:
+        "1":
+          name: Counter 30%
+          cost: 0
+        "2":
+          name: Counter 40%
+          cost: 20,000
+        "3":
+          name: Counter 60%
+          cost: 40,000
+        "4":
+          name: Counter 80%
+          cost: 60,000
+        "5":
+          name: MASTERED
+          cost: 100,000
+    elemental:
+      name: Elemental
+      note: "Upper-right of lib (blue/green shelves), book in left half of middle shelf. '2 Economic Report...' => BEST. '1 Breakdown of SOLDIER...'' BOMB. '10 New plans...'' => MAKO, '1 Results of failed' => KING"
+      find:
+        "Mayor Domino": For guessing password on 1st try.
+        "Mt. Nibel": Near Materia Springs
+        "Tifa's Piano": Tifa is party leader, must have played piano during flashback and told Tifa you "jammed on it"
+      levels:
+        "1":
+          name: Half Element
+          cost: 0
+        "2":
+          name: Nullify Element
+          cost: 10,000
+        "3":
+          name: Absorb Element
+          cost: 40,000
+        "4":
+          name: MASTERED
+          cost: 80,000
+    final_attack:
+      name: Final Attack
+      find:
+        "Gold Saucer": Special Battle (must have Cloud's Ultima Weapon, Omnislash, W-Summon)
+      levels:
+        "1":
+          name: x1
+          cost: 0
+        "2":
+          name: x2
+          cost: 20,000
+        "3":
+          name: x3
+          cost: 40,000
+        "4":
+          name: x4
+          cost: 80,000
+        "5":
+          name: MASTERED
+          cost: 160,000
+    hp_absorb:
+      name: HP Absorb
+      find:
+        "Wutai": Yuffie's House
+        "Northern Crater": ...
+      levels:
+        "1":
+          name: HP Absorb
+          cost: 0
+        "2":
+          name: MASTERED
+          cost: 100,000
+    magic_counter:
+      name: Magic Counter
+      find:
+        "Chocobo Racing": A/S Class reward
+        "Northern Crater": ...
+      levels:
+        "1":
+          name: Counter 30%
+          cost: 0
+        "2":
+          name: Counter 40%
+          cost: 40,000
+        "3":
+          name: Counter 60%
+          cost: 80,000
+        "4":
+          name: Counter 80%
+          cost: 160,000
+        "5":
+          name: MASTERED
+          cost: 300,000
+    mp_absorb:
+      name: MP Absorb
+      find:
+        "Wutai": Item shop during Wutai Sidequest
+      levels:
+        "1":
+          name: MP Absorb
+          cost: 0
+        "2":
+          name: MASTERED
+          cost: 100,000
+    mp_turbo:
+      name: MP Turbo
+      find:
+        "Whirlwind Maze": after boss battle
+      levels:
+        "1":
+          name: power/cost +10%
+          cost: 0
+        "2":
+          name: power/cost +20%
+          cost: 10,000
+        "3":
+          name: power/cost +30%
+          cost: 30,000
+        "4":
+          name: power/cost +40%
+          cost: 60,000
+        "5":
+          name: power/cost +50%
+          cost: 120,000
+    quadra_magic:
+      name: Quadra Magic
+      find:
+        "Near Mideel": Materia Cave, requires Airship glitch, or black or gold chocobo
+      levels:
+        "1":
+          name: x1
+          cost: 0
+        "2":
+          name: x2
+          cost: 40,000
+        "3":
+          name: x3
+          cost: 80,000
+        "4":
+          name: x4
+          cost: 120,000
+        "5":
+          name: MASTERED
+          cost: 200,000
+    sneak_attack:
+      name: Sneak Attack
+      find:
+        "Chocobo Racing": S Rank
+      levels:
+        "1":
+          name: 20%
+          cost: 0
+        "2":
+          name: 35%
+          cost: 20,000
+        "3":
+          name: 50%
+          cost: 40,000
+        "4":
+          name: 65%
+          cost: 60,000
+        "5":
+          name: MASTERED
+          cost: 100,000
+    steal_as_well:
+      name: Steal as Well
+      find:
+        "Wutai": Da-Chao Cave. Requires Leviathan scales.
+      levels:
+        "1":
+          name: Steal as Well
+          cost: 0
+        "2":
+          name: MASTERED
+          cost: 200,000
+enemy_skill:
+  frog_song:
+    name: Frog Song
+    enemies:
+    - Touch Me
+    - Toxic Frog
+    - Christopher
+  l4_suicide:
+    name: L4 Suicide
+    enemies:
+    - Mu
+    - Trickplay
+  magic_hammer:
+    name: Magic Hammer
+    enemies:
+    - Razor Weed
+  white_wind:
+    name: White Wind
+    enemies:
+    - Zemzelett (Manip.)
+    - Wind Wing (Manip.)
+  big_guard:
+    name: Big Guard
+    enemies:
+    - Beachplug (Manip.)
+  angel_whisper:
+    name: Angel Whisper
+    enemies:
+    - Pollensalta (Manip.)
+  dragon_force:
+    name: Dragon Force
+    enemies:
+    - Dark Dragon (Manip.)
+  death_force:
+    name: Death Force
+    enemies:
+    - Adamantaimai (Manip.)
+  flame_thrower:
+    name: Flame Thrower
+    enemies:
+    - Ark Dragon
+    - Dragon
+  laser:
+    name: Laser
+    enemies:
+    - Death Claw
+    - Dark Dragon
+  matra_magic:
+    name: Matra Magic
+    enemies:
+    - Custom Sweeper
+    - Bullmotor
+    - Death Machine
+  bad_breath:
+    name: Bad Breath
+    enemies:
+    - Malboro
+  beta:
+    name: Beta
+    enemies:
+    - Midgar Zolom
+  aqualung:
+    name: Aqualung
+    enemies:
+    - Harpy
+    - Jenova*Life
+    - Serpent
+  trine:
+    name: Trine
+    missable: true
+    enemies:
+    - Materia Keeper
+    - Stilva (Manip.)
+    - Godo
+  magic_breath:
+    name: Magic Breath
+    enemies:
+    - Stilva
+    - Parasite (Manip.)
+  "4_qmarks":
+    name: ????
+    enemies:
+    - Jersey
+    - Behemoth
+  goblin_punch:
+    name: Goblin Punch
+    enemies:
+    - goblin
+  chocobuckle:
+    name: Chocobuckle
+    enemies:
+    - Chocobo (give Mimemtt or Raegan, reduce to 1/32 HP or less)
+  l5_death:
+    name: L5 Death
+    enemies:
+    - Parasite (Manip.)
+  death_sentence:
+    name: Death Sentence
+    enemies:
+    - Sneaky Step
+    - GI Spector (Counterattack)
+    - Boundfat (Final Attack against magic/summons)
+  roulette:
+    name: Roulette
+    enemies:
+    - Death Dealer (counterattack when reduced to 25% or less max HP)
+  shadow_flare:
+    name: Shadow Flare
+    enemies:
+    - Ultimate Weapon (final attack)
+    - Dragon Zombie
+    - Safer*JENOVA (past Point of No Return)
+  pandoras_box:
+    name: Pandora's Box
+    enemies:
+    - Dragon Zombie (Final Attack, first time you defeat one)
+
+limit_breaks:
+  cloud:
+    braver:
+      name: Braver
+      requirement: Starting
+    cross_slash:
+      name: Cross-Slash
+      requirement: Use Braver 8 times
+    blade_beam:
+      name: Blade Beam
+      requirement: Slay 120 enemies
+    climhazzard:
+      name: Climhazzard
+      requirement: Use Blade Beam 7 times
+    meteorain:
+      name: Meteorain
+      requirement: Slay 320 enemies
+    finishing_touch:
+      name: Finishing Touch
+      requirement: Use Meteorain 6 times
+    omnislash:
+      name: Omnislash
+      requirement: Omnislash manual (Battle Square prize)
+  barret:
+    big_shot:
+      name: Big Shot
+      requirement: Starting
+    mindblow:
+      name: Mindblow
+      requirement: Use Big Shot 9 times
+    grenade_bomb:
+      name: Grenade Bomb
+      requirement: Slay 80 enemies
+    hammerblow:
+      name: Hammerblow
+      requirement: Use Grenade bomb 8 times
+    satellite_beam:
+      name: Satellite Beam
+      requirement: Slay 160 enemies
+    ungarmax:
+      name: Ungarmax
+      requirement: Use Satellite Beam 6 times
+    catastrophe:
+      name: Catastrophe
+      requirement: Catastrophe manual (Corel Huge Materia quest)
+  tifa:
+    beat_rush:
+      name: Beat Rush
+      requirement: Starting
+    somersault:
+      name: Somersault
+      requirement: Use Beat Rush 9 times
+    water_kick:
+      name: Water Kick
+      requirement: Slay 96 enemies
+    meteodrive:
+      name: Meteodrive
+      requirement: Use Water Kick 7 times
+    dolphin_blow:
+      name: Dolphin Blow
+      requirement: Slay 192 enemies
+    meteor_strike:
+      name: Meteor Strike
+      requirement: Use Dolphin Blow 6 times
+    final_heaven:
+      name: Final Heaven Manual (found in Tifa's Piano after Cloud rejoins in Disc 2)
+  aeris:
+    healing_wind:
+      name: Healing Wind
+      requirement: Starting
+    seal_evil:
+      name: Seal Evil
+      requirement: Use Healing Wind 8 times
+    breath_of_the_earth:
+      name: Breath of the Earth
+      requirement: Slay 80 enemies
+    fury_brand:
+      name: Fury Brand
+      requirement: Use Breath of the Earth 6 times
+    planet_protector:
+      name: Planet Protector
+      requirement: Slay 160 enemies
+    pulse_of_life:
+      name: Pulse of Life
+      requirement: Use Planet Protector 5 times
+    great_gospel:
+      name: Great Gospel
+      requirement: Great Gospel manual (give the man in teh house near the Gold Saucer a Mythril, then open the small box on the balcony)
+  red_xiii:
+    sled_fang:
+      name: Sled Fang
+      requirement: Starting
+    lunatic_high:
+      name: Lunatic High
+      requirement: Using Sled Fang 8 times
+    blood_fang:
+      name: Blood Fang
+      requirement: Slay 72 enemies
+    stardust_ray:
+      name: Stardust Ray
+      requirement: Use Blood Fang 7 times
+    howling_moon:
+      name: Howling Moon
+      requirement: Slay 144 enemies
+    earth_rave:
+      name: Earth Rave
+      requirement: Use Howling Moon 6 times
+    cosmo_memory:
+      name: Cosmo Memory
+      requirement: Cosmo Memory manual (Dropped by Lost Number)
+  yuffie:
+    greased_lightning:
+      name: Greased Lightning
+      requirement: Starting
+    clear_tranquil:
+      name: Clear Tranquil
+      requirement: Use Greased Lightning 8 times
+    landscaper:
+      name: Landscaper
+      requirement: Slay 64 enemies
+    bloodfest:
+      name: Bloodfest
+      requirement: Use Landscaper 7 times
+    gauntlet:
+      name: Gauntlet
+      requirement: Slay 128 enemies
+    doom_of_the_living:
+      name: Doom of the Living
+      requirement: Use Gauntlet 6 times
+    all_creation:
+      name: All Creation
+      requirement: All Creation manual, which is obtained after completing the Pagoda Sidequest.
+  cait_sith:
+    dice:
+      name: Dice
+      requirement: Starting
+    slots:
+      name: Slots
+      requirement: Slay 40 enemies
+  vincent:
+    galian_beast:
+      name: Galian Beast
+      requirement: Starting
+    death_gigas:
+      name: Death Gigas
+      requirement: Slay 40 enemies
+    hellmasker:
+      name: Hellmasker
+      requirement: Slay 96 enemies
+    chaos:
+      name: Chaos
+      requirement: Use Chaos manual (behind waterfall near circular lake, SE of Nibelheim, in late disc 2 / disc 3)
+  cid:
+    boost_jump:
+      name: Boost Jump
+      requirement: Starting
+    dynamite:
+      name: Dynamite
+      requirement: Use Boost Jump 7 times
+    hyper_jump:
+      name: Hyper Jump
+      requirement: Slay 60 enemies
+    dragon:
+      name: Dragon
+      requirement: Use Hyper Jump 6 times
+    dragon_dive:
+      name: Dragon Dive
+      requirement: Slay 136 enemies
+    big_brawl:
+      name: Big Brawl
+      requirement: Use Dragon Dive 5 times
+    highwind:
+      name: Highwind
+      requirement: Highwind manual, which is in the Sunken Gelnika in the room with the helicopter.

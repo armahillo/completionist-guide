@@ -1,0 +1,108 @@
+body[data-game="ffvii"] {
+  --color-vivid-tangerine: #FE8831;
+  --color-aquamarine: #9AF3C7;
+  --color-vanilla-custard: #E2D7A9;
+  --color-shamrock: #439D69;
+  --color-sand: #A69E77;
+  --color-ebony: #565946;
+  --color-charcoal-brown: #34402A;
+  --color-carbon-black: #212524;
+
+  --color-materia-magic: #32CD32;
+  --color-materia-support: #1E90FF;
+  --color-materia-command: #DAA520;
+  --color-materia-passive: #BA55D3;
+  --color-materia-summon: #DC143C;
+
+  --fresh-color: var(--color-aquamarine);
+  --cached-color: var(--color-vanilla-custard);
+  --disallowed-color: var(--color-vivid-tangerine);
+
+  @media (prefers-color-scheme: dark) {
+    --background-color: var(--color-carbon-black);
+    --text-color: var(--color-sand);
+    --link-color: var(--color-aquamarine);
+  }
+  @media (prefers-color-scheme: light) {
+    background-color: var(--color-sand);
+    text-color: var(--color-ebony);
+    link-color: var(--color-shamrock);
+  }
+
+  & {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  a {
+    color: var(--link-color);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--color-light-salmon);
+  }
+  #guide-nav {
+    margin: 0 auto;
+
+    ol {
+      li {
+        background-color: var(--color-shamrock);
+
+        &:hover {
+          background-color: var(--color-aquamarine);
+        }
+        a {
+          color: var(--color-carbon-black);
+        }
+      }
+    }
+  }
+
+  #guide {
+    [data-list="enemy_skill"] {
+      label:has(:checked) {
+        background-color: var(--color-materia-command);
+
+        &.cached {
+          filter: saturate(0.4);
+        }
+      }
+    }
+
+    &[data-section="materia"] {
+      h5 {
+        margin: 0;
+      }
+      dl.materia {
+        margin: 0 2rem 1rem;
+        dd {
+          margin: 0;
+          padding: 0 0.5rem;
+        }
+      }
+      ul.materia.buy {
+        margin: 0 3rem 1rem;
+        list-style: disc;
+      }
+      .levels {
+        label {
+          display: flex;
+          flex-direction: column;
+        }
+        &.magic {
+          border-top: 3px solid var(--color-materia-magic);
+        }
+        &.summon {
+          border-top: 3px solid var(--color-materia-summon);
+        }
+        &.command {
+          border-top: 3px solid var(--color-materia-command);
+        }
+        &.independent {
+          border-top: 3px solid var(--color-materia-independent);
+        }
+        &.support {
+          border-top: 3px solid var(--color-materia-support);
+        }
+      }
+    }
+  }
+}
