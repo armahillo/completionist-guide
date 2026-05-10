@@ -1,0 +1,32 @@
+---
+layout: guide
+title: Achievements
+game: ffvii
+section: achievements
+published: true
+metadata:
+  last_updated: 05-03-2026
+---
+
+<ol class="collapsed" data-list="achievements">
+  {% for achievements in site.data.ffvii.achievements %}
+    {% assign key = achievements[0] %}
+    {% assign achievement = achievements[1] %}
+    {% assign name = achievement.name %}
+    {% assign requirement = achievement.requirement %}
+    {% if achievement.missable %}
+    {%   assign missable="missable" %}
+    {% else %}
+    {%   assign missable=nil %}
+    {% endif %}
+    <li class="{{ missable }}">
+      <label for="achievements_{{ key }}"><input id="achievements_{{ key }}" type="checkbox" name="{{ key }}" /> {{ name }}
+        <ul class="hide-after-complete">
+          {% for enemy in requirement %}
+            <li>{{ enemy }}</li>
+          {% endfor %}
+        </ul>
+      </label>
+    </li>
+  {% endfor %}
+</ol>

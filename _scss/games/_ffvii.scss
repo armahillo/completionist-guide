@@ -57,16 +57,29 @@ body[data-game="ffvii"] {
   }
 
   #guide {
+    li.missable label {
+      border-color: red;
+    }
     [data-list="enemy_skill"] {
+      .skill-name {
+        font-size: 1.3rem;
+        text-decoration: underline;
+      }
+      .manipulated {
+        &::before {
+          content: "✴️";
+        }
+      }
       label:has(:checked) {
         background-color: var(--color-materia-command);
-
+        .skill-name {
+          text-decoration: none;
+        }
         &.cached {
           filter: saturate(0.4);
         }
       }
     }
-
     &[data-section="materia"] {
       h5 {
         margin: 0;
@@ -101,6 +114,41 @@ body[data-game="ffvii"] {
         }
         &.support {
           border-top: 3px solid var(--color-materia-support);
+        }
+      }
+    }
+    [data-list="limit_break"] {
+      /* [ ][x][ ][ ]
+            ^^^ */
+      li:has(> label [type="radio"]) {
+        .show-when-checked {
+          display: none;
+        }
+      }
+      li:has(> label [type="radio"]:checked) {
+        .show-when-checked {
+          display: inline-block;
+        }
+      }
+
+      /* [ ][x][ ][ ]
+             ^^^^^^^ */
+      li:has(> label [type="radio"]:checked), li:has(> label [type="radio"]:checked) ~ li {
+        .hide-when-passed {
+          display: inline-block;
+        }
+        .show-when-passed {
+          display: none;
+        }
+      }
+      /* [ ][x][ ][ ]
+         ^^^ */
+      li:has(~ li label [type="radio"]:checked) {
+        .hide-when-passed {
+          display: none;
+        }
+        .show-when-passed {
+          display: inline-block;
         }
       }
     }

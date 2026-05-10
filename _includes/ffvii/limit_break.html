@@ -1,0 +1,37 @@
+{% assign character = include.limit_break[0] %}
+{% assign limit_break_levels = include.limit_break[1] %}
+{% capture key_base %}limit_breaks_{{ character }}_{% endcapture %}
+{% capture form_key %}limit_breaks[{{ character }}]{% endcapture %}
+
+<h4>{{ character | replace: '_', ' ' | capitalize }}</h4>
+<ol class="levels {{ character }}" data-list="limit_break">
+  {% assign level = limit_break_levels["1"] %}
+  {% if include.show_all %}
+  {% assign show_when_passed = level.name %}
+  {% else %}
+  {% assign show_when_passed = "" %}
+  {% endif %}
+  <li>
+    <label for="{{ key_base }}1">
+      <input id="{{ key_base }}1" type="radio" name="{{ form_key }}" value="1" checked="true" />
+      <span class="hide-when-passed">{{ level.name }}</span>
+      <span class="show-when-passed">{{ show_when_passed }}</span>
+    </label>
+  </li>
+  {% for level in limit_break_levels offset: 1 %}
+  {% if include.show_all %}
+  {% assign show_when_passed = level[1].name %}
+  {% else %}
+  {% assign show_when_passed = "" %}
+  {% endif %}
+
+  <li>
+    <label for="{{ key_base }}{{ level[0] }}">
+      <input id="{{ key_base }}{{ level[0] }}" type="radio" name="{{ form_key }}" value="{{ level[0] }}" />
+      <span class="show-when-checked">{{ level[1].name }}</span>
+      <span class="show-when-passed">{{ show_when_passed }}</span>
+      <span class="hide-after-complete">{{ level[1].requirement }}</span>
+    </label>
+  </li>
+  {% endfor %}
+</ol>

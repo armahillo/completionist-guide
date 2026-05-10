@@ -1476,290 +1476,445 @@ enemy_skill:
   frog_song:
     name: Frog Song
     enemies:
-    - Touch Me
-    - Toxic Frog
-    - Christopher
+    - name: Touch Me
+      location: Near Gongaga
+    - name: Toxic Frog
+    - name: Christopher
   l4_suicide:
     name: L4 Suicide
     enemies:
-    - Mu
-    - Trickplay
+    - name: Mu
+      location: Near Chocobo Ranch
+    - name: Trickplay
   magic_hammer:
     name: Magic Hammer
     enemies:
-    - Razor Weed
+    - name: Razor Weed
+      location: Wutai area
+      manipulation: true
   white_wind:
     name: White Wind
     enemies:
-    - Zemzelett (Manip.)
-    - Wind Wing (Manip.)
+    - name: Zemzelett
+      location: near Junon
+      manipulation: true
+    - name: Wind Wing
+      manipulation: true
   big_guard:
     name: Big Guard
     enemies:
-    - Beachplug (Manip.)
+    - name: Beachplug
+      location: Beaches near Costa del Sol
+      manipulation: true
   angel_whisper:
     name: Angel Whisper
     enemies:
-    - Pollensalta (Manip.)
+    - name: Pollensalta
+      location: North Cave
+      manipulation: true
   dragon_force:
     name: Dragon Force
     enemies:
-    - Dark Dragon (Manip.)
+    - name: Dark Dragon
+      location: North Cave
+      manipulation: true
   death_force:
     name: Death Force
     enemies:
-    - Adamantaimai (Manip.)
+    - name: Adamantaimai
+      location: beaches near Wutai
+      manipulation: true
   flame_thrower:
     name: Flame Thrower
     enemies:
-    - Ark Dragon
-    - Dragon
+    - name: Dragons
+      location: Mt. Nibel
   laser:
     name: Laser
     enemies:
-    - Death Claw
-    - Dark Dragon
+    - name: Death Claw
+    - name: Dark Dragon
+      location: North Cave
   matra_magic:
     name: Matra Magic
     enemies:
-    - Custom Sweeper
-    - Bullmotor
-    - Death Machine
+    - name: Custom Sweeper
+      location: near Midgar
+    - name: Bullmotor
+    - name: Death Machine
   bad_breath:
     name: Bad Breath
     enemies:
-    - Malboro
+    - name: Malboro
+      location: Gaea's Cliff, Northern Cave
   beta:
     name: Beta
     enemies:
-    - Midgar Zolom
+    - name: Midgar Zolom
+      location: near Midgar
+      note: after losing 75% of HP
   aqualung:
     name: Aqualung
     enemies:
-    - Harpy
+    - name: Harpy
+      location: near Gold Saucer
     - Jenova*Life
-    - Serpent
+    - name: Serpent
+      location: Sunken Gelinka
   trine:
     name: Trine
-    missable: true
     enemies:
-    - Materia Keeper
-    - Stilva (Manip.)
-    - Godo
+    - name: Materia Keeper
+      location: Mt. Nibel
+    - name: Stilva
+      location: Gaea's Cliffs
+      manipulation: true
+    - name: Godo
+      location: Yuffie's Pagoda side-quest
   magic_breath:
     name: Magic Breath
     enemies:
-    - Stilva
-    - Parasite (Manip.)
+    - name: Stilva
+    - name: Parasite
+      location: Northern Cave
+      manipulation: true
   "4_qmarks":
     name: ????
     enemies:
-    - Jersey
-    - Behemoth
+    - name: Jersey
+      location: Shinra Mansion
+    - name: Behemoth
   goblin_punch:
     name: Goblin Punch
     enemies:
-    - goblin
+    - name: Goblin
+      location: Goblin Island
   chocobuckle:
     name: Chocobuckle
     enemies:
-    - Chocobo (give Mimemtt or Raegan, reduce to 1/32 HP or less)
+    - name: Chocobo
+      manipulation: true
   l5_death:
     name: L5 Death
     enemies:
-    - Parasite (Manip.)
+    - name: Parasite
+      location: North Crater
   death_sentence:
     name: Death Sentence
     enemies:
-    - Sneaky Step
-    - GI Spector (Counterattack)
-    - Boundfat (Final Attack against magic/summons)
+    - name: Sneaky Step
+    - name: GI Spector
+      note: Counterattack
+    - name: Boundfat
+      note: Final Attack against magic/summons
+      location: Corel Valley after Sleeping Forest
   roulette:
     name: Roulette
     enemies:
-    - Death Dealer (counterattack when reduced to 25% or less max HP)
+    - name: Death Dealer
+      note: counterattack when reduced to 25% or less max HP
+      location: North Cave
   shadow_flare:
     name: Shadow Flare
+    missable: true
     enemies:
-    - Ultimate Weapon (final attack)
-    - Dragon Zombie
-    - Safer*JENOVA (past Point of No Return)
+    - name: Ultimate Weapon
+      note: Final attack
+    - name: Ruby Weapon
+    - name: Dragon Zombie
+      location: North Crater
+    - name: Safer*JENOVA
+      note: Past point of no return
   pandoras_box:
     name: Pandora's Box
+    missable: true
     enemies:
-    - Dragon Zombie (Final Attack, first time you defeat one)
-
+    - name: Dragon Zombie
+      note: First time only, as its Final Attack
+    - name: Jenova synthesis
 limit_breaks:
   cloud:
-    braver:
+    "1":
       name: Braver
       requirement: Starting
-    cross_slash:
+    "2":
       name: Cross-Slash
       requirement: Use Braver 8 times
-    blade_beam:
+    "3":
       name: Blade Beam
       requirement: Slay 120 enemies
-    climhazzard:
+    "4":
       name: Climhazzard
       requirement: Use Blade Beam 7 times
-    meteorain:
+    "5":
       name: Meteorain
       requirement: Slay 320 enemies
-    finishing_touch:
+    "6":
       name: Finishing Touch
       requirement: Use Meteorain 6 times
-    omnislash:
+    "7":
       name: Omnislash
       requirement: Omnislash manual (Battle Square prize)
   barret:
-    big_shot:
+    "1":
       name: Big Shot
       requirement: Starting
-    mindblow:
+    "2":
       name: Mindblow
       requirement: Use Big Shot 9 times
-    grenade_bomb:
+    "3":
       name: Grenade Bomb
       requirement: Slay 80 enemies
-    hammerblow:
+    "4":
       name: Hammerblow
       requirement: Use Grenade bomb 8 times
-    satellite_beam:
+    "5":
       name: Satellite Beam
       requirement: Slay 160 enemies
-    ungarmax:
+    "6":
       name: Ungarmax
       requirement: Use Satellite Beam 6 times
-    catastrophe:
+    "7":
       name: Catastrophe
       requirement: Catastrophe manual (Corel Huge Materia quest)
   tifa:
-    beat_rush:
+    "1":
       name: Beat Rush
       requirement: Starting
-    somersault:
+    "2":
       name: Somersault
       requirement: Use Beat Rush 9 times
-    water_kick:
+    "3":
       name: Water Kick
       requirement: Slay 96 enemies
-    meteodrive:
+    "4":
       name: Meteodrive
       requirement: Use Water Kick 7 times
-    dolphin_blow:
+    "5":
       name: Dolphin Blow
       requirement: Slay 192 enemies
-    meteor_strike:
+    "6":
       name: Meteor Strike
       requirement: Use Dolphin Blow 6 times
-    final_heaven:
-      name: Final Heaven Manual (found in Tifa's Piano after Cloud rejoins in Disc 2)
+    "7":
+      name: Final Heaven
+      requirement: Final Heaven Manual (found in Tifa's Piano after Cloud rejoins in Disc 2)
   aeris:
-    healing_wind:
+    "1":
       name: Healing Wind
       requirement: Starting
-    seal_evil:
+    "2":
       name: Seal Evil
       requirement: Use Healing Wind 8 times
-    breath_of_the_earth:
+    "3":
       name: Breath of the Earth
       requirement: Slay 80 enemies
-    fury_brand:
+    "4":
       name: Fury Brand
       requirement: Use Breath of the Earth 6 times
-    planet_protector:
+    "5":
       name: Planet Protector
       requirement: Slay 160 enemies
-    pulse_of_life:
+    "6":
       name: Pulse of Life
       requirement: Use Planet Protector 5 times
-    great_gospel:
+    "7":
       name: Great Gospel
       requirement: Great Gospel manual (give the man in teh house near the Gold Saucer a Mythril, then open the small box on the balcony)
   red_xiii:
-    sled_fang:
+    "1":
       name: Sled Fang
       requirement: Starting
-    lunatic_high:
+    "2":
       name: Lunatic High
       requirement: Using Sled Fang 8 times
-    blood_fang:
+    "3":
       name: Blood Fang
       requirement: Slay 72 enemies
-    stardust_ray:
+    "4":
       name: Stardust Ray
       requirement: Use Blood Fang 7 times
-    howling_moon:
+    "5":
       name: Howling Moon
       requirement: Slay 144 enemies
-    earth_rave:
+    "6":
       name: Earth Rave
       requirement: Use Howling Moon 6 times
-    cosmo_memory:
+    "7":
       name: Cosmo Memory
       requirement: Cosmo Memory manual (Dropped by Lost Number)
   yuffie:
-    greased_lightning:
+    "1":
       name: Greased Lightning
       requirement: Starting
-    clear_tranquil:
+    "2":
       name: Clear Tranquil
       requirement: Use Greased Lightning 8 times
-    landscaper:
+    "3":
       name: Landscaper
       requirement: Slay 64 enemies
-    bloodfest:
+    "4":
       name: Bloodfest
       requirement: Use Landscaper 7 times
-    gauntlet:
+    "5":
       name: Gauntlet
       requirement: Slay 128 enemies
-    doom_of_the_living:
+    "6":
       name: Doom of the Living
       requirement: Use Gauntlet 6 times
-    all_creation:
+    "7":
       name: All Creation
       requirement: All Creation manual, which is obtained after completing the Pagoda Sidequest.
   cait_sith:
-    dice:
+    "1":
       name: Dice
       requirement: Starting
-    slots:
+    "2":
       name: Slots
       requirement: Slay 40 enemies
   vincent:
-    galian_beast:
+    "1":
       name: Galian Beast
       requirement: Starting
-    death_gigas:
+    "2":
       name: Death Gigas
       requirement: Slay 40 enemies
-    hellmasker:
+    "3":
       name: Hellmasker
       requirement: Slay 96 enemies
-    chaos:
+    "4":
       name: Chaos
       requirement: Use Chaos manual (behind waterfall near circular lake, SE of Nibelheim, in late disc 2 / disc 3)
   cid:
-    boost_jump:
+    "1":
       name: Boost Jump
       requirement: Starting
-    dynamite:
+    "2":
       name: Dynamite
       requirement: Use Boost Jump 7 times
-    hyper_jump:
+    "3":
       name: Hyper Jump
       requirement: Slay 60 enemies
-    dragon:
+    "4":
       name: Dragon
       requirement: Use Hyper Jump 6 times
-    dragon_dive:
+    "5":
       name: Dragon Dive
       requirement: Slay 136 enemies
-    big_brawl:
+    "6":
       name: Big Brawl
       requirement: Use Dragon Dive 5 times
-    highwind:
+    "7":
       name: Highwind
       requirement: Highwind manual, which is in the Sunken Gelnika in the room with the helicopter.
+achievements:
+  won_1st_battle:
+    name: "Won 1st Battle"
+    requirement: "Win your first battle"
+  braver:
+    name: "Braver"
+    requirement: "Use Cloud's 1st limit"
+  big_shot:
+    name: "Big Shot"
+    requirement: "Use Barret's 1st limit"
+  beat_rush:
+    name: "Beat Rush"
+    requirement: "Use Tifa's 1st limit"
+  healing_wind:
+    name: "Healing Wind"
+    requirement: "Use Aeris's 1st limit"
+  sled_fang:
+    name: "Sled Fang"
+    requirement: "Use Red XIII's 1st limit"
+  yuffie:
+    name: "Yuffie"
+    requirement: "Get Yuffie on your team"
+  vincent:
+    name: "Vincent"
+    requirement: "Get Vincent on your team"
+  greased_lightning:
+    name: "Greased Lightning"
+    requirement: "Use Yuffie's 1st limit"
+  boost_jump:
+    name: "Boost Jump"
+    requirement: "Use Cid's 1st limit"
+  dice:
+    name: "Dice"
+    requirement: "Use Cait Sith's 1st limit"
+  galian_beast:
+    name: "Galian Beast"
+    requirement: "Use Vincent's 1st limit"
+  all_creation:
+    name: "All Creation"
+    requirement: "Get Yuffie's last limit break"
+  cosmo_memory:
+    name: "Cosmo Memory"
+    requirement: "Get Red XIII's last limit break"
+  great_gospel:
+    name: "Great Gospel"
+    requirement: "Get Aeris's last limit break"
+    missable: true
+  slots:
+    name: "Slots"
+    requirement: "Get Cait Sith's last limit break"
+  battle_square:
+    name: "Battle Square"
+    requirement: "Start a battle in Battle Square"
+  end_of_part_I:
+    name: "End of Part I"
+    requirement: "Complete the first part of the game"
+  catastrophe:
+    name: "Catastrophe"
+    requirement: "Get Barret's last limit break"
+  final_heaven:
+    name: "Final Heaven"
+    requirement: "Get Tifa's last limit break"
+  chaos:
+    name: "Chaos"
+    requirement: "Get Vincent's last limit break"
+  bahamut_zero:
+    name: "Bahamut Zero"
+    requirement: "Get materia Bahamut Zero"
+  diamond_weapon:
+    name: "Diamond Weapon"
+    requirement: "Defeat the Diamond Weapon"
+  end_of_part_II:
+    name: "End of Part II"
+    requirement: "Complete the second part of the game"
+  highwind:
+    name: "Highwind"
+    requirement: "Get Cid's last limit break"
+  gold_chocobo:
+    name: "Gold Chocobo"
+    requirement: "Get a Gold Chocobo"
+  knights_of_the_round:
+    name: "Knights of the Round"
+    requirement: "Get materia Knights of the Round"
+  ultimate_weapon:
+    name: "Ultimate Weapon"
+    requirement: "Defeat the Ultimate Weapon"
+  master_of_gil:
+    name: "Master of gil"
+    requirement: "99,999,999 Gil"
+  omnislash:
+    name: "Omnislash"
+    requirement: "Get Cloud's last limit break"
+  top_level:
+    name: "Top Level"
+    requirement: "Reach level 99 with any character"
+  emerald_weapon:
+    name: "Emerald Weapon"
+    requirement: "Defeat the Emerald Weapon"
+  ruby_weapon:
+    name: "Ruby Weapon"
+    requirement: "Defeat the Ruby Weapon"
+  materia_overlord:
+    name: "Materia Overlord"
+    requirement: "Master all Materias (note Underwater materia bug!)"
+    missable: true
+  master_materia:
+    name: "Master Materia"
+    requirement: "Reach the maximum level of any materia"
+  end_of_game:
+    name: "End of Game"
+    requirement: "Complete FINAL FANTASY VII"

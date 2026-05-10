@@ -11,13 +11,24 @@ metadata:
 <ol class="collapsed" data-list="enemy_skill">
   {% for enemy_skill in site.data.ffvii.enemy_skill %}
     {% assign key = enemy_skill[0] %}
-    {% assign name = site.data.ffvii['enemy_skill'][key]['name'] %}
-    {% assign enemies = site.data.ffvii['enemy_skill'][key]['enemies'] %}
-    <li>
-      <label for="enemy_skill_{{ key }}"><input id="enemy_skill_{{ key }}" type="checkbox" name="{{ key }}" /> {{ name }}
+    {% assign skill = enemy_skill[1] %}
+    {% assign name = skill.name %}
+    {% assign enemies = skill.enemies %}
+    {% if skill.missable %}
+    {%   assign missable="missable" %}
+    {% else %}
+    {%   assign missable=nil %}
+    {% endif %}
+    <li class="{{ missable }}">
+      <label for="enemy_skill_{{ key }}"><input id="enemy_skill_{{ key }}" type="checkbox" name="{{ key }}" /> <span class="skill-name">{{ name }}</span>
         <ul class="hide-after-complete">
           {% for enemy in enemies %}
-            <li>{{ enemy }}</li>
+            {% if enemy.manipulation %}
+              {% assign manipulation = "manipulated" %}
+            {% else %}
+              {% assign manipulation = nil %}
+            {% endif %}
+            <li class="{{ manipulation }}"><strong>{{ enemy.name }}</strong>, {{ enemy.location }} {{ enemy.note }}</li>
           {% endfor %}
         </ul>
       </label>

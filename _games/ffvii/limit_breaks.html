@@ -1,0 +1,19 @@
+---
+layout: guide
+title:  Limit Breaks
+game: ffvii
+section: limit_breaks
+metadata:
+  last_updated: 05-10-2026
+---
+
+<h3>Limit Breaks</h3>
+
+{% for limit_break in site.data.ffvii.limit_breaks %}
+  {% if limit_break[0] == 'tifa' %}
+    {% assign show_all = "true" %}
+  {% else %}
+    {% assign show_all = nil %}
+  {% endif %}
+  {% include ffvii/limit_break.html limit_break=limit_break show_all=show_all %}
+{% endfor %}
