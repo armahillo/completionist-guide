@@ -82,7 +82,14 @@ class Guide {
   }
 
   reset() {
-    this.storage.reset();
+    if (this.section) {
+      var cachedData = this.storage.data;
+      cachedData[this.section] = {};
+      this.storage.data = cachedData;
+    } else {
+      if (!window.confirm("Reset all progress for this game?")) return;
+      this.storage.reset();
+    }
     this.load();
   }
 }

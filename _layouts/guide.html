@@ -8,10 +8,12 @@ layout: default
 
 <nav id="guide-nav">
   <ol>
-    <li class="{% if game.name == 'index.html' %}current{% endif %}">
-      <a href="/games/{{ page.game }}">Section Home</a>
-    </li>
+      <li class="{% if page.name == 'index.html' %}current{% endif %}">
+        <a href="/games/{{ page.game }}">Section Home</a>
+      </li>
+
     {% for game in games %}
+
       {% if game.name == 'index.html' %}
         {% continue %}
       {% endif %}
