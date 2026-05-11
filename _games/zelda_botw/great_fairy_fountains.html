@@ -8,6 +8,7 @@ metadata:
 ---
 
 {% for fountain in site.data.zelda_botw.great_fairy_fountains %}
-  {% assign fountain_name = fountain[0] %}
-  {% include zelda/fountain.html fountain=fountain_name %}
+  {% assign fountain_key = fountain[0] %}
+  {% assign fountain_data = fountain[1] %}
+  {% include zelda/fountain.html key=fountain_key data=fountain_data %}
 {% endfor %}

@@ -1,25 +1,22 @@
-{% assign fountain = site.data.zelda_botw.great_fairy_fountains[include.fountain] %}
+{% capture key_base %}great_fairy_fountains_{{ include.key }}_{% endcapture %}
+{% capture form_key %}great_fairy_fountains[{{ include.key }}]{% endcapture %}
 
-{% capture key_base %}great_fairy_fountains_{{ include.fountain }}_{% endcapture %}
-{% capture form_key %}great_fairy_fountains[{{ include.fountain }}]{% endcapture %}
-
-<h3>{{ fountain[1].name }}</h3>
-<p>{{ fountain[1].location }}</p>
+<h3>{{ include.data.name }}</h3>
+<p>{{ include.data.location }}</p>
 
 <ol class="levels">
   <li>
-    <label for="great_fairy_fountains_{{ include.fountain }}_none" class="cached">
-      <input id="great_fairy_fountains_{{ include.fountain }}_none" type="radio" name="great_fairy_fountains[{{ include.fountain }}]" checked="true" />clear
+    <label for="{{ key_base }}none" class="cached">
+      <input id="{{ key_base }}none" type="radio" name="{{ form_key }}" checked="true" />clear
     </label>
   </li>
 
-  {% for level in fountain[1].levels %}
+  {% for level in include.data.levels %}
   <li>
-    <label for="great_fairy_fountains_{{ include.fountain }}_{{ level[0] }}">
-      <input id="great_fairy_fountains_{{ include.fountain }}_{{ level[0] }}" type="radio" name="great_fairy_fountains[{{ include.fountain }}]" value="{{ level[0] }}" />
+    <label for="{{ key_base }}{{ level[0] }}">
+      <input id="{{ key_base }}{{ level[0] }}" type="radio" name="{{ form_key }}" value="{{ level[0] }}" />
       <span class="hide-after-complete">{{ level[1].cost }}</span>
-      <span class="show-after-complete">{% for i in (1..level[0]) %}{{ "★" }}{% endfor %}
-    </span>
+      <span class="show-after-complete">{% for i in (1..level[0]) %}★{% endfor %}</span>
     </label>
   </li>
   {% endfor %}

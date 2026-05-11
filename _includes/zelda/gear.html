@@ -1,13 +1,13 @@
 {% capture key_base %}gear_{{ include.set }}_{{ include.part }}{% endcapture %}
 {% capture form_key %}gear[{{ include.set }}][{{ include.part }}]{% endcapture %}
-{% if site.data.zelda_botw['gear'][include.set][include.part]['levels'][include.index]['name'] %}
-{% assign name = site.data.zelda_botw['gear'][include.set][include.part]['levels'][include.index]['name'] %}
+{% if site.data[page.game]['gear'][include.set][include.part]['levels'][include.index]['name'] %}
+{% assign name = site.data[page.game]['gear'][include.set][include.part]['levels'][include.index]['name'] %}
 {%  else %}
-{%  assign name = site.data.zelda_botw['gear'][include.set][include.part]['name'] %}
+{%  assign name = site.data[page.game]['gear'][include.set][include.part]['name'] %}
 {% endif %}
-{% assign costs = site.data.zelda_botw['gear'][include.set][include.part]['levels'][include.index]['cost'] %}
-{% assign location = site.data.zelda_botw['gear'][include.set][include.part]['levels'][include.index]['location'] %}
-{% assign gear_count = site.data.zelda_botw['gear'][include.set][include.part]['levels'] | size %}
+{% assign costs = site.data[page.game]['gear'][include.set][include.part]['levels'][include.index]['cost'] %}
+{% assign location = site.data[page.game]['gear'][include.set][include.part]['levels'][include.index]['location'] %}
+{% assign gear_count = site.data[page.game]['gear'][include.set][include.part]['levels'] | size %}
 {% if gear_count > 1 %}
 {% assign list_type = 'radio' %}
 {% else %}
