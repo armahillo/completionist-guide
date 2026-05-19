@@ -11,7 +11,7 @@ body[data-game="ffvii"] {
   --color-materia-magic: #32CD32;
   --color-materia-support: #1E90FF;
   --color-materia-command: #DAA520;
-  --color-materia-passive: #BA55D3;
+  --color-materia-independent: #BA55D3;
   --color-materia-summon: #DC143C;
 
   --fresh-color: var(--color-aquamarine);
@@ -24,9 +24,9 @@ body[data-game="ffvii"] {
     --link-color: var(--color-aquamarine);
   }
   @media (prefers-color-scheme: light) {
-    background-color: var(--color-sand);
-    text-color: var(--color-ebony);
-    link-color: var(--color-shamrock);
+    --background-color: var(--color-sand);
+    --text-color: var(--color-ebony);
+    --link-color: var(--color-shamrock);
   }
 
   & {
@@ -37,7 +37,7 @@ body[data-game="ffvii"] {
     color: var(--link-color);
   }
   h1, h2, h3, h4, h5, h6 {
-    color: var(--color-light-salmon);
+    color: var(--color-shamrock);
   }
   #guide-nav {
     margin: 0 auto;

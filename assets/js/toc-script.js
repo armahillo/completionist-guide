@@ -12,12 +12,19 @@ var tocGenerator = (function() {
         var links = '';
         for (var i = 0; i < headings.length; i++) {
             newLevel = parseInt(headings[i].tagName.slice(1), 10);
-            console.log(`newLevel: ${newLevel}.`);
+            // TODO: Remove
+            // console.log(`newLevel: ${newLevel}.`);
             if (!headings[i].id) { headings[i].id = headings[i].innerHTML.replace(/^[^a-z]+|[^\w:.-]+/gi, '_').toLowerCase(); }
             if (newLevel > level && settings.primaryHeaderLevels.indexOf(newLevel) !== -1) { links += '<ul><li>';
-                console.log(`A: Lvl: ${newLevel}, val: ${headings[i].textContent}.`); } else if (newLevel < level) { links += '</li></ul></li><li>';
-                console.log(`B: Lvl: ${newLevel}, val: ${headings[i].textContent}.`); } else { links += '</li><li>';
-                console.log(`C: Lvl: ${newLevel}, val: ${headings[i].textContent}.`); }
+                // TODO: Remove
+                // console.log(`A: Lvl: ${newLevel}, val: ${headings[i].textContent}.`);
+            } else if (newLevel < level) { links += '</li></ul></li><li>';
+                // TODO: Remove
+                // console.log(`B: Lvl: ${newLevel}, val: ${headings[i].textContent}.`);
+            } else { links += '</li><li>';
+                // TODO: Remove
+                // console.log(`C: Lvl: ${newLevel}, val: ${headings[i].textContent}.`);
+            }
             links += '<a href="#' + headings[i].id + '">' + toTitleCase(headings[i].innerHTML) + '</a>';
             level = newLevel;
         }

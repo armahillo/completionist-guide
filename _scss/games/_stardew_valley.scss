@@ -16,9 +16,9 @@ body[data-game="stardew_valley"] {
     --link-color: var(--color-banana-yellow);
   }
   @media (prefers-color-scheme: light) {
-    background-color: var(--color-blue-jeans);
-    text-color: var(--color-space-cadet);
-    link-color: var(--color-firebrick);
+    --background-color: var(--color-blue-jeans);
+    --text-color: var(--color-space-cadet);
+    --link-color: var(--color-firebrick);
   }
 
   & {

@@ -1,4 +1,5 @@
-console.log("Guide loaded");
+// TODO: Remove
+// console.log("Guide loaded");
 
 class Guide {
   constructor(storage, game, section) {

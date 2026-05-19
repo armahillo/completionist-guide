@@ -1,4 +1,5 @@
-console.log("Storage loaded");
+// TODO: Remove
+// console.log("Storage loaded");
 class Storage {
   constructor(key) {
     this.key = key;

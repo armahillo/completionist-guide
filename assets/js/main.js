@@ -1,4 +1,5 @@
-console.log("Main loaded");
+// TODO: Remove
+// console.log("Main loaded");
 
 var article;
 var gameName;
@@ -17,16 +18,18 @@ window.onload = function() {
 
     guide = new Guide(storage, gameName, gameSection);
 
+    // TODO: Is this duplicated? (Guide constructor already calls load())
     guide.load();
     const statusMessage = document.getElementById('status_message');
-    console.log(statusMessage);
+    // TODO: Remove
+    // console.log(statusMessage);
     statusMessage.innerText = "Loaded!"
 
-    const checkboxes = document.querySelectorAll('article#guide input[type="checkbox"]')
-
-    //Array.prototype.forEach.call(checkboxes, function (e) {
-    //  e.removeAttribute('disabled');
-    //});
+    // TODO: Remove
+    // const checkboxes = document.querySelectorAll('article#guide input[type="checkbox"]')
+    // Array.prototype.forEach.call(checkboxes, function (e) {
+    //   e.removeAttribute('disabled');
+    // });
 
     const saveButton = document.querySelector('button#save');
     const loadButton = document.querySelector('button#load');

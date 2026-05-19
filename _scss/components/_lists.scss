@@ -7,9 +7,10 @@ article#guide {
     list-style-type: none;
 
     li {
-      & > input[type="checkbox"] {
+      // TODO: Remove
+      /* & > input[type="checkbox"] {
         margin-right: 1rem;
-      }
+      } */
     }
 
     &.inline {

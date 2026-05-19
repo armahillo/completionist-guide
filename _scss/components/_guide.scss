@@ -51,8 +51,7 @@ article#guide {
   }
 
   label {
-    transition: color 0.5s;
-    transition: background-color 0.5s;
+    transition: color 0.5s, background-color 0.5s;
     border: 1px solid var(--cached-color);
     padding: 0.5rem;
 
@@ -66,8 +65,7 @@ article#guide {
   }
 
   label:has(:checked) {
-    transition: color 0.75s;
-    transition: background-color 0.75s;
+    transition: color 0.75s, background-color 0.75s;
     background-color: var(--fresh-color);
     color: var(--background-color);
 
@@ -189,8 +187,7 @@ article#guide {
     }
 
     li:has(> label [type="radio"]:checked) + li label:has([type="radio"]) {
-      transition: color 0.5s;
-      transition: background-color 0.5s;
+      transition: color 0.5s, background-color 0.5s;
       color: var(--text-color);
       border-color: var(--text-color);
       background-color: var(--background-color);
