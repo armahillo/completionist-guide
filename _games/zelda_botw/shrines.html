@@ -23,7 +23,8 @@ metadata:
 </fieldset>
 
 {% for tower_area in site.data.zelda_botw.shrines %}
-  <h3>{{ tower_area[0] }} Area</h3>
+<details>
+  <summary>{{ tower_area[0] }} Area</summary>
   <ol class="shrines">
     {% for shrine in tower_area[1] %}
     <li>
@@ -33,4 +34,5 @@ metadata:
     </li>
     {% endfor %}
   </ol>
+</details>
 {% endfor %}

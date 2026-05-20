@@ -7,35 +7,40 @@ metadata:
   last_updated: 05-03-2026
 ---
 
-<h3>Magic</h3>
-
+<details>
+  <summary>Magic</summary>
 {% for materia in site.data.ffvii.materia['magic'] %}
   {% include ffvii/materia.html materia_type="magic" materia=materia %}
 {% endfor %}
+</details>
 
-<h3>Summon</h3>
-
+<details>
+  <summary>Summon</summary>
 {% for materia in site.data.ffvii.materia['summon'] %}
   {% include ffvii/materia.html materia_type="summon" materia=materia %}
 {% endfor %}
+</details>
 
-
-<h3>Command</h3>
+<detauls>
+  <summary>Command</summary>
 
 {% for materia in site.data.ffvii.materia['command'] %}
   {% include ffvii/materia.html materia_type="command" materia=materia %}
 {% endfor %}
+</detauls>
 
-
-<h3>Independent</h3>
+<details>
+  <summary>Independent</summary>
 
 {% for materia in site.data.ffvii.materia['independent'] %}
   {% include ffvii/materia.html materia_type="independent" materia=materia %}
 {% endfor %}
+</details>
 
-
-<h3>Support</h3>
+<details>
+<summary>Support</summary>
 
 {% for materia in site.data.ffvii.materia['support'] %}
   {% include ffvii/materia.html materia_type="support" materia=materia %}
 {% endfor %}
+</details>

@@ -7,7 +7,8 @@ metadata:
   last_updated: 05-09-2025
 ---
 
-<h3>Schema Stones</h3>
+<details>
+  <summary>Schema Stones</summary>
 {% for schematic in site.data.zelda_totk.schema_stones %}
   {% assign name = schematic[1].name %}
   {% assign key = schematic[0] %}
@@ -15,8 +16,10 @@ metadata:
   {% assign description = schematic[1]['location'] %}
   {% include zelda/location.html description=description location=key data=data name=name type="schematics" %}
 {% endfor %}
+</details>
 
-<h3>Yiga Schematics</h3>
+<details>
+<summary>Yiga Schematics</summary>
 {% for schematic in site.data.zelda_totk.yiga_schematics %}
   {% assign name = schematic[1].name %}
   {% assign key = schematic[0] %}
@@ -24,3 +27,4 @@ metadata:
   {% assign description = schematic[1]['location'] %}
   {% include zelda/location.html description=description location=key data=data name=name type="schematics" %}
 {% endfor %}
+</details>

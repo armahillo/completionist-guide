@@ -14,6 +14,8 @@ metadata:
 {% for beast in site.data.zelda_botw.bounties %}
   {% assign beast_key = beast[0] %}
   {% assign beast_data = beast[1] %}
-  <h3>{{ beast_data['name'] }}</h3>
+  <details>
+  <summary>{{ beast_data['name'] }}</summary>
   {% include zelda/bounty.html set=beast_key data=beast_data %}
+</details>
 {% endfor %}

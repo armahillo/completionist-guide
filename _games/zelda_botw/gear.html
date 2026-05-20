@@ -29,9 +29,11 @@ metadata:
 {% include zelda/full_gear_list.html set="jewelry" %}
 {% include zelda/full_gear_list.html set="divine_beast" %}
 
-<h3>Special</h3>
+<h2>Special</h2>
 <p>These items are awarded through quests or found, and are not upgradeable, with the exception of the Champion's Tunic.</p>
 
+<details>
+  <summary>Sidequest rewards</summary>
 <ul>
   <li>{% include zelda/gear.html set="special" part="thunder_helm" index="acquired" %}</li>
   <li>{% include zelda/gear.html set="special" part="starter_clothes" index="acquired" %}</li>
@@ -40,8 +42,10 @@ metadata:
   <li>{% include zelda/gear.html set="special" part="snow_boots" index="acquired" %}</li>
   <li>{% include zelda/gear.html set="special" part="warm_doublet" index="acquired" %}</li>
 </ul>
+</details>
 
-<h3>Kilton Gear</h3>
+<details>
+<summary>Kilton Gear</summary>
 These items are purchased from Kilton at the Fang and Bone, using his Mon currency. They cannot be upgraded by Great Fairies.
 
 <ul>
@@ -55,10 +59,12 @@ These items are purchased from Kilton at the Fang and Bone, using his Mon curren
   <li>{% include zelda/gear.html set="kilton" part="monster_bridle" index="acquired" %}</li>
   <li>{% include zelda/gear.html set="kilton" part="monster_saddle" index="acquired" %}</li>
 </ul>
+</details>
 
 <h2>Expansion Content</h2>
 
-<h3>Free DLC</h3>
+<details>
+<summary>Free DLC</summary>
 <p>These require Free DLC to activate.</p>
 <ul>
   <li>{% include zelda/gear.html set="free_dlc" part="nintendo_switch_shirt" index="acquired" %}</li>
@@ -66,8 +72,10 @@ These items are purchased from Kilton at the Fang and Bone, using his Mon curren
   <li>{% include zelda/gear.html set="free_dlc" part="salvager_vest" index="acquired" %}</li>
   <li>{% include zelda/gear.html set="free_dlc" part="salvager_trousers" index="acquired" %}</li>
 </ul>
+</details>
 
-<h3>Amiibo sets</h3>
+<details>
+<summary>Amiibo sets</summary>
 <p>These require specific amiibo to activate. When scanned, a chest appears at Link's feet.</p>
 <ul>
   <li>{% include zelda/gear.html set="amiibo" part="time" index="acquired" %}</li>
@@ -78,8 +86,10 @@ These items are purchased from Kilton at the Fang and Bone, using his Mon curren
   <li>{% include zelda/gear.html set="amiibo" part="fierce_deity" index="acquired" %}</li>
   <li>{% include zelda/gear.html set="amiibo" part="sheik" index="acquired" %}</li>
 </ul>
+</details>
 
-<h3>Master Trials DLC</h3>
+<details>
+<summary>Master Trials DLC</summary>
 <p>Requires the Master Trials DLC. Special functional gear that are not upgradeable. Each item requires a triggering action (reading a book) to start the quest.</p>
 <ul>
   <li>{% include zelda/gear.html set="master_trials_dlc" part="korok_mask" index="acquired" %}</li>
@@ -93,8 +103,10 @@ These items are purchased from Kilton at the Fang and Bone, using his Mon curren
   <li>{% include zelda/gear.html set="master_trials_dlc" part="tingles_shirt" index="acquired" %}</li>
   <li>{% include zelda/gear.html set="master_trials_dlc" part="tingles_tights" index="acquired" %}</li>
 </ul>
+</details>
 
-<h3>Champion's Ballad DLC</h3>
+<details>
+<summary>Champion's Ballad DLC</summary>
 <p>Requires the Champion's Ballad DLC. Special functional gear that are not upgradeable. Each item requires a triggering action (reading a book) to start the quest.</p>
 <ul>
   <li>{% include zelda/gear.html set="champions_ballad_dlc" part="ancient_bridle" index="acquired" %}</li>
@@ -108,3 +120,5 @@ These items are purchased from Kilton at the Fang and Bone, using his Mon curren
   <li>{% include zelda/gear.html set="champions_ballad_dlc" part="phantom_ganon_greaves" index="acquired" %}</li>
   <li>{% include zelda/gear.html set="champions_ballad_dlc" part="ravios_hood" index="acquired" %}</li>
   <li>{% include zelda/gear.html set="champions_ballad_dlc" part="zants_helmet" index="acquired" %}</li>
+</ul>
+</details>

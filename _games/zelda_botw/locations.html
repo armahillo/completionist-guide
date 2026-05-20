@@ -12,7 +12,8 @@ metadata:
 {% assign locations = site.data.zelda_botw.locations %}
 
 {% for tower_region in locations %}
-<h3>{{ tower_region[0] | replace: "_", " " | capitalize }} Region</h3>
+<details>
+<summary>{{ tower_region[0] | replace: "_", " " | capitalize }} Region</summary>
 
 {% for segment in tower_region[1] %}
 <h4>{{ segment[0] }}</h4>
@@ -26,5 +27,6 @@ metadata:
   {% endfor %}
 </ol>
 {% endfor %}
+</details>
 {% endfor %}
 

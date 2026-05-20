@@ -12,11 +12,13 @@ metadata:
 <small>Don't forget to take pictures for the compendium!</small>
 
 {% for bounty in site.data.zelda_totk.bounties %}
-<h3>{{ bounty[0] | capitalize }}</h3>
+<details>
+<summary>{{ bounty[0] | capitalize }}</summary>
   {% for beast in bounty[1] %}
   {% assign name = beast[1].name %}
   {% assign key = beast[0] %}
   {% assign data = beast[1] %}
   {% include zelda/location.html location=key data=data name=name type="beast" %}
 {% endfor %}
+</details>
 {% endfor %}

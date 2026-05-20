@@ -12,7 +12,8 @@ metadata:
 <p>This list does not include <strong>Shrine Quests</strong>.</p>
 
 {% for tower_area in site.data.zelda_botw.sidequests %}
-  <h3>{{ tower_area[0] }} Tower Area</h3>
+  <details>
+  <summary>{{ tower_area[0] }} Tower Area</summary>
   <ol>
   {% for sidequest in tower_area[1] %}
   <li>
@@ -22,4 +23,5 @@ metadata:
   </li>
   {% endfor %}
   </ol>
+</details>
 {% endfor %}

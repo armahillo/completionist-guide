@@ -16,6 +16,36 @@ main > #guide-nav {
 }
 
 article#guide {
+  details {
+    margin-bottom: 1rem;
+
+    & > summary {
+      cursor: pointer;
+      user-select: none;
+      list-style: none;
+      font-size: 1.25rem;
+      font-weight: 600;
+      padding: 0.75rem 0.5rem;
+      border-bottom: 2px solid var(--cached-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &::-webkit-details-marker { display: none; }
+      &::marker { display: none; }
+
+      &::after {
+        content: "▸";
+        flex-shrink: 0;
+        padding-left: 0.5rem;
+      }
+    }
+
+    &[open] > summary::after {
+      content: "▾";
+    }
+  }
+
   /* Color swatch */
   dl#swatches {
     dt {

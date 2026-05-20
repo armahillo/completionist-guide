@@ -8,11 +8,13 @@ metadata:
 ---
 
 {% for region in site.data.zelda_totk.caves %}
-<h3>{{ region[0] | split: '_' | join: ' ' | capitalize }}</h3>
+<details>
+<summary>{{ region[0] | split: '_' | join: ' ' | capitalize }}</summary>
   {% for cave in region[1] %}
   {% assign name = cave[1].name %}
   {% assign key = cave[0] %}
   {% assign data = cave[1] %}
   {% include zelda/location.html  location=key data=data name=name type="caves" %}
   {% endfor %}
+</details>
 {% endfor %}

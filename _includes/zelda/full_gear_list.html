@@ -1,6 +1,7 @@
 {% assign item_set = site.data[page.game]['gear'][include.set] %}
 
-<h3> {{ item_set['name'] }} </h3>
+<details>
+  <summary> {{ item_set['name'] }} </summary>
 
 <p class="note">
 {{ item_set['location'] }}
@@ -21,3 +22,4 @@
   </li>
   {% endfor %}
 </ul>
+</details>

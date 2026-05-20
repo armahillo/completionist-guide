@@ -25,9 +25,10 @@ metadata:
   </dl>
 </fieldset>
 
-<h3>Sky</h3>
+<h2>Sky</h2>
 {% for tower_area in site.data.zelda_totk.shrines.sky %}
-  <h3>{{ tower_area[0] | capitalize }} Area</h3>
+<details>
+  <summary>{{ tower_area[0] | replace: "_", " " | capitalize }} Area</summary>
   <ol class="shrines">
     {% for shrine in tower_area[1] %}
     <li>
@@ -37,6 +38,23 @@ metadata:
     </li>
     {% endfor %}
   </ol>
+</details>
+{% endfor %}
+
+<h2>Surface</h2>
+{% for tower_area in site.data.zelda_totk.shrines.surface %}
+  <details>
+  <summary>{{ tower_area[0] | replace: "_", " " | capitalize }} Area</summary>
+  <ol class="shrines">
+    {% for shrine in tower_area[1] %}
+    <li>
+      {% assign key = shrine[0] %}
+      {% assign shrine_data = shrine[1] %}
+      {% include zelda/shrine.html target=key shrine=shrine_data %}
+    </li>
+    {% endfor %}
+  </ol>
+</details>
 {% endfor %}
 
 <h4>Sage's Will</h4>
@@ -49,18 +67,3 @@ metadata:
   </li>
   {% endfor %}
 </ol>
-
-
-<h3>Surface</h3>
-{% for tower_area in site.data.zelda_totk.shrines.surface %}
-  <h3>{{ tower_area[0] | capitalize }} Area</h3>
-  <ol class="shrines">
-    {% for shrine in tower_area[1] %}
-    <li>
-      {% assign key = shrine[0] %}
-      {% assign shrine_data = shrine[1] %}
-      {% include zelda/shrine.html target=key shrine=shrine_data %}
-    </li>
-    {% endfor %}
-  </ol>
-{% endfor %}

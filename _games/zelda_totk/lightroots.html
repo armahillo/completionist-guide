@@ -10,7 +10,8 @@ metadata:
 <p>As you activate each lightroot, mark it on the list.</p>
 
 {% for region in site.data.zelda_totk.lightroots %}
-<h3>{{ region[0] | split: "_" | join: " " | capitalize }} Region</h3>
+<details>
+  <summary>{{ region[0] | split: "_" | join: " " | capitalize }} Region</summary>
 <ol class="collapsed">
   {% for lightroot in region[1] %}
     {% assign key = lightroot[0] %}
@@ -20,4 +21,5 @@ metadata:
     <li>{% include findable.html set="lightroots" target=key name=name location=location %}</li>
   {% endfor %}
 </ol>
+</details>
 {% endfor %}

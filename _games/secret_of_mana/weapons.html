@@ -16,7 +16,8 @@ metadata:
 {% endfor %}
 </ol>
 
-<h3>Orbs & Forging</h3>
+<details>
+  <summary>Orbs & Forging</summary>
 {% for weapon in site.data.secret_of_mana.weapons %}
 <h4>{{ weapon[0] | capitalize }}</h4>
 {% capture key_base %}weapons_forged_{{ weapon[0] }}{% endcapture %}
@@ -41,9 +42,10 @@ metadata:
 {% endfor %}
 </ol>
 {% endfor %}
+</details>
 
-
-<h3>Experience</h3>
+<details>
+  <summary>Experience</summary>
 
 {% for weapon in site.data.secret_of_mana.weapons %}
 <h4>{{ weapon[0] | capitalize }}</h4>
@@ -92,3 +94,4 @@ metadata:
 {% endfor %}
 </ol>
 {% endfor %}
+</details>
