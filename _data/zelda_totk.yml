@@ -5730,9 +5730,9 @@ bounties:
       name: Rare Stone Talus
       location: Lake Floria
       coordinates:
-      - "1824"
-      - "-3497"
-      - "0026"
+      - "1826"
+      - "-3495"
+      - "0039"
     rare_guchini_plain:
       name: Rare Stone Talus
       location: Guchini Plain
@@ -5807,58 +5807,58 @@ bounties:
       name: Stone Talus
       location: Piper Ridge
       coordinates:
-      - "-3304"
-      - "0654"
-      - "0194"
+      - "-3298"
+      - "0649"
+      - "0198"
     stone_great_hyrule:
       name: Stone Talus
       location: Great Hyrule Forest
       coordinates:
       - "0098"
       - "2370"
-      - "2370"
+      - "0185"
     stone_north_akkala:
       name: Stone Talus
       location: North Akkala Foothill
       coordinates:
       - "4063"
       - "2973"
-      - "~0100"
+      - "0160"
     luminous_tamio_river:
       name: Stone Talus (Luminous)
       location: Tamio River
       coordinates:
       - "-2860"
       - "-0521"
-      - "~0100"
+      - "0024"
     luminous_satori_mountain:
       name: Stone Talus (Luminous)
       location: Satori Mountain
       coordinates:
       - "-2221"
       - "-0585"
-      - "-0267"
+      - "-0275"
     luminous_deplian_badlands:
       name: Stone Talus (Luminous)
       location: Deplian Badlands
       coordinates:
       - "0703"
       - "3692"
-      - "~0100"
+      - "0105"
     luminous_gut_check:
       name: Stone Talus (Luminous)
       location: Gut Check Rock
       coordinates:
       - "2710"
       - "3303"
-      - "~0100"
+      - "0248"
     luminous_trilby_valley:
       name: Stone Talus (Luminous)
       location: Trilby Valley
       coordinates:
       - "2483"
       - "0908"
-      - "~0100"
+      - "0077"
     luminous_ovli_plain:
       name: Stone Talus (Luminous)
       location: Ovli Plain
@@ -5879,21 +5879,21 @@ bounties:
       coordinates:
       - "4191"
       - "0518"
-      - "0350"
+      - "0357"
     luminous_tal_tal_peak_bottom:
       name: Stone Talus (Luminous)
       location: Ulria Grotto South Cave
       coordinates:
-      - "4136"
-      - "0537"
-      - "0186"
+      - "4141"
+      - "0543"
+      - "0194"
     luminous_crenel_hills:
       name: Stone Talus (Luminous)
       location: Crenel Hills Cave
       coordinates:
       - "0575"
       - "0766"
-      - "~0010"
+      - "0021"
     luminous_east_reservoir:
       name: Stone Talus (Luminous)
       location: Ancient Zora Waterworks, East Reservoir Lake
@@ -5914,7 +5914,7 @@ bounties:
       coordinates:
       - "0340"
       - "-1984"
-      - "-1984"
+      - "-0031"
     battle_dragon_bone_mire:
       name: Battle Talus
       location: Dragon Bone Mire
@@ -5928,7 +5928,7 @@ bounties:
       coordinates:
       - "-3987"
       - "-1703"
-      - "-1703"
+      - "0317"
     battle_kolami_bridge:
       name: Battle Talus
       location: Kolami Bridge
@@ -5942,7 +5942,7 @@ bounties:
       coordinates:
       - "-2550"
       - "-0111"
-      - "-0111"
+      - "0138"
     battle_royal_ancient_lab_ruins:
       name: Battle Talus
       location: Royal Ancient Lab Ruins
@@ -5956,14 +5956,14 @@ bounties:
       coordinates:
       - "-1364"
       - "-0789"
-      - "-0010"
+      - "0022"
     battle_forest_spirits:
       name: Battle Talus
       location: Forest of Spirits
       coordinates:
       - "-1092"
       - "-1659"
-      - "-1659"
+      - "0085"
     battle_castle_town_prison:
       name: Battle Talus
       location: Castle Town Prison
@@ -5977,378 +5977,378 @@ bounties:
       coordinates:
       - "-0109"
       - "-0802"
-      - "-0802"
+      - "0047"
     battle_orsedd_bridge:
       name: Battle Talus
       location: Orsedd Bridge
       coordinates:
       - "0677"
       - "0506"
-      - "0506"
+      - "0041"
     battle_hyrule_cathedral:
       name: Battle Talus
       location: Hyrule Cathedral
       coordinates:
       - "0202"
       - "0531"
-      - "0531"
+      - "0040"
     battle_batrea_lake:
       name: Battle Talus
       location: Batrea Lake
       coordinates:
       - "0770"
       - "-1223"
-      - "-1223"
+      - "0036"
     battle_hills_baumer:
       name: Battle Talus
       location: Hills of Baumer
       coordinates:
       - "0587"
       - "-1934"
-      - "-1934"
+      - "0076"
     battle_sahasra_slope:
       name: Battle Talus
       location: Sahasra Slope
       coordinates:
       - "1256"
       - "-1165"
-      - "0108"
+      - "0119"
     battle_akkala_span:
       name: Battle Talus
       location: Akkala Span
       coordinates:
       - "2974"
       - "1488"
-      - "1488"
+      - "0292"
     battle_kaepora_pass:
       name: Battle Talus
       location: Kaepora Pass
       coordinates:
       - "3951"
       - "1189"
-      - "1189"
+      - "0251"
     battle_gama_cove:
       name: Battle Talus
       location: Gama Cove
       coordinates:
       - "3277"
       - "-3408"
-      - "-3408"
+      - "0039"
     battle_east_akkala_plains:
       name: Battle Talus
       location: East Akkala Plains
       coordinates:
       - "4181"
       - "2228"
-      - "2228"
+      - "0027"
     frost_sherfins_hot_spring:
       name: Frost Talus
       location: Sherfin's Secret Hot Spring
       coordinates:
       - "-4433"
       - "3387"
-      - "3387"
+      - "0293"
     frost_lake_kilsie_west:
       name: Frost Talus
       location: W of Lake Kilsie
       coordinates:
       - "-4500"
       - "2450"
-      - "2450"
+      - "0123"
     frost_meadelas_mantle:
       name: Frost Talus
       location: NW of Meadela's Mantle
       coordinates:
       - "-4321"
       - "-1203"
-      - "-1203"
+      - "0393"
     frost_north_hebra_mountains:
       name: Frost Talus
       location: North Hebra Mountains Edge
       coordinates:
       - "-2685"
       - "3353"
-      - "3353"
+      - "0249"
     frost_laparoh_mesa:
       name: Frost Talus
       location: Laparoh Mesa
       coordinates:
       - "-2833"
       - "-1326"
-      - "-1326"
+      - "0555"
     frost_mount_lanayru_ne:
       name: Frost Talus
       location: Mount Lanayru (NE face)
       coordinates:
       - "4057"
       - "-1056"
-      - "-1056"
+      - "0318"
     igneo_lake_darman_nw:
       name: Igneo Talus
       location: NW of Lake Darman
       coordinates:
       - "1944"
       - "3194"
-      - "3194"
+      - "0427"
     igneo_goronbi:
       name: Igneo Talus
       location: W of Goronbi River
       coordinates:
       - "1291"
       - "1717"
-      - "1717"
+      - "0262"
     igneo_eldins_flank:
       name: Igneo Talus
       location: E of Eldin's Flank
       coordinates:
       - "2479"
       - "3637"
-      - "3637"
+      - "0332"
     igneo_goro_cove:
       name: Igneo Talus
       location: SE of Goro Cove
       coordinates:
       - "2015"
       - "2398"
-      - "2398"
+      - "0463"
     igneo_medingo_pool:
       name: Igneo Talus
       location: Medingo Pool
       coordinates:
       - "2215"
       - "1780"
-      - "1780"
+      - "0322"
     igneo_death_mountain_ne:
       name: Igneo Talus
       location: Death Mountain (NE face)
       coordinates:
       - "2630"
       - "2745"
-      - "2745"
+      - "0530"
     depths_stone_brida_lookout_chasm:
       name: Gloom Stone Talus
       location: NW of Brida Lookout Chasm Depths
       coordinates:
       - "-4010"
       - "-1696"
-      - "-1696"
+      - "-0729"
     depths_stone_abandoned_kara_kara_mine:
       name: Gloom Stone Talus
       location: W of Abandoned Kara Kara Mine
       coordinates:
       - "-3531"
       - "-2443"
-      - "-2443"
+      - "-0464"
     depths_stone_nihcayam:
       name: Gloom Stone Talus
       location: SE of Nihcayam
       coordinates:
       - "-0460"
       - "-1005"
-      - "-1005"
+      - "-0467"
     depths_stone_granajh:
       name: Gloom Stone Talus
       location: E of Granajh Canyon Mine
       coordinates:
       - "-0826"
       - "-3350"
-      - "-3350"
+      - "-0516"
     depths_stone_applean_grove:
       name: Gloom Stone Talus
       location: SW of Applean Grove
       coordinates:
       - "-0004"
       - "-0012"
-      - "-0012"
+      - "-0451"
     depths_rare_shervins:
       name: Gloom Stone Talus (Rare)
       location: W of Shervin's Lavafalls
       coordinates:
       - "-4433"
       - "3387"
-      - "3387"
+      - "-0708"
     depths_rare_sturnida:
       name: Gloom Stone Talus (Rare)
       location: SW of Sturnida's Lavafalls
       coordinates:
       - "-4500"
       - "2450"
-      - "2450"
+      - "-0541"
     depths_rare_hebra_mine:
       name: Gloom Stone Talus (Rare)
       location: S of Abandoned Hebra Mine
       coordinates:
       - "-3387"
       - "1076"
-      - "1076"
+      - "-0625"
     depths_rare_tikanur:
       name: Stone Talus (Rare)
       locations: N of Tikanur
       coordinates:
       - "-2635"
       - "1492"
-      - "1492"
+      - "-0391"
     depths_rare_ziner:
       name: Stone Talus (Rare)
       location: S of Zi-ner
       coordinates:
       - "0697"
       - "0513"
-      - "0513"
+      - "-0462"
     depths_rare_kakariko_mine:
       name: Stone Talus (Rare)
       location: NW of Abandoned Kakariko Mine
       coordinates:
       - "1483"
       - "-0975"
-      - "-0975"
+      - "-0576"
     depths_luminous_blupee:
       name: Stone Talus (Luminous)
       location: S of Blupee Burrow
       coordinates:
       - "-2221"
       - "-0585"
-      - "-0585"
+      - "-0690"
     depths_luminous_nikakik:
       name: Stone Talus (Luminous)
       location: N of Nikakik
       coordinates:
       - "-0394"
       - "2956"
-      - "2956"
+      - "-0575"
     depths_luminous_kayam:
       name: Stone Talus (Luminous)
       location: W of Kayam
       coordinates:
       - "0951"
       - "3673"
-      - "3673"
+      - "-0533"
     depths_luminous_spirit:
       name: Stone Talus (Luminous)
       location: W of Spirit Temple
       coordinates:
       - "1056"
       - "-3417"
-      - "-3417"
+      - "-0457"
     depths_luminous_tayamik:
       name: Stone Talus (Luminous)
       location: W of Tayamik
       coordinates:
       - "2479"
       - "3637"
-      - "3637"
+      - "-0746"
     depths_luminous_ginner_grove:
       name: Stone Talus (Luminous)
       location: NW of Ginner Grove
       coordinates:
       - "3029"
       - "-1779"
-      - "-1779"
+      - "-0440"
     depths_luminous_kawisar:
       name: Stone Talus (Luminous)
       location: S of Kawisar
       coordinates:
       - "4678"
       - "2998"
-      - "2998"
+      - "-0435"
     depths_luminous_Ploymus_mine:
       name: Stone Talus (Luminous)
       location: E of Ploymus Canyon Mine
       coordinates:
       - "4191"
       - "0518"
-      - "0518"
+      - "-0770"
     depths_luminous_wellspring_wisdom:
       name: Stone Talus (Luminous)
       location: NE of Wellspring of Wisdom
       coordinates:
       - "4057"
       - "-1056"
-      - "-1056"
+      - "-0733"
     depths_battle_sooaw:
       name: Battle Talus
       location: W of So-oaw
       coordinates:
       - "-4393"
       - "1935"
-      - "1935"
+      - "-0540"
     depths_battle_kawumoro:
       name: Battle Talus
       location: S of Kawuomoro
       coordinates:
       - "-3108"
       - "1288"
-      - "1288"
+      - "-0583"
     depths_battle_sikurukam:
       name: Battle Talus
       location: S of Sikurukam
       coordinates:
       - "-2527"
       - "-0107"
-      - "-0107"
+      - "-0554"
     depths_battle_netinet:
       name: Battle Talus
       location: S of Netinet
       coordinates:
       - "-0109"
       - "-0802"
-      - "-0802"
+      - "-0467"
     depths_battle_ancient_underground:
       name: Battle Talus
       location: W of Ancient Underground Fortress
       coordinates:
       - "2985"
       - "1449"
-      - "1449"
+      - "-0705"
     depths_battle_dunsel:
       name: Battle Talus
       location: SE of Dunsel Canyon Mine
       coordinates:
       - "3277"
       - "-3408"
-      - "-3408"
+      - "-0460"
     depths_frost_agaat:
       name: Frost Talus
       location: N of Agaat Canyon Mine
       coordinates:
       - "-4723"
       - "-0391"
-      - "-0391"
+      - "-1054"
     depths_frost_corvash:
       name: Frost Talus
       location: SW of Corvash Canyon Mine
       coordinates:
       - "-3629"
       - "2196"
-      - "2196"
+      - "-0569"
     depths_frost_rozudo:
       name: Frost Talus
       location: NE of Rozudo Canyon Mine
       coordinates:
       - "2642"
       - "-1943"
-      - "-1943"
+      - "-0507"
     depths_igneo_fire_temple:
       name: Igneo Talus
       location: N of Fire Temple
       coordinates:
       - "1454"
       - "3175"
-      - "3175"
+      - "-0811"
     depths_igneo_kawamit:
       name: Igneo Talus
       location: W of Kawamit
       coordinates:
       - "1672"
       - "1610"
-      - "1610"
+      - "-0701"
     depths_igneo_kisomom:
       name: Igneo Talus
       location: S of Kisomom
       coordinates:
       - "2913"
       - "2556"
-      - "2556"
+      - "-0933"
   hinox:
     hinox_carok_bridge:
       name: Hinox
@@ -6666,3 +6666,4 @@ bounties:
       - "-0139"
       - "-0015"
 #  lynel:
+# Bolson support
