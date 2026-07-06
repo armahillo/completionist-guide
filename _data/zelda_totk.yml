@@ -3686,7 +3686,7 @@ memories:
     note: Find all other dragon tears first
     location: Rist Peninsula
     coordinates:
-dragons_tears:
+dragon_tears:
   rauru:
     name: Rauru geoglyph
     coordinates:

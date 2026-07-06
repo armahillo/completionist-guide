@@ -1,0 +1,15 @@
+---
+layout: guide
+title: 💧Dragon Tears
+game: zelda_totk
+section: dragon_tears
+metadata:
+  last_updated: 07-05-2026
+---
+
+{% for dragon_tear in site.data.zelda_totk.dragon_tears %}
+  {% assign name = dragon_tear[1].name %}
+  {% assign key = dragon_tear[0] %}
+  {% assign data = dragon_tear[1] %}
+  {% include zelda/location.html location=key data=data name=name type="dragon_tear" %}
+{% endfor %}

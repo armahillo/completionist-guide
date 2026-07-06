@@ -1,0 +1,15 @@
+---
+layout: guide
+title: 🗿Bargainer Statues
+game: zelda_totk
+section: bargainer_statue
+metadata:
+  last_updated: 07-05-2026
+---
+
+{% for bargainer_statue in site.data.zelda_totk.bargainer_statues %}
+  {% assign name = bargainer_statue[1].name %}
+  {% assign key = bargainer_statue[0] %}
+  {% assign data = bargainer_statue[1] %}
+  {% include zelda/location.html location=key data=data name=name type="bargainer_statue" %}
+{% endfor %}

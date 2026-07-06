@@ -1,0 +1,15 @@
+---
+layout: guide
+title: 🎬Memories
+game: zelda_totk
+section: memories
+metadata:
+  last_updated: 07-05-2026
+---
+
+{% for memory in site.data.zelda_totk.memories %}
+  {% assign name = memory[1].name %}
+  {% assign key = memory[0] %}
+  {% assign data = memory[1] %}
+  {% include zelda/location.html location=key data=data name=name type="memory" %}
+{% endfor %}
