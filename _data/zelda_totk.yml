@@ -3787,6 +3787,7 @@ bargainer_statues:
     location: Tabantha Fields Depths
 gear:
   ancient_hero:
+    name: Ancient Hero
     note: Requires completing all 152 shrines.
     body:
       name: Ancient Hero's Aspect
@@ -5455,13 +5456,13 @@ gear:
     diamond_circlet:
       name: Diamond Circlet
       location: 2400⬥
-    van_medoh:
+    vah_medoh:
       name: Vah Medoh Divine Helm
       location: North Biron Snowshelf Cave
-    van_rudania:
+    vah_rudania:
       name: Vah Rudania Divine Helm
       location: Lizard's Burrow
-    van_ruta:
+    vah_ruta:
       name: Vah Ruta Divine Helm
       location: Cave under Zora's Domain
     vah_naboris:
@@ -5471,10 +5472,18 @@ bounties:
   frox:
     northwest_1:
       name: Blue-White Frox
-      location: W of Sturnida Lavafalls, SE of Nupisoyuat
+      location: SE of Nupisoyuat, W of Sturnida Lavafalls
+      coordinates:
+      - "-4398"
+      - "2661"
+      - "-0643"
     northwest_2:
       name: Blue-White Frox
-      location: S of Cuho Canyon Mine, SE of Kataki
+      location: SE of Kataki, S of Cuho Canyon Mine
+      coordinates:
+      - "-3719"
+      - "1003"
+      - "-0529"
     northwest_3:
       name: Blue-White Frox
       location: SW of Koro-nui
@@ -5484,123 +5493,263 @@ bounties:
       - "-0573"
     northwest_4:
       name: Blue-White Frox
-      location: SW of Hebra Canyon Mine, NE of Worihas
+      location: NE of Worihas, SW of Hebra Canyon Mine
       coordinates:
-      - "-3215"
-      - "2674"
-      - "-0887"
+      - "-3191"
+      - "2671"
+      - "-0860"
     northwest_5:
       name: Blue-White Frox
       location: S of Aduon, E of Abandoned Hebra Mine
+      coordinates:
+      - "-2280"
+      - "1934"
+      - "-0687"
     northwest_6:
       name: Blue-White Frox
       location: SW of Muihcoro
       coordinates:
-      - "-1818"
-      - "2370"
-      - "-0676"
+      - "-1839"
+      - "2413"
+      - "-0652"
     northwest_7:
       name: Blue-White Frox
       location: W of U-nazohso, W of North Lomei Depths Labyrinth
+      coordinates:
+      - "-1780"
+      - "3658"
+      - "-0653"
     northwest_8:
       name: Obsidian Frox
       location: NE of Yisuayam, NW of Drena Canyon Mine
+      coordinates:
+      - "-0960" 
+      - "2852"
+      - "-0596"
     eldin_akkala_1:
       name: Obsidian Frox
       location: NE of Nikakik
+      coordinates:
+      - "-0190"
+      - "2938"
+      - "-0593"
     eldin_akkala_2:
       name: Obsidian Frox
       location: E of Katenim, N of Gleeok Den near Korok Grove
+      coordinates:
+      - "0552"
+      - "3440"
+      - "-0569"
     eldin_akkala_3:
       name: Frox
       location: NE of Kawamit, S of Abandoned Eldin Mine
+      coordinates:
+      - "2119"
+      - "1750" 
+      - "-0728"
     eldin_akkala_4:
       name: Obsidian Frox
       location: S of Anonisik
+      coordinates:
+      - "2491"
+      - "0842"
+      - "-0479"
     eldin_akkala_5:
       name: Obsidian Frox
-      location: E of Akinatanis, NE of Ulri Canyon Mine
+      location: SE of Akinatanis, NE of Ulri Canyon Mine
+      coordinates:
+      - "4028"
+      - "2188"
+      - "-0449"
     eldin_akkala_6:
       name: Obsidian Frox
       location: S of Kawikatisar, N of Ploymus Canyon Mine
+      coordinates:
+      - "4142"
+      - "1002"
+      - "-0661"
     hyrule_1:
       name: Obsidian Frox
-      location: E of Rhoam Canyon Mine, E of Sikurukam
+      location: ESE of Sikurukam, E of Rhoam Canyon Mine
+      coordinates:
+      - "-2249"
+      - "0451"
+      - "-0527"
     hyrule_2:
       name: Obsidian Frox
       location: E of Napanos, E of Blupee Burrow
+      coordinates:
+      - "-1619"
+      - "-0395"
+      - "-0478"
     hyrule_3:
       name: Obsidian Frox
       location: N of Kawakanis
+      coordinates:
+      - "-1340"  
+      - "0973"
+      - "-0519"
     hyrule_4:
       name: Obsidian Frox
       location: NW of Netamnet
+      coordinates:
+      - "-0875"  
+      - "1742"  
+      - "-0523"
     hyrule_5:
       name: Blue-White Frox
-      location: N of Gadohsi
+      location: N of Gadohsi (Accessed from surface only)
+      coordinates:
+      - "-0764"  
+      - "0833"  
+      - "-0444"
     hyrule_6:
       name: Frox
-      location: E of Gustaf Canyon Mine, SE of Gadohsi
+      location: SE of Gadohsi, E of Gustaf Canyon Mine
+      coordinates:
+      - "-0572"  
+      - "0223"  
+      - "-0444"
     hyrule_7:
       name: Frox
       location: S of Nihcayam, SE of Daphnes Canyon Mine
+      coordinates:
+      - "-0794"
+      - "-1089"
+      - "-0449"
     hyrule_8:
       name: Frox
-      location: S of Grove of Time, S of Nuzimak
+      location: S of Nuzimak, S of Grove of Time
+      coordinates:
+      - "-0293"
+      - "-1814"
+      - "-0441"
     hyrule_9:
       name: Frox
       location: NW of Stakijat
+      coordinates:
+      - "0177"
+      - "-0863"
+      - "-0456"
     hyrule_10:
       name: Blue-White Frox
       location: S of Apapes
+      coordinates:
+      - "0204"
+      - "0890"
+      - "-0452"
     hyrule_11:
       name: Blue-White Frox
       location: NE of Korakut, S of Crenel Canyon Mine
+      coordinates:
+      - "1069"
+      - "-0041"
+      - "-0445"
     gerudo_1:
       name: Blue-White Frox
       location: N of Stamayam
+      coordinates:
+      - "-4696"  
+      - "-1228"  
+      - "-0910"
     gerudo_2:
       name: Obsidian Frox
-      location: N of Gerudo Dark Skeleton, S of Gonatoyrim
+      location: S of Gonatoyrim, N of Gerudo Dark Skeleton
+      coordinates:
+      - "-4674"
+      - "-3502"
+      - "-0447"
     gerudo_3:
       name: Obsidian Frox
-      location: SE of Rasinaduk
+      location: SSE of Rasinaduk
+      coordinates:
+      - "-4094"
+      - "-2555"
+      - "-0470"
     gerudo_4:
       name: Blue-White Frox
-      location: SE of Umamuster, N of Birida Lookout Chasm
+      location: SW of Umamuster, N of Birida Lookout Chasm
+      coordinates:
+      - "-3628"  
+      - "-1549"  
+      - "-0778"
     gerudo_5:
       name: Frox
       location: SW of Mihcihc, E of Abandoned Gerudo Mine
+      coordinates:
+      - "-3428"
+      - "-3229"
+      - "-0447"
     gerudo_6:
       name: Frox
-      location: SE of Abandoned Kara Kara Mine, SE of Tatayam
+      location: SE of Tatayam, SE of Abandoned Kara Kara Mine
+      coordinates:
+      - "-2998"  
+      - "-2680" 
+      - "-0442"
     gerudo_7:
       name: Frox
       location: W of Amakawis
+      coordinates:
+      - "-2771"
+      - "-3330"
+      - "-0421"
     gerudo_8:
       name: Frox
       location: N of Amakawis
+      coordinates:
+      - "-2439"
+      - "-3123"
+      - "-0454"
     gerudo_9:
       name: Frox
       location: SW of Jadukakar, W of Nabooru Canyon Mine
+      coordinates:
+      - "-2253"
+      - "-1975"
+      - "-0561"
     gerudo_10:
       name: Frox
-      location: S of Nabooru Canyon Mine, NW of Kawatik
+      location: NW of Kawatik, S of Nabooru Canyon Mine
+      coordinates:
+      - "-1910"
+      - "-2608" 
+      - "-0566"
     faron_necluda_1:
       name: Frox
       location: SE of Falorra Canyon Mine
+      coordinates:
+      - "-0846"  
+      - "-2868"  
+      - "-0494"
     faron_necluda_2:
       name: Frox
       location: N of Pappetto Grove, NE of Nikohsi
+      coordinates:
+      - "-0325"
+      - "-3142"  
+      - "-0445"
     faron_necluda_3:
       name: Obsidian Frox
       location: SE of Kohsustu
+      coordinates:
+      - "0845"
+      - "-3388"
+      - "-0454"
     faron_necluda_4:
       name: Blue-White Frox
       location: W of Tuft Canyon Mine
+      coordinates:
+      - "2127"  
+      - "-3474"  
+      - "-0427"
     faron_necluda_5:
       name: Obsidian Frox
       location: NE of Migo-O
+      coordinates:
+      - "3036"  
+      - "-0798"  
+      - "-0491"
   gleeok:
     thunder_gleeok_coliseum_ruins:
       name: Thunder Gleeok
@@ -6665,5 +6814,252 @@ bounties:
       - "1466"
       - "-0139"
       - "-0015"
+  flux:
+    sky_flux_I_1:
+      name: Flux Construct I
+      location:
+      coordinates:
+      - "-3472"
+      - "3519" 
+      - "0926"
+    sky_flux_I_2:
+      name: Flux Construct I
+      location:
+      coordinates:
+      - "0442"
+      - "2468"
+      - "1645"  
+    sky_flux_I_3:
+      name: Flux Construct I
+      location:
+      coordinates:
+      - "-3834"
+      - "2721"
+      - "0547" 
+    sky_flux_I_4:
+      name: Flux Construct I
+      location:
+      coordinates:
+      - "0492"
+      - "-1516"
+      - "1426" 
+    sky_flux_II_5:
+      name: Flux Construct II 
+      location:
+      coordinates:
+      - "3386"
+      - "0633"
+      - "1280"
+    sky_flux_II_6:
+      name: Flux Construct II
+      location:
+      coordinates:
+      - "3674"
+      - "1809"
+      - "0984"
+    sky_flux_II_7:
+      name: Flux Construct II 
+      location:
+      coordinates:
+      - "-1344"
+      - "-1548"
+      - "0800"
+    sky_flux_II_8:
+      name: Flux Construct II 
+      location:
+      coordinates:
+      - "3000"
+      - "-0252"
+      - "0891"  
+    sky_flux_III_9:
+      name: Flux Construct III
+      location:
+      coordinates:
+      - "1133"
+      - "-3273"
+      - "0756"  
+    sky_flux_III_10:
+      name: Flux Construct III
+      location:
+      coordinates:
+      - "3301"
+      - "3434"
+      - "0793"
+    sky_flux_III_11:
+      name: Flux Construct III
+      location:
+      coordinates:
+      - "3044"
+      - "-2777"
+      - "1192"
+    sky_flux_III_12:
+      name: Flux Construct III
+      location:
+      coordinates:
+      - "2559"
+      - "-3601"
+      - "0891"  
+    sky_flux_III_13:
+      name: Flux Construct III
+      location:
+      coordinates:
+      - "-2290"
+      - "-0412"
+      - "0891"
+    sky_flux_III_14:
+      name: Flux Construct III
+      location:
+      coordinates:
+      - "-0326"
+      - "-2591"
+      - "0891"
+    sky_flux_III_15: 
+      name: Flux Construct III
+      location:
+      coordinates:
+      - "-3450"
+      - "0658"
+      - "1421"  
+    depths_flux_I_1:  
+      name: Flux Construct I
+      location:
+      coordinates:
+      - "-2182"
+      - "-1503"
+      - "-0662"  
+    depths_flux_I_2:
+      name: Flux Construct I
+      location:
+      coordinates:
+      - "0717"
+      - "-0644"
+      - "-0437"   
+    depths_flux_I_3:      
+      name: Flux Construct I
+      location:
+      coordinates: 
+      - "0101"
+      - "-3714"
+      - "-0432"   
+    depths_flux_II_4:
+      name: Flux Construct II
+      location:
+      coordinates:
+      - "-4147"
+      - "-2961"
+      - "-0464"  
+    depths_flux_II_5:
+      name: Flux Construct II
+      location:
+      coordinates:
+      - "-0723"
+      - "1263"
+      - "-0493"   
+    depths_flux_II_6:
+      name: Flux Construct II
+      location:
+      coordinates:
+      - "0225"
+      - "3674"
+      - "-0490"  
+    depths_flux_II_7:
+      name: Flux Construct II
+      location:
+      coordinates:
+      - "2680"
+      - "3473"
+      - "-0654"  
+    depths_flux_II_8:
+      name: Flux Construct II
+      location:
+      coordinates:
+      - "2639"
+      - "-0937"
+      - "-0633"   
+    depths_flux_II_9:
+      name: Flux Construct II
+      location:
+      coordinates:
+      - "2512"
+      - "-1272"
+      - "-0622"   
+    depths_flux_II_10:
+      name: Flux Construct II
+      location:
+      coordinates:
+      - "3701"
+      - "2906"
+      - "-0451"  
+    depths_flux_II_11:
+      name: Flux Construct II
+      location:
+      coordinates:
+      - "3198"
+      - "1020"
+      - "-0816"  
+    depths_flux_II_12:
+      name: Flux Construct II
+      location:
+      coordinates:
+      - "3527"
+      - "-1340"
+      - "-0582"   
+    depths_flux_III_13:
+      name: Flux Construct III
+      location:
+      coordinates:
+      - "-4413"
+      - "2240"
+      - "-0524"   
+    depths_flux_III_14:
+      name: Flux Construct III
+      location:
+      coordinates:
+      - "-4086"
+      - "-0953"
+      - "-1079"  
+    depths_flux_III_15:
+      name: Flux Construct III
+      location:
+      coordinates:
+      - "-2620"
+      - "1705"
+      - "-0663"   
+    depths_flux_III_16:
+      name: Flux Construct III
+      location:
+      coordinates:
+      - "0870"
+      - "0678"
+      - "-0517"  
+    depths_flux_III_17:
+      name: Flux Construct III
+      location:
+      coordinates:
+      - "3263"
+      - "-3703"
+      - "-0426"   
+    depths_flux_III_18:
+      name: Flux Construct III
+      location:
+      coordinates:
+      - "-1795"
+      - "-3463"
+      - "-0501"  
+    depths_flux_III_19:
+      name: Flux Construct III
+      location:
+      coordinates:
+      - "-0815"
+      - "3534"
+      - "-0658"   
+    depths_flux_III_20:
+      name: Flux Construct III
+      location:
+      coordinates:
+      - "4655"
+      - "3697"
+      - "-0426"  
+
 #  lynel:
 # Bolson support
