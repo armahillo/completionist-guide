@@ -5879,37 +5879,37 @@ bounties:
       name: Rare Stone Talus
       location: Lake Floria
       coordinates:
-      - "1826"
-      - "-3495"
-      - "0039"
+      - "1820"
+      - "-3490"
+      - "0029"
     rare_guchini_plain:
       name: Rare Stone Talus
       location: Guchini Plain
       coordinates:
       - "1014"
-      - "-3393"
-      - "0022"
+      - "-3379"
+      - "0025"
     rare_horse_god:
       name: Rare Stone Talus
       location: Lake of the Horse God
       coordinates:
-      - "0523"
+      - "0516"
       - "-3706"
-      - "0059"
+      - "0063"
     rare_gerudo_canyon:
       name: Rare Stone Talus
       location: Gerudo Canyon
       coordinates:
       - "-2304"
       - "-2455"
-      - "0357"
+      - "0365"
     rare_taafei_hill_cave:
       name: Rare Stone Talus
       location: Taafei Hill Cave
       coordinates:
       - "-2604"
       - "-1778"
-      - "0177"
+      - "0185"
     rare_tanagar_canyon:
       name: Rare Stone Talus
       location: Tanagar Canyon
@@ -5931,23 +5931,9 @@ bounties:
       - "4675"
       - "3003"
       - "0002"
-    rare_hebra_depths:
-      name: Rare Stone Talus
-      location: Hebra Depths
-      coordinates:
-      - "-4436"
-      - "3386"
-      - "-0733"
-    rare_central_depths:
-      name: Rare Stone Talus
-      location: Central Hyrule Depths
-      coordinates:
-      - "0699"
-      - "0517"
-      - "-0482"
     stone_tabantha_frontier:
       name: Stone Talus
-      location: Tabantha Frontier
+      location: NE of Iun-orok, S of Strock Lake
       coordinates:
       - "-3387"
       - "1076"
@@ -5961,14 +5947,14 @@ bounties:
       - "0198"
     stone_great_hyrule:
       name: Stone Talus
-      location: Great Hyrule Forest
+      location: NW Great Hyrule Forest
       coordinates:
       - "0098"
       - "2370"
       - "0185"
     stone_north_akkala:
       name: Stone Talus
-      location: North Akkala Foothill
+      location: WNW Jochi-iu, North Akkala Foothill
       coordinates:
       - "4063"
       - "2973"
@@ -6339,7 +6325,7 @@ bounties:
       - "-0391"
     depths_rare_ziner:
       name: Stone Talus (Rare)
-      location: S of Zi-ner
+      location: S of Zi-ner,  WNW Nojoj
       coordinates:
       - "0697"
       - "0513"
